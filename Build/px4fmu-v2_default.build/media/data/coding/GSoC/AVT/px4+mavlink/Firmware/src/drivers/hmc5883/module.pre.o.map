@@ -1,0 +1,504 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD hmc5883.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 hmc5883.cpp.o
+ *(.gnu.warning)
+
+.text._ZN7hmc58835resetEv
+                0x00000000       0x70
+ .text._ZN7hmc58835resetEv
+                0x00000000       0x70 hmc5883.cpp.o
+                0x00000000                hmc5883::reset()
+
+.text._ZN7hmc58839calibrateEv
+                0x00000000       0x6c
+ .text._ZN7hmc58839calibrateEv
+                0x00000000       0x6c hmc5883.cpp.o
+                0x00000000                hmc5883::calibrate()
+
+.text._ZN7hmc58834testEv
+                0x00000000      0x19c
+ .text._ZN7hmc58834testEv
+                0x00000000      0x19c hmc5883.cpp.o
+                0x00000000                hmc5883::test()
+
+.text._ZN7HMC588310print_infoEv
+                0x00000000       0x68
+ .text._ZN7HMC588310print_infoEv
+                0x00000000       0x68 hmc5883.cpp.o
+                0x00000000                HMC5883::print_info()
+
+.text._ZN7hmc58834infoEv
+                0x00000000       0x3c
+ .text._ZN7hmc58834infoEv
+                0x00000000       0x3c hmc5883.cpp.o
+                0x00000000                hmc5883::info()
+
+.text._ZN7HMC588313meas_to_floatEPh
+                0x00000000       0x44
+ .text._ZN7HMC588313meas_to_floatEPh
+                0x00000000       0x44 hmc5883.cpp.o
+                0x00000000                HMC5883::meas_to_float(unsigned char*)
+
+.text._ZN7HMC588312check_offsetEv
+                0x00000000       0x80
+ .text._ZN7HMC588312check_offsetEv
+                0x00000000       0x80 hmc5883.cpp.o
+                0x00000000                HMC5883::check_offset()
+
+.text._ZN7HMC588311check_scaleEv
+                0x00000000       0x80
+ .text._ZN7HMC588311check_scaleEv
+                0x00000000       0x80 hmc5883.cpp.o
+                0x00000000                HMC5883::check_scale()
+
+.text._ZN7HMC58838read_regEhRh
+                0x00000000       0x44
+ .text._ZN7HMC58838read_regEhRh
+                0x00000000       0x44 hmc5883.cpp.o
+                0x00000000                HMC5883::read_reg(unsigned char, unsigned char&)
+
+.text._ZN7HMC58839write_regEhh
+                0x00000000       0x4c
+ .text._ZN7HMC58839write_regEhh
+                0x00000000       0x4c hmc5883.cpp.o
+                0x00000000                HMC5883::write_reg(unsigned char, unsigned char)
+
+.text._ZN7HMC58837collectEv
+                0x00000000      0x238
+ .text._ZN7HMC58837collectEv
+                0x00000000      0x238 hmc5883.cpp.o
+                0x00000000                HMC5883::collect()
+
+.text._ZN7HMC58835startEv
+                0x00000000       0x48
+ .text._ZN7HMC58835startEv
+                0x00000000       0x48 hmc5883.cpp.o
+                0x00000000                HMC5883::start()
+
+.text._ZN7HMC58834stopEv
+                0x00000000       0x2c
+ .text._ZN7HMC58834stopEv
+                0x00000000       0x2c hmc5883.cpp.o
+                0x00000000                HMC5883::stop()
+
+.text._ZN7HMC5883C2Ei
+                0x00000000       0xf8
+ .text._ZN7HMC5883C2Ei
+                0x00000000       0xf8 hmc5883.cpp.o
+                0x00000000                HMC5883::HMC5883(int)
+                0x00000000                HMC5883::HMC5883(int)
+
+.text._ZN7hmc58835startEv
+                0x00000000       0xa0
+ .text._ZN7hmc58835startEv
+                0x00000000       0xa0 hmc5883.cpp.o
+                0x00000000                hmc5883::start()
+
+.text.hmc5883_main
+                0x00000000       0x88
+ .text.hmc5883_main
+                0x00000000       0x88 hmc5883.cpp.o
+                0x00000000                hmc5883_main
+
+.text._ZN7HMC5883D2Ev
+                0x00000000       0x70
+ .text._ZN7HMC5883D2Ev
+                0x00000000       0x70 hmc5883.cpp.o
+                0x00000000                HMC5883::~HMC5883()
+                0x00000000                HMC5883::~HMC5883()
+
+.text._ZN7HMC5883D0Ev
+                0x00000000       0x30
+ .text._ZN7HMC5883D0Ev
+                0x00000000       0x30 hmc5883.cpp.o
+                0x00000000                HMC5883::~HMC5883()
+
+.text._ZN7HMC58837measureEv
+                0x00000000       0x60
+ .text._ZN7HMC58837measureEv
+                0x00000000       0x60 hmc5883.cpp.o
+                0x00000000                HMC5883::measure()
+
+.text._ZN7HMC588314set_excitementEj
+                0x00000000      0x104
+ .text._ZN7HMC588314set_excitementEj
+                0x00000000      0x104 hmc5883.cpp.o
+                0x00000000                HMC5883::set_excitement(unsigned int)
+
+.text._ZN7HMC58839set_rangeEj
+                0x00000000      0x1c4
+ .text._ZN7HMC58839set_rangeEj
+                0x00000000      0x1c4 hmc5883.cpp.o
+                0x00000000                HMC5883::set_range(unsigned int)
+
+.text._ZN7HMC58835resetEv
+                0x00000000       0x38
+ .text._ZN7HMC58835resetEv
+                0x00000000       0x38 hmc5883.cpp.o
+                0x00000000                HMC5883::reset()
+
+.text._ZN7HMC58834initEv
+                0x00000000       0xac
+ .text._ZN7HMC58834initEv
+                0x00000000       0xac hmc5883.cpp.o
+                0x00000000                HMC5883::init()
+
+.text._ZN7HMC588317check_calibrationEv
+                0x00000000      0x1a4
+ .text._ZN7HMC588317check_calibrationEv
+                0x00000000      0x1a4 hmc5883.cpp.o
+                0x00000000                HMC5883::check_calibration()
+
+.text._ZN7HMC58839calibrateEP4filej
+                0x00000000      0x404
+ .text._ZN7HMC58839calibrateEP4filej
+                0x00000000      0x404 hmc5883.cpp.o
+                0x00000000                HMC5883::calibrate(file*, unsigned int)
+
+.text._ZN7HMC58835probeEv
+                0x00000000      0x104
+ .text._ZN7HMC58835probeEv
+                0x00000000      0x104 hmc5883.cpp.o
+                0x00000000                HMC5883::probe()
+
+.text._ZN7HMC58835cycleEv
+                0x00000000      0x114
+ .text._ZN7HMC58835cycleEv
+                0x00000000      0x114 hmc5883.cpp.o
+                0x00000000                HMC5883::cycle()
+
+.text._ZN7HMC588316cycle_trampolineEPv
+                0x00000000       0x28
+ .text._ZN7HMC588316cycle_trampolineEPv
+                0x00000000       0x28 hmc5883.cpp.o
+                0x00000000                HMC5883::cycle_trampoline(void*)
+
+.text._ZN7HMC58834readEP4filePcj
+                0x00000000      0x1e4
+ .text._ZN7HMC58834readEP4filePcj
+                0x00000000      0x1e4 hmc5883.cpp.o
+                0x00000000                HMC5883::read(file*, char*, unsigned int)
+
+.text._ZN7HMC58835ioctlEP4fileim
+                0x00000000      0x2c8
+ .text._ZN7HMC58835ioctlEP4fileim
+                0x00000000      0x2c8 hmc5883.cpp.o
+                0x00000000                HMC5883::ioctl(file*, int, unsigned long)
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0x18
+ *(.rodata)
+ .rodata        0x00000000       0x18 hmc5883.cpp.o
+
+.rodata._ZTV7HMC5883
+                0x00000000       0x58
+ .rodata._ZTV7HMC5883
+                0x00000000       0x58 hmc5883.cpp.o
+                0x00000000                vtable for HMC5883
+
+.rodata.str1.4  0x00000000      0x670
+ .rodata.str1.4
+                0x00000000      0x670 hmc5883.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 hmc5883.cpp.o
+
+.data._ZZN7HMC588317check_calibrationEvE3pub
+                0x00000000        0x4
+ .data._ZZN7HMC588317check_calibrationEvE3pub
+                0x00000000        0x4 hmc5883.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 hmc5883.cpp.o
+ *(COMMON)
+
+.bss._ZN7hmc58835g_devE
+                0x00000000        0x4
+ .bss._ZN7hmc58835g_devE
+                0x00000000        0x4 hmc5883.cpp.o
+                0x00000000                hmc5883::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 hmc5883.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x108
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x108 hmc5883.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x262d
+ *(.debug_info)
+ .debug_info    0x00000000     0x262d hmc5883.cpp.o
+
+.debug_abbrev   0x00000000      0x52c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x52c hmc5883.cpp.o
+
+.debug_line     0x00000000      0xd22
+ *(.debug_line)
+ .debug_line    0x00000000      0xd22 hmc5883.cpp.o
+
+.debug_frame    0x00000000      0x3d4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x3d4 hmc5883.cpp.o
+
+.debug_str      0x00000000     0x1094
+ *(.debug_str)
+ .debug_str     0x00000000     0x1094 hmc5883.cpp.o
+
+.debug_loc      0x00000000     0x160e
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x160e hmc5883.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x5c8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x5c8 hmc5883.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 hmc5883.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v2_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/drivers/hmc5883/module.pre.o elf32-littlearm)

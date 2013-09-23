@@ -1,0 +1,1650 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD mavlink.c.o
+LOAD missionlib.c.o
+LOAD mavlink_parameters.c.o
+LOAD mavlink_receiver.cpp.o
+LOAD orb_listener.c.o
+LOAD waypoints.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 mavlink.c.o
+ .text          0x00000000        0x0 missionlib.c.o
+ .text          0x00000000        0x0 mavlink_parameters.c.o
+ .text          0x00000000        0x0 mavlink_receiver.cpp.o
+ .text          0x00000000        0x0 orb_listener.c.o
+ .text          0x00000000        0x0 waypoints.c.o
+ *(.gnu.warning)
+
+.text.crc_init  0x00000000       0xf0
+ .text.crc_init
+                0x00000000       0x28 mavlink.c.o
+ .text.crc_init
+                0x00000028       0x28 missionlib.c.o
+ .text.crc_init
+                0x00000050       0x28 mavlink_parameters.c.o
+ .text.crc_init
+                0x00000078       0x28 mavlink_receiver.cpp.o
+ .text.crc_init
+                0x000000a0       0x28 orb_listener.c.o
+ .text.crc_init
+                0x000000c8       0x28 waypoints.c.o
+
+.text.crc_accumulate
+                0x00000000      0x180
+ .text.crc_accumulate
+                0x00000000       0x40 mavlink.c.o
+ .text.crc_accumulate
+                0x00000040       0x40 missionlib.c.o
+ .text.crc_accumulate
+                0x00000080       0x40 mavlink_parameters.c.o
+ .text.crc_accumulate
+                0x000000c0       0x40 mavlink_receiver.cpp.o
+ .text.crc_accumulate
+                0x00000100       0x40 orb_listener.c.o
+ .text.crc_accumulate
+                0x00000140       0x40 waypoints.c.o
+
+.text.mavlink_get_channel_buffer
+                0x00000000       0x30
+ .text.mavlink_get_channel_buffer
+                0x00000000       0x30 mavlink.c.o
+                0x00000000                mavlink_get_channel_buffer
+
+.text.mavlink_get_channel_status
+                0x00000000       0x30
+ .text.mavlink_get_channel_status
+                0x00000000       0x30 mavlink.c.o
+                0x00000000                mavlink_get_channel_status
+
+.text.get_mavlink_mode_and_state
+                0x00000000      0x138
+ .text.get_mavlink_mode_and_state
+                0x00000000      0x138 mavlink.c.o
+                0x00000000                get_mavlink_mode_and_state
+
+.text.usage     0x00000000       0x30
+ .text.usage    0x00000000       0x30 mavlink.c.o
+
+.text.mavlink_main
+                0x00000000       0xfc
+ .text.mavlink_main
+                0x00000000       0xfc mavlink.c.o
+                0x00000000                mavlink_main
+
+.text.mavlink_dev_ioctl
+                0x00000000       0x58
+ .text.mavlink_dev_ioctl
+                0x00000000       0x58 mavlink.c.o
+
+.text.mavlink_open_uart
+                0x00000000      0x198
+ .text.mavlink_open_uart
+                0x00000000      0x198 mavlink.c.o
+
+.text.mavlink_update_system
+                0x00000000       0xc0
+ .text.mavlink_update_system
+                0x00000000       0xc0 mavlink.c.o
+
+.text.mavlink_send_uart_bytes
+                0x00000000       0x38
+ .text.mavlink_send_uart_bytes
+                0x00000000       0x38 mavlink.c.o
+                0x00000000                mavlink_send_uart_bytes
+
+.text.set_mavlink_interval_limit
+                0x00000000       0xf0
+ .text.set_mavlink_interval_limit
+                0x00000000       0xf0 mavlink.c.o
+                0x00000000                set_mavlink_interval_limit
+
+.text.set_hil_on_off
+                0x00000000       0x8c
+ .text.set_hil_on_off
+                0x00000000       0x8c mavlink.c.o
+                0x00000000                set_hil_on_off
+
+.text._mavlink_send_uart
+                0x00000000       0x84
+ .text._mavlink_send_uart
+                0x00000000       0x50 mavlink.c.o
+ .text._mavlink_send_uart
+                0x00000050       0x34 orb_listener.c.o
+
+.text.crc_calculate
+                0x00000000      0x474
+ .text.crc_calculate
+                0x00000000       0xe4 mavlink.c.o
+ .text.crc_calculate
+                0x000000e4       0xe4 missionlib.c.o
+ .text.crc_calculate
+                0x000001c8       0xe4 mavlink_parameters.c.o
+ .text.crc_calculate
+                0x000002ac       0xe4 orb_listener.c.o
+ .text.crc_calculate
+                0x00000390       0xe4 waypoints.c.o
+
+.text.crc_accumulate_buffer
+                0x00000000      0x228
+ .text.crc_accumulate_buffer
+                0x00000000      0x114 mavlink.c.o
+ .text.crc_accumulate_buffer
+                0x00000114      0x114 orb_listener.c.o
+
+.text._mav_finalize_message_chan_send
+                0x00000000      0x63c
+ .text._mav_finalize_message_chan_send
+                0x00000000      0x350 mavlink.c.o
+ .text._mav_finalize_message_chan_send
+                0x00000350      0x2ec orb_listener.c.o
+
+.text.mavlink_msg_heartbeat_send
+                0x00000000      0x8a4
+ .text.mavlink_msg_heartbeat_send
+                0x00000000      0x484 mavlink.c.o
+ .text.mavlink_msg_heartbeat_send
+                0x00000484      0x420 orb_listener.c.o
+
+.text.mavlink_msg_sys_status_send
+                0x00000000      0x374
+ .text.mavlink_msg_sys_status_send
+                0x00000000      0x374 mavlink.c.o
+
+.text.mavlink_thread_main
+                0x00000000      0x4d0
+ .text.mavlink_thread_main
+                0x00000000      0x4d0 mavlink.c.o
+
+.text.set_special_fields
+                0x00000000       0x94
+ .text.set_special_fields
+                0x00000000       0x94 missionlib.c.o
+
+.text.mavlink_missionlib_get_system_timestamp
+                0x00000000       0x2c
+ .text.mavlink_missionlib_get_system_timestamp
+                0x00000000       0x2c missionlib.c.o
+                0x00000000                mavlink_missionlib_get_system_timestamp
+
+.text.mav_array_memcpy
+                0x00000000       0x9c
+ .text.mav_array_memcpy
+                0x00000000       0x34 missionlib.c.o
+ .text.mav_array_memcpy
+                0x00000034       0x34 mavlink_parameters.c.o
+ .text.mav_array_memcpy
+                0x00000068       0x34 orb_listener.c.o
+
+.text.mavlink_msg_to_send_buffer
+                0x00000000       0x34
+ .text.mavlink_msg_to_send_buffer
+                0x00000000       0x34 missionlib.c.o
+
+.text.mavlink_missionlib_send_message
+                0x00000000       0x70
+ .text.mavlink_missionlib_send_message
+                0x00000000       0x70 missionlib.c.o
+                0x00000000                mavlink_missionlib_send_message
+
+.text.mavlink_msg_statustext_pack
+                0x00000000      0x1a0
+ .text.mavlink_msg_statustext_pack
+                0x00000000      0x1a0 missionlib.c.o
+
+.text.mavlink_finalize_message_chan
+                0x00000000      0x51c
+ .text.mavlink_finalize_message_chan
+                0x00000000      0x1b4 missionlib.c.o
+ .text.mavlink_finalize_message_chan
+                0x000001b4      0x1b4 mavlink_parameters.c.o
+ .text.mavlink_finalize_message_chan
+                0x00000368      0x1b4 waypoints.c.o
+
+.text.mavlink_finalize_message
+                0x00000000      0x380
+ .text.mavlink_finalize_message
+                0x00000000      0x1c0 missionlib.c.o
+ .text.mavlink_finalize_message
+                0x000001c0      0x1c0 waypoints.c.o
+
+.text.mavlink_msg_statustext_encode
+                0x00000000      0x1a8
+ .text.mavlink_msg_statustext_encode
+                0x00000000      0x1a8 missionlib.c.o
+
+.text.mavlink_missionlib_send_gcs_string
+                0x00000000      0x27c
+ .text.mavlink_missionlib_send_gcs_string
+                0x00000000      0x27c missionlib.c.o
+                0x00000000                mavlink_missionlib_send_gcs_string
+
+.text.mavlink_missionlib_current_waypoint_changed
+                0x00000000      0x624
+ .text.mavlink_missionlib_current_waypoint_changed
+                0x00000000      0x624 missionlib.c.o
+                0x00000000                mavlink_missionlib_current_waypoint_changed
+
+.text.mavlink_pm_start_queued_send
+                0x00000000       0x2c
+ .text.mavlink_pm_start_queued_send
+                0x00000000       0x2c mavlink_parameters.c.o
+                0x00000000                mavlink_pm_start_queued_send
+
+.text.mavlink_msg_param_set_decode
+                0x00000000       0x30
+ .text.mavlink_msg_param_set_decode
+                0x00000000       0x30 mavlink_parameters.c.o
+
+.text.mavlink_msg_param_request_read_decode
+                0x00000000       0x30
+ .text.mavlink_msg_param_request_read_decode
+                0x00000000       0x30 mavlink_parameters.c.o
+
+.text.mavlink_pm_send_all_params
+                0x00000000       0x38
+ .text.mavlink_pm_send_all_params
+                0x00000000       0x38 mavlink_parameters.c.o
+                0x00000000                mavlink_pm_send_all_params
+
+.text.mavlink_msg_param_value_pack_chan
+                0x00000000      0x1bc
+ .text.mavlink_msg_param_value_pack_chan
+                0x00000000      0x1bc mavlink_parameters.c.o
+
+.text.mavlink_pm_send_param
+                0x00000000      0x224
+ .text.mavlink_pm_send_param
+                0x00000000      0x224 mavlink_parameters.c.o
+                0x00000000                mavlink_pm_send_param
+
+.text.mavlink_pm_send_param_for_name
+                0x00000000       0x30
+ .text.mavlink_pm_send_param_for_name
+                0x00000000       0x30 mavlink_parameters.c.o
+                0x00000000                mavlink_pm_send_param_for_name
+
+.text.mavlink_pm_send_param_for_index
+                0x00000000       0x30
+ .text.mavlink_pm_send_param_for_index
+                0x00000000       0x30 mavlink_parameters.c.o
+                0x00000000                mavlink_pm_send_param_for_index
+
+.text.mavlink_pm_queued_send
+                0x00000000       0x4c
+ .text.mavlink_pm_queued_send
+                0x00000000       0x4c mavlink_parameters.c.o
+                0x00000000                mavlink_pm_queued_send
+
+.text.mavlink_pm_callback
+                0x00000000       0x30
+ .text.mavlink_pm_callback
+                0x00000000       0x30 mavlink_parameters.c.o
+                0x00000000                mavlink_pm_callback
+
+.text.mavlink_pm_message_handler
+                0x00000000      0x170
+ .text.mavlink_pm_message_handler
+                0x00000000      0x170 mavlink_parameters.c.o
+                0x00000000                mavlink_pm_message_handler
+
+.text.receive_start
+                0x00000000       0x74
+ .text.receive_start
+                0x00000000       0x74 mavlink_receiver.cpp.o
+                0x00000000                receive_start
+
+.text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24 mavlink_receiver.cpp.o
+                0x00000000                math::Matrix::getData()
+
+.text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 mavlink_receiver.cpp.o
+                0x00000000                math::Matrix::getCols() const
+
+.text._ZN4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 mavlink_receiver.cpp.o
+                0x00000000                math::Vector::getData()
+
+.text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 mavlink_receiver.cpp.o
+                0x00000000                math::Vector::getData() const
+
+.text.mavlink_msg_command_long_decode
+                0x00000000       0x30
+ .text.mavlink_msg_command_long_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_optical_flow_decode
+                0x00000000       0x30
+ .text.mavlink_msg_optical_flow_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_set_mode_decode
+                0x00000000       0x30
+ .text.mavlink_msg_set_mode_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_vicon_position_estimate_decode
+                0x00000000       0x30
+ .text.mavlink_msg_vicon_position_estimate_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust_decode
+                0x00000000       0x30
+ .text.mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_radio_status_decode
+                0x00000000       0x30
+ .text.mavlink_msg_radio_status_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_hil_sensor_decode
+                0x00000000       0x30
+ .text.mavlink_msg_hil_sensor_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_hil_gps_decode
+                0x00000000       0x30
+ .text.mavlink_msg_hil_gps_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_hil_state_quaternion_decode
+                0x00000000       0x30
+ .text.mavlink_msg_hil_state_quaternion_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text.mavlink_msg_manual_control_decode
+                0x00000000       0x30
+ .text.mavlink_msg_manual_control_decode
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.text._ZNK4math6VectorclEj
+                0x00000000       0x44
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 mavlink_receiver.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int) const
+
+.text._ZN4math6MatrixclEjj
+                0x00000000       0x64
+ .text._ZN4math6MatrixclEjj
+                0x00000000       0x64 mavlink_receiver.cpp.o
+                0x00000000                math::Matrix::operator()(unsigned int, unsigned int)
+
+.text._ZN4math6VectorclEj
+                0x00000000       0x44
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 mavlink_receiver.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int)
+
+.text.mavlink_start_checksum
+                0x00000000       0x40
+ .text.mavlink_start_checksum
+                0x00000000       0x40 mavlink_receiver.cpp.o
+
+.text.mavlink_update_checksum
+                0x00000000       0x60
+ .text.mavlink_update_checksum
+                0x00000000       0x60 mavlink_receiver.cpp.o
+
+.text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c mavlink_receiver.cpp.o
+                0x00000000                math::EulerAngles::getTheta() const
+
+.text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c mavlink_receiver.cpp.o
+                0x00000000                math::EulerAngles::getPhi() const
+
+.text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c mavlink_receiver.cpp.o
+                0x00000000                math::EulerAngles::getPsi() const
+
+.text._ZL14handle_messageP17__mavlink_message
+                0x00000000     0x11b4
+ .text._ZL14handle_messageP17__mavlink_message
+                0x00000000     0x11b4 mavlink_receiver.cpp.o
+
+.text._ZL14receive_threadPv
+                0x00000000      0x45c
+ .text._ZL14receive_threadPv
+                0x00000000      0x45c mavlink_receiver.cpp.o
+
+.text.mavlink_parse_char
+                0x00000000      0x374
+ .text.mavlink_parse_char
+                0x00000000      0x374 mavlink_receiver.cpp.o
+
+.text.uorb_receive_start
+                0x00000000      0x28c
+ .text.uorb_receive_start
+                0x00000000      0x28c orb_listener.c.o
+                0x00000000                uorb_receive_start
+
+.text.uorb_receive_thread
+                0x00000000       0xf8
+ .text.uorb_receive_thread
+                0x00000000       0xf8 orb_listener.c.o
+
+.text.l_actuator_armed
+                0x00000000       0x40
+ .text.l_actuator_armed
+                0x00000000       0x40 orb_listener.c.o
+
+.text.l_rc_channels
+                0x00000000       0x40
+ .text.l_rc_channels
+                0x00000000       0x40 orb_listener.c.o
+
+.text.l_vehicle_status
+                0x00000000      0x45c
+ .text.l_vehicle_status
+                0x00000000      0x45c orb_listener.c.o
+
+.text.l_global_position
+                0x00000000      0x368
+ .text.l_global_position
+                0x00000000      0x368 orb_listener.c.o
+
+.text.mavlink_msg_vfr_hud_send
+                0x00000000      0x2c0
+ .text.mavlink_msg_vfr_hud_send
+                0x00000000      0x2c0 orb_listener.c.o
+
+.text.mavlink_msg_gps_global_origin_send
+                0x00000000      0x4a0
+ .text.mavlink_msg_gps_global_origin_send
+                0x00000000      0x4a0 orb_listener.c.o
+
+.text.mavlink_msg_roll_pitch_yaw_rates_thrust_setpoint_send
+                0x00000000      0x2b8
+ .text.mavlink_msg_roll_pitch_yaw_rates_thrust_setpoint_send
+                0x00000000      0x2b8 orb_listener.c.o
+
+.text.mavlink_msg_optical_flow_send
+                0x00000000      0x2c0
+ .text.mavlink_msg_optical_flow_send
+                0x00000000      0x2c0 orb_listener.c.o
+
+.text.mavlink_msg_manual_control_send
+                0x00000000      0x48c
+ .text.mavlink_msg_manual_control_send
+                0x00000000      0x48c orb_listener.c.o
+
+.text.mavlink_msg_servo_output_raw_send
+                0x00000000      0x308
+ .text.mavlink_msg_servo_output_raw_send
+                0x00000000      0x308 orb_listener.c.o
+
+.text.mavlink_msg_hil_controls_send
+                0x00000000      0x2d4
+ .text.mavlink_msg_hil_controls_send
+                0x00000000      0x2d4 orb_listener.c.o
+
+.text.mavlink_msg_roll_pitch_yaw_thrust_setpoint_send
+                0x00000000      0x2bc
+ .text.mavlink_msg_roll_pitch_yaw_thrust_setpoint_send
+                0x00000000      0x2bc orb_listener.c.o
+
+.text.mavlink_msg_local_position_setpoint_send
+                0x00000000      0x5b8
+ .text.mavlink_msg_local_position_setpoint_send
+                0x00000000      0x5b8 orb_listener.c.o
+
+.text.mavlink_msg_global_position_setpoint_int_send
+                0x00000000      0x540
+ .text.mavlink_msg_global_position_setpoint_int_send
+                0x00000000      0x540 orb_listener.c.o
+
+.text.mavlink_msg_local_position_ned_send
+                0x00000000      0x2cc
+ .text.mavlink_msg_local_position_ned_send
+                0x00000000      0x2cc orb_listener.c.o
+
+.text.mavlink_msg_global_position_int_send
+                0x00000000      0x2bc
+ .text.mavlink_msg_global_position_int_send
+                0x00000000      0x2bc orb_listener.c.o
+
+.text.mavlink_msg_rc_channels_raw_send
+                0x00000000      0x2e0
+ .text.mavlink_msg_rc_channels_raw_send
+                0x00000000      0x2e0 orb_listener.c.o
+
+.text.mavlink_msg_gps_raw_int_send
+                0x00000000      0x2b8
+ .text.mavlink_msg_gps_raw_int_send
+                0x00000000      0x2b8 orb_listener.c.o
+
+.text.mavlink_msg_attitude_send
+                0x00000000      0x2c8
+ .text.mavlink_msg_attitude_send
+                0x00000000      0x2c8 orb_listener.c.o
+
+.text.mavlink_msg_highres_imu_send
+                0x00000000      0x2f4
+ .text.mavlink_msg_highres_imu_send
+                0x00000000      0x2f4 orb_listener.c.o
+
+.text.mavlink_msg_named_value_float_send
+                0x00000000      0x2d0
+ .text.mavlink_msg_named_value_float_send
+                0x00000000      0x2d0 orb_listener.c.o
+
+.text.mavlink_msg_gps_status_send
+                0x00000000      0x3d4
+ .text.mavlink_msg_gps_status_send
+                0x00000000      0x3d4 orb_listener.c.o
+
+.text.l_optical_flow
+                0x00000000      0x2ec
+ .text.l_optical_flow
+                0x00000000      0x2ec orb_listener.c.o
+
+.text.l_airspeed
+                0x00000000      0x358
+ .text.l_airspeed
+                0x00000000      0x358 orb_listener.c.o
+
+.text.l_home    0x00000000      0x4d8
+ .text.l_home   0x00000000      0x4d8 orb_listener.c.o
+
+.text.l_debug_key_value
+                0x00000000      0x2f4
+ .text.l_debug_key_value
+                0x00000000      0x2f4 orb_listener.c.o
+
+.text.l_input_rc
+                0x00000000      0x398
+ .text.l_input_rc
+                0x00000000      0x398 orb_listener.c.o
+
+.text.l_global_position_setpoint
+                0x00000000      0x530
+ .text.l_global_position_setpoint
+                0x00000000      0x530 orb_listener.c.o
+
+.text.l_sensor_combined
+                0x00000000      0x3f4
+ .text.l_sensor_combined
+                0x00000000      0x3f4 orb_listener.c.o
+
+.text.l_vehicle_attitude
+                0x00000000      0x300
+ .text.l_vehicle_attitude
+                0x00000000      0x300 orb_listener.c.o
+
+.text.l_local_position
+                0x00000000      0x2f0
+ .text.l_local_position
+                0x00000000      0x2f0 orb_listener.c.o
+
+.text.l_manual_control_setpoint
+                0x00000000      0x4dc
+ .text.l_manual_control_setpoint
+                0x00000000      0x4dc orb_listener.c.o
+
+.text.l_vehicle_rates_setpoint
+                0x00000000      0x2d4
+ .text.l_vehicle_rates_setpoint
+                0x00000000      0x2d4 orb_listener.c.o
+
+.text.l_local_position_setpoint
+                0x00000000      0x564
+ .text.l_local_position_setpoint
+                0x00000000      0x564 orb_listener.c.o
+
+.text.l_attitude_setpoint
+                0x00000000      0x2d8
+ .text.l_attitude_setpoint
+                0x00000000      0x2d8 orb_listener.c.o
+
+.text.l_vehicle_attitude_controls_effective
+                0x00000000      0xb80
+ .text.l_vehicle_attitude_controls_effective
+                0x00000000      0xb80 orb_listener.c.o
+
+.text.l_vehicle_attitude_controls
+                0x00000000      0xb80
+ .text.l_vehicle_attitude_controls
+                0x00000000      0xb80 orb_listener.c.o
+
+.text.l_vehicle_gps_position
+                0x00000000      0x6e0
+ .text.l_vehicle_gps_position
+                0x00000000      0x6e0 orb_listener.c.o
+
+.text.l_actuator_outputs
+                0x00000000      0xe5c
+ .text.l_actuator_outputs
+                0x00000000      0xe5c orb_listener.c.o
+
+.text.mavlink_msg_mission_ack_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_ack_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_msg_mission_set_current_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_set_current_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_msg_mission_request_list_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_request_list_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_msg_mission_request_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_request_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_msg_mission_count_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_count_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_msg_mission_item_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_item_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_msg_mission_clear_all_decode
+                0x00000000       0x30
+ .text.mavlink_msg_mission_clear_all_decode
+                0x00000000       0x30 waypoints.c.o
+
+.text.mavlink_wpm_init
+                0x00000000       0x98
+ .text.mavlink_wpm_init
+                0x00000000       0x98 waypoints.c.o
+                0x00000000                mavlink_wpm_init
+
+.text.mavlink_wpm_distance_to_point_local
+                0x00000000       0x94
+ .text.mavlink_wpm_distance_to_point_local
+                0x00000000       0x94 waypoints.c.o
+                0x00000000                mavlink_wpm_distance_to_point_local
+
+.text.mavlink_wpm_distance_to_point_global_wgs84
+                0x00000000      0x1d8
+ .text.mavlink_wpm_distance_to_point_global_wgs84
+                0x00000000      0x1d8 waypoints.c.o
+                0x00000000                mavlink_wpm_distance_to_point_global_wgs84
+
+.text.mavlink_wpm_send_setpoint
+                0x00000000       0x6c
+ .text.mavlink_wpm_send_setpoint
+                0x00000000       0x6c waypoints.c.o
+                0x00000000                mavlink_wpm_send_setpoint
+
+.text.mavlink_msg_mission_request_encode
+                0x00000000      0x2fc
+ .text.mavlink_msg_mission_request_encode
+                0x00000000      0x2fc waypoints.c.o
+
+.text.mavlink_msg_mission_count_encode
+                0x00000000      0x2fc
+ .text.mavlink_msg_mission_count_encode
+                0x00000000      0x2fc waypoints.c.o
+
+.text.mavlink_wpm_send_waypoint_ack
+                0x00000000      0x314
+ .text.mavlink_wpm_send_waypoint_ack
+                0x00000000      0x314 waypoints.c.o
+                0x00000000                mavlink_wpm_send_waypoint_ack
+
+.text.mavlink_msg_mission_current_pack
+                0x00000000      0x270
+ .text.mavlink_msg_mission_current_pack
+                0x00000000      0x270 waypoints.c.o
+
+.text.mavlink_msg_mission_item_reached_pack
+                0x00000000      0x270
+ .text.mavlink_msg_mission_item_reached_pack
+                0x00000000      0x270 waypoints.c.o
+
+.text.mavlink_msg_mission_request_pack
+                0x00000000      0x2e0
+ .text.mavlink_msg_mission_request_pack
+                0x00000000      0x2e0 waypoints.c.o
+
+.text.mavlink_msg_mission_item_pack
+                0x00000000      0x1e8
+ .text.mavlink_msg_mission_item_pack
+                0x00000000      0x1e8 waypoints.c.o
+
+.text.mavlink_msg_mission_count_pack
+                0x00000000      0x2e0
+ .text.mavlink_msg_mission_count_pack
+                0x00000000      0x2e0 waypoints.c.o
+
+.text.mavlink_msg_mission_ack_pack
+                0x00000000      0x2b0
+ .text.mavlink_msg_mission_ack_pack
+                0x00000000      0x2b0 waypoints.c.o
+
+.text.mavlink_msg_mission_ack_encode
+                0x00000000      0x2d0
+ .text.mavlink_msg_mission_ack_encode
+                0x00000000      0x2d0 waypoints.c.o
+
+.text.mavlink_msg_mission_current_encode
+                0x00000000      0x290
+ .text.mavlink_msg_mission_current_encode
+                0x00000000      0x290 waypoints.c.o
+
+.text.mavlink_msg_mission_item_reached_encode
+                0x00000000      0x290
+ .text.mavlink_msg_mission_item_reached_encode
+                0x00000000      0x290 waypoints.c.o
+
+.text.mavlink_wpm_send_waypoint_reached
+                0x00000000      0x2c0
+ .text.mavlink_wpm_send_waypoint_reached
+                0x00000000      0x2c0 waypoints.c.o
+                0x00000000                mavlink_wpm_send_waypoint_reached
+
+.text.mavlink_msg_mission_item_encode
+                0x00000000      0x218
+ .text.mavlink_msg_mission_item_encode
+                0x00000000      0x218 waypoints.c.o
+
+.text.mavlink_wpm_send_waypoint_count
+                0x00000000      0x340
+ .text.mavlink_wpm_send_waypoint_count
+                0x00000000      0x340 waypoints.c.o
+                0x00000000                mavlink_wpm_send_waypoint_count
+
+.text.mavlink_wpm_send_waypoint_current
+                0x00000000      0x284
+ .text.mavlink_wpm_send_waypoint_current
+                0x00000000      0x284 waypoints.c.o
+                0x00000000                mavlink_wpm_send_waypoint_current
+
+.text.check_waypoints_reached
+                0x00000000      0x350
+ .text.check_waypoints_reached
+                0x00000000      0x350 waypoints.c.o
+                0x00000000                check_waypoints_reached
+
+.text.mavlink_waypoint_eventloop
+                0x00000000       0xac
+ .text.mavlink_waypoint_eventloop
+                0x00000000       0xac waypoints.c.o
+                0x00000000                mavlink_waypoint_eventloop
+
+.text.mavlink_wpm_send_waypoint
+                0x00000000      0x284
+ .text.mavlink_wpm_send_waypoint
+                0x00000000      0x284 waypoints.c.o
+                0x00000000                mavlink_wpm_send_waypoint
+
+.text.mavlink_wpm_send_waypoint_request
+                0x00000000      0x2ec
+ .text.mavlink_wpm_send_waypoint_request
+                0x00000000      0x2ec waypoints.c.o
+                0x00000000                mavlink_wpm_send_waypoint_request
+
+.text.mavlink_wpm_message_handler
+                0x00000000      0xac4
+ .text.mavlink_wpm_message_handler
+                0x00000000      0xac4 waypoints.c.o
+                0x00000000                mavlink_wpm_message_handler
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0x10
+ *(.rodata)
+ .rodata        0x00000000       0x10 orb_listener.c.o
+
+__param         0x00000000       0x24
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0x24 mavlink.c.o
+                0x00000024                PROVIDE (__stop___param, .)
+
+.rodata.str1.4  0x00000000      0x76c
+ .rodata.str1.4
+                0x00000000      0x31c mavlink.c.o
+ .rodata.str1.4
+                0x0000031c       0xd4 missionlib.c.o
+ .rodata.str1.4
+                0x000003f0       0x38 mavlink_parameters.c.o
+ .rodata.str1.4
+                0x00000428       0x50 mavlink_receiver.cpp.o
+ .rodata.str1.4
+                0x00000478       0xa4 orb_listener.c.o
+ .rodata.str1.4
+                0x0000051c      0x250 waypoints.c.o
+
+.rodata.mavlink_fops
+                0x00000000       0x1c
+ .rodata.mavlink_fops
+                0x00000000       0x1c mavlink.c.o
+
+.rodata._ZZ18mavlink_parse_charE20mavlink_message_crcs
+                0x00000000      0x100
+ .rodata._ZZ18mavlink_parse_charE20mavlink_message_crcs
+                0x00000000      0x100 mavlink_receiver.cpp.o
+
+.rodata.CSWTCH.115
+                0x00000000        0x4
+ .rodata.CSWTCH.115
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.rodata.CSWTCH.116
+                0x00000000        0x4
+ .rodata.CSWTCH.116
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.rodata.listeners
+                0x00000000      0x120
+ .rodata.listeners
+                0x00000000      0x120 orb_listener.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 mavlink.c.o
+ .data          0x00000000        0x0 missionlib.c.o
+ .data          0x00000000        0x0 mavlink_parameters.c.o
+ .data          0x00000000        0x0 mavlink_receiver.cpp.o
+ .data          0x00000000        0x0 orb_listener.c.o
+ .data          0x00000000        0x0 waypoints.c.o
+
+.data.wpm       0x00000000        0x4
+ .data.wpm      0x00000000        0x4 mavlink.c.o
+                0x00000000                wpm
+
+.data.gcs_link  0x00000000        0x1
+ .data.gcs_link
+                0x00000000        0x1 mavlink.c.o
+                0x00000000                gcs_link
+
+.data.mavlink_system
+                0x00000000        0x8
+ .data.mavlink_system
+                0x00000000        0x8 mavlink.c.o
+                0x00000000                mavlink_system
+
+.data.local_position_setpoint_pub.14468
+                0x00000000        0x4
+ .data.local_position_setpoint_pub.14468
+                0x00000000        0x4 missionlib.c.o
+
+.data.last_waypoint_index.14469
+                0x00000000        0x4
+ .data.last_waypoint_index.14469
+                0x00000000        0x4 missionlib.c.o
+
+.data.global_position_set_triplet_pub.14467
+                0x00000000        0x4
+ .data.global_position_set_triplet_pub.14467
+                0x00000000        0x4 missionlib.c.o
+
+.data.global_position_setpoint_pub.14466
+                0x00000000        0x4
+ .data.global_position_setpoint_pub.14466
+                0x00000000        0x4 missionlib.c.o
+
+.data._ZL8flow_pub
+                0x00000000        0x4
+ .data._ZL8flow_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL11pub_hil_mag
+                0x00000000        0x4
+ .data._ZL11pub_hil_mag
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL16pub_hil_attitude
+                0x00000000        0x4
+ .data._ZL16pub_hil_attitude
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL11pub_hil_gps
+                0x00000000        0x4
+ .data._ZL11pub_hil_gps
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL12pub_hil_gyro
+                0x00000000        0x4
+ .data._ZL12pub_hil_gyro
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL15pub_hil_sensors
+                0x00000000        0x4
+ .data._ZL15pub_hil_sensors
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL20telemetry_status_pub
+                0x00000000        0x4
+ .data._ZL20telemetry_status_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL12pub_hil_baro
+                0x00000000        0x4
+ .data._ZL12pub_hil_baro
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL16pub_hil_airspeed
+                0x00000000        0x4
+ .data._ZL16pub_hil_airspeed
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL23offboard_control_sp_pub
+                0x00000000        0x4
+ .data._ZL23offboard_control_sp_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL7cmd_pub
+                0x00000000        0x4
+ .data._ZL7cmd_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL13pub_hil_accel
+                0x00000000        0x4
+ .data._ZL13pub_hil_accel
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL18pub_hil_global_pos
+                0x00000000        0x4
+ .data._ZL18pub_hil_global_pos
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data._ZL18vicon_position_pub
+                0x00000000        0x4
+ .data._ZL18vicon_position_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.data.mavlink_wpm_comp_id
+                0x00000000        0x1
+ .data.mavlink_wpm_comp_id
+                0x00000000        0x1 waypoints.c.o
+                0x00000000                mavlink_wpm_comp_id
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 mavlink.c.o
+ .bss           0x00000000        0x0 missionlib.c.o
+ .bss           0x00000000        0x0 mavlink_parameters.c.o
+ .bss           0x00000000        0x0 mavlink_receiver.cpp.o
+ .bss           0x00000000        0x0 orb_listener.c.o
+ .bss           0x00000000        0x0 waypoints.c.o
+ *(COMMON)
+
+.bss.chan       0x00000000        0x1
+ .bss.chan      0x00000000        0x1 mavlink.c.o
+                0x00000000                chan
+
+.bss.m_mavlink_status.14559
+                0x00000000       0x30
+ .bss.m_mavlink_status.14559
+                0x00000000       0x30 mavlink.c.o
+
+.bss.thread_should_exit
+                0x00000000        0x1
+ .bss.thread_should_exit
+                0x00000000        0x1 mavlink.c.o
+                0x00000000                thread_should_exit
+
+.bss.param_system_id.14568
+                0x00000000        0x4
+ .bss.param_system_id.14568
+                0x00000000        0x4 mavlink.c.o
+
+.bss.lb         0x00000000       0x10
+ .bss.lb        0x00000000       0x10 mavlink.c.o
+
+.bss.mavlink_task
+                0x00000000        0x4
+ .bss.mavlink_task
+                0x00000000        0x4 mavlink.c.o
+
+.bss.baudrate   0x00000000        0x4
+ .bss.baudrate  0x00000000        0x4 mavlink.c.o
+
+.bss.param_component_id.14569
+                0x00000000        0x4
+ .bss.param_component_id.14569
+                0x00000000        0x4 mavlink.c.o
+
+.bss.m_mavlink_buffer.14563
+                0x00000000      0x440
+ .bss.m_mavlink_buffer.14563
+                0x00000000      0x440 mavlink.c.o
+
+.bss.uorb_receive_thread
+                0x00000000        0x2
+ .bss.uorb_receive_thread
+                0x00000000        0x2 mavlink.c.o
+
+.bss.total_counter.14512
+                0x00000000        0x4
+ .bss.total_counter.14512
+                0x00000000        0x4 mavlink.c.o
+
+.bss.mavlink_hil_enabled
+                0x00000000        0x1
+ .bss.mavlink_hil_enabled
+                0x00000000        0x1 mavlink.c.o
+                0x00000000                mavlink_hil_enabled
+
+.bss.wpm_s      0x00000000      0x4f8
+ .bss.wpm_s     0x00000000      0x4f8 mavlink.c.o
+
+.bss.mavlink_link_mode
+                0x00000000        0x1
+ .bss.mavlink_link_mode
+                0x00000000        0x1 mavlink.c.o
+
+.bss.param_system_type.14570
+                0x00000000        0x4
+ .bss.param_system_type.14570
+                0x00000000        0x4 mavlink.c.o
+
+.bss.initialized.14567
+                0x00000000        0x1
+ .bss.initialized.14567
+                0x00000000        0x1 mavlink.c.o
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 mavlink.c.o
+
+.bss.mavlink_link_termination_allowed
+                0x00000000        0x1
+ .bss.mavlink_link_termination_allowed
+                0x00000000        0x1 mavlink.c.o
+
+.bss.uart       0x00000000        0x4
+ .bss.uart      0x00000000        0x4 mavlink.c.o
+
+.bss.receive_thread
+                0x00000000        0x2
+ .bss.receive_thread
+                0x00000000        0x2 mavlink.c.o
+
+.bss.missionlib_msg_buf
+                0x00000000      0x108
+ .bss.missionlib_msg_buf
+                0x00000000      0x108 missionlib.c.o
+
+.bss.loiter_start_time
+                0x00000000        0x8
+ .bss.loiter_start_time
+                0x00000000        0x8 missionlib.c.o
+
+.bss.mavlink_param_queue_index
+                0x00000000        0x4
+ .bss.mavlink_param_queue_index
+                0x00000000        0x4 mavlink_parameters.c.o
+
+.bss.name_buf.13531
+                0x00000000       0x10
+ .bss.name_buf.13531
+                0x00000000       0x10 mavlink_parameters.c.o
+
+.bss.tx_msg.13533
+                0x00000000      0x110
+ .bss.tx_msg.13533
+                0x00000000      0x110 mavlink_parameters.c.o
+
+.bss._ZZL14handle_messageP17__mavlink_messageE13old_timestamp
+                0x00000000        0x8
+ .bss._ZZL14handle_messageP17__mavlink_messageE13old_timestamp
+                0x00000000        0x8 mavlink_receiver.cpp.o
+
+.bss.hil_sensors
+                0x00000000       0x90
+ .bss.hil_sensors
+                0x00000000       0x90 mavlink_receiver.cpp.o
+                0x00000000                hil_sensors
+
+.bss._ZZL14handle_messageP17__mavlink_messageE11hil_counter
+                0x00000000        0x2
+ .bss._ZZL14handle_messageP17__mavlink_messageE11hil_counter
+                0x00000000        0x2 mavlink_receiver.cpp.o
+
+.bss._ZZL14handle_messageP17__mavlink_messageE10hil_frames
+                0x00000000        0x2
+ .bss._ZZL14handle_messageP17__mavlink_messageE10hil_frames
+                0x00000000        0x2 mavlink_receiver.cpp.o
+
+.bss._ZL4vcmd   0x00000000       0x24
+ .bss._ZL4vcmd  0x00000000       0x24 mavlink_receiver.cpp.o
+
+.bss.hil_attitude
+                0x00000000       0x70
+ .bss.hil_attitude
+                0x00000000       0x70 mavlink_receiver.cpp.o
+                0x00000000                hil_attitude
+
+.bss._ZL14vicon_position
+                0x00000000       0x28
+ .bss._ZL14vicon_position
+                0x00000000       0x28 mavlink_receiver.cpp.o
+
+.bss.hil_global_pos
+                0x00000000       0x38
+ .bss.hil_global_pos
+                0x00000000       0x38 mavlink_receiver.cpp.o
+                0x00000000                hil_global_pos
+
+.bss._ZL6status
+                0x00000000        0xc
+ .bss._ZL6status
+                0x00000000        0xc mavlink_receiver.cpp.o
+
+.bss._ZL19offboard_control_sp
+                0x00000000       0x30
+ .bss._ZL19offboard_control_sp
+                0x00000000       0x30 mavlink_receiver.cpp.o
+
+.bss._ZZL14handle_messageP17__mavlink_messageE6rc_pub
+                0x00000000        0x4
+ .bss._ZZL14handle_messageP17__mavlink_messageE6rc_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.bss.hil_gps    0x00000000       0xd8
+ .bss.hil_gps   0x00000000       0xd8 mavlink_receiver.cpp.o
+                0x00000000                hil_gps
+
+.bss._ZZL14handle_messageP17__mavlink_messageE6mc_pub
+                0x00000000        0x4
+ .bss._ZZL14handle_messageP17__mavlink_messageE6mc_pub
+                0x00000000        0x4 mavlink_receiver.cpp.o
+
+.bss.mavlink_subs
+                0x00000000       0x5c
+ .bss.mavlink_subs
+                0x00000000       0x5c orb_listener.c.o
+                0x00000000                mavlink_subs
+
+.bss.actuators_effective_0
+                0x00000000       0x28
+ .bss.actuators_effective_0
+                0x00000000       0x28 orb_listener.c.o
+                0x00000000                actuators_effective_0
+
+.bss.rc_sub     0x00000000        0x4
+ .bss.rc_sub    0x00000000        0x4 orb_listener.c.o
+
+.bss.actuators_0
+                0x00000000       0x28
+ .bss.actuators_0
+                0x00000000       0x28 orb_listener.c.o
+                0x00000000                actuators_0
+
+.bss.gps_counter
+                0x00000000        0x4
+ .bss.gps_counter
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.status_sub
+                0x00000000        0x4
+ .bss.status_sub
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.att        0x00000000       0x70
+ .bss.att       0x00000000       0x70 orb_listener.c.o
+                0x00000000                att
+
+.bss.accel_counter.14283
+                0x00000000        0x4
+ .bss.accel_counter.14283
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.gyro_counter.14284
+                0x00000000        0x4
+ .bss.gyro_counter.14284
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.baro_counter.14286
+                0x00000000        0x4
+ .bss.baro_counter.14286
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.rc         0x00000000      0x190
+ .bss.rc        0x00000000      0x190 orb_listener.c.o
+                0x00000000                rc
+
+.bss.sensors_raw_counter
+                0x00000000        0x4
+ .bss.sensors_raw_counter
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.global_pos
+                0x00000000       0x38
+ .bss.global_pos
+                0x00000000       0x38 orb_listener.c.o
+                0x00000000                global_pos
+
+.bss.armed      0x00000000       0x10
+ .bss.armed     0x00000000       0x10 orb_listener.c.o
+                0x00000000                armed
+
+.bss.mag_counter.14285
+                0x00000000        0x4
+ .bss.mag_counter.14285
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.rc_raw     0x00000000       0x38
+ .bss.rc_raw    0x00000000       0x38 orb_listener.c.o
+                0x00000000                rc_raw
+
+.bss.last_sensor_timestamp
+                0x00000000        0x8
+ .bss.last_sensor_timestamp
+                0x00000000        0x8 orb_listener.c.o
+
+.bss.local_pos  0x00000000       0x48
+ .bss.local_pos
+                0x00000000       0x48 orb_listener.c.o
+                0x00000000                local_pos
+
+.bss.v_status   0x00000000       0x70
+ .bss.v_status  0x00000000       0x70 orb_listener.c.o
+                0x00000000                v_status
+
+.bss.attitude_counter
+                0x00000000        0x4
+ .bss.attitude_counter
+                0x00000000        0x4 orb_listener.c.o
+
+.bss.verbose    0x00000000        0x1
+ .bss.verbose   0x00000000        0x1 waypoints.c.o
+                0x00000000                verbose
+
+.bss.counter.13544
+                0x00000000        0x2
+ .bss.counter.13544
+                0x00000000        0x2 waypoints.c.o
+
+.bss.debug      0x00000000        0x1
+ .bss.debug     0x00000000        0x1 waypoints.c.o
+                0x00000000                debug
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x2a6
+ *(.comment)
+ .comment       0x00000000       0x71 mavlink.c.o
+ .comment       0x00000071       0x71 missionlib.c.o
+ .comment       0x000000e2       0x71 mavlink_parameters.c.o
+ .comment       0x00000153       0x71 mavlink_receiver.cpp.o
+ .comment       0x000001c4       0x71 orb_listener.c.o
+ .comment       0x00000235       0x71 waypoints.c.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mavlink_receiver.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x5b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb8 mavlink.c.o
+ .debug_aranges
+                0x000000b8       0x88 missionlib.c.o
+ .debug_aranges
+                0x00000140       0x98 mavlink_parameters.c.o
+ .debug_aranges
+                0x000001d8       0xf8 mavlink_receiver.cpp.o
+ .debug_aranges
+                0x000002d0      0x1a0 orb_listener.c.o
+ .debug_aranges
+                0x00000470      0x140 waypoints.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x19dd3
+ *(.debug_info)
+ .debug_info    0x00000000     0x3340 mavlink.c.o
+ .debug_info    0x00003340     0x1778 missionlib.c.o
+ .debug_info    0x00004ab8      0xf23 mavlink_parameters.c.o
+ .debug_info    0x000059db     0x4ce9 mavlink_receiver.cpp.o
+ .debug_info    0x0000a6c4     0xb92c orb_listener.c.o
+ .debug_info    0x00015ff0     0x3de3 waypoints.c.o
+
+.debug_abbrev   0x00000000     0x17f0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x489 mavlink.c.o
+ .debug_abbrev  0x00000489      0x2fa missionlib.c.o
+ .debug_abbrev  0x00000783      0x2bd mavlink_parameters.c.o
+ .debug_abbrev  0x00000a40      0x5ea mavlink_receiver.cpp.o
+ .debug_abbrev  0x0000102a      0x42e orb_listener.c.o
+ .debug_abbrev  0x00001458      0x398 waypoints.c.o
+
+.debug_line     0x00000000     0x8703
+ *(.debug_line)
+ .debug_line    0x00000000      0xf2c mavlink.c.o
+ .debug_line    0x00000f2c      0xaf2 missionlib.c.o
+ .debug_line    0x00001a1e      0x7d7 mavlink_parameters.c.o
+ .debug_line    0x000021f5     0x152b mavlink_receiver.cpp.o
+ .debug_line    0x00003720     0x3962 orb_listener.c.o
+ .debug_line    0x00007082     0x1681 waypoints.c.o
+
+.debug_frame    0x00000000     0x17dc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2ac mavlink.c.o
+ .debug_frame   0x000002ac      0x210 missionlib.c.o
+ .debug_frame   0x000004bc      0x218 mavlink_parameters.c.o
+ .debug_frame   0x000006d4      0x39c mavlink_receiver.cpp.o
+ .debug_frame   0x00000a70      0x7e4 orb_listener.c.o
+ .debug_frame   0x00001254      0x588 waypoints.c.o
+
+.debug_str      0x00000000     0xb1d6
+ *(.debug_str)
+ .debug_str     0x00000000     0x2536 mavlink.c.o
+ .debug_str     0x00002536      0xfd8 missionlib.c.o
+ .debug_str     0x0000350e      0xa32 mavlink_parameters.c.o
+ .debug_str     0x00003f40     0x2d29 mavlink_receiver.cpp.o
+ .debug_str     0x00006c69     0x30c7 orb_listener.c.o
+ .debug_str     0x00009d30     0x14a6 waypoints.c.o
+
+.debug_loc      0x00000000    0x17349
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x156d mavlink.c.o
+ .debug_loc     0x0000156d     0x11e9 missionlib.c.o
+ .debug_loc     0x00002756      0xcbb mavlink_parameters.c.o
+ .debug_loc     0x00003411     0x20b2 mavlink_receiver.cpp.o
+ .debug_loc     0x000054c3     0xcd8b orb_listener.c.o
+ .debug_loc     0x0001224e     0x50fb waypoints.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000     0x71f0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x6b0 mavlink.c.o
+ .debug_ranges  0x000006b0      0x550 missionlib.c.o
+ .debug_ranges  0x00000c00      0x3b8 mavlink_parameters.c.o
+ .debug_ranges  0x00000fb8      0x4e8 mavlink_receiver.cpp.o
+ .debug_ranges  0x000014a0     0x4618 orb_listener.c.o
+ .debug_ranges  0x00005ab8     0x1738 waypoints.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 mavlink.c.o
+ .ARM.attributes
+                0x00000037       0x37 missionlib.c.o
+ .ARM.attributes
+                0x0000006e       0x37 mavlink_parameters.c.o
+ .ARM.attributes
+                0x000000a5       0x37 mavlink_receiver.cpp.o
+ .ARM.attributes
+                0x000000dc       0x37 orb_listener.c.o
+ .ARM.attributes
+                0x00000113       0x37 waypoints.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/mavlink/module.pre.o elf32-littlearm)

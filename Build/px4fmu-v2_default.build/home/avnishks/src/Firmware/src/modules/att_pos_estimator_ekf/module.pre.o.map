@@ -1,0 +1,1663 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0xc KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+ .text._ZN7control14BlockParamBaseD2Ev
+                0x00000000       0x2c KalmanNav.cpp.o
+ .text._ZN7control19UOrbPublicationBase9getHandleEv
+                0x00000000       0x24 KalmanNav.cpp.o
+ .text._ZN7control5BlockD2Ev
+                0x00000000       0x2c KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sE14getDataVoidPtrEv
+                0x00000000       0x24 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sE14getDataVoidPtrEv
+                0x00000000       0x24 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sE14getDataVoidPtrEv
+                0x00000000       0x24 KalmanNav.cpp.o
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sE14getDataVoidPtrEv
+                0x00000000       0x24 KalmanNav.cpp.o
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sE14getDataVoidPtrEv
+                0x00000000       0x24 KalmanNav.cpp.o
+ .text._ZN7control20UOrbSubscriptionBaseD2Ev
+                0x00000000       0x30 KalmanNav.cpp.o
+ .text._ZN4math6MatrixD2Ev
+                0x00000000       0x30 KalmanNav.cpp.o
+ .text._ZN7control10BlockParamIfE6updateEv
+                0x00000000       0x2c KalmanNav.cpp.o
+ .text._ZN7control19UOrbPublicationBaseD2Ev
+                0x00000000       0x50 KalmanNav.cpp.o
+ .text._ZN7control10BlockParamIfED2Ev
+                0x00000000       0x4c KalmanNav.cpp.o
+ .text._ZN7control14BlockParamBaseD0Ev
+                0x00000000       0x48 KalmanNav.cpp.o
+ .text._ZN7control10SuperBlockD2Ev
+                0x00000000       0x4c KalmanNav.cpp.o
+ .text._ZN7control5BlockD0Ev
+                0x00000000       0x48 KalmanNav.cpp.o
+ .text._ZN7control20UOrbSubscriptionBaseD0Ev
+                0x00000000       0x50 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sED0Ev
+                0x00000000       0x74 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sED2Ev
+                0x00000000       0x50 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sED2Ev
+                0x00000000       0x50 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sED2Ev
+                0x00000000       0x50 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sED0Ev
+                0x00000000       0x74 KalmanNav.cpp.o
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sED0Ev
+                0x00000000       0x74 KalmanNav.cpp.o
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sED0Ev
+                0x00000000       0x90 KalmanNav.cpp.o
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sED0Ev
+                0x00000000       0x90 KalmanNav.cpp.o
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sED2Ev
+                0x00000000       0x70 KalmanNav.cpp.o
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sED2Ev
+                0x00000000       0x70 KalmanNav.cpp.o
+ .text._ZN7control19UOrbPublicationBaseD0Ev
+                0x00000000       0x70 KalmanNav.cpp.o
+ .text._ZN7control10SuperBlockD0Ev
+                0x00000000       0x6c KalmanNav.cpp.o
+ .text._ZN4math6MatrixD0Ev
+                0x00000000       0x48 KalmanNav.cpp.o
+ .text._ZN7control10BlockParamIfED0Ev
+                0x00000000       0x6c KalmanNav.cpp.o
+ .text._ZN9KalmanNavD2Ev
+                0x00000000      0x50c KalmanNav.cpp.o
+ .text._ZN9KalmanNavD0Ev
+                0x00000000       0x30 KalmanNav.cpp.o
+ .rodata._ZTVN4math6MatrixE
+                0x00000000       0x10 KalmanNav.cpp.o
+ .rodata._ZTVN7control10BlockParamIfEE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control14BlockParamBaseE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control15UOrbPublicationI18vehicle_attitude_sEE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control19UOrbPublicationBaseE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control15UOrbPublicationI25vehicle_global_position_sEE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control16UOrbSubscriptionI18parameter_update_sEE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control20UOrbSubscriptionBaseE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control16UOrbSubscriptionI22vehicle_gps_position_sEE
+                0x00000000       0x18 KalmanNav.cpp.o
+ .rodata._ZTVN7control16UOrbSubscriptionI17sensor_combined_sEE
+                0x00000000       0x18 KalmanNav.cpp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD kalman_main.cpp.o
+LOAD KalmanNav.cpp.o
+LOAD params.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 kalman_main.cpp.o
+ .text          0x00000000        0x0 KalmanNav.cpp.o
+ .text          0x00000000        0x0 params.c.o
+ *(.gnu.warning)
+
+.text._ZN7control16UOrbSubscriptionI17sensor_combined_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sE14getDataVoidPtrEv
+                0x00000000       0x24 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<sensor_combined_s>::getDataVoidPtr()
+
+.text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sE14getDataVoidPtrEv
+                0x00000000       0x24 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<vehicle_gps_position_s>::getDataVoidPtr()
+
+.text._ZN7control16UOrbSubscriptionI18parameter_update_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sE14getDataVoidPtrEv
+                0x00000000       0x24 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<parameter_update_s>::getDataVoidPtr()
+
+.text._ZN7control15UOrbPublicationI25vehicle_global_position_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sE14getDataVoidPtrEv
+                0x00000000       0x24 kalman_main.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_global_position_s>::getDataVoidPtr()
+
+.text._ZN7control15UOrbPublicationI18vehicle_attitude_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sE14getDataVoidPtrEv
+                0x00000000       0x24 kalman_main.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_attitude_s>::getDataVoidPtr()
+
+.text._ZN7control19UOrbPublicationBase9getHandleEv
+                0x00000000       0x24
+ .text._ZN7control19UOrbPublicationBase9getHandleEv
+                0x00000000       0x24 kalman_main.cpp.o
+                0x00000000                control::UOrbPublicationBase::getHandle()
+
+.text._ZN7control14BlockParamBaseD2Ev
+                0x00000000       0x2c
+ .text._ZN7control14BlockParamBaseD2Ev
+                0x00000000       0x2c kalman_main.cpp.o
+                0x00000000                control::BlockParamBase::~BlockParamBase()
+                0x00000000                control::BlockParamBase::~BlockParamBase()
+
+.text._ZN7control5BlockD2Ev
+                0x00000000       0x2c
+ .text._ZN7control5BlockD2Ev
+                0x00000000       0x2c kalman_main.cpp.o
+                0x00000000                control::Block::~Block()
+                0x00000000                control::Block::~Block()
+
+.text._ZN7control10BlockParamIfE6updateEv
+                0x00000000       0x2c
+ .text._ZN7control10BlockParamIfE6updateEv
+                0x00000000       0x2c kalman_main.cpp.o
+                0x00000000                control::BlockParam<float>::update()
+
+.text._ZN7control20UOrbSubscriptionBaseD2Ev
+                0x00000000       0x30
+ .text._ZN7control20UOrbSubscriptionBaseD2Ev
+                0x00000000       0x30 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::~UOrbSubscriptionBase()
+                0x00000000                control::UOrbSubscriptionBase::~UOrbSubscriptionBase()
+
+.text._ZN4math6MatrixD2Ev
+                0x00000000       0x30
+ .text._ZN4math6MatrixD2Ev
+                0x00000000       0x30 kalman_main.cpp.o
+                0x00000000                math::Matrix::~Matrix()
+                0x00000000                math::Matrix::~Matrix()
+
+.text._ZL5usagePKc
+                0x00000000       0x34
+ .text._ZL5usagePKc
+                0x00000000       0x34 kalman_main.cpp.o
+
+.text.att_pos_estimator_ekf_main
+                0x00000000       0xe0
+ .text.att_pos_estimator_ekf_main
+                0x00000000       0xe0 kalman_main.cpp.o
+                0x00000000                att_pos_estimator_ekf_main
+
+.text._ZN7control19UOrbPublicationBaseD2Ev
+                0x00000000       0x50
+ .text._ZN7control19UOrbPublicationBaseD2Ev
+                0x00000000       0x50 kalman_main.cpp.o
+                0x00000000                control::UOrbPublicationBase::~UOrbPublicationBase()
+                0x00000000                control::UOrbPublicationBase::~UOrbPublicationBase()
+
+.text._ZN7control10BlockParamIfED2Ev
+                0x00000000       0x4c
+ .text._ZN7control10BlockParamIfED2Ev
+                0x00000000       0x4c kalman_main.cpp.o
+                0x00000000                control::BlockParam<float>::~BlockParam()
+                0x00000000                control::BlockParam<float>::~BlockParam()
+
+.text._ZN7control14BlockParamBaseD0Ev
+                0x00000000       0x48
+ .text._ZN7control14BlockParamBaseD0Ev
+                0x00000000       0x48 kalman_main.cpp.o
+                0x00000000                control::BlockParamBase::~BlockParamBase()
+
+.text._ZN7control10SuperBlockD2Ev
+                0x00000000       0x4c
+ .text._ZN7control10SuperBlockD2Ev
+                0x00000000       0x4c kalman_main.cpp.o
+                0x00000000                control::SuperBlock::~SuperBlock()
+                0x00000000                control::SuperBlock::~SuperBlock()
+
+.text._ZN7control5BlockD0Ev
+                0x00000000       0x48
+ .text._ZN7control5BlockD0Ev
+                0x00000000       0x48 kalman_main.cpp.o
+                0x00000000                control::Block::~Block()
+
+.text._ZN7control20UOrbSubscriptionBaseD0Ev
+                0x00000000       0x50
+ .text._ZN7control20UOrbSubscriptionBaseD0Ev
+                0x00000000       0x50 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::~UOrbSubscriptionBase()
+
+.text._ZN7control16UOrbSubscriptionI18parameter_update_sED2Ev
+                0x00000000       0x50
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sED2Ev
+                0x00000000       0x50 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<parameter_update_s>::~UOrbSubscription()
+                0x00000000                control::UOrbSubscription<parameter_update_s>::~UOrbSubscription()
+
+.text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sED2Ev
+                0x00000000       0x50
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sED2Ev
+                0x00000000       0x50 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<vehicle_gps_position_s>::~UOrbSubscription()
+                0x00000000                control::UOrbSubscription<vehicle_gps_position_s>::~UOrbSubscription()
+
+.text._ZN7control16UOrbSubscriptionI17sensor_combined_sED2Ev
+                0x00000000       0x50
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sED2Ev
+                0x00000000       0x50 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<sensor_combined_s>::~UOrbSubscription()
+                0x00000000                control::UOrbSubscription<sensor_combined_s>::~UOrbSubscription()
+
+.text._ZN7control16UOrbSubscriptionI17sensor_combined_sED0Ev
+                0x00000000       0x74
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sED0Ev
+                0x00000000       0x74 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<sensor_combined_s>::~UOrbSubscription()
+
+.text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sED0Ev
+                0x00000000       0x74
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sED0Ev
+                0x00000000       0x74 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<vehicle_gps_position_s>::~UOrbSubscription()
+
+.text._ZN7control16UOrbSubscriptionI18parameter_update_sED0Ev
+                0x00000000       0x74
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sED0Ev
+                0x00000000       0x74 kalman_main.cpp.o
+                0x00000000                control::UOrbSubscription<parameter_update_s>::~UOrbSubscription()
+
+.text._ZN4math6MatrixD0Ev
+                0x00000000       0x48
+ .text._ZN4math6MatrixD0Ev
+                0x00000000       0x48 kalman_main.cpp.o
+                0x00000000                math::Matrix::~Matrix()
+
+.text._ZN7control15UOrbPublicationI18vehicle_attitude_sED2Ev
+                0x00000000       0x70
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sED2Ev
+                0x00000000       0x70 kalman_main.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_attitude_s>::~UOrbPublication()
+                0x00000000                control::UOrbPublication<vehicle_attitude_s>::~UOrbPublication()
+
+.text._ZN7control15UOrbPublicationI25vehicle_global_position_sED2Ev
+                0x00000000       0x70
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sED2Ev
+                0x00000000       0x70 kalman_main.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_global_position_s>::~UOrbPublication()
+                0x00000000                control::UOrbPublication<vehicle_global_position_s>::~UOrbPublication()
+
+.text._ZN7control19UOrbPublicationBaseD0Ev
+                0x00000000       0x70
+ .text._ZN7control19UOrbPublicationBaseD0Ev
+                0x00000000       0x70 kalman_main.cpp.o
+                0x00000000                control::UOrbPublicationBase::~UOrbPublicationBase()
+
+.text._ZN7control15UOrbPublicationI25vehicle_global_position_sED0Ev
+                0x00000000       0x90
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sED0Ev
+                0x00000000       0x90 kalman_main.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_global_position_s>::~UOrbPublication()
+
+.text._ZN7control15UOrbPublicationI18vehicle_attitude_sED0Ev
+                0x00000000       0x90
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sED0Ev
+                0x00000000       0x90 kalman_main.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_attitude_s>::~UOrbPublication()
+
+.text._ZN7control10SuperBlockD0Ev
+                0x00000000       0x6c
+ .text._ZN7control10SuperBlockD0Ev
+                0x00000000       0x6c kalman_main.cpp.o
+                0x00000000                control::SuperBlock::~SuperBlock()
+
+.text._ZN7control10BlockParamIfED0Ev
+                0x00000000       0x6c
+ .text._ZN7control10BlockParamIfED0Ev
+                0x00000000       0x6c kalman_main.cpp.o
+                0x00000000                control::BlockParam<float>::~BlockParam()
+
+.text._ZN9KalmanNavD2Ev
+                0x00000000      0x50c
+ .text._ZN9KalmanNavD2Ev
+                0x00000000      0x50c kalman_main.cpp.o
+                0x00000000                KalmanNav::~KalmanNav()
+                0x00000000                KalmanNav::~KalmanNav()
+
+.text._Z23kalman_demo_thread_mainiPPc
+                0x00000000       0x70
+ .text._Z23kalman_demo_thread_mainiPPc
+                0x00000000       0x70 kalman_main.cpp.o
+                0x00000000                kalman_demo_thread_main(int, char**)
+
+.text._ZN9KalmanNavD0Ev
+                0x00000000       0x30
+ .text._ZN9KalmanNavD0Ev
+                0x00000000       0x30 kalman_main.cpp.o
+                0x00000000                KalmanNav::~KalmanNav()
+
+.text._ZN7control10BlockParamIfE3getEv
+                0x00000000       0x30
+ .text._ZN7control10BlockParamIfE3getEv
+                0x00000000       0x30 KalmanNav.cpp.o
+                0x00000000                control::BlockParam<float>::get()
+
+.text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Matrix::getData()
+
+.text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Matrix::getCols() const
+
+.text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Matrix::getRows() const
+
+.text._ZN9KalmanNav11setLatDegE7Ei
+                0x00000000       0x40
+ .text._ZN9KalmanNav11setLatDegE7Ei
+                0x00000000       0x40 KalmanNav.cpp.o
+                0x00000000                KalmanNav::setLatDegE7(int)
+
+.text._ZN9KalmanNav11setLonDegE7Ei
+                0x00000000       0x40
+ .text._ZN9KalmanNav11setLonDegE7Ei
+                0x00000000       0x40 KalmanNav.cpp.o
+                0x00000000                KalmanNav::setLonDegE7(int)
+
+.text._ZN9KalmanNav8setAltE3Ei
+                0x00000000       0x48
+ .text._ZN9KalmanNav8setAltE3Ei
+                0x00000000       0x48 KalmanNav.cpp.o
+                0x00000000                KalmanNav::setAltE3(int)
+
+.text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Vector::getRows() const
+
+.text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Matrix::getData() const
+
+.text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Vector::getData() const
+
+.text._ZN4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                math::Vector::getData()
+
+.text._ZN9KalmanNav11getLatDegE7Ev
+                0x00000000       0x40
+ .text._ZN9KalmanNav11getLatDegE7Ev
+                0x00000000       0x40 KalmanNav.cpp.o
+                0x00000000                KalmanNav::getLatDegE7()
+
+.text._ZN9KalmanNav11getLonDegE7Ev
+                0x00000000       0x40
+ .text._ZN9KalmanNav11getLonDegE7Ev
+                0x00000000       0x40 KalmanNav.cpp.o
+                0x00000000                KalmanNav::getLonDegE7()
+
+.text._ZN7control19UOrbPublicationBase7getMetaEv
+                0x00000000       0x24
+ .text._ZN7control19UOrbPublicationBase7getMetaEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                control::UOrbPublicationBase::getMeta()
+
+.text._ZN7control19UOrbPublicationBase9setHandleEi
+                0x00000000       0x28
+ .text._ZN7control19UOrbPublicationBase9setHandleEi
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                control::UOrbPublicationBase::setHandle(int)
+
+.text._ZN7control20UOrbSubscriptionBase9getHandleEv
+                0x00000000       0x24
+ .text._ZN7control20UOrbSubscriptionBase9getHandleEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::getHandle()
+
+.text._ZN4ListIPN7control5BlockEEC2Ev
+                0x00000000       0x28
+ .text._ZN4ListIPN7control5BlockEEC2Ev
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                List<control::Block*>::List()
+                0x00000000                List<control::Block*>::List()
+
+.text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEEC2Ev
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEEC2Ev
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                ListNode<control::UOrbSubscriptionBase*>::ListNode()
+                0x00000000                ListNode<control::UOrbSubscriptionBase*>::ListNode()
+
+.text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7getHeadEv
+                0x00000000       0x24
+ .text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7getHeadEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                List<control::UOrbSubscriptionBase*>::getHead()
+
+.text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEE10setSiblingES2_
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEE10setSiblingES2_
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                ListNode<control::UOrbSubscriptionBase*>::setSibling(control::UOrbSubscriptionBase*)
+
+.text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7setHeadERS2_
+                0x00000000       0x28
+ .text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7setHeadERS2_
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                List<control::UOrbSubscriptionBase*>::setHead(control::UOrbSubscriptionBase*&)
+
+.text._ZN7control20UOrbSubscriptionBase7getMetaEv
+                0x00000000       0x24
+ .text._ZN7control20UOrbSubscriptionBase7getMetaEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::getMeta()
+
+.text._ZN7control20UOrbSubscriptionBase9setHandleEi
+                0x00000000       0x28
+ .text._ZN7control20UOrbSubscriptionBase9setHandleEi
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::setHandle(int)
+
+.text._ZN7control5Block16getSubscriptionsEv
+                0x00000000       0x24
+ .text._ZN7control5Block16getSubscriptionsEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                control::Block::getSubscriptions()
+
+.text._ZN8ListNodeIPN7control19UOrbPublicationBaseEEC2Ev
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control19UOrbPublicationBaseEEC2Ev
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                ListNode<control::UOrbPublicationBase*>::ListNode()
+                0x00000000                ListNode<control::UOrbPublicationBase*>::ListNode()
+
+.text._ZN4ListIPN7control19UOrbPublicationBaseEE7getHeadEv
+                0x00000000       0x24
+ .text._ZN4ListIPN7control19UOrbPublicationBaseEE7getHeadEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                List<control::UOrbPublicationBase*>::getHead()
+
+.text._ZN8ListNodeIPN7control19UOrbPublicationBaseEE10setSiblingES2_
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control19UOrbPublicationBaseEE10setSiblingES2_
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                ListNode<control::UOrbPublicationBase*>::setSibling(control::UOrbPublicationBase*)
+
+.text._ZN4ListIPN7control19UOrbPublicationBaseEE7setHeadERS2_
+                0x00000000       0x28
+ .text._ZN4ListIPN7control19UOrbPublicationBaseEE7setHeadERS2_
+                0x00000000       0x28 KalmanNav.cpp.o
+                0x00000000                List<control::UOrbPublicationBase*>::setHead(control::UOrbPublicationBase*&)
+
+.text._ZN7control5Block15getPublicationsEv
+                0x00000000       0x24
+ .text._ZN7control5Block15getPublicationsEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                control::Block::getPublications()
+
+.text._ZN7control10SuperBlock11getChildrenEv
+                0x00000000       0x24
+ .text._ZN7control10SuperBlock11getChildrenEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                control::SuperBlock::getChildren()
+
+.text._ZN4ListIPN7control5BlockEE7getHeadEv
+                0x00000000       0x24
+ .text._ZN4ListIPN7control5BlockEE7getHeadEv
+                0x00000000       0x24 KalmanNav.cpp.o
+                0x00000000                List<control::Block*>::getHead()
+
+.text._ZN4math6VectorC2Ej
+                0x00000000       0x38
+ .text._ZN4math6VectorC2Ej
+                0x00000000       0x38 KalmanNav.cpp.o
+                0x00000000                math::Vector::Vector(unsigned int)
+                0x00000000                math::Vector::Vector(unsigned int)
+
+.text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54
+ .text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54 KalmanNav.cpp.o
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int)
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int)
+
+.text._ZN9KalmanNav4initEffffff
+                0x00000000      0x178
+ .text._ZN9KalmanNav4initEffffff
+                0x00000000      0x178 KalmanNav.cpp.o
+                0x00000000                KalmanNav::init(float, float, float, float, float, float)
+
+.text._ZN7control10SuperBlockC2EPS0_PKc
+                0x00000000       0x58
+ .text._ZN7control10SuperBlockC2EPS0_PKc
+                0x00000000       0x58 KalmanNav.cpp.o
+                0x00000000                control::SuperBlock::SuperBlock(control::SuperBlock*, char const*)
+                0x00000000                control::SuperBlock::SuperBlock(control::SuperBlock*, char const*)
+
+.text._ZN4ListIPN7control20UOrbSubscriptionBaseEE3addES2_
+                0x00000000       0x7c
+ .text._ZN4ListIPN7control20UOrbSubscriptionBaseEE3addES2_
+                0x00000000       0x7c KalmanNav.cpp.o
+                0x00000000                List<control::UOrbSubscriptionBase*>::add(control::UOrbSubscriptionBase*)
+
+.text._ZN4ListIPN7control19UOrbPublicationBaseEE3addES2_
+                0x00000000       0x7c
+ .text._ZN4ListIPN7control19UOrbPublicationBaseEE3addES2_
+                0x00000000       0x7c KalmanNav.cpp.o
+                0x00000000                List<control::UOrbPublicationBase*>::add(control::UOrbPublicationBase*)
+
+.text._ZN7control10SuperBlock19updateSubscriptionsEv
+                0x00000000       0x58
+ .text._ZN7control10SuperBlock19updateSubscriptionsEv
+                0x00000000       0x58 KalmanNav.cpp.o
+                0x00000000                control::SuperBlock::updateSubscriptions()
+
+.text._ZN7control10SuperBlock12updateParamsEv
+                0x00000000       0x58
+ .text._ZN7control10SuperBlock12updateParamsEv
+                0x00000000       0x58 KalmanNav.cpp.o
+                0x00000000                control::SuperBlock::updateParams()
+
+.text._ZN7control19UOrbPublicationBase6updateEv
+                0x00000000       0xa0
+ .text._ZN7control19UOrbPublicationBase6updateEv
+                0x00000000       0xa0 KalmanNav.cpp.o
+                0x00000000                control::UOrbPublicationBase::update()
+
+.text._ZN4math6VectorclEj
+                0x00000000       0x44
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 KalmanNav.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int)
+
+.text._ZN4math6VectorD2Ev
+                0x00000000       0x44
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 KalmanNav.cpp.o
+                0x00000000                math::Vector::~Vector()
+                0x00000000                math::Vector::~Vector()
+
+.text._ZNK4math6VectorclEj
+                0x00000000       0x44
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 KalmanNav.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int) const
+
+.text._ZN4math6MatrixclEjj
+                0x00000000       0x64
+ .text._ZN4math6MatrixclEjj
+                0x00000000       0x64 KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator()(unsigned int, unsigned int)
+
+.text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64
+ .text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64 KalmanNav.cpp.o
+                0x00000000                math::Matrix::getSize() const
+
+.text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c KalmanNav.cpp.o
+                0x00000000                math::Vector::getSize() const
+
+.text._ZNK4math6Vector3dotERKS0_
+                0x00000000       0xa0
+ .text._ZNK4math6Vector3dotERKS0_
+                0x00000000       0xa0 KalmanNav.cpp.o
+                0x00000000                math::Vector::dot(math::Vector const&) const
+
+.text._ZN7control10BlockParamIfEC2EPNS_5BlockEPKcb
+                0x00000000       0x64
+ .text._ZN7control10BlockParamIfEC2EPNS_5BlockEPKcb
+                0x00000000       0x64 KalmanNav.cpp.o
+                0x00000000                control::BlockParam<float>::BlockParam(control::Block*, char const*, bool)
+                0x00000000                control::BlockParam<float>::BlockParam(control::Block*, char const*, bool)
+
+.text._ZNK4math6Vector5printEv
+                0x00000000       0xa0
+ .text._ZNK4math6Vector5printEv
+                0x00000000       0xa0 KalmanNav.cpp.o
+                0x00000000                math::Vector::print() const
+
+.text._ZNK4math6VectordvEf
+                0x00000000       0xe0
+ .text._ZNK4math6VectordvEf
+                0x00000000       0xe0 KalmanNav.cpp.o
+                0x00000000                math::Vector::operator/(float) const
+
+.text._ZNK4math6VectormlEf
+                0x00000000       0xdc
+ .text._ZNK4math6VectormlEf
+                0x00000000       0xdc KalmanNav.cpp.o
+                0x00000000                math::Vector::operator*(float) const
+
+.text._ZNK4math6VectorplERKS0_
+                0x00000000       0xec
+ .text._ZNK4math6VectorplERKS0_
+                0x00000000       0xec KalmanNav.cpp.o
+                0x00000000                math::Vector::operator+(math::Vector const&) const
+
+.text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c KalmanNav.cpp.o
+                0x00000000                math::EulerAngles::getPhi() const
+
+.text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c KalmanNav.cpp.o
+                0x00000000                math::EulerAngles::getTheta() const
+
+.text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c KalmanNav.cpp.o
+                0x00000000                math::EulerAngles::getPsi() const
+
+.text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 KalmanNav.cpp.o
+                0x00000000                math::Vector::Vector(unsigned int, float const*)
+                0x00000000                math::Vector::Vector(unsigned int, float const*)
+
+.text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c
+ .text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c KalmanNav.cpp.o
+                0x00000000                math::Vector::operator=(math::Vector const&)
+
+.text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc
+ .text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc KalmanNav.cpp.o
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int, float const*)
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int, float const*)
+
+.text._ZN4math6MatrixC2ERKS0_
+                0x00000000      0x148
+ .text._ZN4math6MatrixC2ERKS0_
+                0x00000000      0x148 KalmanNav.cpp.o
+                0x00000000                math::Matrix::Matrix(math::Matrix const&)
+                0x00000000                math::Matrix::Matrix(math::Matrix const&)
+
+.text._ZN4math6MatrixaSERKS0_
+                0x00000000       0xa8
+ .text._ZN4math6MatrixaSERKS0_
+                0x00000000       0xa8 KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator=(math::Matrix const&)
+
+.text._ZN9KalmanNav12updateParamsEv
+                0x00000000      0x394
+ .text._ZN9KalmanNav12updateParamsEv
+                0x00000000      0x394 KalmanNav.cpp.o
+                0x00000000                KalmanNav::updateParams()
+
+.text._ZN7control20UOrbSubscriptionBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4
+ .text._ZN7control20UOrbSubscriptionBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4 KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::UOrbSubscriptionBase(List<control::UOrbSubscriptionBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbSubscriptionBase::UOrbSubscriptionBase(List<control::UOrbSubscriptionBase*>*, orb_metadata const*)
+
+.text._ZN4math6VectorD0Ev
+                0x00000000       0x60
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 KalmanNav.cpp.o
+                0x00000000                math::Vector::~Vector()
+
+.text._ZN7control16UOrbSubscriptionI17sensor_combined_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x12c
+ .text._ZN7control16UOrbSubscriptionI17sensor_combined_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x12c KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscription<sensor_combined_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+                0x00000000                control::UOrbSubscription<sensor_combined_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+
+.text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x12c
+ .text._ZN7control16UOrbSubscriptionI22vehicle_gps_position_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x12c KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscription<vehicle_gps_position_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+                0x00000000                control::UOrbSubscription<vehicle_gps_position_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+
+.text._ZN7control16UOrbSubscriptionI18parameter_update_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x120
+ .text._ZN7control16UOrbSubscriptionI18parameter_update_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x120 KalmanNav.cpp.o
+                0x00000000                control::UOrbSubscription<parameter_update_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+                0x00000000                control::UOrbSubscription<parameter_update_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+
+.text._ZNK4math6Vector4normEv
+                0x00000000       0xb8
+ .text._ZNK4math6Vector4normEv
+                0x00000000       0xb8 KalmanNav.cpp.o
+                0x00000000                math::Vector::norm() const
+
+.text._ZN7control15UOrbPublicationI18vehicle_attitude_sEC2EP4ListIPNS_19UOrbPublicationBaseEEPK12orb_metadata
+                0x00000000       0xcc
+ .text._ZN7control15UOrbPublicationI18vehicle_attitude_sEC2EP4ListIPNS_19UOrbPublicationBaseEEPK12orb_metadata
+                0x00000000       0xcc KalmanNav.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_attitude_s>::UOrbPublication(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbPublication<vehicle_attitude_s>::UOrbPublication(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+
+.text._ZN7control19UOrbPublicationBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4
+ .text._ZN7control19UOrbPublicationBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4 KalmanNav.cpp.o
+                0x00000000                control::UOrbPublicationBase::UOrbPublicationBase(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbPublicationBase::UOrbPublicationBase(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+
+.text._ZN7control15UOrbPublicationI25vehicle_global_position_sEC2EP4ListIPNS_19UOrbPublicationBaseEEPK12orb_metadata
+                0x00000000       0xec
+ .text._ZN7control15UOrbPublicationI25vehicle_global_position_sEC2EP4ListIPNS_19UOrbPublicationBaseEEPK12orb_metadata
+                0x00000000       0xec KalmanNav.cpp.o
+                0x00000000                control::UOrbPublication<vehicle_global_position_s>::UOrbPublication(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbPublication<vehicle_global_position_s>::UOrbPublication(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+
+.text._ZN4math7Vector3aSERKS0_
+                0x00000000       0xa0
+ .text._ZN4math7Vector3aSERKS0_
+                0x00000000       0xa0 KalmanNav.cpp.o
+                0x00000000                math::Vector3::operator=(math::Vector3 const&)
+
+.text._ZNK4math6Vector4unitEv
+                0x00000000      0x170
+ .text._ZNK4math6Vector4unitEv
+                0x00000000      0x170 KalmanNav.cpp.o
+                0x00000000                math::Vector::unit() const
+
+.text._ZN4math10QuaternionaSERKS0_
+                0x00000000       0xa0
+ .text._ZN4math10QuaternionaSERKS0_
+                0x00000000       0xa0 KalmanNav.cpp.o
+                0x00000000                math::Quaternion::operator=(math::Quaternion const&)
+
+.text._ZNK4math6MatrixplERKS0_
+                0x00000000       0xc0
+ .text._ZNK4math6MatrixplERKS0_
+                0x00000000       0xc0 KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator+(math::Matrix const&) const
+
+.text._ZNK4math6Matrix9transposeEv
+                0x00000000       0xb0
+ .text._ZNK4math6Matrix9transposeEv
+                0x00000000       0xb0 KalmanNav.cpp.o
+                0x00000000                math::Matrix::transpose() const
+
+.text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc
+ .text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator*(math::Matrix const&) const
+
+.text._ZNK4math6MatrixmiERKS0_
+                0x00000000       0xc0
+ .text._ZNK4math6MatrixmiERKS0_
+                0x00000000       0xc0 KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator-(math::Matrix const&) const
+
+.text._ZNK4math6MatrixmlEf
+                0x00000000       0xc8
+ .text._ZNK4math6MatrixmlEf
+                0x00000000       0xc8 KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator*(float) const
+
+.text._ZN4math3DcmaSERKS0_
+                0x00000000       0xbc
+ .text._ZN4math3DcmaSERKS0_
+                0x00000000       0xbc KalmanNav.cpp.o
+                0x00000000                math::Dcm::operator=(math::Dcm const&)
+
+.text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278
+ .text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278 KalmanNav.cpp.o
+                0x00000000                math::Matrix::operator*(math::Vector const&) const
+
+.text._ZN9KalmanNav22predictStateCovarianceEf
+                0x00000000      0xd6c
+ .text._ZN9KalmanNav22predictStateCovarianceEf
+                0x00000000      0xd6c KalmanNav.cpp.o
+                0x00000000                KalmanNav::predictStateCovariance(float)
+
+.text._ZNK4math6Matrix7inverseEv
+                0x00000000      0x1cc
+ .text._ZNK4math6Matrix7inverseEv
+                0x00000000      0x1cc KalmanNav.cpp.o
+                0x00000000                math::Matrix::inverse() const
+
+.text._ZN9KalmanNav10correctPosEv
+                0x00000000     0x11e8
+ .text._ZN9KalmanNav10correctPosEv
+                0x00000000     0x11e8 KalmanNav.cpp.o
+                0x00000000                KalmanNav::correctPos()
+
+.text._ZN9KalmanNav12predictStateEf
+                0x00000000      0x7ac
+ .text._ZN9KalmanNav12predictStateEf
+                0x00000000      0x7ac KalmanNav.cpp.o
+                0x00000000                KalmanNav::predictState(float)
+
+.text._ZN9KalmanNavC2EPN7control10SuperBlockEPKc
+                0x00000000     0x1350
+ .text._ZN9KalmanNavC2EPN7control10SuperBlockEPKc
+                0x00000000     0x1350 KalmanNav.cpp.o
+                0x00000000                KalmanNav::KalmanNav(control::SuperBlock*, char const*)
+                0x00000000                KalmanNav::KalmanNav(control::SuperBlock*, char const*)
+
+.text._ZN9KalmanNav18updatePublicationsEv
+                0x00000000      0x578
+ .text._ZN9KalmanNav18updatePublicationsEv
+                0x00000000      0x578 KalmanNav.cpp.o
+                0x00000000                KalmanNav::updatePublications()
+
+.text._ZN4math6Matrix8identityEj
+                0x00000000      0x198
+ .text._ZN4math6Matrix8identityEj
+                0x00000000      0x198 KalmanNav.cpp.o
+                0x00000000                math::Matrix::identity(unsigned int)
+
+.text._ZN9KalmanNav10correctAttEv
+                0x00000000     0x18dc
+ .text._ZN9KalmanNav10correctAttEv
+                0x00000000     0x18dc KalmanNav.cpp.o
+                0x00000000                KalmanNav::correctAtt()
+
+.text._ZN9KalmanNav6updateEv
+                0x00000000      0x3a0
+ .text._ZN9KalmanNav6updateEv
+                0x00000000      0x3a0 KalmanNav.cpp.o
+                0x00000000                KalmanNav::update()
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTVN7control10BlockParamIfEE
+                0x00000000       0x18
+ .rodata._ZTVN7control10BlockParamIfEE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::BlockParam<float>
+
+.rodata._ZTVN7control14BlockParamBaseE
+                0x00000000       0x18
+ .rodata._ZTVN7control14BlockParamBaseE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::BlockParamBase
+
+.rodata._ZTVN7control15UOrbPublicationI18vehicle_attitude_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control15UOrbPublicationI18vehicle_attitude_sEE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbPublication<vehicle_attitude_s>
+
+.rodata._ZTVN7control19UOrbPublicationBaseE
+                0x00000000       0x18
+ .rodata._ZTVN7control19UOrbPublicationBaseE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbPublicationBase
+
+.rodata._ZTVN7control15UOrbPublicationI25vehicle_global_position_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control15UOrbPublicationI25vehicle_global_position_sEE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbPublication<vehicle_global_position_s>
+
+.rodata._ZTVN7control16UOrbSubscriptionI18parameter_update_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control16UOrbSubscriptionI18parameter_update_sEE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbSubscription<parameter_update_s>
+
+.rodata._ZTVN7control20UOrbSubscriptionBaseE
+                0x00000000       0x18
+ .rodata._ZTVN7control20UOrbSubscriptionBaseE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbSubscriptionBase
+
+.rodata._ZTVN7control16UOrbSubscriptionI22vehicle_gps_position_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control16UOrbSubscriptionI22vehicle_gps_position_sEE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbSubscription<vehicle_gps_position_s>
+
+.rodata._ZTVN7control16UOrbSubscriptionI17sensor_combined_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control16UOrbSubscriptionI17sensor_combined_sEE
+                0x00000000       0x18 kalman_main.cpp.o
+                0x00000000                vtable for control::UOrbSubscription<sensor_combined_s>
+
+.rodata._ZTVN4math6MatrixE
+                0x00000000       0x10
+ .rodata._ZTVN4math6MatrixE
+                0x00000000       0x10 kalman_main.cpp.o
+                0x00000000                vtable for math::Matrix
+
+.rodata.str1.4  0x00000000      0x3d0
+ .rodata.str1.4
+                0x00000000       0xf0 kalman_main.cpp.o
+ .rodata.str1.4
+                0x000000f0      0x224 KalmanNav.cpp.o
+ .rodata.str1.4
+                0x00000314       0xbc params.c.o
+
+.rodata._ZTVN4math6VectorE
+                0x00000000       0x10
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 KalmanNav.cpp.o
+                0x00000000                vtable for math::Vector
+
+.rodata._ZTV9KalmanNav
+                0x00000000       0x20
+ .rodata._ZTV9KalmanNav
+                0x00000000       0x20 KalmanNav.cpp.o
+                0x00000000                vtable for KalmanNav
+
+__param         0x00000000       0x9c
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0x9c params.c.o
+                0x0000009c                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 kalman_main.cpp.o
+ .data          0x00000000        0x0 KalmanNav.cpp.o
+ .data          0x00000000        0x0 params.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 kalman_main.cpp.o
+ .bss           0x00000000        0x0 KalmanNav.cpp.o
+ .bss           0x00000000        0x0 params.c.o
+ *(COMMON)
+
+.bss._ZL18thread_should_exit
+                0x00000000        0x1
+ .bss._ZL18thread_should_exit
+                0x00000000        0x1 kalman_main.cpp.o
+
+.bss._ZL11daemon_task
+                0x00000000        0x4
+ .bss._ZL11daemon_task
+                0x00000000        0x4 kalman_main.cpp.o
+
+.bss._ZL14thread_running
+                0x00000000        0x1
+ .bss._ZL14thread_running
+                0x00000000        0x1 kalman_main.cpp.o
+
+.bss._ZZN9KalmanNav10correctPosEvE7counter
+                0x00000000        0x4
+ .bss._ZZN9KalmanNav10correctPosEvE7counter
+                0x00000000        0x4 KalmanNav.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x153
+ *(.comment)
+ .comment       0x00000000       0x71 kalman_main.cpp.o
+ .comment       0x00000071       0x71 KalmanNav.cpp.o
+ .comment       0x000000e2       0x71 params.c.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 kalman_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 KalmanNav.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x520
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x138 kalman_main.cpp.o
+ .debug_aranges
+                0x00000138      0x3e8 KalmanNav.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x1042e
+ *(.debug_info)
+ .debug_info    0x00000000     0x2fe9 kalman_main.cpp.o
+ .debug_info    0x00002fe9     0xd22f KalmanNav.cpp.o
+ .debug_info    0x00010218      0x216 params.c.o
+
+.debug_abbrev   0x00000000      0xcd2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4ae kalman_main.cpp.o
+ .debug_abbrev  0x000004ae      0x768 KalmanNav.cpp.o
+ .debug_abbrev  0x00000c16       0xbc params.c.o
+
+.debug_line     0x00000000     0x32a4
+ *(.debug_line)
+ .debug_line    0x00000000      0x866 kalman_main.cpp.o
+ .debug_line    0x00000866     0x28d9 KalmanNav.cpp.o
+ .debug_line    0x0000313f      0x165 params.c.o
+
+.debug_frame    0x00000000     0x14a8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x46c kalman_main.cpp.o
+ .debug_frame   0x0000046c     0x103c KalmanNav.cpp.o
+
+.debug_str      0x00000000     0x4527
+ *(.debug_str)
+ .debug_str     0x00000000     0x19ca kalman_main.cpp.o
+ .debug_str     0x000019ca     0x2890 KalmanNav.cpp.o
+ .debug_str     0x0000425a      0x2cd params.c.o
+
+.debug_loc      0x00000000     0x90f0
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x925 kalman_main.cpp.o
+ .debug_loc     0x00000925     0x87cb KalmanNav.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000     0x1bc0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x210 kalman_main.cpp.o
+ .debug_ranges  0x00000210     0x19b0 KalmanNav.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 kalman_main.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 KalmanNav.cpp.o
+ .ARM.attributes
+                0x0000006e       0x37 params.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_default.build//home/avnishks/src/Firmware/src/modules/att_pos_estimator_ekf/module.pre.o elf32-littlearm)

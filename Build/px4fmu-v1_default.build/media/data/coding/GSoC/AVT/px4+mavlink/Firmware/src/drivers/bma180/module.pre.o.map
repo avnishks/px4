@@ -1,0 +1,450 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD bma180.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 bma180.cpp.o
+ *(.gnu.warning)
+
+.text._ZN6bma1805resetEv
+                0x00000000       0x70
+ .text._ZN6bma1805resetEv
+                0x00000000       0x70 bma180.cpp.o
+                0x00000000                bma180::reset()
+
+.text._ZN6bma1804testEv
+                0x00000000      0x134
+ .text._ZN6bma1804testEv
+                0x00000000      0x134 bma180.cpp.o
+                0x00000000                bma180::test()
+
+.text._ZN6BMA18010print_infoEv
+                0x00000000       0x4c
+ .text._ZN6BMA18010print_infoEv
+                0x00000000       0x4c bma180.cpp.o
+                0x00000000                BMA180::print_info()
+
+.text._ZN6bma1804infoEv
+                0x00000000       0x3c
+ .text._ZN6bma1804infoEv
+                0x00000000       0x3c bma180.cpp.o
+                0x00000000                bma180::info()
+
+.text._ZN6BMA1804stopEv
+                0x00000000       0x2c
+ .text._ZN6BMA1804stopEv
+                0x00000000       0x2c bma180.cpp.o
+                0x00000000                BMA180::stop()
+
+.text._ZN6BMA1809write_regEjh
+                0x00000000       0x40
+ .text._ZN6BMA1809write_regEjh
+                0x00000000       0x40 bma180.cpp.o
+                0x00000000                BMA180::write_reg(unsigned int, unsigned char)
+
+.text._ZN6BMA1808read_regEj
+                0x00000000       0x40
+ .text._ZN6BMA1808read_regEj
+                0x00000000       0x40 bma180.cpp.o
+                0x00000000                BMA180::read_reg(unsigned int)
+
+.text._ZN6BMA180C2Ei9spi_dev_e
+                0x00000000       0xcc
+ .text._ZN6BMA180C2Ei9spi_dev_e
+                0x00000000       0xcc bma180.cpp.o
+                0x00000000                BMA180::BMA180(int, spi_dev_e)
+                0x00000000                BMA180::BMA180(int, spi_dev_e)
+
+.text._ZN6bma1805startEv
+                0x00000000       0x8c
+ .text._ZN6bma1805startEv
+                0x00000000       0x8c bma180.cpp.o
+                0x00000000                bma180::start()
+
+.text.bma180_main
+                0x00000000       0x68
+ .text.bma180_main
+                0x00000000       0x68 bma180.cpp.o
+                0x00000000                bma180_main
+
+.text._ZN6BMA180D2Ev
+                0x00000000       0x5c
+ .text._ZN6BMA180D2Ev
+                0x00000000       0x5c bma180.cpp.o
+                0x00000000                BMA180::~BMA180()
+                0x00000000                BMA180::~BMA180()
+
+.text._ZN6BMA1805startEv
+                0x00000000       0x74
+ .text._ZN6BMA1805startEv
+                0x00000000       0x74 bma180.cpp.o
+                0x00000000                BMA180::start()
+
+.text._ZN6BMA1807measureEv
+                0x00000000      0x274
+ .text._ZN6BMA1807measureEv
+                0x00000000      0x274 bma180.cpp.o
+                0x00000000                BMA180::measure()
+
+.text._ZN6BMA18018measure_trampolineEPv
+                0x00000000       0x28
+ .text._ZN6BMA18018measure_trampolineEPv
+                0x00000000       0x28 bma180.cpp.o
+                0x00000000                BMA180::measure_trampoline(void*)
+
+.text._ZN6BMA1804readEP4filePcj
+                0x00000000      0x178
+ .text._ZN6BMA1804readEP4filePcj
+                0x00000000      0x178 bma180.cpp.o
+                0x00000000                BMA180::read(file*, char*, unsigned int)
+
+.text._ZN6BMA18010modify_regEjhh
+                0x00000000       0xa0
+ .text._ZN6BMA18010modify_regEjhh
+                0x00000000       0xa0 bma180.cpp.o
+                0x00000000                BMA180::modify_reg(unsigned int, unsigned char, unsigned char)
+
+.text._ZN6BMA1805probeEv
+                0x00000000       0x78
+ .text._ZN6BMA1805probeEv
+                0x00000000       0x78 bma180.cpp.o
+                0x00000000                BMA180::probe()
+
+.text._ZN6BMA18011set_lowpassEj
+                0x00000000       0xd4
+ .text._ZN6BMA18011set_lowpassEj
+                0x00000000       0xd4 bma180.cpp.o
+                0x00000000                BMA180::set_lowpass(unsigned int)
+
+.text._ZN6BMA1809set_rangeEj
+                0x00000000      0x12c
+ .text._ZN6BMA1809set_rangeEj
+                0x00000000      0x12c bma180.cpp.o
+                0x00000000                BMA180::set_range(unsigned int)
+
+.text._ZN6BMA1804initEv
+                0x00000000      0x164
+ .text._ZN6BMA1804initEv
+                0x00000000      0x164 bma180.cpp.o
+                0x00000000                BMA180::init()
+
+.text._ZN6BMA180D0Ev
+                0x00000000       0x78
+ .text._ZN6BMA180D0Ev
+                0x00000000       0x78 bma180.cpp.o
+                0x00000000                BMA180::~BMA180()
+
+.text._ZN6BMA1805ioctlEP4fileim
+                0x00000000      0x284
+ .text._ZN6BMA1805ioctlEP4fileim
+                0x00000000      0x284 bma180.cpp.o
+                0x00000000                BMA180::ioctl(file*, int, unsigned long)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV6BMA180
+                0x00000000       0x58
+ .rodata._ZTV6BMA180
+                0x00000000       0x58 bma180.cpp.o
+                0x00000000                vtable for BMA180
+
+.rodata.str1.4  0x00000000      0x2a0
+ .rodata.str1.4
+                0x00000000      0x2a0 bma180.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 bma180.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 bma180.cpp.o
+ *(COMMON)
+
+.bss._ZN6bma1805g_devE
+                0x00000000        0x4
+ .bss._ZN6bma1805g_devE
+                0x00000000        0x4 bma180.cpp.o
+                0x00000000                bma180::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 bma180.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xc8 bma180.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1f8c
+ *(.debug_info)
+ .debug_info    0x00000000     0x1f8c bma180.cpp.o
+
+.debug_abbrev   0x00000000      0x4be
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4be bma180.cpp.o
+
+.debug_line     0x00000000      0x9ad
+ *(.debug_line)
+ .debug_line    0x00000000      0x9ad bma180.cpp.o
+
+.debug_frame    0x00000000      0x2d0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2d0 bma180.cpp.o
+
+.debug_str      0x00000000      0xd9b
+ *(.debug_str)
+ .debug_str     0x00000000      0xd9b bma180.cpp.o
+
+.debug_loc      0x00000000      0xd29
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xd29 bma180.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x458
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x458 bma180.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 bma180.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/drivers/bma180/module.pre.o elf32-littlearm)

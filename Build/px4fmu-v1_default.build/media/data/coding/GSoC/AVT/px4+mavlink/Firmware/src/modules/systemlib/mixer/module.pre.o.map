@@ -1,0 +1,706 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc mixer_group.cpp.o
+ .group         0x00000000        0x8 mixer_group.cpp.o
+ .text._ZN5MixerD2Ev
+                0x00000000       0x2c mixer_group.cpp.o
+ .text._ZN5MixerD0Ev
+                0x00000000       0x48 mixer_group.cpp.o
+ .rodata._ZTV5Mixer
+                0x00000000       0x18 mixer_group.cpp.o
+ .group         0x00000000        0xc mixer_multirotor.cpp.o
+ .group         0x00000000        0x8 mixer_multirotor.cpp.o
+ .text._ZN5MixerD2Ev
+                0x00000000       0x2c mixer_multirotor.cpp.o
+ .text._ZN5MixerD0Ev
+                0x00000000       0x48 mixer_multirotor.cpp.o
+ .rodata._ZTV5Mixer
+                0x00000000       0x18 mixer_multirotor.cpp.o
+ .group         0x00000000        0xc mixer_simple.cpp.o
+ .group         0x00000000        0x8 mixer_simple.cpp.o
+ .text._ZN5MixerD2Ev
+                0x00000000       0x2c mixer_simple.cpp.o
+ .text._ZN5MixerD0Ev
+                0x00000000       0x48 mixer_simple.cpp.o
+ .rodata._ZTV5Mixer
+                0x00000000       0x18 mixer_simple.cpp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD mixer.cpp.o
+LOAD mixer_group.cpp.o
+LOAD mixer_multirotor.cpp.o
+LOAD mixer_simple.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 mixer.cpp.o
+ .text          0x00000000        0x0 mixer_group.cpp.o
+ .text          0x00000000        0x0 mixer_multirotor.cpp.o
+ .text          0x00000000        0x0 mixer_simple.cpp.o
+ *(.gnu.warning)
+
+.text._ZN5MixerD2Ev
+                0x00000000       0x2c
+ .text._ZN5MixerD2Ev
+                0x00000000       0x2c mixer.cpp.o
+                0x00000000                Mixer::~Mixer()
+                0x00000000                Mixer::~Mixer()
+
+.text._ZN9NullMixer15groups_requiredERj
+                0x00000000       0x20
+ .text._ZN9NullMixer15groups_requiredERj
+                0x00000000       0x20 mixer.cpp.o
+                0x00000000                NullMixer::groups_required(unsigned int&)
+
+.text._ZN9NullMixer3mixEPfj
+                0x00000000       0x28
+ .text._ZN9NullMixer3mixEPfj
+                0x00000000       0x28 mixer.cpp.o
+                0x00000000                NullMixer::mix(float*, unsigned int)
+
+.text._ZN5Mixer11scale_checkER14mixer_scaler_s
+                0x00000000       0x94
+ .text._ZN5Mixer11scale_checkER14mixer_scaler_s
+                0x00000000       0x94 mixer.cpp.o
+                0x00000000                Mixer::scale_check(mixer_scaler_s&)
+
+.text._ZN5Mixer5scaleERK14mixer_scaler_sf
+                0x00000000       0x68
+ .text._ZN5Mixer5scaleERK14mixer_scaler_sf
+                0x00000000       0x68 mixer.cpp.o
+                0x00000000                Mixer::scale(mixer_scaler_s const&, float)
+
+.text._ZN5Mixer11get_controlEhh
+                0x00000000       0x48
+ .text._ZN5Mixer11get_controlEhh
+                0x00000000       0x48 mixer.cpp.o
+                0x00000000                Mixer::get_control(unsigned char, unsigned char)
+
+.text._ZN5MixerC2EPFijhhRfEj
+                0x00000000       0x3c
+ .text._ZN5MixerC2EPFijhhRfEj
+                0x00000000       0x3c mixer.cpp.o
+                0x00000000                Mixer::Mixer(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int)
+                0x00000000                Mixer::Mixer(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int)
+
+.text._ZN9NullMixerC2Ev
+                0x00000000       0x54
+ .text._ZN9NullMixerC2Ev
+                0x00000000       0x54 mixer.cpp.o
+                0x00000000                NullMixer::NullMixer()
+                0x00000000                NullMixer::NullMixer()
+
+.text._ZN9NullMixerD2Ev
+                0x00000000       0x4c
+ .text._ZN9NullMixerD2Ev
+                0x00000000       0x4c mixer.cpp.o
+                0x00000000                NullMixer::~NullMixer()
+                0x00000000                NullMixer::~NullMixer()
+
+.text._ZN5MixerD0Ev
+                0x00000000       0x48
+ .text._ZN5MixerD0Ev
+                0x00000000       0x48 mixer.cpp.o
+                0x00000000                Mixer::~Mixer()
+
+.text._ZN9NullMixerD0Ev
+                0x00000000       0x6c
+ .text._ZN9NullMixerD0Ev
+                0x00000000       0x6c mixer.cpp.o
+                0x00000000                NullMixer::~NullMixer()
+
+.text._ZN9NullMixer9from_textEPKcRj
+                0x00000000       0x90
+ .text._ZN9NullMixer9from_textEPKcRj
+                0x00000000       0x90 mixer.cpp.o
+                0x00000000                NullMixer::from_text(char const*, unsigned int&)
+
+.text._ZN10MixerGroup15groups_requiredERj
+                0x00000000       0x34
+ .text._ZN10MixerGroup15groups_requiredERj
+                0x00000000       0x34 mixer_group.cpp.o
+                0x00000000                MixerGroup::groups_required(unsigned int&)
+
+.text._ZN10MixerGroup3mixEPfj
+                0x00000000       0x5c
+ .text._ZN10MixerGroup3mixEPfj
+                0x00000000       0x5c mixer_group.cpp.o
+                0x00000000                MixerGroup::mix(float*, unsigned int)
+
+.text._ZN10MixerGroup5resetEv
+                0x00000000       0x34
+ .text._ZN10MixerGroup5resetEv
+                0x00000000       0x34 mixer_group.cpp.o
+                0x00000000                MixerGroup::reset()
+
+.text._ZN10MixerGroup9add_mixerEP5Mixer
+                0x00000000       0x38
+ .text._ZN10MixerGroup9add_mixerEP5Mixer
+                0x00000000       0x38 mixer_group.cpp.o
+                0x00000000                MixerGroup::add_mixer(Mixer*)
+
+.text._ZN10MixerGroupC2EPFijhhRfEj
+                0x00000000       0x40
+ .text._ZN10MixerGroupC2EPFijhhRfEj
+                0x00000000       0x40 mixer_group.cpp.o
+                0x00000000                MixerGroup::MixerGroup(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int)
+                0x00000000                MixerGroup::MixerGroup(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int)
+
+.text._ZN10MixerGroup13load_from_bufEPKcRj
+                0x00000000       0xd0
+ .text._ZN10MixerGroup13load_from_bufEPKcRj
+                0x00000000       0xd0 mixer_group.cpp.o
+                0x00000000                MixerGroup::load_from_buf(char const*, unsigned int&)
+
+.text._ZN10MixerGroupD2Ev
+                0x00000000       0x6c
+ .text._ZN10MixerGroupD2Ev
+                0x00000000       0x6c mixer_group.cpp.o
+                0x00000000                MixerGroup::~MixerGroup()
+                0x00000000                MixerGroup::~MixerGroup()
+
+.text._ZN10MixerGroupD0Ev
+                0x00000000       0x84
+ .text._ZN10MixerGroupD0Ev
+                0x00000000       0x84 mixer_group.cpp.o
+                0x00000000                MixerGroup::~MixerGroup()
+
+.text._ZN15MultirotorMixer15groups_requiredERj
+                0x00000000       0x2c
+ .text._ZN15MultirotorMixer15groups_requiredERj
+                0x00000000       0x2c mixer_multirotor.cpp.o
+                0x00000000                MultirotorMixer::groups_required(unsigned int&)
+
+.text._ZN15MultirotorMixer3mixEPfj
+                0x00000000      0x168
+ .text._ZN15MultirotorMixer3mixEPfj
+                0x00000000      0x168 mixer_multirotor.cpp.o
+                0x00000000                MultirotorMixer::mix(float*, unsigned int)
+
+.text._ZN15MultirotorMixerC2EPFijhhRfEjNS_8GeometryEffff
+                0x00000000       0x8c
+ .text._ZN15MultirotorMixerC2EPFijhhRfEjNS_8GeometryEffff
+                0x00000000       0x8c mixer_multirotor.cpp.o
+                0x00000000                MultirotorMixer::MultirotorMixer(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, MultirotorMixer::Geometry, float, float, float, float)
+                0x00000000                MultirotorMixer::MultirotorMixer(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, MultirotorMixer::Geometry, float, float, float, float)
+
+.text._ZN15MultirotorMixerD2Ev
+                0x00000000       0x4c
+ .text._ZN15MultirotorMixerD2Ev
+                0x00000000       0x4c mixer_multirotor.cpp.o
+                0x00000000                MultirotorMixer::~MultirotorMixer()
+                0x00000000                MultirotorMixer::~MultirotorMixer()
+
+.text._ZN15MultirotorMixer9from_textEPFijhhRfEjPKcRj
+                0x00000000      0x1bc
+ .text._ZN15MultirotorMixer9from_textEPFijhhRfEjPKcRj
+                0x00000000      0x1bc mixer_multirotor.cpp.o
+                0x00000000                MultirotorMixer::from_text(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, char const*, unsigned int&)
+
+.text._ZN15MultirotorMixerD0Ev
+                0x00000000       0x6c
+ .text._ZN15MultirotorMixerD0Ev
+                0x00000000       0x6c mixer_multirotor.cpp.o
+                0x00000000                MultirotorMixer::~MultirotorMixer()
+
+.text._ZN11SimpleMixer5checkEv
+                0x00000000       0x98
+ .text._ZN11SimpleMixer5checkEv
+                0x00000000       0x98 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::check()
+
+.text._ZN11SimpleMixer15groups_requiredERj
+                0x00000000       0x48
+ .text._ZN11SimpleMixer15groups_requiredERj
+                0x00000000       0x48 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::groups_required(unsigned int&)
+
+.text._ZL7findtagPKcRjc
+                0x00000000       0xa0
+ .text._ZL7findtagPKcRjc
+                0x00000000       0xa0 mixer_simple.cpp.o
+
+.text._ZN11SimpleMixer3mixEPfj
+                0x00000000       0x90
+ .text._ZN11SimpleMixer3mixEPfj
+                0x00000000       0x90 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::mix(float*, unsigned int)
+
+.text._ZL8skiplinePKcRj
+                0x00000000       0x44
+ .text._ZL8skiplinePKcRj
+                0x00000000       0x44 mixer_simple.cpp.o
+
+.text._ZN11SimpleMixerC2EPFijhhRfEjP14mixer_simple_s
+                0x00000000       0x40
+ .text._ZN11SimpleMixerC2EPFijhhRfEjP14mixer_simple_s
+                0x00000000       0x40 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::SimpleMixer(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, mixer_simple_s*)
+                0x00000000                SimpleMixer::SimpleMixer(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, mixer_simple_s*)
+
+.text._ZN11SimpleMixerD2Ev
+                0x00000000       0x4c
+ .text._ZN11SimpleMixerD2Ev
+                0x00000000       0x4c mixer_simple.cpp.o
+                0x00000000                SimpleMixer::~SimpleMixer()
+                0x00000000                SimpleMixer::~SimpleMixer()
+
+.text._ZN11SimpleMixer9pwm_inputEPFijhhRfEjjttt
+                0x00000000       0xe4
+ .text._ZN11SimpleMixer9pwm_inputEPFijhhRfEjjttt
+                0x00000000       0xe4 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::pwm_input(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, unsigned int, unsigned short, unsigned short, unsigned short)
+
+.text._ZN11SimpleMixerD0Ev
+                0x00000000       0x64
+ .text._ZN11SimpleMixerD0Ev
+                0x00000000       0x64 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::~SimpleMixer()
+
+.text._ZN11SimpleMixer20parse_control_scalerEPKcRjR14mixer_scaler_sRhS5_
+                0x00000000      0x1b8
+ .text._ZN11SimpleMixer20parse_control_scalerEPKcRjR14mixer_scaler_sRhS5_
+                0x00000000      0x1b8 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::parse_control_scaler(char const*, unsigned int&, mixer_scaler_s&, unsigned char&, unsigned char&)
+
+.text._ZN11SimpleMixer19parse_output_scalerEPKcRjR14mixer_scaler_s
+                0x00000000      0x198
+ .text._ZN11SimpleMixer19parse_output_scalerEPKcRjR14mixer_scaler_s
+                0x00000000      0x198 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::parse_output_scaler(char const*, unsigned int&, mixer_scaler_s&)
+
+.text._ZN11SimpleMixer9from_textEPFijhhRfEjPKcRj
+                0x00000000       0xe8
+ .text._ZN11SimpleMixer9from_textEPFijhhRfEjPKcRj
+                0x00000000       0xe8 mixer_simple.cpp.o
+                0x00000000                SimpleMixer::from_text(int (*)(unsigned int, unsigned char, unsigned char, float&), unsigned int, char const*, unsigned int&)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV5Mixer
+                0x00000000       0x18
+ .rodata._ZTV5Mixer
+                0x00000000       0x18 mixer.cpp.o
+                0x00000000                vtable for Mixer
+
+.rodata._ZTV9NullMixer
+                0x00000000       0x18
+ .rodata._ZTV9NullMixer
+                0x00000000       0x18 mixer.cpp.o
+                0x00000000                vtable for NullMixer
+
+.rodata._ZTV10MixerGroup
+                0x00000000       0x18
+ .rodata._ZTV10MixerGroup
+                0x00000000       0x18 mixer_group.cpp.o
+                0x00000000                vtable for MixerGroup
+
+.rodata._ZN12_GLOBAL__N_1L13_config_hex_xE
+                0x00000000       0x48
+ .rodata._ZN12_GLOBAL__N_1L13_config_hex_xE
+                0x00000000       0x48 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L14_config_octa_xE
+                0x00000000       0x60
+ .rodata._ZN12_GLOBAL__N_1L14_config_octa_xE
+                0x00000000       0x60 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L19_config_rotor_countE
+                0x00000000       0x20
+ .rodata._ZN12_GLOBAL__N_1L19_config_rotor_countE
+                0x00000000       0x20 mixer_multirotor.cpp.o
+
+.rodata.str1.4  0x00000000       0x68
+ .rodata.str1.4
+                0x00000000       0x34 mixer_multirotor.cpp.o
+ .rodata.str1.4
+                0x00000034       0x34 mixer_simple.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L16_config_hex_plusE
+                0x00000000       0x48
+ .rodata._ZN12_GLOBAL__N_1L16_config_hex_plusE
+                0x00000000       0x48 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L17_config_octa_plusE
+                0x00000000       0x60
+ .rodata._ZN12_GLOBAL__N_1L17_config_octa_plusE
+                0x00000000       0x60 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L17_config_quad_plusE
+                0x00000000       0x30
+ .rodata._ZN12_GLOBAL__N_1L17_config_quad_plusE
+                0x00000000       0x30 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_113_config_indexE
+                0x00000000       0x20
+ .rodata._ZN12_GLOBAL__N_113_config_indexE
+                0x00000000       0x20 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L17_config_quad_wideE
+                0x00000000       0x30
+ .rodata._ZN12_GLOBAL__N_1L17_config_quad_wideE
+                0x00000000       0x30 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L14_config_quad_vE
+                0x00000000       0x30
+ .rodata._ZN12_GLOBAL__N_1L14_config_quad_vE
+                0x00000000       0x30 mixer_multirotor.cpp.o
+
+.rodata._ZN12_GLOBAL__N_1L14_config_quad_xE
+                0x00000000       0x30
+ .rodata._ZN12_GLOBAL__N_1L14_config_quad_xE
+                0x00000000       0x30 mixer_multirotor.cpp.o
+
+.rodata._ZTV15MultirotorMixer
+                0x00000000       0x18
+ .rodata._ZTV15MultirotorMixer
+                0x00000000       0x18 mixer_multirotor.cpp.o
+                0x00000000                vtable for MultirotorMixer
+
+.rodata._ZTV11SimpleMixer
+                0x00000000       0x18
+ .rodata._ZTV11SimpleMixer
+                0x00000000       0x18 mixer_simple.cpp.o
+                0x00000000                vtable for SimpleMixer
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 mixer.cpp.o
+ .data          0x00000000        0x0 mixer_group.cpp.o
+ .data          0x00000000        0x0 mixer_multirotor.cpp.o
+ .data          0x00000000        0x0 mixer_simple.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 mixer.cpp.o
+ .bss           0x00000000        0x0 mixer_group.cpp.o
+ .bss           0x00000000        0x0 mixer_multirotor.cpp.o
+ .bss           0x00000000        0x0 mixer_simple.cpp.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x1c4
+ *(.comment)
+ .comment       0x00000000       0x71 mixer.cpp.o
+ .comment       0x00000071       0x71 mixer_group.cpp.o
+ .comment       0x000000e2       0x71 mixer_multirotor.cpp.o
+ .comment       0x00000153       0x71 mixer_simple.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc mixer.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc mixer.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mixer.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1c0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 mixer.cpp.o
+ .debug_aranges
+                0x00000078       0x68 mixer_group.cpp.o
+ .debug_aranges
+                0x000000e0       0x58 mixer_multirotor.cpp.o
+ .debug_aranges
+                0x00000138       0x88 mixer_simple.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2ccd
+ *(.debug_info)
+ .debug_info    0x00000000      0x872 mixer.cpp.o
+ .debug_info    0x00000872      0x927 mixer_group.cpp.o
+ .debug_info    0x00001199      0xdd0 mixer_multirotor.cpp.o
+ .debug_info    0x00001f69      0xd64 mixer_simple.cpp.o
+
+.debug_abbrev   0x00000000      0xe16
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2fb mixer.cpp.o
+ .debug_abbrev  0x000002fb      0x31d mixer_group.cpp.o
+ .debug_abbrev  0x00000618      0x3c2 mixer_multirotor.cpp.o
+ .debug_abbrev  0x000009da      0x43c mixer_simple.cpp.o
+
+.debug_line     0x00000000      0xdf9
+ *(.debug_line)
+ .debug_line    0x00000000      0x30e mixer.cpp.o
+ .debug_line    0x0000030e      0x310 mixer_group.cpp.o
+ .debug_line    0x0000061e      0x311 mixer_multirotor.cpp.o
+ .debug_line    0x0000092f      0x4ca mixer_simple.cpp.o
+
+.debug_frame    0x00000000      0x5e0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x188 mixer.cpp.o
+ .debug_frame   0x00000188      0x140 mixer_group.cpp.o
+ .debug_frame   0x000002c8      0x12c mixer_multirotor.cpp.o
+ .debug_frame   0x000003f4      0x1ec mixer_simple.cpp.o
+
+.debug_str      0x00000000     0x1518
+ *(.debug_str)
+ .debug_str     0x00000000      0x44c mixer.cpp.o
+ .debug_str     0x0000044c      0x4a0 mixer_group.cpp.o
+ .debug_str     0x000008ec      0x63c mixer_multirotor.cpp.o
+ .debug_str     0x00000f28      0x5f0 mixer_simple.cpp.o
+
+.debug_loc      0x00000000     0x1a9e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4b7 mixer.cpp.o
+ .debug_loc     0x000004b7      0x596 mixer_group.cpp.o
+ .debug_loc     0x00000a4d      0x589 mixer_multirotor.cpp.o
+ .debug_loc     0x00000fd6      0xac8 mixer_simple.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x530
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xa0 mixer.cpp.o
+ .debug_ranges  0x000000a0      0x140 mixer_group.cpp.o
+ .debug_ranges  0x000001e0       0xd8 mixer_multirotor.cpp.o
+ .debug_ranges  0x000002b8      0x278 mixer_simple.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 mixer.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 mixer_group.cpp.o
+ .ARM.attributes
+                0x0000006e       0x37 mixer_multirotor.cpp.o
+ .ARM.attributes
+                0x000000a5       0x37 mixer_simple.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/systemlib/mixer/module.pre.o elf32-littlearm)

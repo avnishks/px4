@@ -1,0 +1,403 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD position_estimator_inav_main.c.o
+LOAD position_estimator_inav_params.c.o
+LOAD inertial_filter.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 position_estimator_inav_main.c.o
+ .text          0x00000000        0x0 position_estimator_inav_params.c.o
+ .text          0x00000000        0x0 inertial_filter.c.o
+ *(.gnu.warning)
+
+.text.position_estimator_inav_thread_main
+                0x00000000      0xed0
+ .text.position_estimator_inav_thread_main
+                0x00000000      0xed0 position_estimator_inav_main.c.o
+                0x00000000                position_estimator_inav_thread_main
+
+.text.usage     0x00000000       0x40
+ .text.usage    0x00000000       0x40 position_estimator_inav_main.c.o
+
+.text.position_estimator_inav_main
+                0x00000000       0xf8
+ .text.position_estimator_inav_main
+                0x00000000       0xf8 position_estimator_inav_main.c.o
+                0x00000000                position_estimator_inav_main
+
+.text.parameters_update
+                0x00000000       0xac
+ .text.parameters_update
+                0x00000000       0xac position_estimator_inav_params.c.o
+                0x00000000                parameters_update
+
+.text.parameters_init
+                0x00000000      0x100
+ .text.parameters_init
+                0x00000000      0x100 position_estimator_inav_params.c.o
+                0x00000000                parameters_init
+
+.text.inertial_filter_correct
+                0x00000000       0xc8
+ .text.inertial_filter_correct
+                0x00000000       0xc8 inertial_filter.c.o
+                0x00000000                inertial_filter_correct
+
+.text.inertial_filter_predict
+                0x00000000       0x5c
+ .text.inertial_filter_predict
+                0x00000000       0x5c inertial_filter.c.o
+                0x00000000                inertial_filter_predict
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x3b4
+ .rodata.str1.4
+                0x00000000      0x2d0 position_estimator_inav_main.c.o
+ .rodata.str1.4
+                0x000002d0       0xe4 position_estimator_inav_params.c.o
+
+__param         0x00000000       0xa8
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0xa8 position_estimator_inav_params.c.o
+                0x000000a8                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 position_estimator_inav_main.c.o
+ .data          0x00000000        0x0 position_estimator_inav_params.c.o
+ .data          0x00000000        0x0 inertial_filter.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 position_estimator_inav_main.c.o
+ .bss           0x00000000        0x0 position_estimator_inav_params.c.o
+ .bss           0x00000000        0x0 inertial_filter.c.o
+ *(COMMON)
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 position_estimator_inav_main.c.o
+
+.bss.verbose_mode
+                0x00000000        0x1
+ .bss.verbose_mode
+                0x00000000        0x1 position_estimator_inav_main.c.o
+
+.bss.position_estimator_inav_task
+                0x00000000        0x4
+ .bss.position_estimator_inav_task
+                0x00000000        0x4 position_estimator_inav_main.c.o
+
+.bss.thread_should_exit
+                0x00000000        0x1
+ .bss.thread_should_exit
+                0x00000000        0x1 position_estimator_inav_main.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x153
+ *(.comment)
+ .comment       0x00000000       0x71 position_estimator_inav_main.c.o
+ .comment       0x00000071       0x71 position_estimator_inav_params.c.o
+ .comment       0x000000e2       0x71 inertial_filter.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 position_estimator_inav_main.c.o
+ .debug_aranges
+                0x00000030       0x28 position_estimator_inav_params.c.o
+ .debug_aranges
+                0x00000058       0x28 inertial_filter.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x249b
+ *(.debug_info)
+ .debug_info    0x00000000     0x1f16 position_estimator_inav_main.c.o
+ .debug_info    0x00001f16      0x469 position_estimator_inav_params.c.o
+ .debug_info    0x0000237f      0x11c inertial_filter.c.o
+
+.debug_abbrev   0x00000000      0x3f4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x266 position_estimator_inav_main.c.o
+ .debug_abbrev  0x00000266      0x111 position_estimator_inav_params.c.o
+ .debug_abbrev  0x00000377       0x7d inertial_filter.c.o
+
+.debug_line     0x00000000      0xbff
+ *(.debug_line)
+ .debug_line    0x00000000      0x955 position_estimator_inav_main.c.o
+ .debug_line    0x00000955      0x1fc position_estimator_inav_params.c.o
+ .debug_line    0x00000b51       0xae inertial_filter.c.o
+
+.debug_frame    0x00000000      0x12c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x84 position_estimator_inav_main.c.o
+ .debug_frame   0x00000084       0x4c position_estimator_inav_params.c.o
+ .debug_frame   0x000000d0       0x5c inertial_filter.c.o
+
+.debug_str      0x00000000     0x18ee
+ *(.debug_str)
+ .debug_str     0x00000000     0x1362 position_estimator_inav_main.c.o
+ .debug_str     0x00001362      0x438 position_estimator_inav_params.c.o
+ .debug_str     0x0000179a      0x154 inertial_filter.c.o
+
+.debug_loc      0x00000000     0x1221
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x102a position_estimator_inav_main.c.o
+ .debug_loc     0x0000102a       0x9a position_estimator_inav_params.c.o
+ .debug_loc     0x000010c4      0x15d inertial_filter.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x148
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x118 position_estimator_inav_main.c.o
+ .debug_ranges  0x00000118       0x18 position_estimator_inav_params.c.o
+ .debug_ranges  0x00000130       0x18 inertial_filter.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 position_estimator_inav_main.c.o
+ .ARM.attributes
+                0x00000037       0x37 position_estimator_inav_params.c.o
+ .ARM.attributes
+                0x0000006e       0x37 inertial_filter.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v1_default.build//home/avnishks/src/Firmware/src/modules/position_estimator_inav/module.pre.o elf32-littlearm)

@@ -1,0 +1,388 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.c.o
+LOAD params.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 main.c.o
+ .text          0x00000000        0x0 params.c.o
+ *(.gnu.warning)
+
+.text.usage     0x00000000       0x40
+ .text.usage    0x00000000       0x40 main.c.o
+
+.text.ex_fixedwing_control_main
+                0x00000000       0xdc
+ .text.ex_fixedwing_control_main
+                0x00000000       0xdc main.c.o
+                0x00000000                ex_fixedwing_control_main
+
+.text.fixedwing_control_thread_main
+                0x00000000      0x2a4
+ .text.fixedwing_control_thread_main
+                0x00000000      0x2a4 main.c.o
+                0x00000000                fixedwing_control_thread_main
+
+.text.control_attitude
+                0x00000000       0x60
+ .text.control_attitude
+                0x00000000       0x60 main.c.o
+                0x00000000                control_attitude
+
+.text.control_heading
+                0x00000000       0xc0
+ .text.control_heading
+                0x00000000       0xc0 main.c.o
+                0x00000000                control_heading
+
+.text.parameters_update
+                0x00000000       0x40
+ .text.parameters_update
+                0x00000000       0x40 params.c.o
+                0x00000000                parameters_update
+
+.text.parameters_init
+                0x00000000       0x50
+ .text.parameters_init
+                0x00000000       0x50 params.c.o
+                0x00000000                parameters_init
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x1a8
+ .rodata.str1.4
+                0x00000000      0x180 main.c.o
+ .rodata.str1.4
+                0x00000180       0x28 params.c.o
+
+__param         0x00000000       0x24
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0x24 params.c.o
+                0x00000024                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 main.c.o
+ .data          0x00000000        0x0 params.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 main.c.o
+ .bss           0x00000000        0x0 params.c.o
+ *(COMMON)
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 main.c.o
+
+.bss.deamon_task
+                0x00000000        0x4
+ .bss.deamon_task
+                0x00000000        0x4 main.c.o
+
+.bss.p          0x00000000        0xc
+ .bss.p         0x00000000        0xc main.c.o
+
+.bss.ph         0x00000000        0xc
+ .bss.ph        0x00000000        0xc main.c.o
+
+.bss.thread_should_exit
+                0x00000000        0x1
+ .bss.thread_should_exit
+                0x00000000        0x1 main.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 main.c.o
+ .comment       0x00000071       0x71 params.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 main.c.o
+ .debug_aranges
+                0x00000040       0x28 params.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x20ba
+ *(.debug_info)
+ .debug_info    0x00000000     0x1e40 main.c.o
+ .debug_info    0x00001e40      0x27a params.c.o
+
+.debug_abbrev   0x00000000      0x3d0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2bf main.c.o
+ .debug_abbrev  0x000002bf      0x111 params.c.o
+
+.debug_line     0x00000000      0x8df
+ *(.debug_line)
+ .debug_line    0x00000000      0x6f0 main.c.o
+ .debug_line    0x000006f0      0x1ef params.c.o
+
+.debug_frame    0x00000000      0x100
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb4 main.c.o
+ .debug_frame   0x000000b4       0x4c params.c.o
+
+.debug_str      0x00000000     0x1881
+ *(.debug_str)
+ .debug_str     0x00000000     0x160d main.c.o
+ .debug_str     0x0000160d      0x274 params.c.o
+
+.debug_loc      0x00000000      0x544
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4aa main.c.o
+ .debug_loc     0x000004aa       0x9a params.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0xa8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x90 main.c.o
+ .debug_ranges  0x00000090       0x18 params.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 main.c.o
+ .ARM.attributes
+                0x00000037       0x37 params.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/examples/fixedwing_control/module.pre.o elf32-littlearm)

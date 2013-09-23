@@ -1,0 +1,468 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD mb12xx.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 mb12xx.cpp.o
+ *(.gnu.warning)
+
+.text._ZN6mb12xx4stopEv
+                0x00000000       0x34
+ .text._ZN6mb12xx4stopEv
+                0x00000000       0x34 mb12xx.cpp.o
+                0x00000000                mb12xx::stop()
+
+.text._ZN6mb12xx5resetEv
+                0x00000000       0x70
+ .text._ZN6mb12xx5resetEv
+                0x00000000       0x70 mb12xx.cpp.o
+                0x00000000                mb12xx::reset()
+
+.text._ZN6mb12xx4testEv
+                0x00000000      0x110
+ .text._ZN6mb12xx4testEv
+                0x00000000      0x110 mb12xx.cpp.o
+                0x00000000                mb12xx::test()
+
+.text._ZN6MB12XX10print_infoEv
+                0x00000000       0x6c
+ .text._ZN6MB12XX10print_infoEv
+                0x00000000       0x6c mb12xx.cpp.o
+                0x00000000                MB12XX::print_info()
+
+.text._ZN6mb12xx4infoEv
+                0x00000000       0x3c
+ .text._ZN6mb12xx4infoEv
+                0x00000000       0x3c mb12xx.cpp.o
+                0x00000000                mb12xx::info()
+
+.text._ZN6MB12XX20get_maximum_distanceEv
+                0x00000000       0x30
+ .text._ZN6MB12XX20get_maximum_distanceEv
+                0x00000000       0x30 mb12xx.cpp.o
+                0x00000000                MB12XX::get_maximum_distance()
+
+.text._ZN6MB12XX20get_minimum_distanceEv
+                0x00000000       0x30
+ .text._ZN6MB12XX20get_minimum_distanceEv
+                0x00000000       0x30 mb12xx.cpp.o
+                0x00000000                MB12XX::get_minimum_distance()
+
+.text._ZN6MB12XX20set_maximum_distanceEf
+                0x00000000       0x34
+ .text._ZN6MB12XX20set_maximum_distanceEf
+                0x00000000       0x34 mb12xx.cpp.o
+                0x00000000                MB12XX::set_maximum_distance(float)
+
+.text._ZN6MB12XX20set_minimum_distanceEf
+                0x00000000       0x34
+ .text._ZN6MB12XX20set_minimum_distanceEf
+                0x00000000       0x34 mb12xx.cpp.o
+                0x00000000                MB12XX::set_minimum_distance(float)
+
+.text._ZN6MB12XX4stopEv
+                0x00000000       0x2c
+ .text._ZN6MB12XX4stopEv
+                0x00000000       0x2c mb12xx.cpp.o
+                0x00000000                MB12XX::stop()
+
+.text._ZN6MB12XX5startEv
+                0x00000000       0x74
+ .text._ZN6MB12XX5startEv
+                0x00000000       0x74 mb12xx.cpp.o
+                0x00000000                MB12XX::start()
+
+.text._ZN6MB12XX7measureEv
+                0x00000000       0x54
+ .text._ZN6MB12XX7measureEv
+                0x00000000       0x54 mb12xx.cpp.o
+                0x00000000                MB12XX::measure()
+
+.text._ZN6MB12XX4initEv
+                0x00000000       0x84
+ .text._ZN6MB12XX4initEv
+                0x00000000       0x84 mb12xx.cpp.o
+                0x00000000                MB12XX::init()
+
+.text._ZN6MB12XXC2Eii
+                0x00000000       0xe4
+ .text._ZN6MB12XXC2Eii
+                0x00000000       0xe4 mb12xx.cpp.o
+                0x00000000                MB12XX::MB12XX(int, int)
+                0x00000000                MB12XX::MB12XX(int, int)
+
+.text._ZN6mb12xx5startEv
+                0x00000000       0x8c
+ .text._ZN6mb12xx5startEv
+                0x00000000       0x8c mb12xx.cpp.o
+                0x00000000                mb12xx::start()
+
+.text.mb12xx_main
+                0x00000000       0x88
+ .text.mb12xx_main
+                0x00000000       0x88 mb12xx.cpp.o
+                0x00000000                mb12xx_main
+
+.text._ZN6MB12XX7collectEv
+                0x00000000      0x18c
+ .text._ZN6MB12XX7collectEv
+                0x00000000      0x18c mb12xx.cpp.o
+                0x00000000                MB12XX::collect()
+
+.text._ZN6MB12XXD2Ev
+                0x00000000       0x58
+ .text._ZN6MB12XXD2Ev
+                0x00000000       0x58 mb12xx.cpp.o
+                0x00000000                MB12XX::~MB12XX()
+                0x00000000                MB12XX::~MB12XX()
+
+.text._ZN6MB12XX5probeEv
+                0x00000000       0x68
+ .text._ZN6MB12XX5probeEv
+                0x00000000       0x68 mb12xx.cpp.o
+                0x00000000                MB12XX::probe()
+
+.text._ZN6MB12XXD0Ev
+                0x00000000       0x70
+ .text._ZN6MB12XXD0Ev
+                0x00000000       0x70 mb12xx.cpp.o
+                0x00000000                MB12XX::~MB12XX()
+
+.text._ZN6MB12XX4readEP4filePcj
+                0x00000000      0x1bc
+ .text._ZN6MB12XX4readEP4filePcj
+                0x00000000      0x1bc mb12xx.cpp.o
+                0x00000000                MB12XX::read(file*, char*, unsigned int)
+
+.text._ZN6MB12XX5cycleEv
+                0x00000000      0x140
+ .text._ZN6MB12XX5cycleEv
+                0x00000000      0x140 mb12xx.cpp.o
+                0x00000000                MB12XX::cycle()
+
+.text._ZN6MB12XX16cycle_trampolineEPv
+                0x00000000       0x28
+ .text._ZN6MB12XX16cycle_trampolineEPv
+                0x00000000       0x28 mb12xx.cpp.o
+                0x00000000                MB12XX::cycle_trampoline(void*)
+
+.text._ZN6MB12XX5ioctlEP4fileim
+                0x00000000      0x26c
+ .text._ZN6MB12XX5ioctlEP4fileim
+                0x00000000      0x26c mb12xx.cpp.o
+                0x00000000                MB12XX::ioctl(file*, int, unsigned long)
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000        0x8
+ *(.rodata)
+ .rodata        0x00000000        0x8 mb12xx.cpp.o
+
+.rodata.str1.4  0x00000000      0x33c
+ .rodata.str1.4
+                0x00000000      0x33c mb12xx.cpp.o
+
+.rodata._ZTV6MB12XX
+                0x00000000       0x58
+ .rodata._ZTV6MB12XX
+                0x00000000       0x58 mb12xx.cpp.o
+                0x00000000                vtable for MB12XX
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 mb12xx.cpp.o
+
+.data._ZZN6MB12XX5startEvE3pub
+                0x00000000        0x4
+ .data._ZZN6MB12XX5startEvE3pub
+                0x00000000        0x4 mb12xx.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 mb12xx.cpp.o
+ *(COMMON)
+
+.bss._ZN6mb12xx5g_devE
+                0x00000000        0x4
+ .bss._ZN6mb12xx5g_devE
+                0x00000000        0x4 mb12xx.cpp.o
+                0x00000000                mb12xx::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 mb12xx.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xd8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xd8 mb12xx.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1ed4
+ *(.debug_info)
+ .debug_info    0x00000000     0x1ed4 mb12xx.cpp.o
+
+.debug_abbrev   0x00000000      0x51a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x51a mb12xx.cpp.o
+
+.debug_line     0x00000000      0x8d5
+ *(.debug_line)
+ .debug_line    0x00000000      0x8d5 mb12xx.cpp.o
+
+.debug_frame    0x00000000      0x304
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x304 mb12xx.cpp.o
+
+.debug_str      0x00000000      0xed3
+ *(.debug_str)
+ .debug_str     0x00000000      0xed3 mb12xx.cpp.o
+
+.debug_loc      0x00000000      0xe20
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xe20 mb12xx.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x390
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x390 mb12xx.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 mb12xx.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_default.build//home/avnishks/src/Firmware/src/drivers/mb12xx/module.pre.o elf32-littlearm)

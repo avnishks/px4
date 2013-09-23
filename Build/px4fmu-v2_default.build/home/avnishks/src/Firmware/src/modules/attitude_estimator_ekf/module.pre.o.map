@@ -1,0 +1,720 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD attitude_estimator_ekf_main.cpp.o
+LOAD attitude_estimator_ekf_params.c.o
+LOAD codegen/eye.c.o
+LOAD codegen/attitudeKalmanfilter.c.o
+LOAD codegen/mrdivide.c.o
+LOAD codegen/rdivide.c.o
+LOAD codegen/attitudeKalmanfilter_initialize.c.o
+LOAD codegen/attitudeKalmanfilter_terminate.c.o
+LOAD codegen/rt_nonfinite.c.o
+LOAD codegen/rtGetInf.c.o
+LOAD codegen/rtGetNaN.c.o
+LOAD codegen/norm.c.o
+LOAD codegen/cross.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 attitude_estimator_ekf_main.cpp.o
+ .text          0x00000000        0x0 attitude_estimator_ekf_params.c.o
+ .text          0x00000000        0x0 codegen/eye.c.o
+ .text          0x00000000        0x0 codegen/attitudeKalmanfilter.c.o
+ .text          0x00000000        0x0 codegen/mrdivide.c.o
+ .text          0x00000000        0x0 codegen/rdivide.c.o
+ .text          0x00000000        0x0 codegen/attitudeKalmanfilter_initialize.c.o
+ .text          0x00000000        0x0 codegen/attitudeKalmanfilter_terminate.c.o
+ .text          0x00000000        0x0 codegen/rt_nonfinite.c.o
+ .text          0x00000000        0x0 codegen/rtGetInf.c.o
+ .text          0x00000000        0x0 codegen/rtGetNaN.c.o
+ .text          0x00000000        0x0 codegen/norm.c.o
+ .text          0x00000000        0x0 codegen/cross.c.o
+ *(.gnu.warning)
+
+.text._Z34attitude_estimator_ekf_thread_mainiPPc
+                0x00000000      0x624
+ .text._Z34attitude_estimator_ekf_thread_mainiPPc
+                0x00000000      0x624 attitude_estimator_ekf_main.cpp.o
+                0x00000000                attitude_estimator_ekf_thread_main(int, char**)
+
+.text._ZL5usagePKc
+                0x00000000       0x40
+ .text._ZL5usagePKc
+                0x00000000       0x40 attitude_estimator_ekf_main.cpp.o
+
+.text.attitude_estimator_ekf_main
+                0x00000000       0xe0
+ .text.attitude_estimator_ekf_main
+                0x00000000       0xe0 attitude_estimator_ekf_main.cpp.o
+                0x00000000                attitude_estimator_ekf_main
+
+.text.parameters_update
+                0x00000000       0x98
+ .text.parameters_update
+                0x00000000       0x98 attitude_estimator_ekf_params.c.o
+                0x00000000                parameters_update
+
+.text.parameters_init
+                0x00000000       0xe0
+ .text.parameters_init
+                0x00000000       0xe0 attitude_estimator_ekf_params.c.o
+                0x00000000                parameters_init
+
+.text.eye       0x00000000       0x40
+ .text.eye      0x00000000       0x40 codegen/eye.c.o
+                0x00000000                eye
+
+.text.b_eye     0x00000000       0x70
+ .text.b_eye    0x00000000       0x70 codegen/eye.c.o
+                0x00000000                b_eye
+
+.text.rt_atan2f_snf
+                0x00000000      0x110
+ .text.rt_atan2f_snf
+                0x00000000      0x110 codegen/attitudeKalmanfilter.c.o
+
+.text.attitudeKalmanfilter
+                0x00000000     0xa720
+ .text.attitudeKalmanfilter
+                0x00000000     0xa720 codegen/attitudeKalmanfilter.c.o
+                0x00000000                attitudeKalmanfilter
+
+.text.mrdivide  0x00000000     0x14e4
+ .text.mrdivide
+                0x00000000     0x14e4 codegen/mrdivide.c.o
+                0x00000000                mrdivide
+
+.text.c_mrdivide
+                0x00000000      0xea0
+ .text.c_mrdivide
+                0x00000000      0xea0 codegen/mrdivide.c.o
+                0x00000000                c_mrdivide
+
+.text.b_mrdivide
+                0x00000000      0x81c
+ .text.b_mrdivide
+                0x00000000      0x81c codegen/mrdivide.c.o
+                0x00000000                b_mrdivide
+
+.text.rdivide   0x00000000       0x5c
+ .text.rdivide  0x00000000       0x5c codegen/rdivide.c.o
+                0x00000000                rdivide
+
+.text.attitudeKalmanfilter_initialize
+                0x00000000       0x28
+ .text.attitudeKalmanfilter_initialize
+                0x00000000       0x28 codegen/attitudeKalmanfilter_initialize.c.o
+                0x00000000                attitudeKalmanfilter_initialize
+
+.text.attitudeKalmanfilter_terminate
+                0x00000000       0x20
+ .text.attitudeKalmanfilter_terminate
+                0x00000000       0x20 codegen/attitudeKalmanfilter_terminate.c.o
+                0x00000000                attitudeKalmanfilter_terminate
+
+.text.rtIsNaNF  0x00000000       0x38
+ .text.rtIsNaNF
+                0x00000000       0x38 codegen/rt_nonfinite.c.o
+                0x00000000                rtIsNaNF
+
+.text.rtIsNaN   0x00000000       0x34
+ .text.rtIsNaN  0x00000000       0x34 codegen/rt_nonfinite.c.o
+                0x00000000                rtIsNaN
+
+.text.rtIsInfF  0x00000000       0x58
+ .text.rtIsInfF
+                0x00000000       0x58 codegen/rt_nonfinite.c.o
+                0x00000000                rtIsInfF
+
+.text.rtIsInf   0x00000000       0x60
+ .text.rtIsInf  0x00000000       0x60 codegen/rt_nonfinite.c.o
+                0x00000000                rtIsInf
+
+.text.rt_InitInfAndNaN
+                0x00000000       0x80
+ .text.rt_InitInfAndNaN
+                0x00000000       0x80 codegen/rt_nonfinite.c.o
+                0x00000000                rt_InitInfAndNaN
+
+.text.rtGetMinusInfF
+                0x00000000       0x28
+ .text.rtGetMinusInfF
+                0x00000000       0x28 codegen/rtGetInf.c.o
+                0x00000000                rtGetMinusInfF
+
+.text.rtGetMinusInf
+                0x00000000       0x58
+ .text.rtGetMinusInf
+                0x00000000       0x58 codegen/rtGetInf.c.o
+                0x00000000                rtGetMinusInf
+
+.text.rtGetInfF
+                0x00000000       0x28
+ .text.rtGetInfF
+                0x00000000       0x28 codegen/rtGetInf.c.o
+                0x00000000                rtGetInfF
+
+.text.rtGetInf  0x00000000       0x58
+ .text.rtGetInf
+                0x00000000       0x58 codegen/rtGetInf.c.o
+                0x00000000                rtGetInf
+
+.text.rtGetNaNF
+                0x00000000       0x38
+ .text.rtGetNaNF
+                0x00000000       0x38 codegen/rtGetNaN.c.o
+                0x00000000                rtGetNaNF
+
+.text.rtGetNaN  0x00000000       0x58
+ .text.rtGetNaN
+                0x00000000       0x58 codegen/rtGetNaN.c.o
+                0x00000000                rtGetNaN
+
+.text.norm      0x00000000      0x10c
+ .text.norm     0x00000000      0x10c codegen/norm.c.o
+                0x00000000                norm
+
+.text.cross     0x00000000       0x7c
+ .text.cross    0x00000000       0x7c codegen/cross.c.o
+                0x00000000                cross
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0x48
+ *(.rodata)
+ .rodata        0x00000000       0x48 attitude_estimator_ekf_main.cpp.o
+
+.rodata.str1.4  0x00000000      0x27c
+ .rodata.str1.4
+                0x00000000      0x1bc attitude_estimator_ekf_main.cpp.o
+ .rodata.str1.4
+                0x000001bc       0xc0 attitude_estimator_ekf_params.c.o
+
+__param         0x00000000       0x90
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0x90 attitude_estimator_ekf_params.c.o
+                0x00000090                PROVIDE (__stop___param, .)
+
+.rodata.iv8.4863
+                0x00000000       0x48
+ .rodata.iv8.4863
+                0x00000000       0x48 codegen/attitudeKalmanfilter.c.o
+
+.rodata.iv2.4847
+                0x00000000       0x6c
+ .rodata.iv2.4847
+                0x00000000       0x6c codegen/attitudeKalmanfilter.c.o
+
+.rodata.iv6.4860
+                0x00000000       0x48
+ .rodata.iv6.4860
+                0x00000000       0x48 codegen/attitudeKalmanfilter.c.o
+
+.rodata.iv4.4854
+                0x00000000       0x24
+ .rodata.iv4.4854
+                0x00000000       0x24 codegen/attitudeKalmanfilter.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 attitude_estimator_ekf_main.cpp.o
+ .data          0x00000000        0x0 attitude_estimator_ekf_params.c.o
+ .data          0x00000000        0x0 codegen/eye.c.o
+ .data          0x00000000        0x0 codegen/attitudeKalmanfilter.c.o
+ .data          0x00000000        0x0 codegen/mrdivide.c.o
+ .data          0x00000000        0x0 codegen/rdivide.c.o
+ .data          0x00000000        0x0 codegen/attitudeKalmanfilter_initialize.c.o
+ .data          0x00000000        0x0 codegen/attitudeKalmanfilter_terminate.c.o
+ .data          0x00000000        0x0 codegen/rt_nonfinite.c.o
+ .data          0x00000000        0x0 codegen/rtGetInf.c.o
+ .data          0x00000000        0x0 codegen/rtGetNaN.c.o
+ .data          0x00000000        0x0 codegen/norm.c.o
+ .data          0x00000000        0x0 codegen/cross.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 attitude_estimator_ekf_main.cpp.o
+ .bss           0x00000000        0x0 attitude_estimator_ekf_params.c.o
+ .bss           0x00000000        0x0 codegen/eye.c.o
+ .bss           0x00000000        0x0 codegen/attitudeKalmanfilter.c.o
+ .bss           0x00000000        0x0 codegen/mrdivide.c.o
+ .bss           0x00000000        0x0 codegen/rdivide.c.o
+ .bss           0x00000000        0x0 codegen/attitudeKalmanfilter_initialize.c.o
+ .bss           0x00000000        0x0 codegen/attitudeKalmanfilter_terminate.c.o
+ .bss           0x00000000        0x0 codegen/rt_nonfinite.c.o
+ .bss           0x00000000        0x0 codegen/rtGetInf.c.o
+ .bss           0x00000000        0x0 codegen/rtGetNaN.c.o
+ .bss           0x00000000        0x0 codegen/norm.c.o
+ .bss           0x00000000        0x0 codegen/cross.c.o
+ *(COMMON)
+
+.bss._ZL27attitude_estimator_ekf_task
+                0x00000000        0x4
+ .bss._ZL27attitude_estimator_ekf_task
+                0x00000000        0x4 attitude_estimator_ekf_main.cpp.o
+
+.bss._ZL18thread_should_exit
+                0x00000000        0x1
+ .bss._ZL18thread_should_exit
+                0x00000000        0x1 attitude_estimator_ekf_main.cpp.o
+
+.bss._ZZ34attitude_estimator_ekf_thread_mainiPPcE17const_initialized
+                0x00000000        0x1
+ .bss._ZZ34attitude_estimator_ekf_thread_mainiPPcE17const_initialized
+                0x00000000        0x1 attitude_estimator_ekf_main.cpp.o
+
+.bss._ZL14thread_running
+                0x00000000        0x1
+ .bss._ZL14thread_running
+                0x00000000        0x1 attitude_estimator_ekf_main.cpp.o
+
+.bss.rtNaN      0x00000000        0x8
+ .bss.rtNaN     0x00000000        0x8 codegen/rt_nonfinite.c.o
+                0x00000000                rtNaN
+
+.bss.rtNaNF     0x00000000        0x4
+ .bss.rtNaNF    0x00000000        0x4 codegen/rt_nonfinite.c.o
+                0x00000000                rtNaNF
+
+.bss.rtMinusInfF
+                0x00000000        0x4
+ .bss.rtMinusInfF
+                0x00000000        0x4 codegen/rt_nonfinite.c.o
+                0x00000000                rtMinusInfF
+
+.bss.rtMinusInf
+                0x00000000        0x8
+ .bss.rtMinusInf
+                0x00000000        0x8 codegen/rt_nonfinite.c.o
+                0x00000000                rtMinusInf
+
+.bss.rtInfF     0x00000000        0x4
+ .bss.rtInfF    0x00000000        0x4 codegen/rt_nonfinite.c.o
+                0x00000000                rtInfF
+
+.bss.rtInf      0x00000000        0x8
+ .bss.rtInf     0x00000000        0x8 codegen/rt_nonfinite.c.o
+                0x00000000                rtInf
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x5bd
+ *(.comment)
+ .comment       0x00000000       0x71 attitude_estimator_ekf_main.cpp.o
+ .comment       0x00000071       0x71 attitude_estimator_ekf_params.c.o
+ .comment       0x000000e2       0x71 codegen/eye.c.o
+ .comment       0x00000153       0x71 codegen/attitudeKalmanfilter.c.o
+ .comment       0x000001c4       0x71 codegen/mrdivide.c.o
+ .comment       0x00000235       0x71 codegen/rdivide.c.o
+ .comment       0x000002a6       0x71 codegen/attitudeKalmanfilter_initialize.c.o
+ .comment       0x00000317       0x71 codegen/attitudeKalmanfilter_terminate.c.o
+ .comment       0x00000388       0x71 codegen/rt_nonfinite.c.o
+ .comment       0x000003f9       0x71 codegen/rtGetInf.c.o
+ .comment       0x0000046a       0x71 codegen/rtGetNaN.c.o
+ .comment       0x000004db       0x71 codegen/norm.c.o
+ .comment       0x0000054c       0x71 codegen/cross.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x218
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 attitude_estimator_ekf_main.cpp.o
+ .debug_aranges
+                0x00000030       0x28 attitude_estimator_ekf_params.c.o
+ .debug_aranges
+                0x00000058       0x28 codegen/eye.c.o
+ .debug_aranges
+                0x00000080       0x28 codegen/attitudeKalmanfilter.c.o
+ .debug_aranges
+                0x000000a8       0x30 codegen/mrdivide.c.o
+ .debug_aranges
+                0x000000d8       0x20 codegen/rdivide.c.o
+ .debug_aranges
+                0x000000f8       0x20 codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_aranges
+                0x00000118       0x20 codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_aranges
+                0x00000138       0x40 codegen/rt_nonfinite.c.o
+ .debug_aranges
+                0x00000178       0x38 codegen/rtGetInf.c.o
+ .debug_aranges
+                0x000001b0       0x28 codegen/rtGetNaN.c.o
+ .debug_aranges
+                0x000001d8       0x20 codegen/norm.c.o
+ .debug_aranges
+                0x000001f8       0x20 codegen/cross.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x337a
+ *(.debug_info)
+ .debug_info    0x00000000     0x1892 attitude_estimator_ekf_main.cpp.o
+ .debug_info    0x00001892      0x3c0 attitude_estimator_ekf_params.c.o
+ .debug_info    0x00001c52       0xfa codegen/eye.c.o
+ .debug_info    0x00001d4c      0x59c codegen/attitudeKalmanfilter.c.o
+ .debug_info    0x000022e8      0x3d0 codegen/mrdivide.c.o
+ .debug_info    0x000026b8       0xef codegen/rdivide.c.o
+ .debug_info    0x000027a7       0x8f codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_info    0x00002836       0x8f codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_info    0x000028c5      0x253 codegen/rt_nonfinite.c.o
+ .debug_info    0x00002b18      0x3b3 codegen/rtGetInf.c.o
+ .debug_info    0x00002ecb      0x2d5 codegen/rtGetNaN.c.o
+ .debug_info    0x000031a0      0x103 codegen/norm.c.o
+ .debug_info    0x000032a3       0xd7 codegen/cross.c.o
+
+.debug_abbrev   0x00000000      0xb0b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x292 attitude_estimator_ekf_main.cpp.o
+ .debug_abbrev  0x00000292      0x132 attitude_estimator_ekf_params.c.o
+ .debug_abbrev  0x000003c4       0x8a codegen/eye.c.o
+ .debug_abbrev  0x0000044e      0x11b codegen/attitudeKalmanfilter.c.o
+ .debug_abbrev  0x00000569       0xc2 codegen/mrdivide.c.o
+ .debug_abbrev  0x0000062b       0x7c codegen/rdivide.c.o
+ .debug_abbrev  0x000006a7       0x3f codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_abbrev  0x000006e6       0x3f codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_abbrev  0x00000725       0x98 codegen/rt_nonfinite.c.o
+ .debug_abbrev  0x000007bd      0x11d codegen/rtGetInf.c.o
+ .debug_abbrev  0x000008da      0x11d codegen/rtGetNaN.c.o
+ .debug_abbrev  0x000009f7       0xa7 codegen/norm.c.o
+ .debug_abbrev  0x00000a9e       0x6d codegen/cross.c.o
+
+.debug_line     0x00000000     0x3b2f
+ *(.debug_line)
+ .debug_line    0x00000000      0x67f attitude_estimator_ekf_main.cpp.o
+ .debug_line    0x0000067f      0x1f2 attitude_estimator_ekf_params.c.o
+ .debug_line    0x00000871       0xa5 codegen/eye.c.o
+ .debug_line    0x00000916     0x1ee1 codegen/attitudeKalmanfilter.c.o
+ .debug_line    0x000027f7      0x9f8 codegen/mrdivide.c.o
+ .debug_line    0x000031ef       0x93 codegen/rdivide.c.o
+ .debug_line    0x00003282       0x9c codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_line    0x0000331e       0x9a codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_line    0x000033b8      0x239 codegen/rt_nonfinite.c.o
+ .debug_line    0x000035f1      0x209 codegen/rtGetInf.c.o
+ .debug_line    0x000037fa      0x1ec codegen/rtGetNaN.c.o
+ .debug_line    0x000039e6       0xb3 codegen/norm.c.o
+ .debug_line    0x00003a99       0x96 codegen/cross.c.o
+
+.debug_frame    0x00000000      0x4a4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x78 attitude_estimator_ekf_main.cpp.o
+ .debug_frame   0x00000078       0x4c attitude_estimator_ekf_params.c.o
+ .debug_frame   0x000000c4       0x48 codegen/eye.c.o
+ .debug_frame   0x0000010c       0x7c codegen/attitudeKalmanfilter.c.o
+ .debug_frame   0x00000188       0xa4 codegen/mrdivide.c.o
+ .debug_frame   0x0000022c       0x38 codegen/rdivide.c.o
+ .debug_frame   0x00000264       0x2c codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_frame   0x00000290       0x2c codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_frame   0x000002bc       0xb0 codegen/rt_nonfinite.c.o
+ .debug_frame   0x0000036c       0x88 codegen/rtGetInf.c.o
+ .debug_frame   0x000003f4       0x4c codegen/rtGetNaN.c.o
+ .debug_frame   0x00000440       0x34 codegen/norm.c.o
+ .debug_frame   0x00000474       0x30 codegen/cross.c.o
+
+.debug_str      0x00000000     0x252d
+ *(.debug_str)
+ .debug_str     0x00000000      0xfcd attitude_estimator_ekf_main.cpp.o
+ .debug_str     0x00000fcd      0x381 attitude_estimator_ekf_params.c.o
+ .debug_str     0x0000134e      0x138 codegen/eye.c.o
+ .debug_str     0x00001486      0x274 codegen/attitudeKalmanfilter.c.o
+ .debug_str     0x000016fa      0x176 codegen/mrdivide.c.o
+ .debug_str     0x00001870      0x140 codegen/rdivide.c.o
+ .debug_str     0x000019b0      0x15f codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_str     0x00001b0f      0x15d codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_str     0x00001c6c      0x1d3 codegen/rt_nonfinite.c.o
+ .debug_str     0x00001e3f      0x24e codegen/rtGetInf.c.o
+ .debug_str     0x0000208d      0x226 codegen/rtGetNaN.c.o
+ .debug_str     0x000022b3      0x146 codegen/norm.c.o
+ .debug_str     0x000023f9      0x134 codegen/cross.c.o
+
+.debug_loc      0x00000000     0x6c0e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x48e attitude_estimator_ekf_main.cpp.o
+ .debug_loc     0x0000048e       0x9a attitude_estimator_ekf_params.c.o
+ .debug_loc     0x00000528      0x158 codegen/eye.c.o
+ .debug_loc     0x00000680     0x3093 codegen/attitudeKalmanfilter.c.o
+ .debug_loc     0x00003713     0x2e99 codegen/mrdivide.c.o
+ .debug_loc     0x000065ac       0xc0 codegen/rdivide.c.o
+ .debug_loc     0x0000666c       0x20 codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_loc     0x0000668c       0x20 codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_loc     0x000066ac      0x15f codegen/rt_nonfinite.c.o
+ .debug_loc     0x0000680b      0x1ac codegen/rtGetInf.c.o
+ .debug_loc     0x000069b7       0xfb codegen/rtGetNaN.c.o
+ .debug_loc     0x00006ab2       0xe2 codegen/norm.c.o
+ .debug_loc     0x00006b94       0x7a codegen/cross.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x270
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xb8 attitude_estimator_ekf_main.cpp.o
+ .debug_ranges  0x000000b8       0x18 attitude_estimator_ekf_params.c.o
+ .debug_ranges  0x000000d0       0x18 codegen/eye.c.o
+ .debug_ranges  0x000000e8       0x18 codegen/attitudeKalmanfilter.c.o
+ .debug_ranges  0x00000100       0x20 codegen/mrdivide.c.o
+ .debug_ranges  0x00000120       0x10 codegen/rdivide.c.o
+ .debug_ranges  0x00000130       0x10 codegen/attitudeKalmanfilter_initialize.c.o
+ .debug_ranges  0x00000140       0x10 codegen/attitudeKalmanfilter_terminate.c.o
+ .debug_ranges  0x00000150       0x30 codegen/rt_nonfinite.c.o
+ .debug_ranges  0x00000180       0x88 codegen/rtGetInf.c.o
+ .debug_ranges  0x00000208       0x48 codegen/rtGetNaN.c.o
+ .debug_ranges  0x00000250       0x10 codegen/norm.c.o
+ .debug_ranges  0x00000260       0x10 codegen/cross.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 attitude_estimator_ekf_main.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 attitude_estimator_ekf_params.c.o
+ .ARM.attributes
+                0x0000006e       0x37 codegen/eye.c.o
+ .ARM.attributes
+                0x000000a5       0x37 codegen/attitudeKalmanfilter.c.o
+ .ARM.attributes
+                0x000000dc       0x37 codegen/mrdivide.c.o
+ .ARM.attributes
+                0x00000113       0x37 codegen/rdivide.c.o
+ .ARM.attributes
+                0x0000014a       0x37 codegen/attitudeKalmanfilter_initialize.c.o
+ .ARM.attributes
+                0x00000181       0x37 codegen/attitudeKalmanfilter_terminate.c.o
+ .ARM.attributes
+                0x000001b8       0x37 codegen/rt_nonfinite.c.o
+ .ARM.attributes
+                0x000001ef       0x37 codegen/rtGetInf.c.o
+ .ARM.attributes
+                0x00000226       0x37 codegen/rtGetNaN.c.o
+ .ARM.attributes
+                0x0000025d       0x37 codegen/norm.c.o
+ .ARM.attributes
+                0x00000294       0x37 codegen/cross.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_default.build//home/avnishks/src/Firmware/src/modules/attitude_estimator_ekf/module.pre.o elf32-littlearm)

@@ -1,0 +1,374 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD flow_position_control_main.c.o
+LOAD flow_position_control_params.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 flow_position_control_main.c.o
+ .text          0x00000000        0x0 flow_position_control_params.c.o
+ *(.gnu.warning)
+
+.text.usage     0x00000000       0x40
+ .text.usage    0x00000000       0x40 flow_position_control_main.c.o
+
+.text.flow_position_control_main
+                0x00000000       0xd8
+ .text.flow_position_control_main
+                0x00000000       0xd8 flow_position_control_main.c.o
+                0x00000000                flow_position_control_main
+
+.text.flow_position_control_thread_main
+                0x00000000      0x7a4
+ .text.flow_position_control_thread_main
+                0x00000000      0x7a4 flow_position_control_main.c.o
+
+.text.parameters_update
+                0x00000000       0xe8
+ .text.parameters_update
+                0x00000000       0xe8 flow_position_control_params.c.o
+                0x00000000                parameters_update
+
+.text.parameters_init
+                0x00000000      0x160
+ .text.parameters_init
+                0x00000000      0x160 flow_position_control_params.c.o
+                0x00000000                parameters_init
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x35c
+ .rodata.str1.4
+                0x00000000      0x268 flow_position_control_main.c.o
+ .rodata.str1.4
+                0x00000268       0xf4 flow_position_control_params.c.o
+
+__param         0x00000000       0xcc
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0xcc flow_position_control_params.c.o
+                0x000000cc                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 flow_position_control_main.c.o
+ .data          0x00000000        0x0 flow_position_control_params.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 flow_position_control_main.c.o
+ .bss           0x00000000        0x0 flow_position_control_params.c.o
+ *(COMMON)
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 flow_position_control_main.c.o
+
+.bss.deamon_task
+                0x00000000        0x4
+ .bss.deamon_task
+                0x00000000        0x4 flow_position_control_main.c.o
+
+.bss.thread_should_exit
+                0x00000000        0x1
+ .bss.thread_should_exit
+                0x00000000        0x1 flow_position_control_main.c.o
+
+.bss.sensors_ready.6295
+                0x00000000        0x1
+ .bss.sensors_ready.6295
+                0x00000000        0x1 flow_position_control_main.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 flow_position_control_main.c.o
+ .comment       0x00000071       0x71 flow_position_control_params.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 flow_position_control_main.c.o
+ .debug_aranges
+                0x00000030       0x28 flow_position_control_params.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x222c
+ *(.debug_info)
+ .debug_info    0x00000000     0x1ce8 flow_position_control_main.c.o
+ .debug_info    0x00001ce8      0x544 flow_position_control_params.c.o
+
+.debug_abbrev   0x00000000      0x361
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x250 flow_position_control_main.c.o
+ .debug_abbrev  0x00000250      0x111 flow_position_control_params.c.o
+
+.debug_line     0x00000000      0x96e
+ *(.debug_line)
+ .debug_line    0x00000000      0x75e flow_position_control_main.c.o
+ .debug_line    0x0000075e      0x210 flow_position_control_params.c.o
+
+.debug_frame    0x00000000       0xd8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x8c flow_position_control_main.c.o
+ .debug_frame   0x0000008c       0x4c flow_position_control_params.c.o
+
+.debug_str      0x00000000     0x165d
+ *(.debug_str)
+ .debug_str     0x00000000     0x11b7 flow_position_control_main.c.o
+ .debug_str     0x000011b7      0x4a6 flow_position_control_params.c.o
+
+.debug_loc      0x00000000      0xaf7
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xa5d flow_position_control_main.c.o
+ .debug_loc     0x00000a5d       0x9a flow_position_control_params.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x130
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x118 flow_position_control_main.c.o
+ .debug_ranges  0x00000118       0x18 flow_position_control_params.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 flow_position_control_main.c.o
+ .ARM.attributes
+                0x00000037       0x37 flow_position_control_params.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v1_default.build//home/avnishks/src/Firmware/src/examples/flow_position_control/module.pre.o elf32-littlearm)

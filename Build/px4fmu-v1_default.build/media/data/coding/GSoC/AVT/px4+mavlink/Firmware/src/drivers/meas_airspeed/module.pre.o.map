@@ -1,0 +1,398 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD meas_airspeed.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 meas_airspeed.cpp.o
+ *(.gnu.warning)
+
+.text._ZN12MEASAirspeedD2Ev
+                0x00000000       0x30
+ .text._ZN12MEASAirspeedD2Ev
+                0x00000000       0x30 meas_airspeed.cpp.o
+                0x00000000                MEASAirspeed::~MEASAirspeed()
+                0x00000000                MEASAirspeed::~MEASAirspeed()
+
+.text._ZL19meas_airspeed_usagev
+                0x00000000       0x60
+ .text._ZL19meas_airspeed_usagev
+                0x00000000       0x60 meas_airspeed.cpp.o
+
+.text._ZN13meas_airspeed4stopEv
+                0x00000000       0x34
+ .text._ZN13meas_airspeed4stopEv
+                0x00000000       0x34 meas_airspeed.cpp.o
+                0x00000000                meas_airspeed::stop()
+
+.text._ZN13meas_airspeed4infoEv
+                0x00000000       0x3c
+ .text._ZN13meas_airspeed4infoEv
+                0x00000000       0x3c meas_airspeed.cpp.o
+                0x00000000                meas_airspeed::info()
+
+.text._ZN13meas_airspeed5resetEv
+                0x00000000       0x70
+ .text._ZN13meas_airspeed5resetEv
+                0x00000000       0x70 meas_airspeed.cpp.o
+                0x00000000                meas_airspeed::reset()
+
+.text._ZN13meas_airspeed4testEv
+                0x00000000      0x124
+ .text._ZN13meas_airspeed4testEv
+                0x00000000      0x124 meas_airspeed.cpp.o
+                0x00000000                meas_airspeed::test()
+
+.text._ZN12MEASAirspeed5cycleEv
+                0x00000000       0xa8
+ .text._ZN12MEASAirspeed5cycleEv
+                0x00000000       0xa8 meas_airspeed.cpp.o
+                0x00000000                MEASAirspeed::cycle()
+
+.text._ZN12MEASAirspeed7measureEv
+                0x00000000       0x50
+ .text._ZN12MEASAirspeed7measureEv
+                0x00000000       0x50 meas_airspeed.cpp.o
+                0x00000000                MEASAirspeed::measure()
+
+.text._ZN12MEASAirspeed7collectEv
+                0x00000000      0x1c4
+ .text._ZN12MEASAirspeed7collectEv
+                0x00000000      0x1c4 meas_airspeed.cpp.o
+                0x00000000                MEASAirspeed::collect()
+
+.text._ZN12MEASAirspeedC2Eii
+                0x00000000       0x40
+ .text._ZN12MEASAirspeedC2Eii
+                0x00000000       0x40 meas_airspeed.cpp.o
+                0x00000000                MEASAirspeed::MEASAirspeed(int, int)
+                0x00000000                MEASAirspeed::MEASAirspeed(int, int)
+
+.text._ZN13meas_airspeed5startEi
+                0x00000000       0xb0
+ .text._ZN13meas_airspeed5startEi
+                0x00000000       0xb0 meas_airspeed.cpp.o
+                0x00000000                meas_airspeed::start(int)
+
+.text.meas_airspeed_main
+                0x00000000       0xe8
+ .text.meas_airspeed_main
+                0x00000000       0xe8 meas_airspeed.cpp.o
+                0x00000000                meas_airspeed_main
+
+.text._ZN12MEASAirspeedD0Ev
+                0x00000000       0x50
+ .text._ZN12MEASAirspeedD0Ev
+                0x00000000       0x50 meas_airspeed.cpp.o
+                0x00000000                MEASAirspeed::~MEASAirspeed()
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV12MEASAirspeed
+                0x00000000       0x68
+ .rodata._ZTV12MEASAirspeed
+                0x00000000       0x68 meas_airspeed.cpp.o
+                0x00000000                vtable for MEASAirspeed
+
+.rodata.str1.4  0x00000000      0x2cc
+ .rodata.str1.4
+                0x00000000      0x2cc meas_airspeed.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 meas_airspeed.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 meas_airspeed.cpp.o
+ *(COMMON)
+
+.bss._ZN13meas_airspeed5g_devE
+                0x00000000        0x4
+ .bss._ZN13meas_airspeed5g_devE
+                0x00000000        0x4 meas_airspeed.cpp.o
+                0x00000000                meas_airspeed::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 meas_airspeed.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc meas_airspeed.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 meas_airspeed.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x14f2
+ *(.debug_info)
+ .debug_info    0x00000000     0x14f2 meas_airspeed.cpp.o
+
+.debug_abbrev   0x00000000      0x3ff
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3ff meas_airspeed.cpp.o
+
+.debug_line     0x00000000      0x737
+ *(.debug_line)
+ .debug_line    0x00000000      0x737 meas_airspeed.cpp.o
+
+.debug_frame    0x00000000      0x190
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x190 meas_airspeed.cpp.o
+
+.debug_str      0x00000000      0xab6
+ *(.debug_str)
+ .debug_str     0x00000000      0xab6 meas_airspeed.cpp.o
+
+.debug_loc      0x00000000      0x5a6
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x5a6 meas_airspeed.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0xf0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xf0 meas_airspeed.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 meas_airspeed.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/drivers/meas_airspeed/module.pre.o elf32-littlearm)

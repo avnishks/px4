@@ -1,0 +1,451 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ardrone_interface.c.o
+LOAD ardrone_motor_control.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 ardrone_interface.c.o
+ .text          0x00000000        0x0 ardrone_motor_control.c.o
+ *(.gnu.warning)
+
+.text.usage     0x00000000       0x40
+ .text.usage    0x00000000       0x40 ardrone_interface.c.o
+
+.text.ardrone_open_uart
+                0x00000000       0xc4
+ .text.ardrone_open_uart
+                0x00000000       0xc4 ardrone_interface.c.o
+
+.text.ardrone_interface_thread_main
+                0x00000000      0x5a0
+ .text.ardrone_interface_thread_main
+                0x00000000      0x5a0 ardrone_interface.c.o
+                0x00000000                ardrone_interface_thread_main
+
+.text.ardrone_interface_main
+                0x00000000       0xd8
+ .text.ardrone_interface_main
+                0x00000000       0xd8 ardrone_interface.c.o
+                0x00000000                ardrone_interface_main
+
+.text.ar_get_motor_packet
+                0x00000000       0x88
+ .text.ar_get_motor_packet
+                0x00000000       0x88 ardrone_motor_control.c.o
+                0x00000000                ar_get_motor_packet
+
+.text.ar_set_leds
+                0x00000000       0x98
+ .text.ar_set_leds
+                0x00000000       0x98 ardrone_motor_control.c.o
+                0x00000000                ar_set_leds
+
+.text.ardrone_write_motor_commands
+                0x00000000       0xdc
+ .text.ardrone_write_motor_commands
+                0x00000000       0xdc ardrone_motor_control.c.o
+                0x00000000                ardrone_write_motor_commands
+
+.text.ardrone_mixing_and_output
+                0x00000000      0x378
+ .text.ardrone_mixing_and_output
+                0x00000000      0x378 ardrone_motor_control.c.o
+                0x00000000                ardrone_mixing_and_output
+
+.text.ar_deselect_motor
+                0x00000000       0x54
+ .text.ar_deselect_motor
+                0x00000000       0x54 ardrone_motor_control.c.o
+                0x00000000                ar_deselect_motor
+
+.text.ar_select_motor
+                0x00000000       0x54
+ .text.ar_select_motor
+                0x00000000       0x54 ardrone_motor_control.c.o
+                0x00000000                ar_select_motor
+
+.text.ar_multiplexing_deinit
+                0x00000000       0x7c
+ .text.ar_multiplexing_deinit
+                0x00000000       0x7c ardrone_motor_control.c.o
+                0x00000000                ar_multiplexing_deinit
+
+.text.ar_multiplexing_init
+                0x00000000       0x8c
+ .text.ar_multiplexing_init
+                0x00000000       0x8c ardrone_motor_control.c.o
+                0x00000000                ar_multiplexing_init
+
+.text.ar_init_motors
+                0x00000000      0x41c
+ .text.ar_init_motors
+                0x00000000      0x41c ardrone_motor_control.c.o
+                0x00000000                ar_init_motors
+
+.text.ar_enable_broadcast
+                0x00000000       0x48
+ .text.ar_enable_broadcast
+                0x00000000       0x48 ardrone_motor_control.c.o
+                0x00000000                ar_enable_broadcast
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0x10
+ *(.rodata)
+ .rodata        0x00000000       0x10 ardrone_motor_control.c.o
+
+.rodata.str1.4  0x00000000      0x578
+ .rodata.str1.4
+                0x00000000      0x494 ardrone_interface.c.o
+ .rodata.str1.4
+                0x00000494       0xe4 ardrone_motor_control.c.o
+
+.rodata.motor_gpio
+                0x00000000       0x10
+ .rodata.motor_gpio
+                0x00000000       0x10 ardrone_motor_control.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 ardrone_interface.c.o
+ .data          0x00000000        0x0 ardrone_motor_control.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 ardrone_interface.c.o
+ .bss           0x00000000        0x0 ardrone_motor_control.c.o
+ *(COMMON)
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 ardrone_interface.c.o
+
+.bss.ardrone_write
+                0x00000000        0x4
+ .bss.ardrone_write
+                0x00000000        0x4 ardrone_interface.c.o
+
+.bss.thread_should_exit
+                0x00000000        0x1
+ .bss.thread_should_exit
+                0x00000000        0x1 ardrone_interface.c.o
+
+.bss.ardrone_interface_task
+                0x00000000        0x4
+ .bss.ardrone_interface_task
+                0x00000000        0x4 ardrone_interface.c.o
+
+.bss.actuator_controls_effective.5378
+                0x00000000       0x28
+ .bss.actuator_controls_effective.5378
+                0x00000000       0x28 ardrone_motor_control.c.o
+
+.bss.initialized.5377
+                0x00000000        0x1
+ .bss.initialized.5377
+                0x00000000        0x1 ardrone_motor_control.c.o
+
+.bss.actuator_controls_effective_pub.5379
+                0x00000000        0x4
+ .bss.actuator_controls_effective_pub.5379
+                0x00000000        0x4 ardrone_motor_control.c.o
+
+.bss.outputs.5354
+                0x00000000       0x50
+ .bss.outputs.5354
+                0x00000000       0x50 ardrone_motor_control.c.o
+
+.bss.pub.5355   0x00000000        0x4
+ .bss.pub.5355  0x00000000        0x4 ardrone_motor_control.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 ardrone_interface.c.o
+ .comment       0x00000071       0x71 ardrone_motor_control.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 ardrone_interface.c.o
+ .debug_aranges
+                0x00000038       0x68 ardrone_motor_control.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xe65
+ *(.debug_info)
+ .debug_info    0x00000000      0x51f ardrone_interface.c.o
+ .debug_info    0x0000051f      0x946 ardrone_motor_control.c.o
+
+.debug_abbrev   0x00000000      0x454
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x160 ardrone_interface.c.o
+ .debug_abbrev  0x00000160      0x2f4 ardrone_motor_control.c.o
+
+.debug_line     0x00000000      0xa05
+ *(.debug_line)
+ .debug_line    0x00000000      0x48e ardrone_interface.c.o
+ .debug_line    0x0000048e      0x577 ardrone_motor_control.c.o
+
+.debug_frame    0x00000000      0x1f0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 ardrone_interface.c.o
+ .debug_frame   0x00000090      0x160 ardrone_motor_control.c.o
+
+.debug_str      0x00000000      0xa9a
+ *(.debug_str)
+ .debug_str     0x00000000      0x49b ardrone_interface.c.o
+ .debug_str     0x0000049b      0x5ff ardrone_motor_control.c.o
+
+.debug_loc      0x00000000      0xe8f
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4bb ardrone_interface.c.o
+ .debug_loc     0x000004bb      0x9d4 ardrone_motor_control.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x1d0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x78 ardrone_interface.c.o
+ .debug_ranges  0x00000078      0x158 ardrone_motor_control.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 ardrone_interface.c.o
+ .ARM.attributes
+                0x00000037       0x37 ardrone_motor_control.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v1_default.build//home/avnishks/src/Firmware/src/drivers/ardrone_interface/module.pre.o elf32-littlearm)

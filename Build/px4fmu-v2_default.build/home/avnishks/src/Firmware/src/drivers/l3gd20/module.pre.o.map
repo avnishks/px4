@@ -1,0 +1,487 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD l3gd20.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 l3gd20.cpp.o
+ *(.gnu.warning)
+
+.text._ZN6l3gd205resetEv
+                0x00000000       0x70
+ .text._ZN6l3gd205resetEv
+                0x00000000       0x70 l3gd20.cpp.o
+                0x00000000                l3gd20::reset()
+
+.text._ZN6l3gd204testEv
+                0x00000000      0x10c
+ .text._ZN6l3gd204testEv
+                0x00000000      0x10c l3gd20.cpp.o
+                0x00000000                l3gd20::test()
+
+.text._ZN6L3GD209self_testEv
+                0x00000000       0xd8
+ .text._ZN6L3GD209self_testEv
+                0x00000000       0xd8 l3gd20.cpp.o
+                0x00000000                L3GD20::self_test()
+
+.text._ZNK4math15LowPassFilter2p15get_cutoff_freqEv
+                0x00000000       0x30
+ .text._ZNK4math15LowPassFilter2p15get_cutoff_freqEv
+                0x00000000       0x30 l3gd20.cpp.o
+                0x00000000                math::LowPassFilter2p::get_cutoff_freq() const
+
+.text._ZN6L3GD2010print_infoEv
+                0x00000000       0x5c
+ .text._ZN6L3GD2010print_infoEv
+                0x00000000       0x5c l3gd20.cpp.o
+                0x00000000                L3GD20::print_info()
+
+.text._ZN6l3gd204infoEv
+                0x00000000       0x3c
+ .text._ZN6l3gd204infoEv
+                0x00000000       0x3c l3gd20.cpp.o
+                0x00000000                l3gd20::info()
+
+.text._ZN6L3GD209write_regEjh
+                0x00000000       0x40
+ .text._ZN6L3GD209write_regEjh
+                0x00000000       0x40 l3gd20.cpp.o
+                0x00000000                L3GD20::write_reg(unsigned int, unsigned char)
+
+.text._ZN6L3GD208read_regEj
+                0x00000000       0x40
+ .text._ZN6L3GD208read_regEj
+                0x00000000       0x40 l3gd20.cpp.o
+                0x00000000                L3GD20::read_reg(unsigned int)
+
+.text._ZN6L3GD207measureEv
+                0x00000000      0x238
+ .text._ZN6L3GD207measureEv
+                0x00000000      0x238 l3gd20.cpp.o
+                0x00000000                L3GD20::measure()
+
+.text._ZN6L3GD2018measure_trampolineEPv
+                0x00000000       0x28
+ .text._ZN6L3GD2018measure_trampolineEPv
+                0x00000000       0x28 l3gd20.cpp.o
+                0x00000000                L3GD20::measure_trampoline(void*)
+
+.text._ZN6L3GD204stopEv
+                0x00000000       0x2c
+ .text._ZN6L3GD204stopEv
+                0x00000000       0x2c l3gd20.cpp.o
+                0x00000000                L3GD20::stop()
+
+.text._ZN6L3GD2025set_driver_lowpass_filterEff
+                0x00000000       0x64
+ .text._ZN6L3GD2025set_driver_lowpass_filterEff
+                0x00000000       0x64 l3gd20.cpp.o
+                0x00000000                L3GD20::set_driver_lowpass_filter(float, float)
+
+.text._ZN4math15LowPassFilter2pC2Eff
+                0x00000000       0x48
+ .text._ZN4math15LowPassFilter2pC2Eff
+                0x00000000       0x48 l3gd20.cpp.o
+                0x00000000                math::LowPassFilter2p::LowPassFilter2p(float, float)
+                0x00000000                math::LowPassFilter2p::LowPassFilter2p(float, float)
+
+.text._ZN6L3GD204readEP4filePcj
+                0x00000000      0x170
+ .text._ZN6L3GD204readEP4filePcj
+                0x00000000      0x170 l3gd20.cpp.o
+                0x00000000                L3GD20::read(file*, char*, unsigned int)
+
+.text._ZN6L3GD20C2EiPKc9spi_dev_e
+                0x00000000      0x158
+ .text._ZN6L3GD20C2EiPKc9spi_dev_e
+                0x00000000      0x158 l3gd20.cpp.o
+                0x00000000                L3GD20::L3GD20(int, char const*, spi_dev_e)
+                0x00000000                L3GD20::L3GD20(int, char const*, spi_dev_e)
+
+.text._ZN6l3gd205startEv
+                0x00000000       0x90
+ .text._ZN6l3gd205startEv
+                0x00000000       0x90 l3gd20.cpp.o
+                0x00000000                l3gd20::start()
+
+.text.l3gd20_main
+                0x00000000       0x68
+ .text.l3gd20_main
+                0x00000000       0x68 l3gd20.cpp.o
+                0x00000000                l3gd20_main
+
+.text._ZN6L3GD20D2Ev
+                0x00000000       0x5c
+ .text._ZN6L3GD20D2Ev
+                0x00000000       0x5c l3gd20.cpp.o
+                0x00000000                L3GD20::~L3GD20()
+                0x00000000                L3GD20::~L3GD20()
+
+.text._ZN6L3GD205startEv
+                0x00000000       0x74
+ .text._ZN6L3GD205startEv
+                0x00000000       0x74 l3gd20.cpp.o
+                0x00000000                L3GD20::start()
+
+.text._ZN6L3GD205probeEv
+                0x00000000       0xb8
+ .text._ZN6L3GD205probeEv
+                0x00000000       0xb8 l3gd20.cpp.o
+                0x00000000                L3GD20::probe()
+
+.text._ZN6L3GD2014set_samplerateEj
+                0x00000000       0x98
+ .text._ZN6L3GD2014set_samplerateEj
+                0x00000000       0x98 l3gd20.cpp.o
+                0x00000000                L3GD20::set_samplerate(unsigned int)
+
+.text._ZN6L3GD2010modify_regEjhh
+                0x00000000       0xa0
+ .text._ZN6L3GD2010modify_regEjhh
+                0x00000000       0xa0 l3gd20.cpp.o
+                0x00000000                L3GD20::modify_reg(unsigned int, unsigned char, unsigned char)
+
+.text._ZN6L3GD209set_rangeEj
+                0x00000000       0xac
+ .text._ZN6L3GD209set_rangeEj
+                0x00000000       0xac l3gd20.cpp.o
+                0x00000000                L3GD20::set_range(unsigned int)
+
+.text._ZN6L3GD205resetEv
+                0x00000000      0x254
+ .text._ZN6L3GD205resetEv
+                0x00000000      0x254 l3gd20.cpp.o
+                0x00000000                L3GD20::reset()
+
+.text._ZN6L3GD204initEv
+                0x00000000       0x70
+ .text._ZN6L3GD204initEv
+                0x00000000       0x70 l3gd20.cpp.o
+                0x00000000                L3GD20::init()
+
+.text._ZN6L3GD20D0Ev
+                0x00000000       0x78
+ .text._ZN6L3GD20D0Ev
+                0x00000000       0x78 l3gd20.cpp.o
+                0x00000000                L3GD20::~L3GD20()
+
+.text._ZN6L3GD205ioctlEP4fileim
+                0x00000000      0x4d8
+ .text._ZN6L3GD205ioctlEP4fileim
+                0x00000000      0x4d8 l3gd20.cpp.o
+                0x00000000                L3GD20::ioctl(file*, int, unsigned long)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV6L3GD20
+                0x00000000       0x58
+ .rodata._ZTV6L3GD20
+                0x00000000       0x58 l3gd20.cpp.o
+                0x00000000                vtable for L3GD20
+
+.rodata.str1.4  0x00000000      0x21c
+ .rodata.str1.4
+                0x00000000      0x21c l3gd20.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 l3gd20.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 l3gd20.cpp.o
+ *(COMMON)
+
+.bss._ZN6l3gd205g_devE
+                0x00000000        0x4
+ .bss._ZN6l3gd205g_devE
+                0x00000000        0x4 l3gd20.cpp.o
+                0x00000000                l3gd20::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 l3gd20.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 l3gd20.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 l3gd20.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xf0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xf0 l3gd20.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x277d
+ *(.debug_info)
+ .debug_info    0x00000000     0x277d l3gd20.cpp.o
+
+.debug_abbrev   0x00000000      0x57f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x57f l3gd20.cpp.o
+
+.debug_line     0x00000000      0xa94
+ *(.debug_line)
+ .debug_line    0x00000000      0xa94 l3gd20.cpp.o
+
+.debug_frame    0x00000000      0x388
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x388 l3gd20.cpp.o
+
+.debug_str      0x00000000      0xf77
+ *(.debug_str)
+ .debug_str     0x00000000      0xf77 l3gd20.cpp.o
+
+.debug_loc      0x00000000     0x1329
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x1329 l3gd20.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x610
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x610 l3gd20.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 l3gd20.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_default.build//home/avnishks/src/Firmware/src/drivers/l3gd20/module.pre.o elf32-littlearm)

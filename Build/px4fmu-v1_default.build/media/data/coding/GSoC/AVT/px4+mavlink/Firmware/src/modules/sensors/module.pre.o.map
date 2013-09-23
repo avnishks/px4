@@ -1,0 +1,692 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD sensors.cpp.o
+LOAD sensor_params.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 sensors.cpp.o
+ .text          0x00000000        0x0 sensor_params.c.o
+ *(.gnu.warning)
+
+.text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 sensors.cpp.o
+                0x00000000                math::Vector::getRows() const
+
+.text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 sensors.cpp.o
+                0x00000000                math::Vector::getData() const
+
+.text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 sensors.cpp.o
+                0x00000000                math::Matrix::getCols() const
+
+.text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24 sensors.cpp.o
+                0x00000000                math::Matrix::getRows() const
+
+.text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24 sensors.cpp.o
+                0x00000000                math::Matrix::getData()
+
+.text._ZN4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 sensors.cpp.o
+                0x00000000                math::Vector::getData()
+
+.text._ZN7Sensors8ppm_pollEv
+                0x00000000      0x5e8
+ .text._ZN7Sensors8ppm_pollEv
+                0x00000000      0x5e8 sensors.cpp.o
+                0x00000000                Sensors::ppm_poll()
+
+.text._ZN7Sensors8adc_pollER17sensor_combined_s
+                0x00000000      0x1d0
+ .text._ZN7Sensors8adc_pollER17sensor_combined_s
+                0x00000000      0x1d0 sensors.cpp.o
+                0x00000000                Sensors::adc_poll(sensor_combined_s&)
+
+.text._ZN7Sensors25vehicle_control_mode_pollEv
+                0x00000000       0x68
+ .text._ZN7Sensors25vehicle_control_mode_pollEv
+                0x00000000       0x68 sensors.cpp.o
+                0x00000000                Sensors::vehicle_control_mode_poll()
+
+.text._ZN7Sensors9baro_pollER17sensor_combined_s
+                0x00000000       0x60
+ .text._ZN7Sensors9baro_pollER17sensor_combined_s
+                0x00000000       0x60 sensors.cpp.o
+                0x00000000                Sensors::baro_poll(sensor_combined_s&)
+
+.text._ZN7Sensors8adc_initEv
+                0x00000000       0x44
+ .text._ZN7Sensors8adc_initEv
+                0x00000000       0x44 sensors.cpp.o
+                0x00000000                Sensors::adc_init()
+
+.text._ZN7Sensors8mag_initEv
+                0x00000000       0xbc
+ .text._ZN7Sensors8mag_initEv
+                0x00000000       0xbc sensors.cpp.o
+                0x00000000                Sensors::mag_init()
+
+.text._ZN7Sensors9gyro_initEv
+                0x00000000       0x94
+ .text._ZN7Sensors9gyro_initEv
+                0x00000000       0x94 sensors.cpp.o
+                0x00000000                Sensors::gyro_init()
+
+.text._ZN7Sensors14diff_pres_pollER17sensor_combined_s
+                0x00000000       0xc8
+ .text._ZN7Sensors14diff_pres_pollER17sensor_combined_s
+                0x00000000       0xc8 sensors.cpp.o
+                0x00000000                Sensors::diff_pres_poll(sensor_combined_s&)
+
+.text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54
+ .text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54 sensors.cpp.o
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int)
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int)
+
+.text._ZN4math6MatrixD2Ev
+                0x00000000       0x30
+ .text._ZN4math6MatrixD2Ev
+                0x00000000       0x30 sensors.cpp.o
+                0x00000000                math::Matrix::~Matrix()
+                0x00000000                math::Matrix::~Matrix()
+
+.text._ZN7Sensors5startEv
+                0x00000000       0x70
+ .text._ZN7Sensors5startEv
+                0x00000000       0x70 sensors.cpp.o
+                0x00000000                Sensors::start()
+
+.text._ZN7Sensors9baro_initEv
+                0x00000000       0x58
+ .text._ZN7Sensors9baro_initEv
+                0x00000000       0x58 sensors.cpp.o
+                0x00000000                Sensors::baro_init()
+
+.text._ZN7Sensors10accel_initEv
+                0x00000000       0x70
+ .text._ZN7Sensors10accel_initEv
+                0x00000000       0x70 sensors.cpp.o
+                0x00000000                Sensors::accel_init()
+
+.text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c sensors.cpp.o
+                0x00000000                math::Vector::getSize() const
+
+.text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64
+ .text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64 sensors.cpp.o
+                0x00000000                math::Matrix::getSize() const
+
+.text._ZN4math6MatrixclEjj
+                0x00000000       0x64
+ .text._ZN4math6MatrixclEjj
+                0x00000000       0x64 sensors.cpp.o
+                0x00000000                math::Matrix::operator()(unsigned int, unsigned int)
+
+.text._ZN4math6VectorclEj
+                0x00000000       0x44
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 sensors.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int)
+
+.text._ZN4math6VectorD2Ev
+                0x00000000       0x44
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 sensors.cpp.o
+                0x00000000                math::Vector::~Vector()
+                0x00000000                math::Vector::~Vector()
+
+.text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 sensors.cpp.o
+                0x00000000                math::Vector::Vector(unsigned int, float const*)
+                0x00000000                math::Vector::Vector(unsigned int, float const*)
+
+.text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c
+ .text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c sensors.cpp.o
+                0x00000000                math::Vector::operator=(math::Vector const&)
+
+.text._ZN4math6Matrix6setAllERKf
+                0x00000000       0xb4
+ .text._ZN4math6Matrix6setAllERKf
+                0x00000000       0xb4 sensors.cpp.o
+                0x00000000                math::Matrix::setAll(float const&)
+
+.text._ZN4math6MatrixD0Ev
+                0x00000000       0x48
+ .text._ZN4math6MatrixD0Ev
+                0x00000000       0x48 sensors.cpp.o
+                0x00000000                math::Matrix::~Matrix()
+
+.text._ZN7SensorsD2Ev
+                0x00000000       0xb4
+ .text._ZN7SensorsD2Ev
+                0x00000000       0xb4 sensors.cpp.o
+                0x00000000                Sensors::~Sensors()
+                0x00000000                Sensors::~Sensors()
+
+.text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc
+ .text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc sensors.cpp.o
+                0x00000000                math::Matrix::operator*(math::Matrix const&) const
+
+.text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc
+ .text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc sensors.cpp.o
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int, float const*)
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int, float const*)
+
+.text._ZN4math6VectorD0Ev
+                0x00000000       0x60
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 sensors.cpp.o
+                0x00000000                math::Vector::~Vector()
+
+.text._ZN4math7Vector3aSERKS0_
+                0x00000000       0xa0
+ .text._ZN4math7Vector3aSERKS0_
+                0x00000000       0xa0 sensors.cpp.o
+                0x00000000                math::Vector3::operator=(math::Vector3 const&)
+
+.text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278
+ .text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278 sensors.cpp.o
+                0x00000000                math::Matrix::operator*(math::Vector const&) const
+
+.text._ZN4math6Matrix4zeroEjj
+                0x00000000      0x108
+ .text._ZN4math6Matrix4zeroEjj
+                0x00000000      0x108 sensors.cpp.o
+                0x00000000                math::Matrix::zero(unsigned int, unsigned int)
+
+.text._ZN7Sensors14get_rot_matrixE8RotationPN4math6MatrixE
+                0x00000000      0x5e4
+ .text._ZN7Sensors14get_rot_matrixE8RotationPN4math6MatrixE
+                0x00000000      0x5e4 sensors.cpp.o
+                0x00000000                Sensors::get_rot_matrix(Rotation, math::Matrix*)
+
+.text._ZN7Sensors17parameters_updateEv
+                0x00000000      0x494
+ .text._ZN7Sensors17parameters_updateEv
+                0x00000000      0x494 sensors.cpp.o
+                0x00000000                Sensors::parameters_update()
+
+.text._ZN7Sensors21parameter_update_pollEh
+                0x00000000      0x19c
+ .text._ZN7Sensors21parameter_update_pollEh
+                0x00000000      0x19c sensors.cpp.o
+                0x00000000                Sensors::parameter_update_poll(unsigned char)
+
+.text._ZN7SensorsC2Ev
+                0x00000000      0x3bc
+ .text._ZN7SensorsC2Ev
+                0x00000000      0x3bc sensors.cpp.o
+                0x00000000                Sensors::Sensors()
+                0x00000000                Sensors::Sensors()
+
+.text.sensors_main
+                0x00000000      0x174
+ .text.sensors_main
+                0x00000000      0x174 sensors.cpp.o
+                0x00000000                sensors_main
+
+.text._ZN7Sensors10accel_pollER17sensor_combined_s
+                0x00000000      0x424
+ .text._ZN7Sensors10accel_pollER17sensor_combined_s
+                0x00000000      0x424 sensors.cpp.o
+                0x00000000                Sensors::accel_poll(sensor_combined_s&)
+
+.text._ZN7Sensors9gyro_pollER17sensor_combined_s
+                0x00000000      0x424
+ .text._ZN7Sensors9gyro_pollER17sensor_combined_s
+                0x00000000      0x424 sensors.cpp.o
+                0x00000000                Sensors::gyro_poll(sensor_combined_s&)
+
+.text._ZN7Sensors8mag_pollER17sensor_combined_s
+                0x00000000      0x750
+ .text._ZN7Sensors8mag_pollER17sensor_combined_s
+                0x00000000      0x750 sensors.cpp.o
+                0x00000000                Sensors::mag_poll(sensor_combined_s&)
+
+.text._ZN7Sensors9task_mainEv
+                0x00000000      0x284
+ .text._ZN7Sensors9task_mainEv
+                0x00000000      0x284 sensors.cpp.o
+                0x00000000                Sensors::task_main()
+
+.text._ZN7Sensors20task_main_trampolineEiPPc
+                0x00000000       0x20
+ .text._ZN7Sensors20task_main_trampolineEiPPc
+                0x00000000       0x20 sensors.cpp.o
+                0x00000000                Sensors::task_main_trampoline(int, char**)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTVN4math6MatrixE
+                0x00000000       0x10
+ .rodata._ZTVN4math6MatrixE
+                0x00000000       0x10 sensors.cpp.o
+                0x00000000                vtable for math::Matrix
+
+.rodata._ZTVN4math6VectorE
+                0x00000000       0x10
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 sensors.cpp.o
+                0x00000000                vtable for math::Vector
+
+.rodata.str1.4  0x00000000      0xddc
+ .rodata.str1.4
+                0x00000000      0x888 sensors.cpp.o
+ .rodata.str1.4
+                0x00000888      0x554 sensor_params.c.o
+
+.rodata._ZL10rot_lookup
+                0x00000000       0x9c
+ .rodata._ZL10rot_lookup
+                0x00000000       0x9c sensors.cpp.o
+
+__param         0x00000000      0x558
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000      0x558 sensor_params.c.o
+                0x00000558                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 sensors.cpp.o
+ .data          0x00000000        0x0 sensor_params.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 sensors.cpp.o
+ .bss           0x00000000        0x0 sensor_params.c.o
+ *(COMMON)
+
+.bss._ZN7sensors9g_sensorsE
+                0x00000000        0x4
+ .bss._ZN7sensors9g_sensorsE
+                0x00000000        0x4 sensors.cpp.o
+                0x00000000                sensors::g_sensors
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 sensors.cpp.o
+ .comment       0x00000071       0x71 sensor_params.c.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 sensors.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x180
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x180 sensors.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x6511
+ *(.debug_info)
+ .debug_info    0x00000000     0x5c46 sensors.cpp.o
+ .debug_info    0x00005c46      0x8cb sensor_params.c.o
+
+.debug_abbrev   0x00000000      0x746
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x68a sensors.cpp.o
+ .debug_abbrev  0x0000068a       0xbc sensor_params.c.o
+
+.debug_line     0x00000000     0x18b1
+ *(.debug_line)
+ .debug_line    0x00000000     0x16ff sensors.cpp.o
+ .debug_line    0x000016ff      0x1b2 sensor_params.c.o
+
+.debug_frame    0x00000000      0x5e8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x5e8 sensors.cpp.o
+
+.debug_str      0x00000000     0x2da0
+ *(.debug_str)
+ .debug_str     0x00000000     0x2322 sensors.cpp.o
+ .debug_str     0x00002322      0xa7e sensor_params.c.o
+
+.debug_loc      0x00000000     0x2b13
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x2b13 sensors.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0xbe0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0xbe0 sensors.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 sensors.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 sensor_params.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/sensors/module.pre.o elf32-littlearm)

@@ -1,0 +1,382 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD geo.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 geo.c.o
+ *(.gnu.warning)
+
+.text._wrap_360
+                0x00000000       0x74
+ .text._wrap_360
+                0x00000000       0x74 geo.c.o
+                0x00000000                _wrap_360
+
+.text._wrap_180
+                0x00000000       0x84
+ .text._wrap_180
+                0x00000000       0x84 geo.c.o
+                0x00000000                _wrap_180
+
+.text._wrap_2pi
+                0x00000000       0x74
+ .text._wrap_2pi
+                0x00000000       0x74 geo.c.o
+                0x00000000                _wrap_2pi
+
+.text._wrap_pi  0x00000000       0xbc
+ .text._wrap_pi
+                0x00000000       0xbc geo.c.o
+                0x00000000                _wrap_pi
+
+.text.get_distance_to_next_waypoint
+                0x00000000      0x180
+ .text.get_distance_to_next_waypoint
+                0x00000000      0x180 geo.c.o
+                0x00000000                get_distance_to_next_waypoint
+
+.text.map_projection_reproject
+                0x00000000      0x258
+ .text.map_projection_reproject
+                0x00000000      0x258 geo.c.o
+                0x00000000                map_projection_reproject
+
+.text.map_projection_project
+                0x00000000      0x208
+ .text.map_projection_project
+                0x00000000      0x208 geo.c.o
+                0x00000000                map_projection_project
+
+.text.map_projection_init
+                0x00000000      0x208
+ .text.map_projection_init
+                0x00000000      0x208 geo.c.o
+                0x00000000                map_projection_init
+
+.text.get_bearing_to_next_waypoint
+                0x00000000      0x1f8
+ .text.get_bearing_to_next_waypoint
+                0x00000000      0x1f8 geo.c.o
+                0x00000000                get_bearing_to_next_waypoint
+
+.text.get_distance_to_arc
+                0x00000000      0x420
+ .text.get_distance_to_arc
+                0x00000000      0x420 geo.c.o
+                0x00000000                get_distance_to_arc
+
+.text.get_distance_to_line
+                0x00000000      0x3a8
+ .text.get_distance_to_line
+                0x00000000      0x3a8 geo.c.o
+                0x00000000                get_distance_to_line
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 geo.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 geo.c.o
+ *(COMMON)
+
+.bss.lambda_0   0x00000000        0x8
+ .bss.lambda_0  0x00000000        0x8 geo.c.o
+
+.bss.cos_phi_1  0x00000000        0x8
+ .bss.cos_phi_1
+                0x00000000        0x8 geo.c.o
+
+.bss.scale      0x00000000        0x8
+ .bss.scale     0x00000000        0x8 geo.c.o
+
+.bss.sin_phi_1  0x00000000        0x8
+ .bss.sin_phi_1
+                0x00000000        0x8 geo.c.o
+
+.bss.phi_1      0x00000000        0x8
+ .bss.phi_1     0x00000000        0x8 geo.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 geo.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 geo.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x9e3
+ *(.debug_info)
+ .debug_info    0x00000000      0x9e3 geo.c.o
+
+.debug_abbrev   0x00000000      0x207
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x207 geo.c.o
+
+.debug_line     0x00000000      0x474
+ *(.debug_line)
+ .debug_line    0x00000000      0x474 geo.c.o
+
+.debug_frame    0x00000000      0x1e4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1e4 geo.c.o
+
+.debug_str      0x00000000      0x4f5
+ *(.debug_str)
+ .debug_str     0x00000000      0x4f5 geo.c.o
+
+.debug_loc      0x00000000     0x10d1
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x10d1 geo.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x100
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x100 geo.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 geo.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v1_default.build//home/avnishks/src/Firmware/src/lib/geo/module.pre.o elf32-littlearm)

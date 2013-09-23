@@ -1,0 +1,477 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD px4fmu_can.c.o
+LOAD px4fmu2_init.c.o
+LOAD px4fmu_pwm_servo.c.o
+LOAD px4fmu_spi.c.o
+LOAD px4fmu_usb.c.o
+LOAD px4fmu2_led.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 px4fmu_can.c.o
+ .text          0x00000000        0x0 px4fmu2_init.c.o
+ .text          0x00000000        0x0 px4fmu_pwm_servo.c.o
+ .text          0x00000000        0x0 px4fmu_spi.c.o
+ .text          0x00000000        0x0 px4fmu_usb.c.o
+ .text          0x00000000        0x0 px4fmu2_led.c.o
+ *(.gnu.warning)
+
+.text.nsh_archinitialize
+                0x00000000      0x234
+ .text.nsh_archinitialize
+                0x00000000      0x234 px4fmu2_init.c.o
+                0x00000000                nsh_archinitialize
+
+.text.matherr   0x00000000       0x20
+ .text.matherr  0x00000000       0x20 px4fmu2_init.c.o
+                0x00000000                matherr
+
+.text.stm32_boardinitialize
+                0x00000000       0x24
+ .text.stm32_boardinitialize
+                0x00000000       0x24 px4fmu2_init.c.o
+                0x00000000                stm32_boardinitialize
+
+.text.stm32_spi2status
+                0x00000000       0x20
+ .text.stm32_spi2status
+                0x00000000       0x20 px4fmu_spi.c.o
+                0x00000000                stm32_spi2status
+
+.text.stm32_spi1status
+                0x00000000       0x20
+ .text.stm32_spi1status
+                0x00000000       0x20 px4fmu_spi.c.o
+                0x00000000                stm32_spi1status
+
+.text.stm32_spi2select
+                0x00000000       0x34
+ .text.stm32_spi2select
+                0x00000000       0x34 px4fmu_spi.c.o
+                0x00000000                stm32_spi2select
+
+.text.stm32_spi1select
+                0x00000000       0xb8
+ .text.stm32_spi1select
+                0x00000000       0xb8 px4fmu_spi.c.o
+                0x00000000                stm32_spi1select
+
+.text.stm32_spiinitialize
+                0x00000000       0x7c
+ .text.stm32_spiinitialize
+                0x00000000       0x7c px4fmu_spi.c.o
+                0x00000000                stm32_spiinitialize
+
+.text.stm32_usbsuspend
+                0x00000000       0x20
+ .text.stm32_usbsuspend
+                0x00000000       0x20 px4fmu_usb.c.o
+                0x00000000                stm32_usbsuspend
+
+.text.stm32_usbinitialize
+                0x00000000       0x28
+ .text.stm32_usbinitialize
+                0x00000000       0x28 px4fmu_usb.c.o
+                0x00000000                stm32_usbinitialize
+
+.text.led_toggle
+                0x00000000       0x50
+ .text.led_toggle
+                0x00000000       0x50 px4fmu2_led.c.o
+                0x00000000                led_toggle
+
+.text.led_off   0x00000000       0x34
+ .text.led_off  0x00000000       0x34 px4fmu2_led.c.o
+                0x00000000                led_off
+
+.text.led_on    0x00000000       0x34
+ .text.led_on   0x00000000       0x34 px4fmu2_led.c.o
+                0x00000000                led_on
+
+.text.led_init  0x00000000       0x2c
+ .text.led_init
+                0x00000000       0x2c px4fmu2_led.c.o
+                0x00000000                led_init
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x140
+ .rodata.str1.4
+                0x00000000      0x140 px4fmu2_init.c.o
+
+.rodata.pwm_channels
+                0x00000000       0x40
+ .rodata.pwm_channels
+                0x00000000       0x40 px4fmu_pwm_servo.c.o
+                0x00000000                pwm_channels
+
+.rodata.pwm_timers
+                0x00000000       0x40
+ .rodata.pwm_timers
+                0x00000000       0x40 px4fmu_pwm_servo.c.o
+                0x00000000                pwm_timers
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 px4fmu_can.c.o
+ .data          0x00000000        0x0 px4fmu2_init.c.o
+ .data          0x00000000        0x0 px4fmu_pwm_servo.c.o
+ .data          0x00000000        0x0 px4fmu_spi.c.o
+ .data          0x00000000        0x0 px4fmu_usb.c.o
+ .data          0x00000000        0x0 px4fmu2_led.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 px4fmu_can.c.o
+ .bss           0x00000000        0x0 px4fmu2_init.c.o
+ .bss           0x00000000        0x0 px4fmu_pwm_servo.c.o
+ .bss           0x00000000        0x0 px4fmu_spi.c.o
+ .bss           0x00000000        0x0 px4fmu_usb.c.o
+ .bss           0x00000000        0x0 px4fmu2_led.c.o
+ *(COMMON)
+
+.bss.sdio       0x00000000        0x4
+ .bss.sdio      0x00000000        0x4 px4fmu2_init.c.o
+
+.bss.serial_dma_call.6564
+                0x00000000       0x20
+ .bss.serial_dma_call.6564
+                0x00000000       0x20 px4fmu2_init.c.o
+
+.bss.spi1       0x00000000        0x4
+ .bss.spi1      0x00000000        0x4 px4fmu2_init.c.o
+
+.bss.spi2       0x00000000        0x4
+ .bss.spi2      0x00000000        0x4 px4fmu2_init.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x2a6
+ *(.comment)
+ .comment       0x00000000       0x71 px4fmu_can.c.o
+ .comment       0x00000071       0x71 px4fmu2_init.c.o
+ .comment       0x000000e2       0x71 px4fmu_pwm_servo.c.o
+ .comment       0x00000153       0x71 px4fmu_spi.c.o
+ .comment       0x000001c4       0x71 px4fmu_usb.c.o
+ .comment       0x00000235       0x71 px4fmu2_led.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xd0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 px4fmu2_init.c.o
+ .debug_aranges
+                0x00000030       0x40 px4fmu_spi.c.o
+ .debug_aranges
+                0x00000070       0x28 px4fmu_usb.c.o
+ .debug_aranges
+                0x00000098       0x38 px4fmu2_led.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x14de
+ *(.debug_info)
+ .debug_info    0x00000000       0x81 px4fmu_can.c.o
+ .debug_info    0x00000081      0x88f px4fmu2_init.c.o
+ .debug_info    0x00000910      0x1a2 px4fmu_pwm_servo.c.o
+ .debug_info    0x00000ab2      0x444 px4fmu_spi.c.o
+ .debug_info    0x00000ef6      0x4d8 px4fmu_usb.c.o
+ .debug_info    0x000013ce      0x110 px4fmu2_led.c.o
+
+.debug_abbrev   0x00000000      0x4d6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x2a px4fmu_can.c.o
+ .debug_abbrev  0x0000002a      0x171 px4fmu2_init.c.o
+ .debug_abbrev  0x0000019b       0x7d px4fmu_pwm_servo.c.o
+ .debug_abbrev  0x00000218      0x125 px4fmu_spi.c.o
+ .debug_abbrev  0x0000033d      0x136 px4fmu_usb.c.o
+ .debug_abbrev  0x00000473       0x63 px4fmu2_led.c.o
+
+.debug_line     0x00000000      0x96b
+ *(.debug_line)
+ .debug_line    0x00000000       0x1d px4fmu_can.c.o
+ .debug_line    0x0000001d      0x2f1 px4fmu2_init.c.o
+ .debug_line    0x0000030e      0x19d px4fmu_pwm_servo.c.o
+ .debug_line    0x000004ab      0x256 px4fmu_spi.c.o
+ .debug_line    0x00000701      0x1ae px4fmu_usb.c.o
+ .debug_line    0x000008af       0xbc px4fmu2_led.c.o
+
+.debug_frame    0x00000000      0x1d4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x6c px4fmu2_init.c.o
+ .debug_frame   0x0000006c       0xa0 px4fmu_spi.c.o
+ .debug_frame   0x0000010c       0x48 px4fmu_usb.c.o
+ .debug_frame   0x00000154       0x80 px4fmu2_led.c.o
+
+.debug_str      0x00000000     0x111a
+ *(.debug_str)
+ .debug_str     0x00000000      0x191 px4fmu_can.c.o
+ .debug_str     0x00000191      0x597 px4fmu2_init.c.o
+ .debug_str     0x00000728      0x200 px4fmu_pwm_servo.c.o
+ .debug_str     0x00000928      0x39b px4fmu_spi.c.o
+ .debug_str     0x00000cc3      0x311 px4fmu_usb.c.o
+ .debug_str     0x00000fd4      0x146 px4fmu2_led.c.o
+
+.debug_loc      0x00000000      0x351
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xb3 px4fmu2_init.c.o
+ .debug_loc     0x000000b3      0x15e px4fmu_spi.c.o
+ .debug_loc     0x00000211       0x66 px4fmu_usb.c.o
+ .debug_loc     0x00000277       0xda px4fmu2_led.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0x90
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 px4fmu2_init.c.o
+ .debug_ranges  0x00000020       0x30 px4fmu_spi.c.o
+ .debug_ranges  0x00000050       0x18 px4fmu_usb.c.o
+ .debug_ranges  0x00000068       0x28 px4fmu2_led.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 px4fmu_can.c.o
+ .ARM.attributes
+                0x00000037       0x37 px4fmu2_init.c.o
+ .ARM.attributes
+                0x0000006e       0x37 px4fmu_pwm_servo.c.o
+ .ARM.attributes
+                0x000000a5       0x37 px4fmu_spi.c.o
+ .ARM.attributes
+                0x000000dc       0x37 px4fmu_usb.c.o
+ .ARM.attributes
+                0x00000113       0x37 px4fmu2_led.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_test.build//home/avnishks/src/Firmware/src/drivers/boards/px4fmu-v2/module.pre.o elf32-littlearm)

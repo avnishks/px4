@@ -1,0 +1,947 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD commander.cpp.o
+LOAD commander_params.c.o
+LOAD state_machine_helper.cpp.o
+LOAD commander_helper.cpp.o
+LOAD calibration_routines.cpp.o
+LOAD accelerometer_calibration.cpp.o
+LOAD gyro_calibration.cpp.o
+LOAD mag_calibration.cpp.o
+LOAD baro_calibration.cpp.o
+LOAD rc_calibration.cpp.o
+LOAD airspeed_calibration.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 commander.cpp.o
+ .text          0x00000000        0x0 commander_params.c.o
+ .text          0x00000000        0x0 state_machine_helper.cpp.o
+ .text          0x00000000        0x0 commander_helper.cpp.o
+ .text          0x00000000        0x0 calibration_routines.cpp.o
+ .text          0x00000000        0x0 accelerometer_calibration.cpp.o
+ .text          0x00000000        0x0 gyro_calibration.cpp.o
+ .text          0x00000000        0x0 mag_calibration.cpp.o
+ .text          0x00000000        0x0 baro_calibration.cpp.o
+ .text          0x00000000        0x0 rc_calibration.cpp.o
+ .text          0x00000000        0x0 airspeed_calibration.cpp.o
+ *(.gnu.warning)
+
+.text._Z14answer_commandR17vehicle_command_s18VEHICLE_CMD_RESULT
+                0x00000000       0xa0
+ .text._Z14answer_commandR17vehicle_command_s18VEHICLE_CMD_RESULT
+                0x00000000       0xa0 commander.cpp.o
+                0x00000000                answer_command(vehicle_command_s&, VEHICLE_CMD_RESULT)
+
+.text._Z23commander_low_prio_loopPv
+                0x00000000      0x2c0
+ .text._Z23commander_low_prio_loopPv
+                0x00000000      0x2c0 commander.cpp.o
+                0x00000000                commander_low_prio_loop(void*)
+
+.text._Z30check_navigation_state_machineP16vehicle_status_sP22vehicle_control_mode_sP24vehicle_local_position_s
+                0x00000000      0x1e4
+ .text._Z30check_navigation_state_machineP16vehicle_status_sP22vehicle_control_mode_sP24vehicle_local_position_s
+                0x00000000      0x1e4 commander.cpp.o
+                0x00000000                check_navigation_state_machine(vehicle_status_s*, vehicle_control_mode_s*, vehicle_local_position_s*)
+
+.text._Z11check_validyyhPhS_
+                0x00000000       0x74
+ .text._Z11check_validyyhPhS_
+                0x00000000       0x74 commander.cpp.o
+                0x00000000                check_valid(unsigned long long, unsigned long long, unsigned char, unsigned char*, unsigned char*)
+
+.text._Z16print_reject_armPKc
+                0x00000000       0x78
+ .text._Z16print_reject_armPKc
+                0x00000000       0x78 commander.cpp.o
+                0x00000000                print_reject_arm(char const*)
+
+.text._Z17print_reject_modePKc
+                0x00000000       0x78
+ .text._Z17print_reject_modePKc
+                0x00000000       0x78 commander.cpp.o
+                0x00000000                print_reject_mode(char const*)
+
+.text._Z14handle_commandP16vehicle_status_sPK8safety_sP22vehicle_control_mode_sP17vehicle_command_sP16actuator_armed_s
+                0x00000000      0x1a8
+ .text._Z14handle_commandP16vehicle_status_sPK8safety_sP22vehicle_control_mode_sP17vehicle_command_sP16actuator_armed_s
+                0x00000000      0x1a8 commander.cpp.o
+                0x00000000                handle_command(vehicle_status_s*, safety_s const*, vehicle_control_mode_s*, vehicle_command_s*, actuator_armed_s*)
+
+.text._Z19check_mode_switchesP25manual_control_setpoint_sP16vehicle_status_s
+                0x00000000      0x10c
+ .text._Z19check_mode_switchesP25manual_control_setpoint_sP16vehicle_status_s
+                0x00000000      0x10c commander.cpp.o
+                0x00000000                check_mode_switches(manual_control_setpoint_s*, vehicle_status_s*)
+
+.text._Z12print_statusv
+                0x00000000       0x70
+ .text._Z12print_statusv
+                0x00000000       0x70 commander.cpp.o
+                0x00000000                print_status()
+
+.text._Z18toggle_status_ledsP16vehicle_status_sP16actuator_armed_sh
+                0x00000000      0x114
+ .text._Z18toggle_status_ledsP16vehicle_status_sP16actuator_armed_sh
+                0x00000000      0x114 commander.cpp.o
+                0x00000000                toggle_status_leds(vehicle_status_s*, actuator_armed_s*, unsigned char)
+
+.text._Z5usagePKc
+                0x00000000       0x40
+ .text._Z5usagePKc
+                0x00000000       0x40 commander.cpp.o
+                0x00000000                usage(char const*)
+
+.text.commander_main
+                0x00000000       0xdc
+ .text.commander_main
+                0x00000000       0xdc commander.cpp.o
+                0x00000000                commander_main
+
+.text._Z24check_main_state_machineP16vehicle_status_s
+                0x00000000      0x1b4
+ .text._Z24check_main_state_machineP16vehicle_status_s
+                0x00000000      0x1b4 commander.cpp.o
+                0x00000000                check_main_state_machine(vehicle_status_s*)
+
+.text._Z21commander_thread_mainiPPc
+                0x00000000     0x11f8
+ .text._Z21commander_thread_mainiPPc
+                0x00000000     0x11f8 commander.cpp.o
+                0x00000000                commander_thread_main(int, char**)
+
+.text._Z20hil_state_transition11hil_state_tiP16vehicle_status_siP22vehicle_control_mode_si
+                0x00000000       0xf0
+ .text._Z20hil_state_transition11hil_state_tiP16vehicle_status_siP22vehicle_control_mode_si
+                0x00000000       0xf0 state_machine_helper.cpp.o
+                0x00000000                hil_state_transition(hil_state_t, int, vehicle_status_s*, int, vehicle_control_mode_s*, int)
+
+.text._Z28set_navigation_state_changedv
+                0x00000000       0x2c
+ .text._Z28set_navigation_state_changedv
+                0x00000000       0x2c state_machine_helper.cpp.o
+                0x00000000                set_navigation_state_changed()
+
+.text._Z30check_navigation_state_changedv
+                0x00000000       0x2c
+ .text._Z30check_navigation_state_changedv
+                0x00000000       0x2c state_machine_helper.cpp.o
+                0x00000000                check_navigation_state_changed()
+
+.text._Z27navigation_state_transitionP16vehicle_status_s18navigation_state_tP22vehicle_control_mode_s
+                0x00000000       0xec
+ .text._Z27navigation_state_transitionP16vehicle_status_s18navigation_state_tP22vehicle_control_mode_s
+                0x00000000       0xec state_machine_helper.cpp.o
+                0x00000000                navigation_state_transition(vehicle_status_s*, navigation_state_t, vehicle_control_mode_s*)
+
+.text._Z24check_main_state_changedv
+                0x00000000       0x2c
+ .text._Z24check_main_state_changedv
+                0x00000000       0x2c state_machine_helper.cpp.o
+                0x00000000                check_main_state_changed()
+
+.text._Z21main_state_transitionP16vehicle_status_s12main_state_t
+                0x00000000       0x74
+ .text._Z21main_state_transitionP16vehicle_status_s12main_state_t
+                0x00000000       0x74 state_machine_helper.cpp.o
+                0x00000000                main_state_transition(vehicle_status_s*, main_state_t)
+
+.text._Z26check_arming_state_changedv
+                0x00000000       0x2c
+ .text._Z26check_arming_state_changedv
+                0x00000000       0x2c state_machine_helper.cpp.o
+                0x00000000                check_arming_state_changed()
+
+.text._Z7is_safePK16vehicle_status_sPK8safety_sPK16actuator_armed_s
+                0x00000000       0x44
+ .text._Z7is_safePK16vehicle_status_sPK8safety_sPK16actuator_armed_s
+                0x00000000       0x44 state_machine_helper.cpp.o
+                0x00000000                is_safe(vehicle_status_s const*, safety_s const*, actuator_armed_s const*)
+
+.text._Z23arming_state_transitionP16vehicle_status_sPK8safety_s14arming_state_tP16actuator_armed_s
+                0x00000000       0xf4
+ .text._Z23arming_state_transitionP16vehicle_status_sPK8safety_s14arming_state_tP16actuator_armed_s
+                0x00000000       0xf4 state_machine_helper.cpp.o
+                0x00000000                arming_state_transition(vehicle_status_s*, safety_s const*, arming_state_t, actuator_armed_s*)
+
+.text._Z34battery_remaining_estimate_voltagef
+                0x00000000      0x12c
+ .text._Z34battery_remaining_estimate_voltagef
+                0x00000000      0x12c commander_helper.cpp.o
+                0x00000000                battery_remaining_estimate_voltage(float)
+
+.text._Z13is_multirotorPK16vehicle_status_s
+                0x00000000       0x44
+ .text._Z13is_multirotorPK16vehicle_status_s
+                0x00000000       0x44 commander_helper.cpp.o
+                0x00000000                is_multirotor(vehicle_status_s const*)
+
+.text._Z18rgbled_set_patternP16rgbled_pattern_t
+                0x00000000       0x34
+ .text._Z18rgbled_set_patternP16rgbled_pattern_t
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                rgbled_set_pattern(rgbled_pattern_t*)
+
+.text._Z15rgbled_set_mode13rgbled_mode_t
+                0x00000000       0x34
+ .text._Z15rgbled_set_mode13rgbled_mode_t
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                rgbled_set_mode(rgbled_mode_t)
+
+.text._Z16rgbled_set_color14rgbled_color_t
+                0x00000000       0x34
+ .text._Z16rgbled_set_color14rgbled_color_t
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                rgbled_set_color(rgbled_color_t)
+
+.text._Z7led_offi
+                0x00000000       0x38
+ .text._Z7led_offi
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                led_off(int)
+
+.text._Z6led_oni
+                0x00000000       0x38
+ .text._Z6led_oni
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                led_on(int)
+
+.text._Z10led_togglei
+                0x00000000       0x38
+ .text._Z10led_togglei
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                led_toggle(int)
+
+.text._Z9tune_stopv
+                0x00000000       0x34
+ .text._Z9tune_stopv
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                tune_stop()
+
+.text._Z17tune_critical_batv
+                0x00000000       0x38
+ .text._Z17tune_critical_batv
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                tune_critical_bat()
+
+.text._Z12tune_low_batv
+                0x00000000       0x38
+ .text._Z12tune_low_batv
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                tune_low_bat()
+
+.text._Z8tune_armv
+                0x00000000       0x38
+ .text._Z8tune_armv
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                tune_arm()
+
+.text._Z13tune_negativev
+                0x00000000       0x34
+ .text._Z13tune_negativev
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                tune_negative()
+
+.text._Z12tune_neutralv
+                0x00000000       0x34
+ .text._Z12tune_neutralv
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                tune_neutral()
+
+.text._Z13tune_positivev
+                0x00000000       0x34
+ .text._Z13tune_positivev
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                tune_positive()
+
+.text._Z10tune_errorv
+                0x00000000       0x34
+ .text._Z10tune_errorv
+                0x00000000       0x34 commander_helper.cpp.o
+                0x00000000                tune_error()
+
+.text._Z10led_deinitv
+                0x00000000       0x38
+ .text._Z10led_deinitv
+                0x00000000       0x38 commander_helper.cpp.o
+                0x00000000                led_deinit()
+
+.text._Z13buzzer_deinitv
+                0x00000000       0x30
+ .text._Z13buzzer_deinitv
+                0x00000000       0x30 commander_helper.cpp.o
+                0x00000000                buzzer_deinit()
+
+.text._Z8led_initv
+                0x00000000       0xb0
+ .text._Z8led_initv
+                0x00000000       0xb0 commander_helper.cpp.o
+                0x00000000                led_init()
+
+.text._Z11buzzer_initv
+                0x00000000       0x48
+ .text._Z11buzzer_initv
+                0x00000000       0x48 commander_helper.cpp.o
+                0x00000000                buzzer_init()
+
+.text._Z14is_rotary_wingPK16vehicle_status_s
+                0x00000000       0x70
+ .text._Z14is_rotary_wingPK16vehicle_status_s
+                0x00000000       0x70 commander_helper.cpp.o
+                0x00000000                is_rotary_wing(vehicle_status_s const*)
+
+.text._Z24sphere_fit_least_squaresPKfS0_S0_jjfPfS1_S1_S1_
+                0x00000000      0x3f4
+ .text._Z24sphere_fit_least_squaresPKfS0_S0_jjfPfS1_S1_S1_
+                0x00000000      0x3f4 calibration_routines.cpp.o
+                0x00000000                sphere_fit_least_squares(float const*, float const*, float const*, unsigned int, unsigned int, float, float*, float*, float*, float*)
+
+.text._Z11mat_invert3PA3_fS0_
+                0x00000000      0x18c
+ .text._Z11mat_invert3PA3_fS0_
+                0x00000000      0x18c accelerometer_calibration.cpp.o
+                0x00000000                mat_invert3(float (*) [3], float (*) [3])
+
+.text._Z28calculate_calibration_valuesPA3_fS0_Pff
+                0x00000000      0x160
+ .text._Z28calculate_calibration_valuesPA3_fS0_Pff
+                0x00000000      0x160 accelerometer_calibration.cpp.o
+                0x00000000                calculate_calibration_values(float (*) [3], float (*) [3], float*, float)
+
+.text._Z22read_accelerometer_avgiPfi
+                0x00000000       0xf8
+ .text._Z22read_accelerometer_avgiPfi
+                0x00000000       0xf8 accelerometer_calibration.cpp.o
+                0x00000000                read_accelerometer_avg(int, float*, int)
+
+.text._Z18detect_orientationii
+                0x00000000      0x390
+ .text._Z18detect_orientationii
+                0x00000000      0x390 accelerometer_calibration.cpp.o
+                0x00000000                detect_orientation(int, int)
+
+.text._Z33do_accel_calibration_measurementsiPfS_
+                0x00000000      0x2c4
+ .text._Z33do_accel_calibration_measurementsiPfS_
+                0x00000000      0x2c4 accelerometer_calibration.cpp.o
+                0x00000000                do_accel_calibration_measurements(int, float*, float*)
+
+.text._Z20do_accel_calibrationi
+                0x00000000      0x160
+ .text._Z20do_accel_calibrationi
+                0x00000000      0x160 accelerometer_calibration.cpp.o
+                0x00000000                do_accel_calibration(int)
+
+.text._Z19do_gyro_calibrationi
+                0x00000000      0x5a0
+ .text._Z19do_gyro_calibrationi
+                0x00000000      0x5a0 gyro_calibration.cpp.o
+                0x00000000                do_gyro_calibration(int)
+
+.text._Z18do_mag_calibrationi
+                0x00000000      0x668
+ .text._Z18do_mag_calibrationi
+                0x00000000      0x668 mag_calibration.cpp.o
+                0x00000000                do_mag_calibration(int)
+
+.text._Z19do_baro_calibrationi
+                0x00000000       0x24
+ .text._Z19do_baro_calibrationi
+                0x00000000       0x24 baro_calibration.cpp.o
+                0x00000000                do_baro_calibration(int)
+
+.text._Z17do_rc_calibrationi
+                0x00000000       0xc4
+ .text._Z17do_rc_calibrationi
+                0x00000000       0xc4 rc_calibration.cpp.o
+                0x00000000                do_rc_calibration(int)
+
+.text._Z23do_airspeed_calibrationi
+                0x00000000      0x164
+ .text._Z23do_airspeed_calibrationi
+                0x00000000      0x164 airspeed_calibration.cpp.o
+                0x00000000                do_airspeed_calibration(int)
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0x64
+ *(.rodata)
+ .rodata        0x00000000       0x30 accelerometer_calibration.cpp.o
+ .rodata        0x00000030       0x18 gyro_calibration.cpp.o
+ .rodata        0x00000048       0x1c mag_calibration.cpp.o
+
+.rodata.str1.4  0x00000000     0x1524
+ .rodata.str1.4
+                0x00000000      0x72c commander.cpp.o
+ .rodata.str1.4
+                0x0000072c       0x58 commander_params.c.o
+ .rodata.str1.4
+                0x00000784       0xd0 state_machine_helper.cpp.o
+ .rodata.str1.4
+                0x00000854       0xb8 commander_helper.cpp.o
+ .rodata.str1.4
+                0x0000090c      0x314 accelerometer_calibration.cpp.o
+ .rodata.str1.4
+                0x00000c20      0x2cc gyro_calibration.cpp.o
+ .rodata.str1.4
+                0x00000eec      0x4b0 mag_calibration.cpp.o
+ .rodata.str1.4
+                0x0000139c       0x84 rc_calibration.cpp.o
+ .rodata.str1.4
+                0x00001420      0x104 airspeed_calibration.cpp.o
+
+.rodata.CSWTCH.87
+                0x00000000       0x1c
+ .rodata.CSWTCH.87
+                0x00000000       0x1c commander.cpp.o
+
+__param         0x00000000       0x54
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0x54 commander_params.c.o
+                0x00000054                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 commander.cpp.o
+ .data          0x00000000        0x0 commander_params.c.o
+ .data          0x00000000        0x0 state_machine_helper.cpp.o
+ .data          0x00000000        0x0 commander_helper.cpp.o
+ .data          0x00000000        0x0 calibration_routines.cpp.o
+ .data          0x00000000        0x0 accelerometer_calibration.cpp.o
+ .data          0x00000000        0x0 gyro_calibration.cpp.o
+ .data          0x00000000        0x0 mag_calibration.cpp.o
+ .data          0x00000000        0x0 baro_calibration.cpp.o
+ .data          0x00000000        0x0 rc_calibration.cpp.o
+ .data          0x00000000        0x0 airspeed_calibration.cpp.o
+
+.data._ZL11takeoff_alt
+                0x00000000        0x4
+ .data._ZL11takeoff_alt
+                0x00000000        0x4 commander.cpp.o
+
+.data._ZL24navigation_state_changed
+                0x00000000        0x1
+ .data._ZL24navigation_state_changed
+                0x00000000        0x1 state_machine_helper.cpp.o
+
+.data._ZL20arming_state_changed
+                0x00000000        0x1
+ .data._ZL20arming_state_changed
+                0x00000000        0x1 state_machine_helper.cpp.o
+
+.data._ZL18main_state_changed
+                0x00000000        0x1
+ .data._ZL18main_state_changed
+                0x00000000        0x1 state_machine_helper.cpp.o
+
+.data._ZZ34battery_remaining_estimate_voltagefE6ncells
+                0x00000000        0x4
+ .data._ZZ34battery_remaining_estimate_voltagefE6ncells
+                0x00000000        0x4 commander_helper.cpp.o
+
+.data._ZZ34battery_remaining_estimate_voltagefE23chemistry_voltage_empty
+                0x00000000        0x4
+ .data._ZZ34battery_remaining_estimate_voltagefE23chemistry_voltage_empty
+                0x00000000        0x4 commander_helper.cpp.o
+
+.data._ZZ34battery_remaining_estimate_voltagefE22chemistry_voltage_full
+                0x00000000        0x4
+ .data._ZZ34battery_remaining_estimate_voltagefE22chemistry_voltage_full
+                0x00000000        0x4 commander_helper.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 commander.cpp.o
+ .bss           0x00000000        0x0 commander_params.c.o
+ .bss           0x00000000        0x0 state_machine_helper.cpp.o
+ .bss           0x00000000        0x0 commander_helper.cpp.o
+ .bss           0x00000000        0x0 calibration_routines.cpp.o
+ .bss           0x00000000        0x0 accelerometer_calibration.cpp.o
+ .bss           0x00000000        0x0 gyro_calibration.cpp.o
+ .bss           0x00000000        0x0 mag_calibration.cpp.o
+ .bss           0x00000000        0x0 baro_calibration.cpp.o
+ .bss           0x00000000        0x0 rc_calibration.cpp.o
+ .bss           0x00000000        0x0 airspeed_calibration.cpp.o
+ *(COMMON)
+
+.bss._ZL5armed  0x00000000       0x10
+ .bss._ZL5armed
+                0x00000000       0x10 commander.cpp.o
+
+.bss._ZL18thread_should_exit
+                0x00000000        0x1
+ .bss._ZL18thread_should_exit
+                0x00000000        0x1 commander.cpp.o
+
+.bss._ZL11daemon_task
+                0x00000000        0x4
+ .bss._ZL11daemon_task
+                0x00000000        0x4 commander.cpp.o
+
+.bss._ZL12leds_counter
+                0x00000000        0x4
+ .bss._ZL12leds_counter
+                0x00000000        0x4 commander.cpp.o
+
+.bss._ZL6safety
+                0x00000000       0x10
+ .bss._ZL6safety
+                0x00000000       0x10 commander.cpp.o
+
+.bss._ZL21commander_initialized
+                0x00000000        0x1
+ .bss._ZL21commander_initialized
+                0x00000000        0x1 commander.cpp.o
+
+.bss._ZL14thread_running
+                0x00000000        0x1
+ .bss._ZL14thread_running
+                0x00000000        0x1 commander.cpp.o
+
+.bss._ZL27last_print_mode_reject_time
+                0x00000000        0x8
+ .bss._ZL27last_print_mode_reject_time
+                0x00000000        0x8 commander.cpp.o
+
+.bss._ZL6status
+                0x00000000       0x70
+ .bss._ZL6status
+                0x00000000       0x70 commander.cpp.o
+
+.bss._ZL10mavlink_fd
+                0x00000000        0x4
+ .bss._ZL10mavlink_fd
+                0x00000000        0x4 commander.cpp.o
+
+.bss._ZL7rgbleds
+                0x00000000        0x4
+ .bss._ZL7rgbleds
+                0x00000000        0x4 commander_helper.cpp.o
+
+.bss._ZL6buzzer
+                0x00000000        0x4
+ .bss._ZL6buzzer
+                0x00000000        0x4 commander_helper.cpp.o
+
+.bss._ZZ34battery_remaining_estimate_voltagefE13bat_volt_full
+                0x00000000        0x4
+ .bss._ZZ34battery_remaining_estimate_voltagefE13bat_volt_full
+                0x00000000        0x4 commander_helper.cpp.o
+
+.bss._ZZ34battery_remaining_estimate_voltagefE11initialized
+                0x00000000        0x1
+ .bss._ZZ34battery_remaining_estimate_voltagefE11initialized
+                0x00000000        0x1 commander_helper.cpp.o
+
+.bss._ZZ34battery_remaining_estimate_voltagefE11bat_n_cells
+                0x00000000        0x4
+ .bss._ZZ34battery_remaining_estimate_voltagefE11bat_n_cells
+                0x00000000        0x4 commander_helper.cpp.o
+
+.bss._ZZ34battery_remaining_estimate_voltagefE14bat_volt_empty
+                0x00000000        0x4
+ .bss._ZZ34battery_remaining_estimate_voltagefE14bat_volt_empty
+                0x00000000        0x4 commander_helper.cpp.o
+
+.bss._ZL4leds   0x00000000        0x4
+ .bss._ZL4leds  0x00000000        0x4 commander_helper.cpp.o
+
+.bss._ZZ34battery_remaining_estimate_voltagefE7counter
+                0x00000000        0x4
+ .bss._ZZ34battery_remaining_estimate_voltagefE7counter
+                0x00000000        0x4 commander_helper.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x4db
+ *(.comment)
+ .comment       0x00000000       0x71 commander.cpp.o
+ .comment       0x00000071       0x71 commander_params.c.o
+ .comment       0x000000e2       0x71 state_machine_helper.cpp.o
+ .comment       0x00000153       0x71 commander_helper.cpp.o
+ .comment       0x000001c4       0x71 calibration_routines.cpp.o
+ .comment       0x00000235       0x71 accelerometer_calibration.cpp.o
+ .comment       0x000002a6       0x71 gyro_calibration.cpp.o
+ .comment       0x00000317       0x71 mag_calibration.cpp.o
+ .comment       0x00000388       0x71 baro_calibration.cpp.o
+ .comment       0x000003f9       0x71 rc_calibration.cpp.o
+ .comment       0x0000046a       0x71 airspeed_calibration.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x2b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x88 commander.cpp.o
+ .debug_aranges
+                0x00000088       0x60 state_machine_helper.cpp.o
+ .debug_aranges
+                0x000000e8       0xc0 commander_helper.cpp.o
+ .debug_aranges
+                0x000001a8       0x20 calibration_routines.cpp.o
+ .debug_aranges
+                0x000001c8       0x48 accelerometer_calibration.cpp.o
+ .debug_aranges
+                0x00000210       0x20 gyro_calibration.cpp.o
+ .debug_aranges
+                0x00000230       0x20 mag_calibration.cpp.o
+ .debug_aranges
+                0x00000250       0x20 baro_calibration.cpp.o
+ .debug_aranges
+                0x00000270       0x20 rc_calibration.cpp.o
+ .debug_aranges
+                0x00000290       0x20 airspeed_calibration.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x9ea7
+ *(.debug_info)
+ .debug_info    0x00000000     0x321e commander.cpp.o
+ .debug_info    0x0000321e      0x1b0 commander_params.c.o
+ .debug_info    0x000033ce      0xb33 state_machine_helper.cpp.o
+ .debug_info    0x00003f01      0xb0b commander_helper.cpp.o
+ .debug_info    0x00004a0c      0x4b7 calibration_routines.cpp.o
+ .debug_info    0x00004ec3     0x1716 accelerometer_calibration.cpp.o
+ .debug_info    0x000065d9     0x1382 gyro_calibration.cpp.o
+ .debug_info    0x0000795b     0x1212 mag_calibration.cpp.o
+ .debug_info    0x00008b6d       0xbb baro_calibration.cpp.o
+ .debug_info    0x00008c28      0x258 rc_calibration.cpp.o
+ .debug_info    0x00008e80     0x1027 airspeed_calibration.cpp.o
+
+.debug_abbrev   0x00000000     0x11ef
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x317 commander.cpp.o
+ .debug_abbrev  0x00000317       0xbc commander_params.c.o
+ .debug_abbrev  0x000003d3      0x25f state_machine_helper.cpp.o
+ .debug_abbrev  0x00000632      0x1c4 commander_helper.cpp.o
+ .debug_abbrev  0x000007f6       0xc0 calibration_routines.cpp.o
+ .debug_abbrev  0x000008b6      0x256 accelerometer_calibration.cpp.o
+ .debug_abbrev  0x00000b0c      0x1f3 gyro_calibration.cpp.o
+ .debug_abbrev  0x00000cff      0x1e6 mag_calibration.cpp.o
+ .debug_abbrev  0x00000ee5       0x69 baro_calibration.cpp.o
+ .debug_abbrev  0x00000f4e       0xf3 rc_calibration.cpp.o
+ .debug_abbrev  0x00001041      0x1ae airspeed_calibration.cpp.o
+
+.debug_line     0x00000000     0x386d
+ *(.debug_line)
+ .debug_line    0x00000000      0xf2d commander.cpp.o
+ .debug_line    0x00000f2d      0x1b7 commander_params.c.o
+ .debug_line    0x000010e4      0x598 state_machine_helper.cpp.o
+ .debug_line    0x0000167c      0x4ac commander_helper.cpp.o
+ .debug_line    0x00001b28      0x288 calibration_routines.cpp.o
+ .debug_line    0x00001db0      0x77c accelerometer_calibration.cpp.o
+ .debug_line    0x0000252c      0x601 gyro_calibration.cpp.o
+ .debug_line    0x00002b2d      0x561 mag_calibration.cpp.o
+ .debug_line    0x0000308e       0x8d baro_calibration.cpp.o
+ .debug_line    0x0000311b      0x2bb rc_calibration.cpp.o
+ .debug_line    0x000033d6      0x497 airspeed_calibration.cpp.o
+
+.debug_frame    0x00000000      0x7c8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1f0 commander.cpp.o
+ .debug_frame   0x000001f0      0x11c state_machine_helper.cpp.o
+ .debug_frame   0x0000030c      0x260 commander_helper.cpp.o
+ .debug_frame   0x0000056c       0x50 calibration_routines.cpp.o
+ .debug_frame   0x000005bc      0x100 accelerometer_calibration.cpp.o
+ .debug_frame   0x000006bc       0x44 gyro_calibration.cpp.o
+ .debug_frame   0x00000700       0x38 mag_calibration.cpp.o
+ .debug_frame   0x00000738       0x2c baro_calibration.cpp.o
+ .debug_frame   0x00000764       0x30 rc_calibration.cpp.o
+ .debug_frame   0x00000794       0x34 airspeed_calibration.cpp.o
+
+.debug_str      0x00000000     0x8a51
+ *(.debug_str)
+ .debug_str     0x00000000     0x31ca commander.cpp.o
+ .debug_str     0x000031ca      0x25b commander_params.c.o
+ .debug_str     0x00003425     0x1119 state_machine_helper.cpp.o
+ .debug_str     0x0000453e     0x12d2 commander_helper.cpp.o
+ .debug_str     0x00005810      0x232 calibration_routines.cpp.o
+ .debug_str     0x00005a42      0xd20 accelerometer_calibration.cpp.o
+ .debug_str     0x00006762      0xb57 gyro_calibration.cpp.o
+ .debug_str     0x000072b9      0x9d1 mag_calibration.cpp.o
+ .debug_str     0x00007c8a      0x169 baro_calibration.cpp.o
+ .debug_str     0x00007df3      0x2f6 rc_calibration.cpp.o
+ .debug_str     0x000080e9      0x968 airspeed_calibration.cpp.o
+
+.debug_loc      0x00000000     0x51a6
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x26e5 commander.cpp.o
+ .debug_loc     0x000026e5      0x55d state_machine_helper.cpp.o
+ .debug_loc     0x00002c42      0x41b commander_helper.cpp.o
+ .debug_loc     0x0000305d      0xa04 calibration_routines.cpp.o
+ .debug_loc     0x00003a61      0xd3b accelerometer_calibration.cpp.o
+ .debug_loc     0x0000479c      0x41c gyro_calibration.cpp.o
+ .debug_loc     0x00004bb8      0x3cc mag_calibration.cpp.o
+ .debug_loc     0x00004f84       0x33 baro_calibration.cpp.o
+ .debug_loc     0x00004fb7       0xc8 rc_calibration.cpp.o
+ .debug_loc     0x0000507f      0x127 airspeed_calibration.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0xd30
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x530 commander.cpp.o
+ .debug_ranges  0x00000530      0x158 state_machine_helper.cpp.o
+ .debug_ranges  0x00000688       0xf0 commander_helper.cpp.o
+ .debug_ranges  0x00000778       0x68 calibration_routines.cpp.o
+ .debug_ranges  0x000007e0      0x2f8 accelerometer_calibration.cpp.o
+ .debug_ranges  0x00000ad8      0x108 gyro_calibration.cpp.o
+ .debug_ranges  0x00000be0       0x90 mag_calibration.cpp.o
+ .debug_ranges  0x00000c70       0x10 baro_calibration.cpp.o
+ .debug_ranges  0x00000c80       0x30 rc_calibration.cpp.o
+ .debug_ranges  0x00000cb0       0x80 airspeed_calibration.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 commander.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 commander_params.c.o
+ .ARM.attributes
+                0x0000006e       0x37 state_machine_helper.cpp.o
+ .ARM.attributes
+                0x000000a5       0x37 commander_helper.cpp.o
+ .ARM.attributes
+                0x000000dc       0x37 calibration_routines.cpp.o
+ .ARM.attributes
+                0x00000113       0x37 accelerometer_calibration.cpp.o
+ .ARM.attributes
+                0x0000014a       0x37 gyro_calibration.cpp.o
+ .ARM.attributes
+                0x00000181       0x37 mag_calibration.cpp.o
+ .ARM.attributes
+                0x000001b8       0x37 baro_calibration.cpp.o
+ .ARM.attributes
+                0x000001ef       0x37 rc_calibration.cpp.o
+ .ARM.attributes
+                0x00000226       0x37 airspeed_calibration.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/commander/module.pre.o elf32-littlearm)

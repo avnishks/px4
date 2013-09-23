@@ -1,0 +1,415 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD 24xxxx_mtd.c.o
+LOAD eeprom.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 24xxxx_mtd.c.o
+ .text          0x00000000        0x0 eeprom.c.o
+ *(.gnu.warning)
+
+.text.at24c_erase
+                0x00000000       0x24
+ .text.at24c_erase
+                0x00000000       0x24 24xxxx_mtd.c.o
+
+.text.at24c_eraseall
+                0x00000000       0x84
+ .text.at24c_eraseall
+                0x00000000       0x84 24xxxx_mtd.c.o
+
+.text.at24c_nuke
+                0x00000000       0x30
+ .text.at24c_nuke
+                0x00000000       0x30 24xxxx_mtd.c.o
+                0x00000000                at24c_nuke
+
+.text.at24c_ioctl
+                0x00000000       0x6c
+ .text.at24c_ioctl
+                0x00000000       0x6c 24xxxx_mtd.c.o
+
+.text.at24c_initialize
+                0x00000000      0x100
+ .text.at24c_initialize
+                0x00000000      0x100 24xxxx_mtd.c.o
+                0x00000000                at24c_initialize
+
+.text.at24c_bwrite
+                0x00000000       0xe8
+ .text.at24c_bwrite
+                0x00000000       0xe8 24xxxx_mtd.c.o
+
+.text.at24c_bread
+                0x00000000      0x100
+ .text.at24c_bread
+                0x00000000      0x100 24xxxx_mtd.c.o
+
+.text.at24c_test
+                0x00000000       0x70
+ .text.at24c_test
+                0x00000000       0x70 24xxxx_mtd.c.o
+                0x00000000                at24c_test
+
+.text.eeprom_attach
+                0x00000000       0xa4
+ .text.eeprom_attach
+                0x00000000       0xa4 eeprom.c.o
+
+.text.eeprom_start
+                0x00000000       0x90
+ .text.eeprom_start
+                0x00000000       0x90 eeprom.c.o
+
+.text.eeprom_save
+                0x00000000       0x8c
+ .text.eeprom_save
+                0x00000000       0x8c eeprom.c.o
+
+.text.eeprom_load
+                0x00000000       0x80
+ .text.eeprom_load
+                0x00000000       0x80 eeprom.c.o
+
+.text.eeprom_erase
+                0x00000000       0x3c
+ .text.eeprom_erase
+                0x00000000       0x3c eeprom.c.o
+
+.text.eeprom_test
+                0x00000000       0x1c
+ .text.eeprom_test
+                0x00000000       0x1c eeprom.c.o
+
+.text.eeprom_main
+                0x00000000       0x84
+ .text.eeprom_main
+                0x00000000       0x84 eeprom.c.o
+                0x00000000                eeprom_main
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x360
+ .rodata.str1.4
+                0x00000000       0x68 24xxxx_mtd.c.o
+ .rodata.str1.4
+                0x00000068      0x2f8 eeprom.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 24xxxx_mtd.c.o
+ .data          0x00000000        0x0 eeprom.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 24xxxx_mtd.c.o
+ .bss           0x00000000        0x0 eeprom.c.o
+ *(COMMON)
+
+.bss.g_at24c    0x00000000       0x38
+ .bss.g_at24c   0x00000000       0x38 24xxxx_mtd.c.o
+
+.bss.started    0x00000000        0x1
+ .bss.started   0x00000000        0x1 eeprom.c.o
+
+.bss.eeprom_mtd
+                0x00000000        0x4
+ .bss.eeprom_mtd
+                0x00000000        0x4 eeprom.c.o
+
+.bss.attached   0x00000000        0x1
+ .bss.attached  0x00000000        0x1 eeprom.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 24xxxx_mtd.c.o
+ .comment       0x00000071       0x71 eeprom.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 24xxxx_mtd.c.o
+ .debug_aranges
+                0x00000058       0x50 eeprom.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xe1f
+ *(.debug_info)
+ .debug_info    0x00000000      0x8f4 24xxxx_mtd.c.o
+ .debug_info    0x000008f4      0x52b eeprom.c.o
+
+.debug_abbrev   0x00000000      0x3b0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x25b 24xxxx_mtd.c.o
+ .debug_abbrev  0x0000025b      0x155 eeprom.c.o
+
+.debug_line     0x00000000      0x818
+ *(.debug_line)
+ .debug_line    0x00000000      0x47c 24xxxx_mtd.c.o
+ .debug_line    0x0000047c      0x39c eeprom.c.o
+
+.debug_frame    0x00000000      0x1e4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x118 24xxxx_mtd.c.o
+ .debug_frame   0x00000118       0xcc eeprom.c.o
+
+.debug_str      0x00000000      0x7f2
+ *(.debug_str)
+ .debug_str     0x00000000      0x475 24xxxx_mtd.c.o
+ .debug_str     0x00000475      0x37d eeprom.c.o
+
+.debug_loc      0x00000000      0x866
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x582 24xxxx_mtd.c.o
+ .debug_loc     0x00000582      0x2e4 eeprom.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x150
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xe8 24xxxx_mtd.c.o
+ .debug_ranges  0x000000e8       0x68 eeprom.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 24xxxx_mtd.c.o
+ .ARM.attributes
+                0x00000037       0x37 eeprom.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/systemcmds/eeprom/module.pre.o elf32-littlearm)

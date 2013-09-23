@@ -1,0 +1,384 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD airspeed.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 airspeed.cpp.o
+ *(.gnu.warning)
+
+.text._ZN8Airspeed10print_infoEv
+                0x00000000       0x68
+ .text._ZN8Airspeed10print_infoEv
+                0x00000000       0x68 airspeed.cpp.o
+                0x00000000                Airspeed::print_info()
+
+.text._ZN8Airspeed16cycle_trampolineEPv
+                0x00000000       0x2c
+ .text._ZN8Airspeed16cycle_trampolineEPv
+                0x00000000       0x2c airspeed.cpp.o
+                0x00000000                Airspeed::cycle_trampoline(void*)
+
+.text._ZN8Airspeed5probeEv
+                0x00000000       0x34
+ .text._ZN8Airspeed5probeEv
+                0x00000000       0x34 airspeed.cpp.o
+                0x00000000                Airspeed::probe()
+
+.text._ZN8Airspeed4stopEv
+                0x00000000       0x2c
+ .text._ZN8Airspeed4stopEv
+                0x00000000       0x2c airspeed.cpp.o
+                0x00000000                Airspeed::stop()
+
+.text._ZN8Airspeed5startEv
+                0x00000000       0x74
+ .text._ZN8Airspeed5startEv
+                0x00000000       0x74 airspeed.cpp.o
+                0x00000000                Airspeed::start()
+
+.text._ZN8Airspeed4readEP4filePcj
+                0x00000000      0x18c
+ .text._ZN8Airspeed4readEP4filePcj
+                0x00000000      0x18c airspeed.cpp.o
+                0x00000000                Airspeed::read(file*, char*, unsigned int)
+
+.text._ZN8Airspeed4initEv
+                0x00000000       0xa4
+ .text._ZN8Airspeed4initEv
+                0x00000000       0xa4 airspeed.cpp.o
+                0x00000000                Airspeed::init()
+
+.text._ZN8AirspeedC2Eiij
+                0x00000000       0xdc
+ .text._ZN8AirspeedC2Eiij
+                0x00000000       0xdc airspeed.cpp.o
+                0x00000000                Airspeed::Airspeed(int, int, unsigned int)
+                0x00000000                Airspeed::Airspeed(int, int, unsigned int)
+
+.text._ZN8AirspeedD2Ev
+                0x00000000       0x70
+ .text._ZN8AirspeedD2Ev
+                0x00000000       0x70 airspeed.cpp.o
+                0x00000000                Airspeed::~Airspeed()
+                0x00000000                Airspeed::~Airspeed()
+
+.text._ZN8AirspeedD0Ev
+                0x00000000       0x30
+ .text._ZN8AirspeedD0Ev
+                0x00000000       0x30 airspeed.cpp.o
+                0x00000000                Airspeed::~Airspeed()
+
+.text._ZN8Airspeed5ioctlEP4fileim
+                0x00000000      0x274
+ .text._ZN8Airspeed5ioctlEP4fileim
+                0x00000000      0x274 airspeed.cpp.o
+                0x00000000                Airspeed::ioctl(file*, int, unsigned long)
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000        0x8
+ *(.rodata)
+ .rodata        0x00000000        0x8 airspeed.cpp.o
+
+.rodata.str1.4  0x00000000       0xdc
+ .rodata.str1.4
+                0x00000000       0xdc airspeed.cpp.o
+
+.rodata._ZTV8Airspeed
+                0x00000000       0x68
+ .rodata._ZTV8Airspeed
+                0x00000000       0x68 airspeed.cpp.o
+                0x00000000                vtable for Airspeed
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 airspeed.cpp.o
+
+.data._ZZN8Airspeed5startEvE3pub
+                0x00000000        0x4
+ .data._ZZN8Airspeed5startEvE3pub
+                0x00000000        0x4 airspeed.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 airspeed.cpp.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 airspeed.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 airspeed.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1953
+ *(.debug_info)
+ .debug_info    0x00000000     0x1953 airspeed.cpp.o
+
+.debug_abbrev   0x00000000      0x478
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x478 airspeed.cpp.o
+
+.debug_line     0x00000000      0x7ce
+ *(.debug_line)
+ .debug_line    0x00000000      0x7ce airspeed.cpp.o
+
+.debug_frame    0x00000000      0x170
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x170 airspeed.cpp.o
+
+.debug_str      0x00000000      0xe1f
+ *(.debug_str)
+ .debug_str     0x00000000      0xe1f airspeed.cpp.o
+
+.debug_loc      0x00000000      0x783
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x783 airspeed.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x238
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x238 airspeed.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 airspeed.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/drivers/airspeed/module.pre.o elf32-littlearm)

@@ -1,0 +1,900 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD md25.cpp.o
+LOAD md25_main.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 md25.cpp.o
+ .text          0x00000000        0x0 md25_main.cpp.o
+ *(.gnu.warning)
+
+.text._ZN7control16UOrbSubscriptionI19actuator_controls_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control16UOrbSubscriptionI19actuator_controls_sE14getDataVoidPtrEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                control::UOrbSubscription<actuator_controls_s>::getDataVoidPtr()
+
+.text._ZN7control15UOrbPublicationI17debug_key_value_sE14getDataVoidPtrEv
+                0x00000000       0x24
+ .text._ZN7control15UOrbPublicationI17debug_key_value_sE14getDataVoidPtrEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                control::UOrbPublication<debug_key_value_s>::getDataVoidPtr()
+
+.text._ZN7control19UOrbPublicationBase9getHandleEv
+                0x00000000       0x24
+ .text._ZN7control19UOrbPublicationBase9getHandleEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::getHandle()
+
+.text._ZN8ListNodeIPN7control19UOrbPublicationBaseEEC2Ev
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control19UOrbPublicationBaseEEC2Ev
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                ListNode<control::UOrbPublicationBase*>::ListNode()
+                0x00000000                ListNode<control::UOrbPublicationBase*>::ListNode()
+
+.text._ZN4ListIPN7control19UOrbPublicationBaseEE7getHeadEv
+                0x00000000       0x24
+ .text._ZN4ListIPN7control19UOrbPublicationBaseEE7getHeadEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                List<control::UOrbPublicationBase*>::getHead()
+
+.text._ZN8ListNodeIPN7control19UOrbPublicationBaseEE10setSiblingES2_
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control19UOrbPublicationBaseEE10setSiblingES2_
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                ListNode<control::UOrbPublicationBase*>::setSibling(control::UOrbPublicationBase*)
+
+.text._ZN4ListIPN7control19UOrbPublicationBaseEE7setHeadERS2_
+                0x00000000       0x28
+ .text._ZN4ListIPN7control19UOrbPublicationBaseEE7setHeadERS2_
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                List<control::UOrbPublicationBase*>::setHead(control::UOrbPublicationBase*&)
+
+.text._ZN7control19UOrbPublicationBase7getMetaEv
+                0x00000000       0x24
+ .text._ZN7control19UOrbPublicationBase7getMetaEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::getMeta()
+
+.text._ZN7control19UOrbPublicationBase9setHandleEi
+                0x00000000       0x28
+ .text._ZN7control19UOrbPublicationBase9setHandleEi
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::setHandle(int)
+
+.text._ZN4MD2512_normToUint8Ef
+                0x00000000       0x6c
+ .text._ZN4MD2512_normToUint8Ef
+                0x00000000       0x6c md25.cpp.o
+                0x00000000                MD25::_normToUint8(float)
+
+.text._ZN4MD2512_uint8ToNormEh
+                0x00000000       0x48
+ .text._ZN4MD2512_uint8ToNormEh
+                0x00000000       0x48 md25.cpp.o
+                0x00000000                MD25::_uint8ToNorm(unsigned char)
+
+.text._ZN6device3I2C11set_addressEt
+                0x00000000       0x28
+ .text._ZN6device3I2C11set_addressEt
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                device::I2C::set_address(unsigned short)
+
+.text._ZN4MD2510getCommandEv
+                0x00000000       0x28
+ .text._ZN4MD2510getCommandEv
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                MD25::getCommand()
+
+.text._ZN4MD257getModeEv
+                0x00000000       0x28
+ .text._ZN4MD257getModeEv
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                MD25::getMode()
+
+.text._ZN4MD2513getMotorAccelEv
+                0x00000000       0x28
+ .text._ZN4MD2513getMotorAccelEv
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                MD25::getMotorAccel()
+
+.text._ZN4MD2516getMotor2CurrentEv
+                0x00000000       0x30
+ .text._ZN4MD2516getMotor2CurrentEv
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getMotor2Current()
+
+.text._ZN4MD2516getMotor1CurrentEv
+                0x00000000       0x30
+ .text._ZN4MD2516getMotor1CurrentEv
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getMotor1Current()
+
+.text._ZN4MD2515getBatteryVoltsEv
+                0x00000000       0x30
+ .text._ZN4MD2515getBatteryVoltsEv
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getBatteryVolts()
+
+.text._ZN4MD2515getRevolutions2Ev
+                0x00000000       0x30
+ .text._ZN4MD2515getRevolutions2Ev
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getRevolutions2()
+
+.text._ZN4MD2515getRevolutions1Ev
+                0x00000000       0x30
+ .text._ZN4MD2515getRevolutions1Ev
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getRevolutions1()
+
+.text._ZN4MD2514getMotor2SpeedEv
+                0x00000000       0x30
+ .text._ZN4MD2514getMotor2SpeedEv
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getMotor2Speed()
+
+.text._ZN4MD2514getMotor1SpeedEv
+                0x00000000       0x30
+ .text._ZN4MD2514getMotor1SpeedEv
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                MD25::getMotor1Speed()
+
+.text._ZN4MD2510getVersionEv
+                0x00000000       0x28
+ .text._ZN4MD2510getVersionEv
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                MD25::getVersion()
+
+.text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEEC2Ev
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEEC2Ev
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                ListNode<control::UOrbSubscriptionBase*>::ListNode()
+                0x00000000                ListNode<control::UOrbSubscriptionBase*>::ListNode()
+
+.text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7getHeadEv
+                0x00000000       0x24
+ .text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7getHeadEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                List<control::UOrbSubscriptionBase*>::getHead()
+
+.text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEE10setSiblingES2_
+                0x00000000       0x28
+ .text._ZN8ListNodeIPN7control20UOrbSubscriptionBaseEE10setSiblingES2_
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                ListNode<control::UOrbSubscriptionBase*>::setSibling(control::UOrbSubscriptionBase*)
+
+.text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7setHeadERS2_
+                0x00000000       0x28
+ .text._ZN4ListIPN7control20UOrbSubscriptionBaseEE7setHeadERS2_
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                List<control::UOrbSubscriptionBase*>::setHead(control::UOrbSubscriptionBase*&)
+
+.text._ZN7control20UOrbSubscriptionBase7getMetaEv
+                0x00000000       0x24
+ .text._ZN7control20UOrbSubscriptionBase7getMetaEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::getMeta()
+
+.text._ZN7control20UOrbSubscriptionBase9setHandleEi
+                0x00000000       0x28
+ .text._ZN7control20UOrbSubscriptionBase9setHandleEi
+                0x00000000       0x28 md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::setHandle(int)
+
+.text._ZN7control20UOrbSubscriptionBase9getHandleEv
+                0x00000000       0x24
+ .text._ZN7control20UOrbSubscriptionBase9getHandleEv
+                0x00000000       0x24 md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::getHandle()
+
+.text._ZN7control20UOrbSubscriptionBaseD2Ev
+                0x00000000       0x30
+ .text._ZN7control20UOrbSubscriptionBaseD2Ev
+                0x00000000       0x30 md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::~UOrbSubscriptionBase()
+                0x00000000                control::UOrbSubscriptionBase::~UOrbSubscriptionBase()
+
+.text._ZN4MD2510_writeInt8Eha
+                0x00000000       0x4c
+ .text._ZN4MD2510_writeInt8Eha
+                0x00000000       0x4c md25.cpp.o
+                0x00000000                MD25::_writeInt8(unsigned char, signed char)
+
+.text._ZN4MD2511_writeUint8Ehh
+                0x00000000       0x4c
+ .text._ZN4MD2511_writeUint8Ehh
+                0x00000000       0x4c md25.cpp.o
+                0x00000000                MD25::_writeUint8(unsigned char, unsigned char)
+
+.text._ZN7control20UOrbSubscriptionBase6updateEv
+                0x00000000       0x3c
+ .text._ZN7control20UOrbSubscriptionBase6updateEv
+                0x00000000       0x3c md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::update()
+
+.text._ZN4MD2516setDeviceAddressEh
+                0x00000000       0x8c
+ .text._ZN4MD2516setDeviceAddressEh
+                0x00000000       0x8c md25.cpp.o
+                0x00000000                MD25::setDeviceAddress(unsigned char)
+
+.text._ZN7control19UOrbPublicationBaseD2Ev
+                0x00000000       0x50
+ .text._ZN7control19UOrbPublicationBaseD2Ev
+                0x00000000       0x50 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::~UOrbPublicationBase()
+                0x00000000                control::UOrbPublicationBase::~UOrbPublicationBase()
+
+.text._ZN4ListIPN7control20UOrbSubscriptionBaseEE3addES2_
+                0x00000000       0x7c
+ .text._ZN4ListIPN7control20UOrbSubscriptionBaseEE3addES2_
+                0x00000000       0x7c md25.cpp.o
+                0x00000000                List<control::UOrbSubscriptionBase*>::add(control::UOrbSubscriptionBase*)
+
+.text._ZN4ListIPN7control19UOrbPublicationBaseEE3addES2_
+                0x00000000       0x7c
+ .text._ZN4ListIPN7control19UOrbPublicationBaseEE3addES2_
+                0x00000000       0x7c md25.cpp.o
+                0x00000000                List<control::UOrbPublicationBase*>::add(control::UOrbPublicationBase*)
+
+.text._ZN7control19UOrbPublicationBase6updateEv
+                0x00000000       0xa0
+ .text._ZN7control19UOrbPublicationBase6updateEv
+                0x00000000       0xa0 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::update()
+
+.text._ZN4MD256statusEPcj
+                0x00000000      0x1f0
+ .text._ZN4MD256statusEPcj
+                0x00000000      0x1f0 md25.cpp.o
+                0x00000000                MD25::status(char*, unsigned int)
+
+.text._ZN7control20UOrbSubscriptionBaseD0Ev
+                0x00000000       0x50
+ .text._ZN7control20UOrbSubscriptionBaseD0Ev
+                0x00000000       0x50 md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::~UOrbSubscriptionBase()
+
+.text._ZN4MD258readDataEv
+                0x00000000      0x1a0
+ .text._ZN4MD258readDataEv
+                0x00000000      0x1a0 md25.cpp.o
+                0x00000000                MD25::readData()
+
+.text._ZN4MD256searchEv
+                0x00000000       0xb4
+ .text._ZN4MD256searchEv
+                0x00000000       0xb4 md25.cpp.o
+                0x00000000                MD25::search()
+
+.text._ZN4MD255probeEv
+                0x00000000       0xb8
+ .text._ZN4MD255probeEv
+                0x00000000       0xb8 md25.cpp.o
+                0x00000000                MD25::probe()
+
+.text._ZN7control16UOrbSubscriptionI19actuator_controls_sED0Ev
+                0x00000000       0x74
+ .text._ZN7control16UOrbSubscriptionI19actuator_controls_sED0Ev
+                0x00000000       0x74 md25.cpp.o
+                0x00000000                control::UOrbSubscription<actuator_controls_s>::~UOrbSubscription()
+
+.text._ZN7control16UOrbSubscriptionI19actuator_controls_sED2Ev
+                0x00000000       0x50
+ .text._ZN7control16UOrbSubscriptionI19actuator_controls_sED2Ev
+                0x00000000       0x50 md25.cpp.o
+                0x00000000                control::UOrbSubscription<actuator_controls_s>::~UOrbSubscription()
+                0x00000000                control::UOrbSubscription<actuator_controls_s>::~UOrbSubscription()
+
+.text._ZN4MD25D2Ev
+                0x00000000       0x7c
+ .text._ZN4MD25D2Ev
+                0x00000000       0x7c md25.cpp.o
+                0x00000000                MD25::~MD25()
+                0x00000000                MD25::~MD25()
+
+.text._ZN7control15UOrbPublicationI17debug_key_value_sED0Ev
+                0x00000000       0x90
+ .text._ZN7control15UOrbPublicationI17debug_key_value_sED0Ev
+                0x00000000       0x90 md25.cpp.o
+                0x00000000                control::UOrbPublication<debug_key_value_s>::~UOrbPublication()
+
+.text._ZN7control15UOrbPublicationI17debug_key_value_sED2Ev
+                0x00000000       0x70
+ .text._ZN7control15UOrbPublicationI17debug_key_value_sED2Ev
+                0x00000000       0x70 md25.cpp.o
+                0x00000000                control::UOrbPublication<debug_key_value_s>::~UOrbPublication()
+                0x00000000                control::UOrbPublication<debug_key_value_s>::~UOrbPublication()
+
+.text._ZN7control19UOrbPublicationBaseD0Ev
+                0x00000000       0x70
+ .text._ZN7control19UOrbPublicationBaseD0Ev
+                0x00000000       0x70 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::~UOrbPublicationBase()
+
+.text._ZN4MD2513resetEncodersEv
+                0x00000000       0x60
+ .text._ZN4MD2513resetEncodersEv
+                0x00000000       0x60 md25.cpp.o
+                0x00000000                MD25::resetEncoders()
+
+.text._ZN7control16UOrbSubscriptionI19actuator_controls_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x138
+ .text._ZN7control16UOrbSubscriptionI19actuator_controls_sEC2EP4ListIPNS_20UOrbSubscriptionBaseEEPK12orb_metadataj
+                0x00000000      0x138 md25.cpp.o
+                0x00000000                control::UOrbSubscription<actuator_controls_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+                0x00000000                control::UOrbSubscription<actuator_controls_s>::UOrbSubscription(List<control::UOrbSubscriptionBase*>*, orb_metadata const*, unsigned int)
+
+.text._ZN7control20UOrbSubscriptionBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4
+ .text._ZN7control20UOrbSubscriptionBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4 md25.cpp.o
+                0x00000000                control::UOrbSubscriptionBase::UOrbSubscriptionBase(List<control::UOrbSubscriptionBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbSubscriptionBase::UOrbSubscriptionBase(List<control::UOrbSubscriptionBase*>*, orb_metadata const*)
+
+.text._ZN4MD25D0Ev
+                0x00000000       0x98
+ .text._ZN4MD25D0Ev
+                0x00000000       0x98 md25.cpp.o
+                0x00000000                MD25::~MD25()
+
+.text._ZN7control19UOrbPublicationBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4
+ .text._ZN7control19UOrbPublicationBaseC2EP4ListIPS0_EPK12orb_metadata
+                0x00000000       0xa4 md25.cpp.o
+                0x00000000                control::UOrbPublicationBase::UOrbPublicationBase(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbPublicationBase::UOrbPublicationBase(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+
+.text._ZN7control15UOrbPublicationI17debug_key_value_sEC2EP4ListIPNS_19UOrbPublicationBaseEEPK12orb_metadata
+                0x00000000       0xd8
+ .text._ZN7control15UOrbPublicationI17debug_key_value_sEC2EP4ListIPNS_19UOrbPublicationBaseEEPK12orb_metadata
+                0x00000000       0xd8 md25.cpp.o
+                0x00000000                control::UOrbPublication<debug_key_value_s>::UOrbPublication(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+                0x00000000                control::UOrbPublication<debug_key_value_s>::UOrbPublication(List<control::UOrbPublicationBase*>*, orb_metadata const*)
+
+.text._ZN4MD2514setMotor2SpeedEf
+                0x00000000       0xb4
+ .text._ZN4MD2514setMotor2SpeedEf
+                0x00000000       0xb4 md25.cpp.o
+                0x00000000                MD25::setMotor2Speed(float)
+
+.text._ZN4MD2514setMotor1SpeedEf
+                0x00000000       0xb4
+ .text._ZN4MD2514setMotor1SpeedEf
+                0x00000000       0xb4 md25.cpp.o
+                0x00000000                MD25::setMotor1Speed(float)
+
+.text._ZN4MD2513setMotorAccelEh
+                0x00000000       0x64
+ .text._ZN4MD2513setMotorAccelEh
+                0x00000000       0x64 md25.cpp.o
+                0x00000000                MD25::setMotorAccel(unsigned char)
+
+.text._ZN4MD258_setModeENS_6e_modeE
+                0x00000000       0x64
+ .text._ZN4MD258_setModeENS_6e_modeE
+                0x00000000       0x64 md25.cpp.o
+                0x00000000                MD25::_setMode(MD25::e_mode)
+
+.text._ZN4MD2510setTimeoutEh
+                0x00000000       0x74
+ .text._ZN4MD2510setTimeoutEh
+                0x00000000       0x74 md25.cpp.o
+                0x00000000                MD25::setTimeout(unsigned char)
+
+.text._ZN4MD2518setSpeedRegulationEh
+                0x00000000       0x74
+ .text._ZN4MD2518setSpeedRegulationEh
+                0x00000000       0x74 md25.cpp.o
+                0x00000000                MD25::setSpeedRegulation(unsigned char)
+
+.text._ZN4MD256updateEv
+                0x00000000      0x1a8
+ .text._ZN4MD256updateEv
+                0x00000000      0x1a8 md25.cpp.o
+                0x00000000                MD25::update()
+
+.text._ZN4MD25C2EPKcitj
+                0x00000000      0x390
+ .text._ZN4MD25C2EPKcitj
+                0x00000000      0x390 md25.cpp.o
+                0x00000000                MD25::MD25(char const*, int, unsigned short, unsigned int)
+                0x00000000                MD25::MD25(char const*, int, unsigned short, unsigned int)
+
+.text._Z8md25SinePKchhff
+                0x00000000      0x4e0
+ .text._Z8md25SinePKchhff
+                0x00000000      0x4e0 md25.cpp.o
+                0x00000000                md25Sine(char const*, unsigned char, unsigned char, float, float)
+
+.text._Z8md25TestPKchh
+                0x00000000      0x68c
+ .text._Z8md25TestPKchh
+                0x00000000      0x68c md25.cpp.o
+                0x00000000                md25Test(char const*, unsigned char, unsigned char)
+
+.text._Z16md25_thread_mainiPPc
+                0x00000000       0xac
+ .text._Z16md25_thread_mainiPPc
+                0x00000000       0xac md25_main.cpp.o
+                0x00000000                md25_thread_main(int, char**)
+
+.text._ZN6device3I2C11get_addressEv
+                0x00000000       0x28
+ .text._ZN6device3I2C11get_addressEv
+                0x00000000       0x28 md25_main.cpp.o
+                0x00000000                device::I2C::get_address()
+
+.text._ZL5usagePKc
+                0x00000000       0x40
+ .text._ZL5usagePKc
+                0x00000000       0x40 md25_main.cpp.o
+
+.text.md25_main
+                0x00000000      0x3a4
+ .text.md25_main
+                0x00000000      0x3a4 md25_main.cpp.o
+                0x00000000                md25_main
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTVN7control16UOrbSubscriptionI19actuator_controls_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control16UOrbSubscriptionI19actuator_controls_sEE
+                0x00000000       0x18 md25.cpp.o
+                0x00000000                vtable for control::UOrbSubscription<actuator_controls_s>
+
+.rodata._ZTVN7control20UOrbSubscriptionBaseE
+                0x00000000       0x18
+ .rodata._ZTVN7control20UOrbSubscriptionBaseE
+                0x00000000       0x18 md25.cpp.o
+                0x00000000                vtable for control::UOrbSubscriptionBase
+
+.rodata._ZTVN7control15UOrbPublicationI17debug_key_value_sEE
+                0x00000000       0x18
+ .rodata._ZTVN7control15UOrbPublicationI17debug_key_value_sEE
+                0x00000000       0x18 md25.cpp.o
+                0x00000000                vtable for control::UOrbPublication<debug_key_value_s>
+
+.rodata._ZTVN7control19UOrbPublicationBaseE
+                0x00000000       0x18
+ .rodata._ZTVN7control19UOrbPublicationBaseE
+                0x00000000       0x18 md25.cpp.o
+                0x00000000                vtable for control::UOrbPublicationBase
+
+.rodata._ZTV4MD25
+                0x00000000       0x58
+ .rodata._ZTV4MD25
+                0x00000000       0x58 md25.cpp.o
+                0x00000000                vtable for MD25
+
+.rodata.str1.4  0x00000000      0x570
+ .rodata.str1.4
+                0x00000000      0x2ac md25.cpp.o
+ .rodata.str1.4
+                0x000002ac      0x2c4 md25_main.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 md25.cpp.o
+ .data          0x00000000        0x0 md25_main.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 md25.cpp.o
+ .bss           0x00000000        0x0 md25_main.cpp.o
+ *(COMMON)
+
+.bss._ZL18thread_should_exit
+                0x00000000        0x1
+ .bss._ZL18thread_should_exit
+                0x00000000        0x1 md25_main.cpp.o
+
+.bss._ZL11deamon_task
+                0x00000000        0x4
+ .bss._ZL11deamon_task
+                0x00000000        0x4 md25_main.cpp.o
+
+.bss._ZL14thread_running
+                0x00000000        0x1
+ .bss._ZL14thread_running
+                0x00000000        0x1 md25_main.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 md25.cpp.o
+ .comment       0x00000071       0x71 md25_main.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc md25.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 md25_main.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x260
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x228 md25.cpp.o
+ .debug_aranges
+                0x00000228       0x38 md25_main.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x518f
+ *(.debug_info)
+ .debug_info    0x00000000     0x4cc7 md25.cpp.o
+ .debug_info    0x00004cc7      0x4c8 md25_main.cpp.o
+
+.debug_abbrev   0x00000000      0x7aa
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5f1 md25.cpp.o
+ .debug_abbrev  0x000005f1      0x1b9 md25_main.cpp.o
+
+.debug_line     0x00000000     0x13f8
+ *(.debug_line)
+ .debug_line    0x00000000     0x10da md25.cpp.o
+ .debug_line    0x000010da      0x31e md25_main.cpp.o
+
+.debug_frame    0x00000000      0x93c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x8ac md25.cpp.o
+ .debug_frame   0x000008ac       0x90 md25_main.cpp.o
+
+.debug_str      0x00000000     0x1cb1
+ *(.debug_str)
+ .debug_str     0x00000000     0x194a md25.cpp.o
+ .debug_str     0x0000194a      0x367 md25_main.cpp.o
+
+.debug_loc      0x00000000     0x5d5c
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x58cf md25.cpp.o
+ .debug_loc     0x000058cf      0x48d md25_main.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0xe68
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0xd88 md25.cpp.o
+ .debug_ranges  0x00000d88       0xe0 md25_main.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 md25.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 md25_main.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/drivers/md25/module.pre.o elf32-littlearm)

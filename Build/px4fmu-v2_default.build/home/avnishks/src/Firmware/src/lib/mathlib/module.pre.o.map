@@ -1,0 +1,1865 @@
+
+Discarded input sections
+
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0xc math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 math/Vector2f.cpp.o
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 math/Vector2f.cpp.o
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 math/Vector2f.cpp.o
+ .text._ZN4math6VectorC2Ej
+                0x00000000       0x38 math/Vector2f.cpp.o
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c math/Vector2f.cpp.o
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 math/Vector2f.cpp.o
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 math/Vector2f.cpp.o
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 math/Vector2f.cpp.o
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 math/Vector2f.cpp.o
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 math/Vector2f.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0xc math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 math/Vector3.cpp.o
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 math/Vector3.cpp.o
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 math/Vector3.cpp.o
+ .text._ZN4math6VectorC2Ej
+                0x00000000       0x38 math/Vector3.cpp.o
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 math/Vector3.cpp.o
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c math/Vector3.cpp.o
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 math/Vector3.cpp.o
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 math/Vector3.cpp.o
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 math/Vector3.cpp.o
+ .text._ZN4math6VectorC2ERKS0_
+                0x00000000       0xfc math/Vector3.cpp.o
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 math/Vector3.cpp.o
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 math/Vector3.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0xc math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 math/EulerAngles.cpp.o
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 math/EulerAngles.cpp.o
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 math/EulerAngles.cpp.o
+ .text._ZN4math6VectorC2Ej
+                0x00000000       0x38 math/EulerAngles.cpp.o
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c math/EulerAngles.cpp.o
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 math/EulerAngles.cpp.o
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 math/EulerAngles.cpp.o
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 math/EulerAngles.cpp.o
+ .text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c math/EulerAngles.cpp.o
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 math/EulerAngles.cpp.o
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 math/EulerAngles.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0xc math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+ .text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+ .text._ZN4math6VectorC2Ej
+                0x00000000       0x38 math/Quaternion.cpp.o
+ .text._ZNK4math6MatrixclEjj
+                0x00000000       0x64 math/Quaternion.cpp.o
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c math/Quaternion.cpp.o
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 math/Quaternion.cpp.o
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 math/Quaternion.cpp.o
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 math/Quaternion.cpp.o
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 math/Quaternion.cpp.o
+ .text._ZN4math6VectorC2ERKS0_
+                0x00000000       0xfc math/Quaternion.cpp.o
+ .text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c math/Quaternion.cpp.o
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 math/Quaternion.cpp.o
+ .text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+ .text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+ .text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 math/Quaternion.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0xc math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0xc math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+ .text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24 math/Dcm.cpp.o
+ .text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54 math/Dcm.cpp.o
+ .text._ZN4math6MatrixD2Ev
+                0x00000000       0x30 math/Dcm.cpp.o
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c math/Dcm.cpp.o
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 math/Dcm.cpp.o
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 math/Dcm.cpp.o
+ .text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64 math/Dcm.cpp.o
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 math/Dcm.cpp.o
+ .text._ZN4math6MatrixD0Ev
+                0x00000000       0x48 math/Dcm.cpp.o
+ .text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc math/Dcm.cpp.o
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 math/Dcm.cpp.o
+ .text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc math/Dcm.cpp.o
+ .text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math10Quaternion4getAEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math10Quaternion4getBEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math10Quaternion4getCEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math10Quaternion4getDEv
+                0x00000000       0x5c math/Dcm.cpp.o
+ .text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278 math/Dcm.cpp.o
+ .rodata._ZTVN4math6MatrixE
+                0x00000000       0x10 math/Dcm.cpp.o
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 math/Dcm.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0xc math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+ .text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24 math/Matrix.cpp.o
+ .text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24 math/Matrix.cpp.o
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 math/Matrix.cpp.o
+ .text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24 math/Matrix.cpp.o
+ .text._ZN4math6MatrixD2Ev
+                0x00000000       0x30 math/Matrix.cpp.o
+ .text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54 math/Matrix.cpp.o
+ .text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64 math/Matrix.cpp.o
+ .text._ZNK4math6MatrixclEjj
+                0x00000000       0x64 math/Matrix.cpp.o
+ .text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc math/Matrix.cpp.o
+ .text._ZN4math6MatrixC2ERKS0_
+                0x00000000      0x148 math/Matrix.cpp.o
+ .text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc math/Matrix.cpp.o
+ .text._ZN4math6MatrixD0Ev
+                0x00000000       0x48 math/Matrix.cpp.o
+ .rodata._ZTVN4math6MatrixE
+                0x00000000       0x10 math/Matrix.cpp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD math/test/test.cpp.o
+LOAD math/Vector.cpp.o
+LOAD math/Vector2f.cpp.o
+LOAD math/Vector3.cpp.o
+LOAD math/EulerAngles.cpp.o
+LOAD math/Quaternion.cpp.o
+LOAD math/Dcm.cpp.o
+LOAD math/Matrix.cpp.o
+LOAD math/Limits.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 math/test/test.cpp.o
+ .text          0x00000000        0x0 math/Vector.cpp.o
+ .text          0x00000000        0x0 math/Vector2f.cpp.o
+ .text          0x00000000        0x0 math/Vector3.cpp.o
+ .text          0x00000000        0x0 math/EulerAngles.cpp.o
+ .text          0x00000000        0x0 math/Quaternion.cpp.o
+ .text          0x00000000        0x0 math/Dcm.cpp.o
+ .text          0x00000000        0x0 math/Matrix.cpp.o
+ .text          0x00000000        0x0 math/Limits.cpp.o
+ *(.gnu.warning)
+
+.text._Z5equalfff
+                0x00000000       0x7c
+ .text._Z5equalfff
+                0x00000000       0x7c math/test/test.cpp.o
+                0x00000000                equal(float, float, float)
+
+.text._Z12float2SigExpRKfRfRi
+                0x00000000       0xf8
+ .text._Z12float2SigExpRKfRfRi
+                0x00000000       0xf8 math/test/test.cpp.o
+                0x00000000                float2SigExp(float const&, float&, int&)
+
+.text._ZN4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Vector7getDataEv
+                0x00000000       0x24 math/Vector.cpp.o
+                0x00000000                math::Vector::getData()
+
+.text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getRowsEv
+                0x00000000       0x24 math/Vector.cpp.o
+                0x00000000                math::Vector::getRows() const
+
+.text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24
+ .text._ZNK4math6Vector7getDataEv
+                0x00000000       0x24 math/Vector.cpp.o
+                0x00000000                math::Vector::getData() const
+
+.text._ZN4math6VectorC2Ej
+                0x00000000       0x38
+ .text._ZN4math6VectorC2Ej
+                0x00000000       0x38 math/Vector.cpp.o
+                0x00000000                math::Vector::Vector(unsigned int)
+                0x00000000                math::Vector::Vector(unsigned int)
+
+.text._ZN4math6VectorD2Ev
+                0x00000000       0x44
+ .text._ZN4math6VectorD2Ev
+                0x00000000       0x44 math/Vector.cpp.o
+                0x00000000                math::Vector::~Vector()
+                0x00000000                math::Vector::~Vector()
+
+.text._ZNK4math6VectorclEj
+                0x00000000       0x44
+ .text._ZNK4math6VectorclEj
+                0x00000000       0x44 math/Vector.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int) const
+
+.text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c
+ .text._ZNK4math6Vector7getSizeEv
+                0x00000000       0x3c math/Vector.cpp.o
+                0x00000000                math::Vector::getSize() const
+
+.text._ZN4math11vectorEqualERKNS_6VectorES2_f
+                0x00000000      0x13c
+ .text._ZN4math11vectorEqualERKNS_6VectorES2_f
+                0x00000000      0x13c math/Vector.cpp.o
+                0x00000000                math::vectorEqual(math::Vector const&, math::Vector const&, float)
+
+.text._ZNK4math6VectormiERKS0_
+                0x00000000       0xec
+ .text._ZNK4math6VectormiERKS0_
+                0x00000000       0xec math/Vector.cpp.o
+                0x00000000                math::Vector::operator-(math::Vector const&) const
+
+.text._ZNK4math6VectorplERKS0_
+                0x00000000       0xec
+ .text._ZNK4math6VectorplERKS0_
+                0x00000000       0xec math/Vector.cpp.o
+                0x00000000                math::Vector::operator+(math::Vector const&) const
+
+.text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8
+ .text._ZN4math6VectorC2EjPKf
+                0x00000000       0xc8 math/Vector.cpp.o
+                0x00000000                math::Vector::Vector(unsigned int, float const*)
+                0x00000000                math::Vector::Vector(unsigned int, float const*)
+
+.text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c
+ .text._ZN4math6VectoraSERKS0_
+                0x00000000       0x8c math/Vector.cpp.o
+                0x00000000                math::Vector::operator=(math::Vector const&)
+
+.text._ZN4math6VectorD0Ev
+                0x00000000       0x60
+ .text._ZN4math6VectorD0Ev
+                0x00000000       0x60 math/Vector.cpp.o
+                0x00000000                math::Vector::~Vector()
+
+.text._ZN4math13vectorSubTestEv
+                0x00000000      0x2bc
+ .text._ZN4math13vectorSubTestEv
+                0x00000000      0x2bc math/Vector.cpp.o
+                0x00000000                math::vectorSubTest()
+
+.text._ZN4math13vectorAddTestEv
+                0x00000000      0x210
+ .text._ZN4math13vectorAddTestEv
+                0x00000000      0x210 math/Vector.cpp.o
+                0x00000000                math::vectorAddTest()
+
+.text._ZN4math10vectorTestEv
+                0x00000000       0x28
+ .text._ZN4math10vectorTestEv
+                0x00000000       0x28 math/Vector.cpp.o
+                0x00000000                math::vectorTest()
+
+.text._Z41__static_initialization_and_destruction_0ii
+                0x00000000      0x614
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x00000000      0x188 math/Vector.cpp.o
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x00000188      0x48c math/Matrix.cpp.o
+
+.text.startup._GLOBAL__sub_I__ZN4math10vectorTestEv
+                0x00000000       0x2c
+ .text.startup._GLOBAL__sub_I__ZN4math10vectorTestEv
+                0x00000000       0x2c math/Vector.cpp.o
+
+.text._ZNK4math6Vector3dotERKS0_
+                0x00000000       0xa0
+ .text._ZNK4math6Vector3dotERKS0_
+                0x00000000       0xa0 math/Vector2f.cpp.o
+                0x00000000                math::Vector::dot(math::Vector const&) const
+
+.text._ZN4math6VectorclEj
+                0x00000000       0x44
+ .text._ZN4math6VectorclEj
+                0x00000000       0x44 math/Vector2f.cpp.o
+                0x00000000                math::Vector::operator()(unsigned int)
+
+.text._ZN4math8Vector2fC2Ev
+                0x00000000       0x58
+ .text._ZN4math8Vector2fC2Ev
+                0x00000000       0x58 math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::Vector2f()
+                0x00000000                math::Vector2f::Vector2f()
+
+.text._ZNK4math8Vector2f5crossERKS0_
+                0x00000000       0xec
+ .text._ZNK4math8Vector2f5crossERKS0_
+                0x00000000       0xec math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::cross(math::Vector2f const&) const
+
+.text._ZNK4math8Vector2frmERKS0_
+                0x00000000       0x3c
+ .text._ZNK4math8Vector2frmERKS0_
+                0x00000000       0x3c math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::operator%(math::Vector2f const&) const
+
+.text._ZN4math6VectorC2ERKS0_
+                0x00000000       0xfc
+ .text._ZN4math6VectorC2ERKS0_
+                0x00000000       0xfc math/Vector2f.cpp.o
+                0x00000000                math::Vector::Vector(math::Vector const&)
+                0x00000000                math::Vector::Vector(math::Vector const&)
+
+.text._ZN4math8Vector2fD2Ev
+                0x00000000       0x60
+ .text._ZN4math8Vector2fD2Ev
+                0x00000000       0x60 math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::~Vector2f()
+                0x00000000                math::Vector2f::~Vector2f()
+
+.text._ZN4math8Vector2f4setXEf
+                0x00000000       0x68
+ .text._ZN4math8Vector2f4setXEf
+                0x00000000       0x68 math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::setX(float)
+
+.text._ZN4math8Vector2f4setYEf
+                0x00000000       0x68
+ .text._ZN4math8Vector2f4setYEf
+                0x00000000       0x68 math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::setY(float)
+
+.text._ZN4math8Vector2fC2Eff
+                0x00000000      0x104
+ .text._ZN4math8Vector2fC2Eff
+                0x00000000      0x104 math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::Vector2f(float, float)
+                0x00000000                math::Vector2f::Vector2f(float, float)
+
+.text._ZN4math8Vector2fD0Ev
+                0x00000000       0x7c
+ .text._ZN4math8Vector2fD0Ev
+                0x00000000       0x7c math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::~Vector2f()
+
+.text._ZN4math12vector2fTestEv
+                0x00000000      0x120
+ .text._ZN4math12vector2fTestEv
+                0x00000000      0x120 math/Vector2f.cpp.o
+                0x00000000                math::vector2fTest()
+
+.text._ZNK4math8Vector2fmlERKS0_
+                0x00000000       0xbc
+ .text._ZNK4math8Vector2fmlERKS0_
+                0x00000000       0xbc math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::operator*(math::Vector2f const&) const
+
+.text._ZN4math8Vector2fC2EPKf
+                0x00000000       0xec
+ .text._ZN4math8Vector2fC2EPKf
+                0x00000000       0xec math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::Vector2f(float const*)
+                0x00000000                math::Vector2f::Vector2f(float const*)
+
+.text._ZN4math8Vector2fC2ERKNS_6VectorE
+                0x00000000      0x120
+ .text._ZN4math8Vector2fC2ERKNS_6VectorE
+                0x00000000      0x120 math/Vector2f.cpp.o
+                0x00000000                math::Vector2f::Vector2f(math::Vector const&)
+                0x00000000                math::Vector2f::Vector2f(math::Vector const&)
+
+.text._ZN4math7Vector3C2Ev
+                0x00000000       0x58
+ .text._ZN4math7Vector3C2Ev
+                0x00000000       0x58 math/Vector3.cpp.o
+                0x00000000                math::Vector3::Vector3()
+                0x00000000                math::Vector3::Vector3()
+
+.text._ZN4math7Vector3D2Ev
+                0x00000000       0x60
+ .text._ZN4math7Vector3D2Ev
+                0x00000000       0x60 math/Vector3.cpp.o
+                0x00000000                math::Vector3::~Vector3()
+                0x00000000                math::Vector3::~Vector3()
+
+.text._ZN4math7Vector3D0Ev
+                0x00000000       0x7c
+ .text._ZN4math7Vector3D0Ev
+                0x00000000       0x7c math/Vector3.cpp.o
+                0x00000000                math::Vector3::~Vector3()
+
+.text._ZN4math7Vector34setXEf
+                0x00000000       0x68
+ .text._ZN4math7Vector34setXEf
+                0x00000000       0x68 math/Vector3.cpp.o
+                0x00000000                math::Vector3::setX(float)
+
+.text._ZN4math7Vector34setYEf
+                0x00000000       0x68
+ .text._ZN4math7Vector34setYEf
+                0x00000000       0x68 math/Vector3.cpp.o
+                0x00000000                math::Vector3::setY(float)
+
+.text._ZN4math7Vector34setZEf
+                0x00000000       0x68
+ .text._ZN4math7Vector34setZEf
+                0x00000000       0x68 math/Vector3.cpp.o
+                0x00000000                math::Vector3::setZ(float)
+
+.text._ZN4math7Vector3C2Efff
+                0x00000000      0x148
+ .text._ZN4math7Vector3C2Efff
+                0x00000000      0x148 math/Vector3.cpp.o
+                0x00000000                math::Vector3::Vector3(float, float, float)
+                0x00000000                math::Vector3::Vector3(float, float, float)
+
+.text._ZN4math11vector3TestEv
+                0x00000000      0x164
+ .text._ZN4math11vector3TestEv
+                0x00000000      0x164 math/Vector3.cpp.o
+                0x00000000                math::vector3Test()
+
+.text._ZNK4math7Vector35crossERKS0_
+                0x00000000      0x344
+ .text._ZNK4math7Vector35crossERKS0_
+                0x00000000      0x344 math/Vector3.cpp.o
+                0x00000000                math::Vector3::cross(math::Vector3 const&) const
+
+.text._ZN4math7Vector3C2EPKf
+                0x00000000       0xec
+ .text._ZN4math7Vector3C2EPKf
+                0x00000000       0xec math/Vector3.cpp.o
+                0x00000000                math::Vector3::Vector3(float const*)
+                0x00000000                math::Vector3::Vector3(float const*)
+
+.text._ZN4math7Vector3C2ERKNS_6VectorE
+                0x00000000      0x120
+ .text._ZN4math7Vector3C2ERKNS_6VectorE
+                0x00000000      0x120 math/Vector3.cpp.o
+                0x00000000                math::Vector3::Vector3(math::Vector const&)
+                0x00000000                math::Vector3::Vector3(math::Vector const&)
+
+.text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getDataEv
+                0x00000000       0x24 math/EulerAngles.cpp.o
+                0x00000000                math::Matrix::getData() const
+
+.text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getColsEv
+                0x00000000       0x24 math/EulerAngles.cpp.o
+                0x00000000                math::Matrix::getCols() const
+
+.text._ZNK4math6MatrixclEjj
+                0x00000000       0x64
+ .text._ZNK4math6MatrixclEjj
+                0x00000000       0x64 math/EulerAngles.cpp.o
+                0x00000000                math::Matrix::operator()(unsigned int, unsigned int) const
+
+.text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles6getPhiEv
+                0x00000000       0x5c math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::getPhi() const
+
+.text._ZN4math11EulerAnglesD0Ev
+                0x00000000       0x7c
+ .text._ZN4math11EulerAnglesD0Ev
+                0x00000000       0x7c math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::~EulerAngles()
+
+.text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles8getThetaEv
+                0x00000000       0x5c math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::getTheta() const
+
+.text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c
+ .text._ZNK4math11EulerAngles6getPsiEv
+                0x00000000       0x5c math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::getPsi() const
+
+.text._ZN4math11EulerAnglesD2Ev
+                0x00000000       0x60
+ .text._ZN4math11EulerAnglesD2Ev
+                0x00000000       0x60 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::~EulerAngles()
+                0x00000000                math::EulerAngles::~EulerAngles()
+
+.text._ZN4math11EulerAngles8setThetaEf
+                0x00000000       0x68
+ .text._ZN4math11EulerAngles8setThetaEf
+                0x00000000       0x68 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::setTheta(float)
+
+.text._ZN4math11EulerAngles6setPhiEf
+                0x00000000       0x68
+ .text._ZN4math11EulerAngles6setPhiEf
+                0x00000000       0x68 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::setPhi(float)
+
+.text._ZN4math11EulerAngles6setPsiEf
+                0x00000000       0x68
+ .text._ZN4math11EulerAngles6setPsiEf
+                0x00000000       0x68 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::setPsi(float)
+
+.text._ZN4math11EulerAnglesC2Efff
+                0x00000000      0x148
+ .text._ZN4math11EulerAnglesC2Efff
+                0x00000000      0x148 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::EulerAngles(float, float, float)
+                0x00000000                math::EulerAngles::EulerAngles(float, float, float)
+
+.text._ZN4math11EulerAnglesC2Ev
+                0x00000000      0x13c
+ .text._ZN4math11EulerAnglesC2Ev
+                0x00000000      0x13c math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::EulerAngles()
+                0x00000000                math::EulerAngles::EulerAngles()
+
+.text._ZN4math11EulerAnglesaSERKS0_
+                0x00000000       0xa0
+ .text._ZN4math11EulerAnglesaSERKS0_
+                0x00000000       0xa0 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::operator=(math::EulerAngles const&)
+
+.text._ZN4math11EulerAnglesC2ERKNS_3DcmE
+                0x00000000      0x664
+ .text._ZN4math11EulerAnglesC2ERKNS_3DcmE
+                0x00000000      0x664 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::EulerAngles(math::Dcm const&)
+                0x00000000                math::EulerAngles::EulerAngles(math::Dcm const&)
+
+.text._ZN4math11EulerAnglesC2ERKNS_10QuaternionE
+                0x00000000      0x148
+ .text._ZN4math11EulerAnglesC2ERKNS_10QuaternionE
+                0x00000000      0x148 math/EulerAngles.cpp.o
+                0x00000000                math::EulerAngles::EulerAngles(math::Quaternion const&)
+                0x00000000                math::EulerAngles::EulerAngles(math::Quaternion const&)
+
+.text._ZN4math15eulerAnglesTestEv
+                0x00000000      0x5cc
+ .text._ZN4math15eulerAnglesTestEv
+                0x00000000      0x5cc math/EulerAngles.cpp.o
+                0x00000000                math::eulerAnglesTest()
+
+.text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24
+ .text._ZN4math6Matrix7getDataEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::getData()
+
+.text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24
+ .text._ZNK4math6Matrix7getRowsEv
+                0x00000000       0x24 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::getRows() const
+
+.text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54
+ .text._ZN4math6MatrixC2Ejj
+                0x00000000       0x54 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int)
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int)
+
+.text._ZN4math6MatrixD2Ev
+                0x00000000       0x30
+ .text._ZN4math6MatrixD2Ev
+                0x00000000       0x30 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::~Matrix()
+                0x00000000                math::Matrix::~Matrix()
+
+.text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64
+ .text._ZNK4math6Matrix7getSizeEv
+                0x00000000       0x64 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::getSize() const
+
+.text._ZN4math6MatrixD0Ev
+                0x00000000       0x48
+ .text._ZN4math6MatrixD0Ev
+                0x00000000       0x48 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::~Matrix()
+
+.text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc
+ .text._ZNK4math6MatrixmlERKS0_
+                0x00000000       0xbc math/Quaternion.cpp.o
+                0x00000000                math::Matrix::operator*(math::Matrix const&) const
+
+.text._ZNK4math6VectormlEf
+                0x00000000       0xdc
+ .text._ZNK4math6VectormlEf
+                0x00000000       0xdc math/Quaternion.cpp.o
+                0x00000000                math::Vector::operator*(float) const
+
+.text._ZN4math10QuaternionD0Ev
+                0x00000000       0x7c
+ .text._ZN4math10QuaternionD0Ev
+                0x00000000       0x7c math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::~Quaternion()
+
+.text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc
+ .text._ZN4math6MatrixC2EjjPKf
+                0x00000000       0xdc math/Quaternion.cpp.o
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int, float const*)
+                0x00000000                math::Matrix::Matrix(unsigned int, unsigned int, float const*)
+
+.text._ZN4math10QuaternionD2Ev
+                0x00000000       0x60
+ .text._ZN4math10QuaternionD2Ev
+                0x00000000       0x60 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::~Quaternion()
+                0x00000000                math::Quaternion::~Quaternion()
+
+.text._ZN4math10Quaternion4setAEf
+                0x00000000       0x68
+ .text._ZN4math10Quaternion4setAEf
+                0x00000000       0x68 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::setA(float)
+
+.text._ZN4math10Quaternion4setBEf
+                0x00000000       0x68
+ .text._ZN4math10Quaternion4setBEf
+                0x00000000       0x68 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::setB(float)
+
+.text._ZN4math10Quaternion4setCEf
+                0x00000000       0x68
+ .text._ZN4math10Quaternion4setCEf
+                0x00000000       0x68 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::setC(float)
+
+.text._ZN4math10Quaternion4setDEf
+                0x00000000       0x68
+ .text._ZN4math10Quaternion4setDEf
+                0x00000000       0x68 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::setD(float)
+
+.text._ZN4math10QuaternionC2Ev
+                0x00000000      0x180
+ .text._ZN4math10QuaternionC2Ev
+                0x00000000      0x180 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion()
+                0x00000000                math::Quaternion::Quaternion()
+
+.text._ZN4math10QuaternionC2Effff
+                0x00000000      0x18c
+ .text._ZN4math10QuaternionC2Effff
+                0x00000000      0x18c math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion(float, float, float, float)
+                0x00000000                math::Quaternion::Quaternion(float, float, float, float)
+
+.text._ZN4math10QuaternionC2ERKNS_3DcmE
+                0x00000000      0x5ac
+ .text._ZN4math10QuaternionC2ERKNS_3DcmE
+                0x00000000      0x5ac math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion(math::Dcm const&)
+                0x00000000                math::Quaternion::Quaternion(math::Dcm const&)
+
+.text._ZN4math10QuaternionaSERKS0_
+                0x00000000       0xa0
+ .text._ZN4math10QuaternionaSERKS0_
+                0x00000000       0xa0 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::operator=(math::Quaternion const&)
+
+.text._ZNK4math10Quaternion4getAEv
+                0x00000000       0x5c
+ .text._ZNK4math10Quaternion4getAEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::getA() const
+
+.text._ZNK4math10Quaternion4getBEv
+                0x00000000       0x5c
+ .text._ZNK4math10Quaternion4getBEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::getB() const
+
+.text._ZNK4math10Quaternion4getCEv
+                0x00000000       0x5c
+ .text._ZNK4math10Quaternion4getCEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::getC() const
+
+.text._ZNK4math10Quaternion4getDEv
+                0x00000000       0x5c
+ .text._ZNK4math10Quaternion4getDEv
+                0x00000000       0x5c math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::getD() const
+
+.text._ZN4math10QuaternionC2ERKNS_11EulerAnglesE
+                0x00000000      0x490
+ .text._ZN4math10QuaternionC2ERKNS_11EulerAnglesE
+                0x00000000      0x490 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion(math::EulerAngles const&)
+                0x00000000                math::Quaternion::Quaternion(math::EulerAngles const&)
+
+.text._ZN4math14quaternionTestEv
+                0x00000000      0x890
+ .text._ZN4math14quaternionTestEv
+                0x00000000      0x890 math/Quaternion.cpp.o
+                0x00000000                math::quaternionTest()
+
+.text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278
+ .text._ZNK4math6MatrixmlERKNS_6VectorE
+                0x00000000      0x278 math/Quaternion.cpp.o
+                0x00000000                math::Matrix::operator*(math::Vector const&) const
+
+.text._ZN4math10QuaternionC2EPKf
+                0x00000000       0xec
+ .text._ZN4math10QuaternionC2EPKf
+                0x00000000       0xec math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion(float const*)
+                0x00000000                math::Quaternion::Quaternion(float const*)
+
+.text._ZN4math10QuaternionC2ERKNS_6VectorE
+                0x00000000      0x120
+ .text._ZN4math10QuaternionC2ERKNS_6VectorE
+                0x00000000      0x120 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion(math::Vector const&)
+                0x00000000                math::Quaternion::Quaternion(math::Vector const&)
+
+.text._ZN4math10QuaternionC2ERKS0_
+                0x00000000      0x120
+ .text._ZN4math10QuaternionC2ERKS0_
+                0x00000000      0x120 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::Quaternion(math::Quaternion const&)
+                0x00000000                math::Quaternion::Quaternion(math::Quaternion const&)
+
+.text._ZN4math10Quaternion10derivativeERKNS_6VectorE
+                0x00000000      0x948
+ .text._ZN4math10Quaternion10derivativeERKNS_6VectorE
+                0x00000000      0x948 math/Quaternion.cpp.o
+                0x00000000                math::Quaternion::derivative(math::Vector const&)
+
+.text._ZN4math6MatrixclEjj
+                0x00000000       0x64
+ .text._ZN4math6MatrixclEjj
+                0x00000000       0x64 math/Dcm.cpp.o
+                0x00000000                math::Matrix::operator()(unsigned int, unsigned int)
+
+.text._ZN4math3DcmD2Ev
+                0x00000000       0x4c
+ .text._ZN4math3DcmD2Ev
+                0x00000000       0x4c math/Dcm.cpp.o
+                0x00000000                math::Dcm::~Dcm()
+                0x00000000                math::Dcm::~Dcm()
+
+.text._ZN4math6MatrixC2ERKS0_
+                0x00000000      0x148
+ .text._ZN4math6MatrixC2ERKS0_
+                0x00000000      0x148 math/Dcm.cpp.o
+                0x00000000                math::Matrix::Matrix(math::Matrix const&)
+                0x00000000                math::Matrix::Matrix(math::Matrix const&)
+
+.text._ZN4math3DcmD0Ev
+                0x00000000       0x64
+ .text._ZN4math3DcmD0Ev
+                0x00000000       0x64 math/Dcm.cpp.o
+                0x00000000                math::Dcm::~Dcm()
+
+.text._ZN4math3DcmC2EPKf
+                0x00000000       0xf4
+ .text._ZN4math3DcmC2EPKf
+                0x00000000       0xf4 math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm(float const*)
+                0x00000000                math::Dcm::Dcm(float const*)
+
+.text._ZN4math6Matrix8identityEj
+                0x00000000      0x198
+ .text._ZN4math6Matrix8identityEj
+                0x00000000      0x198 math/Dcm.cpp.o
+                0x00000000                math::Matrix::identity(unsigned int)
+
+.text._ZN4math3DcmC2EPA3_Kf
+                0x00000000      0x318
+ .text._ZN4math3DcmC2EPA3_Kf
+                0x00000000      0x318 math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm(float const (*) [3])
+                0x00000000                math::Dcm::Dcm(float const (*) [3])
+
+.text._ZN4math3DcmC2Ev
+                0x00000000      0x174
+ .text._ZN4math3DcmC2Ev
+                0x00000000      0x174 math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm()
+                0x00000000                math::Dcm::Dcm()
+
+.text._ZN4math3DcmC2Efffffffff
+                0x00000000      0x2e4
+ .text._ZN4math3DcmC2Efffffffff
+                0x00000000      0x2e4 math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm(float, float, float, float, float, float, float, float, float)
+                0x00000000                math::Dcm::Dcm(float, float, float, float, float, float, float, float, float)
+
+.text._ZN4math3DcmC2ERKNS_11EulerAnglesE
+                0x00000000      0x5c0
+ .text._ZN4math3DcmC2ERKNS_11EulerAnglesE
+                0x00000000      0x5c0 math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm(math::EulerAngles const&)
+                0x00000000                math::Dcm::Dcm(math::EulerAngles const&)
+
+.text._ZN4math3DcmC2ERKNS_10QuaternionE
+                0x00000000      0x574
+ .text._ZN4math3DcmC2ERKNS_10QuaternionE
+                0x00000000      0x574 math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm(math::Quaternion const&)
+                0x00000000                math::Dcm::Dcm(math::Quaternion const&)
+
+.text._ZN4math3DcmC2ERKS0_
+                0x00000000      0x16c
+ .text._ZN4math3DcmC2ERKS0_
+                0x00000000      0x16c math/Dcm.cpp.o
+                0x00000000                math::Dcm::Dcm(math::Dcm const&)
+                0x00000000                math::Dcm::Dcm(math::Dcm const&)
+
+.text._ZN4math7dcmTestEv
+                0x00000000     0x1190
+ .text._ZN4math7dcmTestEv
+                0x00000000     0x1190 math/Dcm.cpp.o
+                0x00000000                math::dcmTest()
+
+.text._ZN4math11matrixEqualERKNS_6MatrixES2_f
+                0x00000000      0x1ec
+ .text._ZN4math11matrixEqualERKNS_6MatrixES2_f
+                0x00000000      0x1ec math/Matrix.cpp.o
+                0x00000000                math::matrixEqual(math::Matrix const&, math::Matrix const&, float)
+
+.text._ZNK4math6MatrixmiERKS0_
+                0x00000000       0xc0
+ .text._ZNK4math6MatrixmiERKS0_
+                0x00000000       0xc0 math/Matrix.cpp.o
+                0x00000000                math::Matrix::operator-(math::Matrix const&) const
+
+.text._ZNK4math6MatrixplERKS0_
+                0x00000000       0xc0
+ .text._ZNK4math6MatrixplERKS0_
+                0x00000000       0xc0 math/Matrix.cpp.o
+                0x00000000                math::Matrix::operator+(math::Matrix const&) const
+
+.text._ZN4math13matrixSubTestEv
+                0x00000000      0x1d4
+ .text._ZN4math13matrixSubTestEv
+                0x00000000      0x1d4 math/Matrix.cpp.o
+                0x00000000                math::matrixSubTest()
+
+.text._ZN4math14matrixMultTestEv
+                0x00000000      0x1e8
+ .text._ZN4math14matrixMultTestEv
+                0x00000000      0x1e8 math/Matrix.cpp.o
+                0x00000000                math::matrixMultTest()
+
+.text._ZN4math13matrixAddTestEv
+                0x00000000      0x1d4
+ .text._ZN4math13matrixAddTestEv
+                0x00000000      0x1d4 math/Matrix.cpp.o
+                0x00000000                math::matrixAddTest()
+
+.text._ZN4math13matrixDivTestEv
+                0x00000000      0x39c
+ .text._ZN4math13matrixDivTestEv
+                0x00000000      0x39c math/Matrix.cpp.o
+                0x00000000                math::matrixDivTest()
+
+.text._ZNK4math6Matrix7inverseEv
+                0x00000000      0x1cc
+ .text._ZNK4math6Matrix7inverseEv
+                0x00000000      0x1cc math/Matrix.cpp.o
+                0x00000000                math::Matrix::inverse() const
+
+.text._ZN4math13matrixInvTestEv
+                0x00000000      0x438
+ .text._ZN4math13matrixInvTestEv
+                0x00000000      0x438 math/Matrix.cpp.o
+                0x00000000                math::matrixInvTest()
+
+.text._ZN4math10matrixTestEv
+                0x00000000       0x34
+ .text._ZN4math10matrixTestEv
+                0x00000000       0x34 math/Matrix.cpp.o
+                0x00000000                math::matrixTest()
+
+.text._ZNK4math6MatrixdvERKS0_
+                0x00000000      0x278
+ .text._ZNK4math6MatrixdvERKS0_
+                0x00000000      0x278 math/Matrix.cpp.o
+                0x00000000                math::Matrix::operator/(math::Matrix const&) const
+
+.text.startup._GLOBAL__sub_I__ZN4math10matrixTestEv
+                0x00000000       0x2c
+ .text.startup._GLOBAL__sub_I__ZN4math10matrixTestEv
+                0x00000000       0x2c math/Matrix.cpp.o
+
+.text._ZN4math7degreesEd
+                0x00000000       0x40
+ .text._ZN4math7degreesEd
+                0x00000000       0x40 math/Limits.cpp.o
+                0x00000000                math::degrees(double)
+
+.text._ZN4math7degreesEf
+                0x00000000       0x38
+ .text._ZN4math7degreesEf
+                0x00000000       0x38 math/Limits.cpp.o
+                0x00000000                math::degrees(float)
+
+.text._ZN4math7radiansEd
+                0x00000000       0x40
+ .text._ZN4math7radiansEd
+                0x00000000       0x40 math/Limits.cpp.o
+                0x00000000                math::radians(double)
+
+.text._ZN4math7radiansEf
+                0x00000000       0x38
+ .text._ZN4math7radiansEf
+                0x00000000       0x38 math/Limits.cpp.o
+                0x00000000                math::radians(float)
+
+.text._ZN4math9constrainEddd
+                0x00000000       0x78
+ .text._ZN4math9constrainEddd
+                0x00000000       0x78 math/Limits.cpp.o
+                0x00000000                math::constrain(double, double, double)
+
+.text._ZN4math9constrainEyyy
+                0x00000000       0x54
+ .text._ZN4math9constrainEyyy
+                0x00000000       0x54 math/Limits.cpp.o
+                0x00000000                math::constrain(unsigned long long, unsigned long long, unsigned long long)
+
+.text._ZN4math9constrainEjjj
+                0x00000000       0x30
+ .text._ZN4math9constrainEjjj
+                0x00000000       0x30 math/Limits.cpp.o
+                0x00000000                math::constrain(unsigned int, unsigned int, unsigned int)
+
+.text._ZN4math9constrainEiii
+                0x00000000       0x30
+ .text._ZN4math9constrainEiii
+                0x00000000       0x30 math/Limits.cpp.o
+                0x00000000                math::constrain(int, int, int)
+
+.text._ZN4math9constrainEfff
+                0x00000000       0x50
+ .text._ZN4math9constrainEfff
+                0x00000000       0x50 math/Limits.cpp.o
+                0x00000000                math::constrain(float, float, float)
+
+.text._ZN4math3maxEdd
+                0x00000000       0x48
+ .text._ZN4math3maxEdd
+                0x00000000       0x48 math/Limits.cpp.o
+                0x00000000                math::max(double, double)
+
+.text._ZN4math3maxEyy
+                0x00000000       0x38
+ .text._ZN4math3maxEyy
+                0x00000000       0x38 math/Limits.cpp.o
+                0x00000000                math::max(unsigned long long, unsigned long long)
+
+.text._ZN4math3maxEjj
+                0x00000000       0x2c
+ .text._ZN4math3maxEjj
+                0x00000000       0x2c math/Limits.cpp.o
+                0x00000000                math::max(unsigned int, unsigned int)
+
+.text._ZN4math3maxEii
+                0x00000000       0x2c
+ .text._ZN4math3maxEii
+                0x00000000       0x2c math/Limits.cpp.o
+                0x00000000                math::max(int, int)
+
+.text._ZN4math3maxEff
+                0x00000000       0x3c
+ .text._ZN4math3maxEff
+                0x00000000       0x3c math/Limits.cpp.o
+                0x00000000                math::max(float, float)
+
+.text._ZN4math3minEdd
+                0x00000000       0x48
+ .text._ZN4math3minEdd
+                0x00000000       0x48 math/Limits.cpp.o
+                0x00000000                math::min(double, double)
+
+.text._ZN4math3minEyy
+                0x00000000       0x38
+ .text._ZN4math3minEyy
+                0x00000000       0x38 math/Limits.cpp.o
+                0x00000000                math::min(unsigned long long, unsigned long long)
+
+.text._ZN4math3minEjj
+                0x00000000       0x2c
+ .text._ZN4math3minEjj
+                0x00000000       0x2c math/Limits.cpp.o
+                0x00000000                math::min(unsigned int, unsigned int)
+
+.text._ZN4math3minEii
+                0x00000000       0x2c
+ .text._ZN4math3minEii
+                0x00000000       0x2c math/Limits.cpp.o
+                0x00000000                math::min(int, int)
+
+.text._ZN4math3minEff
+                0x00000000       0x3c
+ .text._ZN4math3minEff
+                0x00000000       0x3c math/Limits.cpp.o
+                0x00000000                math::min(float, float)
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0xac
+ *(.rodata)
+ .rodata        0x00000000       0x10 math/Vector.cpp.o
+ .rodata        0x00000010       0x9c math/Matrix.cpp.o
+
+.rodata.str1.4  0x00000000      0x3a4
+ .rodata.str1.4
+                0x00000000       0x24 math/test/test.cpp.o
+ .rodata.str1.4
+                0x00000024       0xa8 math/Vector.cpp.o
+ .rodata.str1.4
+                0x000000cc       0x5c math/Vector2f.cpp.o
+ .rodata.str1.4
+                0x00000128       0x5c math/Vector3.cpp.o
+ .rodata.str1.4
+                0x00000184       0x60 math/EulerAngles.cpp.o
+ .rodata.str1.4
+                0x000001e4       0x5c math/Quaternion.cpp.o
+ .rodata.str1.4
+                0x00000240       0x54 math/Dcm.cpp.o
+ .rodata.str1.4
+                0x00000294      0x110 math/Matrix.cpp.o
+
+.rodata._ZTVN4math6VectorE
+                0x00000000       0x10
+ .rodata._ZTVN4math6VectorE
+                0x00000000       0x10 math/Vector.cpp.o
+                0x00000000                vtable for math::Vector
+
+.rodata._ZN4mathL10data_testAE
+                0x00000000       0x20
+ .rodata._ZN4mathL10data_testAE
+                0x00000000        0x8 math/Vector.cpp.o
+ .rodata._ZN4mathL10data_testAE
+                0x00000008       0x18 math/Matrix.cpp.o
+
+.rodata._ZN4mathL10data_testBE
+                0x00000000       0x20
+ .rodata._ZN4mathL10data_testBE
+                0x00000000        0x8 math/Vector.cpp.o
+ .rodata._ZN4mathL10data_testBE
+                0x00000008       0x18 math/Matrix.cpp.o
+
+.rodata._ZTVN4math8Vector2fE
+                0x00000000       0x10
+ .rodata._ZTVN4math8Vector2fE
+                0x00000000       0x10 math/Vector2f.cpp.o
+                0x00000000                vtable for math::Vector2f
+
+.rodata._ZTVN4math7Vector3E
+                0x00000000       0x10
+ .rodata._ZTVN4math7Vector3E
+                0x00000000       0x10 math/Vector3.cpp.o
+                0x00000000                vtable for math::Vector3
+
+.rodata._ZTVN4math11EulerAnglesE
+                0x00000000       0x10
+ .rodata._ZTVN4math11EulerAnglesE
+                0x00000000       0x10 math/EulerAngles.cpp.o
+                0x00000000                vtable for math::EulerAngles
+
+.rodata._ZTVN4math6MatrixE
+                0x00000000       0x10
+ .rodata._ZTVN4math6MatrixE
+                0x00000000       0x10 math/Quaternion.cpp.o
+                0x00000000                vtable for math::Matrix
+
+.rodata._ZTVN4math10QuaternionE
+                0x00000000       0x10
+ .rodata._ZTVN4math10QuaternionE
+                0x00000000       0x10 math/Quaternion.cpp.o
+                0x00000000                vtable for math::Quaternion
+
+.rodata._ZTVN4math3DcmE
+                0x00000000       0x10
+ .rodata._ZTVN4math3DcmE
+                0x00000000       0x10 math/Dcm.cpp.o
+                0x00000000                vtable for math::Dcm
+
+.rodata._ZN4mathL10data_testCE
+                0x00000000       0x18
+ .rodata._ZN4mathL10data_testCE
+                0x00000000       0x18 math/Matrix.cpp.o
+
+.rodata._ZN4mathL10data_testDE
+                0x00000000       0x24
+ .rodata._ZN4mathL10data_testDE
+                0x00000000       0x24 math/Matrix.cpp.o
+
+.rodata._ZN4mathL10data_testEE
+                0x00000000       0x24
+ .rodata._ZN4mathL10data_testEE
+                0x00000000       0x24 math/Matrix.cpp.o
+
+.rodata._ZN4mathL10data_testFE
+                0x00000000       0x24
+ .rodata._ZN4mathL10data_testFE
+                0x00000000       0x24 math/Matrix.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 math/test/test.cpp.o
+ .data          0x00000000        0x0 math/Vector.cpp.o
+ .data          0x00000000        0x0 math/Vector2f.cpp.o
+ .data          0x00000000        0x0 math/Vector3.cpp.o
+ .data          0x00000000        0x0 math/EulerAngles.cpp.o
+ .data          0x00000000        0x0 math/Quaternion.cpp.o
+ .data          0x00000000        0x0 math/Dcm.cpp.o
+ .data          0x00000000        0x0 math/Matrix.cpp.o
+ .data          0x00000000        0x0 math/Limits.cpp.o
+
+.init_array     0x00000000        0x8
+ .init_array    0x00000000        0x4 math/Vector.cpp.o
+ .init_array    0x00000004        0x4 math/Matrix.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 math/test/test.cpp.o
+ .bss           0x00000000        0x0 math/Vector.cpp.o
+ .bss           0x00000000        0x0 math/Vector2f.cpp.o
+ .bss           0x00000000        0x0 math/Vector3.cpp.o
+ .bss           0x00000000        0x0 math/EulerAngles.cpp.o
+ .bss           0x00000000        0x0 math/Quaternion.cpp.o
+ .bss           0x00000000        0x0 math/Dcm.cpp.o
+ .bss           0x00000000        0x0 math/Matrix.cpp.o
+ .bss           0x00000000        0x0 math/Limits.cpp.o
+ *(COMMON)
+
+.bss._ZN4mathL5testAE
+                0x00000000       0x18
+ .bss._ZN4mathL5testAE
+                0x00000000        0xc math/Vector.cpp.o
+ .bss._ZN4mathL5testAE
+                0x0000000c        0xc math/Matrix.cpp.o
+
+.bss._ZN4mathL5testBE
+                0x00000000       0x18
+ .bss._ZN4mathL5testBE
+                0x00000000        0xc math/Vector.cpp.o
+ .bss._ZN4mathL5testBE
+                0x0000000c        0xc math/Matrix.cpp.o
+
+.bss._ZN4mathL5testDE
+                0x00000000        0xc
+ .bss._ZN4mathL5testDE
+                0x00000000        0xc math/Matrix.cpp.o
+
+.bss._ZN4mathL5testEE
+                0x00000000        0xc
+ .bss._ZN4mathL5testEE
+                0x00000000        0xc math/Matrix.cpp.o
+
+.bss._ZN4mathL5testFE
+                0x00000000        0xc
+ .bss._ZN4mathL5testFE
+                0x00000000        0xc math/Matrix.cpp.o
+
+.bss._ZN4mathL5testCE
+                0x00000000        0xc
+ .bss._ZN4mathL5testCE
+                0x00000000        0xc math/Matrix.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x3f9
+ *(.comment)
+ .comment       0x00000000       0x71 math/test/test.cpp.o
+ .comment       0x00000071       0x71 math/Vector.cpp.o
+ .comment       0x000000e2       0x71 math/Vector2f.cpp.o
+ .comment       0x00000153       0x71 math/Vector3.cpp.o
+ .comment       0x000001c4       0x71 math/EulerAngles.cpp.o
+ .comment       0x00000235       0x71 math/Quaternion.cpp.o
+ .comment       0x000002a6       0x71 math/Dcm.cpp.o
+ .comment       0x00000317       0x71 math/Matrix.cpp.o
+ .comment       0x00000388       0x71 math/Limits.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector2f.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Vector3.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/EulerAngles.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Quaternion.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Dcm.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 math/Matrix.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x7d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 math/test/test.cpp.o
+ .debug_aranges
+                0x00000028       0xa8 math/Vector.cpp.o
+ .debug_aranges
+                0x000000d0       0xd8 math/Vector2f.cpp.o
+ .debug_aranges
+                0x000001a8       0xc8 math/Vector3.cpp.o
+ .debug_aranges
+                0x00000270       0xf0 math/EulerAngles.cpp.o
+ .debug_aranges
+                0x00000360      0x198 math/Quaternion.cpp.o
+ .debug_aranges
+                0x000004f8      0x150 math/Dcm.cpp.o
+ .debug_aranges
+                0x00000648       0xe0 math/Matrix.cpp.o
+ .debug_aranges
+                0x00000728       0xb0 math/Limits.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x12a18
+ *(.debug_info)
+ .debug_info    0x00000000      0x1ca math/test/test.cpp.o
+ .debug_info    0x000001ca     0x14e8 math/Vector.cpp.o
+ .debug_info    0x000016b2     0x15bf math/Vector2f.cpp.o
+ .debug_info    0x00002c71     0x17c6 math/Vector3.cpp.o
+ .debug_info    0x00004437     0x281f math/EulerAngles.cpp.o
+ .debug_info    0x00006c56     0x46ee math/Quaternion.cpp.o
+ .debug_info    0x0000b344     0x41b8 math/Dcm.cpp.o
+ .debug_info    0x0000f4fc     0x2e40 math/Matrix.cpp.o
+ .debug_info    0x0001233c      0x6dc math/Limits.cpp.o
+
+.debug_abbrev   0x00000000     0x1bc7
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xff math/test/test.cpp.o
+ .debug_abbrev  0x000000ff      0x353 math/Vector.cpp.o
+ .debug_abbrev  0x00000452      0x318 math/Vector2f.cpp.o
+ .debug_abbrev  0x0000076a      0x2f6 math/Vector3.cpp.o
+ .debug_abbrev  0x00000a60      0x38a math/EulerAngles.cpp.o
+ .debug_abbrev  0x00000dea      0x458 math/Quaternion.cpp.o
+ .debug_abbrev  0x00001242      0x462 math/Dcm.cpp.o
+ .debug_abbrev  0x000016a4      0x44f math/Matrix.cpp.o
+ .debug_abbrev  0x00001af3       0xd4 math/Limits.cpp.o
+
+.debug_line     0x00000000     0x445a
+ *(.debug_line)
+ .debug_line    0x00000000       0xd3 math/test/test.cpp.o
+ .debug_line    0x000000d3      0x536 math/Vector.cpp.o
+ .debug_line    0x00000609      0x571 math/Vector2f.cpp.o
+ .debug_line    0x00000b7a      0x5c9 math/Vector3.cpp.o
+ .debug_line    0x00001143      0x861 math/EulerAngles.cpp.o
+ .debug_line    0x000019a4      0xf13 math/Quaternion.cpp.o
+ .debug_line    0x000028b7      0xe71 math/Dcm.cpp.o
+ .debug_line    0x00003728      0xa2c math/Matrix.cpp.o
+ .debug_line    0x00004154      0x306 math/Limits.cpp.o
+
+.debug_frame    0x00000000     0x1e9c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 math/test/test.cpp.o
+ .debug_frame   0x00000060      0x268 math/Vector.cpp.o
+ .debug_frame   0x000002c8      0x358 math/Vector2f.cpp.o
+ .debug_frame   0x00000620      0x304 math/Vector3.cpp.o
+ .debug_frame   0x00000924      0x3a0 math/EulerAngles.cpp.o
+ .debug_frame   0x00000cc4      0x690 math/Quaternion.cpp.o
+ .debug_frame   0x00001354      0x53c math/Dcm.cpp.o
+ .debug_frame   0x00001890      0x380 math/Matrix.cpp.o
+ .debug_frame   0x00001c10      0x28c math/Limits.cpp.o
+
+.debug_str      0x00000000     0x41ac
+ *(.debug_str)
+ .debug_str     0x00000000      0x1b6 math/test/test.cpp.o
+ .debug_str     0x000001b6      0x66b math/Vector.cpp.o
+ .debug_str     0x00000821      0x655 math/Vector2f.cpp.o
+ .debug_str     0x00000e76      0x62d math/Vector3.cpp.o
+ .debug_str     0x000014a3      0xa1e math/EulerAngles.cpp.o
+ .debug_str     0x00001ec1      0xb3e math/Quaternion.cpp.o
+ .debug_str     0x000029ff      0xa3d math/Dcm.cpp.o
+ .debug_str     0x0000343c      0xad3 math/Matrix.cpp.o
+ .debug_str     0x00003f0f      0x29d math/Limits.cpp.o
+
+.debug_loc      0x00000000     0xb12a
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x144 math/test/test.cpp.o
+ .debug_loc     0x00000144      0x89d math/Vector.cpp.o
+ .debug_loc     0x000009e1      0xa98 math/Vector2f.cpp.o
+ .debug_loc     0x00001479      0x97f math/Vector3.cpp.o
+ .debug_loc     0x00001df8     0x1d53 math/EulerAngles.cpp.o
+ .debug_loc     0x00003b4b     0x3403 math/Quaternion.cpp.o
+ .debug_loc     0x00006f4e     0x2b38 math/Dcm.cpp.o
+ .debug_loc     0x00009a86      0xed4 math/Matrix.cpp.o
+ .debug_loc     0x0000a95a      0x7d0 math/Limits.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000     0x2550
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xb8 math/test/test.cpp.o
+ .debug_ranges  0x000000b8      0x2a8 math/Vector.cpp.o
+ .debug_ranges  0x00000360      0x228 math/Vector2f.cpp.o
+ .debug_ranges  0x00000588      0x1d8 math/Vector3.cpp.o
+ .debug_ranges  0x00000760      0x2a0 math/EulerAngles.cpp.o
+ .debug_ranges  0x00000a00      0x788 math/Quaternion.cpp.o
+ .debug_ranges  0x00001188      0xa10 math/Dcm.cpp.o
+ .debug_ranges  0x00001b98      0x918 math/Matrix.cpp.o
+ .debug_ranges  0x000024b0       0xa0 math/Limits.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 math/test/test.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 math/Vector.cpp.o
+ .ARM.attributes
+                0x0000006e       0x37 math/Vector2f.cpp.o
+ .ARM.attributes
+                0x000000a5       0x37 math/Vector3.cpp.o
+ .ARM.attributes
+                0x000000dc       0x37 math/EulerAngles.cpp.o
+ .ARM.attributes
+                0x00000113       0x37 math/Quaternion.cpp.o
+ .ARM.attributes
+                0x0000014a       0x37 math/Dcm.cpp.o
+ .ARM.attributes
+                0x00000181       0x37 math/Matrix.cpp.o
+ .ARM.attributes
+                0x000001b8       0x37 math/Limits.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_default.build//home/avnishks/src/Firmware/src/lib/mathlib/module.pre.o elf32-littlearm)

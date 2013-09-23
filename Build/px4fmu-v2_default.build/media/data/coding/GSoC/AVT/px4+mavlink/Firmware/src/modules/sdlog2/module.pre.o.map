@@ -1,0 +1,522 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD sdlog2.c.o
+LOAD logbuffer.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 sdlog2.c.o
+ .text          0x00000000        0x0 logbuffer.c.o
+ *(.gnu.warning)
+
+.text.sdlog2_usage
+                0x00000000       0x30
+ .text.sdlog2_usage
+                0x00000000       0x30 sdlog2.c.o
+
+.text.file_exist
+                0x00000000       0x38
+ .text.file_exist
+                0x00000000       0x38 sdlog2.c.o
+
+.text.create_logfolder
+                0x00000000       0xd4
+ .text.create_logfolder
+                0x00000000       0xd4 sdlog2.c.o
+
+.text.sdlog2_status
+                0x00000000       0xf0
+ .text.sdlog2_status
+                0x00000000       0xf0 sdlog2.c.o
+
+.text.sdlog2_start_log
+                0x00000000       0xc0
+ .text.sdlog2_start_log
+                0x00000000       0xc0 sdlog2.c.o
+
+.text.write_formats
+                0x00000000       0xb8
+ .text.write_formats
+                0x00000000       0xb8 sdlog2.c.o
+
+.text.sdlog2_stop_log
+                0x00000000       0x90
+ .text.sdlog2_stop_log
+                0x00000000       0x90 sdlog2.c.o
+
+.text.sdlog2_main
+                0x00000000       0xe0
+ .text.sdlog2_main
+                0x00000000       0xe0 sdlog2.c.o
+                0x00000000                sdlog2_main
+
+.text.open_logfile
+                0x00000000      0x11c
+ .text.open_logfile
+                0x00000000      0x11c sdlog2.c.o
+
+.text.logwriter_thread
+                0x00000000      0x12c
+ .text.logwriter_thread
+                0x00000000      0x12c sdlog2.c.o
+
+.text.handle_status
+                0x00000000       0xcc
+ .text.handle_status
+                0x00000000       0xcc sdlog2.c.o
+
+.text.handle_command
+                0x00000000       0xc8
+ .text.handle_command
+                0x00000000       0xc8 sdlog2.c.o
+
+.text.sdlog2_thread_main
+                0x00000000     0x1324
+ .text.sdlog2_thread_main
+                0x00000000     0x1324 sdlog2.c.o
+                0x00000000                sdlog2_thread_main
+
+.text.logbuffer_mark_read
+                0x00000000       0x34
+ .text.logbuffer_mark_read
+                0x00000000       0x34 logbuffer.c.o
+                0x00000000                logbuffer_mark_read
+
+.text.logbuffer_get_ptr
+                0x00000000       0x54
+ .text.logbuffer_get_ptr
+                0x00000000       0x54 logbuffer.c.o
+                0x00000000                logbuffer_get_ptr
+
+.text.logbuffer_is_empty
+                0x00000000       0x30
+ .text.logbuffer_is_empty
+                0x00000000       0x30 logbuffer.c.o
+                0x00000000                logbuffer_is_empty
+
+.text.logbuffer_count
+                0x00000000       0x2c
+ .text.logbuffer_count
+                0x00000000       0x2c logbuffer.c.o
+                0x00000000                logbuffer_count
+
+.text.logbuffer_write
+                0x00000000       0x88
+ .text.logbuffer_write
+                0x00000000       0x88 logbuffer.c.o
+                0x00000000                logbuffer_write
+
+.text.logbuffer_init
+                0x00000000       0x3c
+ .text.logbuffer_init
+                0x00000000       0x3c logbuffer.c.o
+                0x00000000                logbuffer_init
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.log_formats
+                0x00000000      0x664
+ .rodata.log_formats
+                0x00000000      0x664 sdlog2.c.o
+
+.rodata.str1.4  0x00000000      0x540
+ .rodata.str1.4
+                0x00000000      0x540 sdlog2.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 sdlog2.c.o
+ .data          0x00000000        0x0 logbuffer.c.o
+
+.data.mavlink_fd
+                0x00000000        0x4
+ .data.mavlink_fd
+                0x00000000        0x4 sdlog2.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 sdlog2.c.o
+ .bss           0x00000000        0x0 logbuffer.c.o
+ *(COMMON)
+
+.bss.folder_path
+                0x00000000       0x40
+ .bss.folder_path
+                0x00000000       0x40 sdlog2.c.o
+
+.bss.sleep_delay
+                0x00000000        0x4
+ .bss.sleep_delay
+                0x00000000        0x4 sdlog2.c.o
+
+.bss.start_time
+                0x00000000        0x8
+ .bss.start_time
+                0x00000000        0x8 sdlog2.c.o
+
+.bss.deamon_task
+                0x00000000        0x4
+ .bss.deamon_task
+                0x00000000        0x4 sdlog2.c.o
+
+.bss.flag_system_armed
+                0x00000000        0x1
+ .bss.flag_system_armed
+                0x00000000        0x1 sdlog2.c.o
+
+.bss.lb         0x00000000       0x10
+ .bss.lb        0x00000000       0x10 sdlog2.c.o
+                0x00000000                lb
+
+.bss.log_bytes_written
+                0x00000000        0x4
+ .bss.log_bytes_written
+                0x00000000        0x4 sdlog2.c.o
+
+.bss.logbuffer_cond
+                0x00000000        0x8
+ .bss.logbuffer_cond
+                0x00000000        0x8 sdlog2.c.o
+
+.bss.logging_enabled
+                0x00000000        0x1
+ .bss.logging_enabled
+                0x00000000        0x1 sdlog2.c.o
+
+.bss.logwriter_should_exit
+                0x00000000        0x1
+ .bss.logwriter_should_exit
+                0x00000000        0x1 sdlog2.c.o
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 sdlog2.c.o
+
+.bss.log_msgs_skipped
+                0x00000000        0x4
+ .bss.log_msgs_skipped
+                0x00000000        0x4 sdlog2.c.o
+
+.bss.logbuffer_mutex
+                0x00000000        0xc
+ .bss.logbuffer_mutex
+                0x00000000        0xc sdlog2.c.o
+
+.bss.logwriter_pthread
+                0x00000000        0x2
+ .bss.logwriter_pthread
+                0x00000000        0x2 sdlog2.c.o
+
+.bss.main_thread_should_exit
+                0x00000000        0x1
+ .bss.main_thread_should_exit
+                0x00000000        0x1 sdlog2.c.o
+
+.bss.log_on_start
+                0x00000000        0x1
+ .bss.log_on_start
+                0x00000000        0x1 sdlog2.c.o
+
+.bss.log_msgs_written
+                0x00000000        0x4
+ .bss.log_msgs_written
+                0x00000000        0x4 sdlog2.c.o
+
+.bss.log_when_armed
+                0x00000000        0x1
+ .bss.log_when_armed
+                0x00000000        0x1 sdlog2.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 sdlog2.c.o
+ .comment       0x00000071       0x71 logbuffer.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 sdlog2.c.o
+ .debug_aranges
+                0x00000080       0x48 logbuffer.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3c48
+ *(.debug_info)
+ .debug_info    0x00000000     0x39b8 sdlog2.c.o
+ .debug_info    0x000039b8      0x290 logbuffer.c.o
+
+.debug_abbrev   0x00000000      0x4a6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3cb sdlog2.c.o
+ .debug_abbrev  0x000003cb       0xdb logbuffer.c.o
+
+.debug_line     0x00000000     0x1019
+ *(.debug_line)
+ .debug_line    0x00000000      0xeee sdlog2.c.o
+ .debug_line    0x00000eee      0x12b logbuffer.c.o
+
+.debug_frame    0x00000000      0x288
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1c4 sdlog2.c.o
+ .debug_frame   0x000001c4       0xc4 logbuffer.c.o
+
+.debug_str      0x00000000     0x2c5b
+ *(.debug_str)
+ .debug_str     0x00000000     0x2a9e sdlog2.c.o
+ .debug_str     0x00002a9e      0x1bd logbuffer.c.o
+
+.debug_loc      0x00000000     0x178e
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x1447 sdlog2.c.o
+ .debug_loc     0x00001447      0x347 logbuffer.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x3a0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x368 sdlog2.c.o
+ .debug_ranges  0x00000368       0x38 logbuffer.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 sdlog2.c.o
+ .ARM.attributes
+                0x00000037       0x37 logbuffer.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v2_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/sdlog2/module.pre.o elf32-littlearm)

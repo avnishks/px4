@@ -1,0 +1,889 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD uORB.cpp.o
+LOAD objects_common.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 uORB.cpp.o
+ .text          0x00000000        0x0 objects_common.cpp.o
+ *(.gnu.warning)
+
+.text.orb_set_interval
+                0x00000000       0x38
+ .text.orb_set_interval
+                0x00000000       0x38 uORB.cpp.o
+                0x00000000                orb_set_interval
+
+.text.orb_stat  0x00000000       0x34
+ .text.orb_stat
+                0x00000000       0x34 uORB.cpp.o
+                0x00000000                orb_stat
+
+.text.orb_check
+                0x00000000       0x34
+ .text.orb_check
+                0x00000000       0x34 uORB.cpp.o
+                0x00000000                orb_check
+
+.text._ZN12_GLOBAL__N_14infoEv
+                0x00000000       0x20
+ .text._ZN12_GLOBAL__N_14infoEv
+                0x00000000       0x20 uORB.cpp.o
+
+.text._ZN10ORBDevNode15update_deferredEv
+                0x00000000       0x2c
+ .text._ZN10ORBDevNode15update_deferredEv
+                0x00000000       0x2c uORB.cpp.o
+                0x00000000                ORBDevNode::update_deferred()
+
+.text._ZN10ORBDevNode10filp_to_sdEP4file
+                0x00000000       0x24
+ .text._ZN10ORBDevNode10filp_to_sdEP4file
+                0x00000000       0x24 uORB.cpp.o
+                0x00000000                ORBDevNode::filp_to_sd(file*)
+
+.text.orb_copy  0x00000000       0x4c
+ .text.orb_copy
+                0x00000000       0x4c uORB.cpp.o
+                0x00000000                orb_copy
+
+.text._ZN10ORBDevNode7publishEPK12orb_metadataiPKv
+                0x00000000       0x74
+ .text._ZN10ORBDevNode7publishEPK12orb_metadataiPKv
+                0x00000000       0x74 uORB.cpp.o
+                0x00000000                ORBDevNode::publish(orb_metadata const*, int, void const*)
+
+.text.orb_unsubscribe
+                0x00000000       0x2c
+ .text.orb_unsubscribe
+                0x00000000       0x2c uORB.cpp.o
+                0x00000000                orb_unsubscribe
+
+.text._ZN12_GLOBAL__N_114node_advertiseEPK12orb_metadata
+                0x00000000       0x58
+ .text._ZN12_GLOBAL__N_114node_advertiseEPK12orb_metadata
+                0x00000000       0x58 uORB.cpp.o
+
+.text._ZN12_GLOBAL__N_111node_mkpathEPcNS_6FlavorEPK12orb_metadata
+                0x00000000       0x58
+ .text._ZN12_GLOBAL__N_111node_mkpathEPcNS_6FlavorEPK12orb_metadata
+                0x00000000       0x58 uORB.cpp.o
+
+.text._ZN12_GLOBAL__N_19test_failEPKcz
+                0x00000000       0x78
+ .text._ZN12_GLOBAL__N_19test_failEPKcz
+                0x00000000       0x78 uORB.cpp.o
+
+.text._ZN12_GLOBAL__N_19test_noteEPKcz
+                0x00000000       0x74
+ .text._ZN12_GLOBAL__N_19test_noteEPKcz
+                0x00000000       0x74 uORB.cpp.o
+
+.text._ZN12ORBDevMasterD2Ev
+                0x00000000       0x30
+ .text._ZN12ORBDevMasterD2Ev
+                0x00000000       0x30 uORB.cpp.o
+                0x00000000                ORBDevMaster::~ORBDevMaster()
+                0x00000000                ORBDevMaster::~ORBDevMaster()
+
+.text._ZN12ORBDevMasterC2EN12_GLOBAL__N_16FlavorE
+                0x00000000       0x64
+ .text._ZN12ORBDevMasterC2EN12_GLOBAL__N_16FlavorE
+                0x00000000       0x64 uORB.cpp.o
+                0x00000000                ORBDevMaster::ORBDevMaster((anonymous namespace)::Flavor)
+                0x00000000                ORBDevMaster::ORBDevMaster((anonymous namespace)::Flavor)
+
+.text._ZN10ORBDevNodeC2EPK12orb_metadataPKcS4_
+                0x00000000       0x58
+ .text._ZN10ORBDevNodeC2EPK12orb_metadataPKcS4_
+                0x00000000       0x58 uORB.cpp.o
+                0x00000000                ORBDevNode::ORBDevNode(orb_metadata const*, char const*, char const*)
+                0x00000000                ORBDevNode::ORBDevNode(orb_metadata const*, char const*, char const*)
+
+.text._ZN10ORBDevNode15appears_updatedEPNS_14SubscriberDataE
+                0x00000000       0x8c
+ .text._ZN10ORBDevNode15appears_updatedEPNS_14SubscriberDataE
+                0x00000000       0x8c uORB.cpp.o
+                0x00000000                ORBDevNode::appears_updated(ORBDevNode::SubscriberData*)
+
+.text._ZN6device6Device4lockEv
+                0x00000000       0x2c
+ .text._ZN6device6Device4lockEv
+                0x00000000       0x2c uORB.cpp.o
+                0x00000000                device::Device::lock()
+
+.text._ZN6device6Device6unlockEv
+                0x00000000       0x2c
+ .text._ZN6device6Device6unlockEv
+                0x00000000       0x2c uORB.cpp.o
+                0x00000000                device::Device::unlock()
+
+.text._ZN10ORBDevNodeD2Ev
+                0x00000000       0x34
+ .text._ZN10ORBDevNodeD2Ev
+                0x00000000       0x34 uORB.cpp.o
+                0x00000000                ORBDevNode::~ORBDevNode()
+                0x00000000                ORBDevNode::~ORBDevNode()
+
+.text._ZN10ORBDevNode4readEP4filePcj
+                0x00000000       0x90
+ .text._ZN10ORBDevNode4readEP4filePcj
+                0x00000000       0x90 uORB.cpp.o
+                0x00000000                ORBDevNode::read(file*, char*, unsigned int)
+
+.text._ZN10ORBDevNode15poll_notify_oneEP6pollfdh
+                0x00000000       0x50
+ .text._ZN10ORBDevNode15poll_notify_oneEP6pollfdh
+                0x00000000       0x50 uORB.cpp.o
+                0x00000000                ORBDevNode::poll_notify_one(pollfd*, unsigned char)
+
+.text._ZN10ORBDevNode10poll_stateEP4file
+                0x00000000       0x4c
+ .text._ZN10ORBDevNode10poll_stateEP4file
+                0x00000000       0x4c uORB.cpp.o
+                0x00000000                ORBDevNode::poll_state(file*)
+
+.text._ZN10ORBDevNode5ioctlEP4fileim
+                0x00000000       0xb8
+ .text._ZN10ORBDevNode5ioctlEP4fileim
+                0x00000000       0xb8 uORB.cpp.o
+                0x00000000                ORBDevNode::ioctl(file*, int, unsigned long)
+
+.text._ZN10ORBDevNode5closeEP4file
+                0x00000000       0x5c
+ .text._ZN10ORBDevNode5closeEP4file
+                0x00000000       0x5c uORB.cpp.o
+                0x00000000                ORBDevNode::close(file*)
+
+.text._ZN12ORBDevMasterD0Ev
+                0x00000000       0x50
+ .text._ZN12ORBDevMasterD0Ev
+                0x00000000       0x50 uORB.cpp.o
+                0x00000000                ORBDevMaster::~ORBDevMaster()
+
+.text._ZN10ORBDevNode26update_deferred_trampolineEPv
+                0x00000000       0x44
+ .text._ZN10ORBDevNode26update_deferred_trampolineEPv
+                0x00000000       0x44 uORB.cpp.o
+                0x00000000                ORBDevNode::update_deferred_trampoline(void*)
+
+.text._ZN10ORBDevNodeD0Ev
+                0x00000000       0x50
+ .text._ZN10ORBDevNodeD0Ev
+                0x00000000       0x50 uORB.cpp.o
+                0x00000000                ORBDevNode::~ORBDevNode()
+
+.text.orb_publish
+                0x00000000       0x7c
+ .text.orb_publish
+                0x00000000       0x7c uORB.cpp.o
+                0x00000000                orb_publish
+
+.text._ZN12ORBDevMaster5ioctlEP4fileim
+                0x00000000      0x108
+ .text._ZN12ORBDevMaster5ioctlEP4fileim
+                0x00000000      0x108 uORB.cpp.o
+                0x00000000                ORBDevMaster::ioctl(file*, int, unsigned long)
+
+.text._ZN10ORBDevNode4openEP4file
+                0x00000000      0x100
+ .text._ZN10ORBDevNode4openEP4file
+                0x00000000      0x100 uORB.cpp.o
+                0x00000000                ORBDevNode::open(file*)
+
+.text._ZN12_GLOBAL__N_19node_openENS_6FlavorEPK12orb_metadataPKvb
+                0x00000000      0x138
+ .text._ZN12_GLOBAL__N_19node_openENS_6FlavorEPK12orb_metadataPKvb
+                0x00000000      0x138 uORB.cpp.o
+
+.text.orb_subscribe
+                0x00000000       0x30
+ .text.orb_subscribe
+                0x00000000       0x30 uORB.cpp.o
+                0x00000000                orb_subscribe
+
+.text.orb_advertise
+                0x00000000       0xd0
+ .text.orb_advertise
+                0x00000000       0xd0 uORB.cpp.o
+                0x00000000                orb_advertise
+
+.text._ZN12_GLOBAL__N_14testEv
+                0x00000000      0x2d8
+ .text._ZN12_GLOBAL__N_14testEv
+                0x00000000      0x2d8 uORB.cpp.o
+
+.text.uorb_main
+                0x00000000      0x160
+ .text.uorb_main
+                0x00000000      0x160 uORB.cpp.o
+                0x00000000                uorb_main
+
+.text._ZN10ORBDevNode5writeEP4filePKcj
+                0x00000000       0xe0
+ .text._ZN10ORBDevNode5writeEP4filePKcj
+                0x00000000       0xe0 uORB.cpp.o
+                0x00000000                ORBDevNode::write(file*, char const*, unsigned int)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x6ac
+ .rodata.str1.4
+                0x00000000      0x238 uORB.cpp.o
+ .rodata.str1.4
+                0x00000238      0x474 objects_common.cpp.o
+
+.rodata._ZTV10ORBDevNode
+                0x00000000       0x58
+ .rodata._ZTV10ORBDevNode
+                0x00000000       0x58 uORB.cpp.o
+                0x00000000                vtable for ORBDevNode
+
+.rodata._ZN12_GLOBAL__N_1L14__orb_orb_testE
+                0x00000000        0x8
+ .rodata._ZN12_GLOBAL__N_1L14__orb_orb_testE
+                0x00000000        0x8 uORB.cpp.o
+
+.rodata._ZTV12ORBDevMaster
+                0x00000000       0x58
+ .rodata._ZTV12ORBDevMaster
+                0x00000000       0x58 uORB.cpp.o
+                0x00000000                vtable for ORBDevMaster
+
+.rodata.__orb_actuator_controls_effective_0
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_effective_0
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_effective_0
+
+.rodata.__orb_actuator_controls_effective_1
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_effective_1
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_effective_1
+
+.rodata.__orb_actuator_controls_effective_2
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_effective_2
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_effective_2
+
+.rodata.__orb_actuator_controls_effective_3
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_effective_3
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_effective_3
+
+.rodata.__orb_actuator_controls_1
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_1
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_1
+
+.rodata.__orb_debug_key_value
+                0x00000000        0x8
+ .rodata.__orb_debug_key_value
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_debug_key_value
+
+.rodata.__orb_output_pwm
+                0x00000000        0x8
+ .rodata.__orb_output_pwm
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_output_pwm
+
+.rodata.__orb_vehicle_global_position
+                0x00000000        0x8
+ .rodata.__orb_vehicle_global_position
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_global_position
+
+.rodata.__orb_actuator_controls_3
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_3
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_3
+
+.rodata.__orb_subsystem_info
+                0x00000000        0x8
+ .rodata.__orb_subsystem_info
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_subsystem_info
+
+.rodata.__orb_vehicle_control_debug
+                0x00000000        0x8
+ .rodata.__orb_vehicle_control_debug
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_control_debug
+
+.rodata.__orb_vehicle_global_position_setpoint
+                0x00000000        0x8
+ .rodata.__orb_vehicle_global_position_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_global_position_setpoint
+
+.rodata.__orb_vehicle_vicon_position
+                0x00000000        0x8
+ .rodata.__orb_vehicle_vicon_position
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_vicon_position
+
+.rodata.__orb_vehicle_gps_position
+                0x00000000        0x8
+ .rodata.__orb_vehicle_gps_position
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_gps_position
+
+.rodata.__orb_telemetry_status
+                0x00000000        0x8
+ .rodata.__orb_telemetry_status
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_telemetry_status
+
+.rodata.__orb_vehicle_control_mode
+                0x00000000        0x8
+ .rodata.__orb_vehicle_control_mode
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_control_mode
+
+.rodata.__orb_sensor_accel
+                0x00000000        0x8
+ .rodata.__orb_sensor_accel
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_sensor_accel
+
+.rodata.__orb_filtered_bottom_flow
+                0x00000000        0x8
+ .rodata.__orb_filtered_bottom_flow
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_filtered_bottom_flow
+
+.rodata.__orb_vehicle_attitude
+                0x00000000        0x8
+ .rodata.__orb_vehicle_attitude
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_attitude
+
+.rodata.__orb_differential_pressure
+                0x00000000        0x8
+ .rodata.__orb_differential_pressure
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_differential_pressure
+
+.rodata.__orb_actuator_controls_0
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_0
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_0
+
+.rodata.__orb_omnidirectional_flow
+                0x00000000        0x8
+ .rodata.__orb_omnidirectional_flow
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_omnidirectional_flow
+
+.rodata.__orb_actuator_controls_2
+                0x00000000        0x8
+ .rodata.__orb_actuator_controls_2
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_controls_2
+
+.rodata.__orb_esc_status
+                0x00000000        0x8
+ .rodata.__orb_esc_status
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_esc_status
+
+.rodata.__orb_sensor_gyro
+                0x00000000        0x8
+ .rodata.__orb_sensor_gyro
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_sensor_gyro
+
+.rodata.__orb_optical_flow
+                0x00000000        0x8
+ .rodata.__orb_optical_flow
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_optical_flow
+
+.rodata.__orb_vehicle_local_position_setpoint
+                0x00000000        0x8
+ .rodata.__orb_vehicle_local_position_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_local_position_setpoint
+
+.rodata.__orb_input_rc
+                0x00000000        0x8
+ .rodata.__orb_input_rc
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_input_rc
+
+.rodata.__orb_vehicle_global_position_set_triplet
+                0x00000000        0x8
+ .rodata.__orb_vehicle_global_position_set_triplet
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_global_position_set_triplet
+
+.rodata.__orb_actuator_armed
+                0x00000000        0x8
+ .rodata.__orb_actuator_armed
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_armed
+
+.rodata.__orb_battery_status
+                0x00000000        0x8
+ .rodata.__orb_battery_status
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_battery_status
+
+.rodata.__orb_vehicle_local_position
+                0x00000000        0x8
+ .rodata.__orb_vehicle_local_position
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_local_position
+
+.rodata.__orb_vehicle_rates_setpoint
+                0x00000000        0x8
+ .rodata.__orb_vehicle_rates_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_rates_setpoint
+
+.rodata.__orb_sensor_baro
+                0x00000000        0x8
+ .rodata.__orb_sensor_baro
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_sensor_baro
+
+.rodata.__orb_navigation_capabilities
+                0x00000000        0x8
+ .rodata.__orb_navigation_capabilities
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_navigation_capabilities
+
+.rodata.__orb_vehicle_command
+                0x00000000        0x8
+ .rodata.__orb_vehicle_command
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_command
+
+.rodata.__orb_mission
+                0x00000000        0x8
+ .rodata.__orb_mission
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_mission
+
+.rodata.__orb_vehicle_global_velocity_setpoint
+                0x00000000        0x8
+ .rodata.__orb_vehicle_global_velocity_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_global_velocity_setpoint
+
+.rodata.__orb_vehicle_status
+                0x00000000        0x8
+ .rodata.__orb_vehicle_status
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_status
+
+.rodata.__orb_airspeed
+                0x00000000        0x8
+ .rodata.__orb_airspeed
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_airspeed
+
+.rodata.__orb_sensor_mag
+                0x00000000        0x8
+ .rodata.__orb_sensor_mag
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_sensor_mag
+
+.rodata.__orb_sensor_combined
+                0x00000000        0x8
+ .rodata.__orb_sensor_combined
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_sensor_combined
+
+.rodata.__orb_home_position
+                0x00000000        0x8
+ .rodata.__orb_home_position
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_home_position
+
+.rodata.__orb_offboard_control_setpoint
+                0x00000000        0x8
+ .rodata.__orb_offboard_control_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_offboard_control_setpoint
+
+.rodata.__orb_manual_control_setpoint
+                0x00000000        0x8
+ .rodata.__orb_manual_control_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_manual_control_setpoint
+
+.rodata.__orb_actuator_outputs_0
+                0x00000000        0x8
+ .rodata.__orb_actuator_outputs_0
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_outputs_0
+
+.rodata.__orb_actuator_outputs_1
+                0x00000000        0x8
+ .rodata.__orb_actuator_outputs_1
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_outputs_1
+
+.rodata.__orb_actuator_outputs_2
+                0x00000000        0x8
+ .rodata.__orb_actuator_outputs_2
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_outputs_2
+
+.rodata.__orb_actuator_outputs_3
+                0x00000000        0x8
+ .rodata.__orb_actuator_outputs_3
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_actuator_outputs_3
+
+.rodata.__orb_vehicle_bodyframe_speed_setpoint
+                0x00000000        0x8
+ .rodata.__orb_vehicle_bodyframe_speed_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_bodyframe_speed_setpoint
+
+.rodata.__orb_sensor_range_finder
+                0x00000000        0x8
+ .rodata.__orb_sensor_range_finder
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_sensor_range_finder
+
+.rodata.__orb_rc_channels
+                0x00000000        0x8
+ .rodata.__orb_rc_channels
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_rc_channels
+
+.rodata.__orb_safety
+                0x00000000        0x8
+ .rodata.__orb_safety
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_safety
+
+.rodata.__orb_vehicle_attitude_setpoint
+                0x00000000        0x8
+ .rodata.__orb_vehicle_attitude_setpoint
+                0x00000000        0x8 objects_common.cpp.o
+                0x00000000                __orb_vehicle_attitude_setpoint
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 uORB.cpp.o
+ .data          0x00000000        0x0 objects_common.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 uORB.cpp.o
+ .bss           0x00000000        0x0 objects_common.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_15g_devE
+                0x00000000        0x4
+ .bss._ZN12_GLOBAL__N_15g_devE
+                0x00000000        0x4 uORB.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0xe2
+ *(.comment)
+ .comment       0x00000000       0x71 uORB.cpp.o
+ .comment       0x00000071       0x71 objects_common.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 uORB.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 uORB.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 uORB.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x140 uORB.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2eec
+ *(.debug_info)
+ .debug_info    0x00000000     0x29de uORB.cpp.o
+ .debug_info    0x000029de      0x50e objects_common.cpp.o
+
+.debug_abbrev   0x00000000      0x7cd
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x738 uORB.cpp.o
+ .debug_abbrev  0x00000738       0x95 objects_common.cpp.o
+
+.debug_line     0x00000000      0xda6
+ *(.debug_line)
+ .debug_line    0x00000000      0xb29 uORB.cpp.o
+ .debug_line    0x00000b29      0x27d objects_common.cpp.o
+
+.debug_frame    0x00000000      0x4b8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x4b8 uORB.cpp.o
+
+.debug_str      0x00000000     0x152d
+ *(.debug_str)
+ .debug_str     0x00000000      0xdd7 uORB.cpp.o
+ .debug_str     0x00000dd7      0x756 objects_common.cpp.o
+
+.debug_loc      0x00000000     0x1c02
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x1c02 uORB.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x650
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x650 uORB.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 uORB.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 objects_common.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v2_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/uORB/module.pre.o elf32-littlearm)

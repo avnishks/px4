@@ -1,0 +1,422 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD multirotor_pos_control.c.o
+LOAD multirotor_pos_control_params.c.o
+LOAD thrust_pid.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 multirotor_pos_control.c.o
+ .text          0x00000000        0x0 multirotor_pos_control_params.c.o
+ .text          0x00000000        0x0 thrust_pid.c.o
+ *(.gnu.warning)
+
+.text.usage     0x00000000       0x40
+ .text.usage    0x00000000       0x40 multirotor_pos_control.c.o
+
+.text.multirotor_pos_control_main
+                0x00000000       0xe8
+ .text.multirotor_pos_control_main
+                0x00000000       0xe8 multirotor_pos_control.c.o
+                0x00000000                multirotor_pos_control_main
+
+.text.scale_control
+                0x00000000       0x6c
+ .text.scale_control
+                0x00000000       0x6c multirotor_pos_control.c.o
+
+.text.norm      0x00000000       0x50
+ .text.norm     0x00000000       0x50 multirotor_pos_control.c.o
+
+.text.multirotor_pos_control_thread_main
+                0x00000000     0x1010
+ .text.multirotor_pos_control_thread_main
+                0x00000000     0x1010 multirotor_pos_control.c.o
+
+.text.parameters_update
+                0x00000000       0xd4
+ .text.parameters_update
+                0x00000000       0xd4 multirotor_pos_control_params.c.o
+                0x00000000                parameters_update
+
+.text.parameters_init
+                0x00000000      0x140
+ .text.parameters_init
+                0x00000000      0x140 multirotor_pos_control_params.c.o
+                0x00000000                parameters_init
+
+.text.thrust_pid_set_integral
+                0x00000000       0x34
+ .text.thrust_pid_set_integral
+                0x00000000       0x34 thrust_pid.c.o
+                0x00000000                thrust_pid_set_integral
+
+.text.thrust_pid_init
+                0x00000000       0x6c
+ .text.thrust_pid_init
+                0x00000000       0x6c thrust_pid.c.o
+                0x00000000                thrust_pid_init
+
+.text.thrust_pid_set_parameters
+                0x00000000       0xa0
+ .text.thrust_pid_set_parameters
+                0x00000000       0xa0 thrust_pid.c.o
+                0x00000000                thrust_pid_set_parameters
+
+.text.thrust_pid_calculate
+                0x00000000      0x1a0
+ .text.thrust_pid_calculate
+                0x00000000      0x1a0 thrust_pid.c.o
+                0x00000000                thrust_pid_calculate
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00000000      0x360
+ .rodata.str1.4
+                0x00000000      0x26c multirotor_pos_control.c.o
+ .rodata.str1.4
+                0x0000026c       0xf4 multirotor_pos_control_params.c.o
+
+__param         0x00000000       0xb4
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (__start___param, ABSOLUTE (.))
+ __param        0x00000000       0xb4 multirotor_pos_control_params.c.o
+                0x000000b4                PROVIDE (__stop___param, .)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 multirotor_pos_control.c.o
+ .data          0x00000000        0x0 multirotor_pos_control_params.c.o
+ .data          0x00000000        0x0 thrust_pid.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 multirotor_pos_control.c.o
+ .bss           0x00000000        0x0 multirotor_pos_control_params.c.o
+ .bss           0x00000000        0x0 thrust_pid.c.o
+ *(COMMON)
+
+.bss.mavlink_fd.6484
+                0x00000000        0x4
+ .bss.mavlink_fd.6484
+                0x00000000        0x4 multirotor_pos_control.c.o
+
+.bss.thread_running
+                0x00000000        0x1
+ .bss.thread_running
+                0x00000000        0x1 multirotor_pos_control.c.o
+
+.bss.deamon_task
+                0x00000000        0x4
+ .bss.deamon_task
+                0x00000000        0x4 multirotor_pos_control.c.o
+
+.bss.thread_should_exit
+                0x00000000        0x1
+ .bss.thread_should_exit
+                0x00000000        0x1 multirotor_pos_control.c.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x153
+ *(.comment)
+ .comment       0x00000000       0x71 multirotor_pos_control.c.o
+ .comment       0x00000071       0x71 multirotor_pos_control_params.c.o
+ .comment       0x000000e2       0x71 thrust_pid.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 multirotor_pos_control.c.o
+ .debug_aranges
+                0x00000040       0x28 multirotor_pos_control_params.c.o
+ .debug_aranges
+                0x00000068       0x38 thrust_pid.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1e0d
+ *(.debug_info)
+ .debug_info    0x00000000     0x14cc multirotor_pos_control.c.o
+ .debug_info    0x000014cc      0x4ea multirotor_pos_control_params.c.o
+ .debug_info    0x000019b6      0x457 thrust_pid.c.o
+
+.debug_abbrev   0x00000000      0x4c4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x292 multirotor_pos_control.c.o
+ .debug_abbrev  0x00000292      0x120 multirotor_pos_control_params.c.o
+ .debug_abbrev  0x000003b2      0x112 thrust_pid.c.o
+
+.debug_line     0x00000000      0xded
+ *(.debug_line)
+ .debug_line    0x00000000      0x93e multirotor_pos_control.c.o
+ .debug_line    0x0000093e      0x25d multirotor_pos_control_params.c.o
+ .debug_line    0x00000b9b      0x252 thrust_pid.c.o
+
+.debug_frame    0x00000000      0x1c4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc8 multirotor_pos_control.c.o
+ .debug_frame   0x000000c8       0x4c multirotor_pos_control_params.c.o
+ .debug_frame   0x00000114       0xb0 thrust_pid.c.o
+
+.debug_str      0x00000000     0x1568
+ *(.debug_str)
+ .debug_str     0x00000000      0xf33 multirotor_pos_control.c.o
+ .debug_str     0x00000f33      0x43c multirotor_pos_control_params.c.o
+ .debug_str     0x0000136f      0x1f9 thrust_pid.c.o
+
+.debug_loc      0x00000000     0x1d8a
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x175d multirotor_pos_control.c.o
+ .debug_loc     0x0000175d       0x9a multirotor_pos_control_params.c.o
+ .debug_loc     0x000017f7      0x593 thrust_pid.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x3b8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x330 multirotor_pos_control.c.o
+ .debug_ranges  0x00000330       0x18 multirotor_pos_control_params.c.o
+ .debug_ranges  0x00000348       0x70 thrust_pid.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 multirotor_pos_control.c.o
+ .ARM.attributes
+                0x00000037       0x37 multirotor_pos_control_params.c.o
+ .ARM.attributes
+                0x0000006e       0x37 thrust_pid.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v2_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/modules/multirotor_pos_control/module.pre.o elf32-littlearm)

@@ -1,0 +1,493 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD hott_telemetry.cpp.o
+LOAD ../messages.cpp.o
+LOAD ../comms.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 hott_telemetry.cpp.o
+ .text          0x00000000        0x0 ../messages.cpp.o
+ .text          0x00000000        0x0 ../comms.cpp.o
+ *(.gnu.warning)
+
+.text.hott_telemetry_main
+                0x00000000       0xe4
+ .text.hott_telemetry_main
+                0x00000000       0xe4 hott_telemetry.cpp.o
+                0x00000000                hott_telemetry_main
+
+.text._ZL11recv_req_idiPh
+                0x00000000       0x74
+ .text._ZL11recv_req_idiPh
+                0x00000000       0x74 hott_telemetry.cpp.o
+
+.text._ZL9send_dataiPhj
+                0x00000000       0xec
+ .text._ZL9send_dataiPhj
+                0x00000000       0xec hott_telemetry.cpp.o
+
+.text._Z26hott_telemetry_thread_mainiPPc
+                0x00000000      0x1cc
+ .text._Z26hott_telemetry_thread_mainiPPc
+                0x00000000      0x1cc hott_telemetry.cpp.o
+                0x00000000                hott_telemetry_thread_main(int, char**)
+
+.text._Z34convert_to_degrees_minutes_secondsdPiS_S_
+                0x00000000       0x90
+ .text._Z34convert_to_degrees_minutes_secondsdPiS_S_
+                0x00000000       0x90 ../messages.cpp.o
+                0x00000000                convert_to_degrees_minutes_seconds(double, int*, int*, int*)
+
+.text._Z18build_gam_responsePhPj
+                0x00000000       0xec
+ .text._Z18build_gam_responsePhPj
+                0x00000000       0xec ../messages.cpp.o
+                0x00000000                build_gam_response(unsigned char*, unsigned int*)
+
+.text._Z18build_eam_responsePhPj
+                0x00000000      0x168
+ .text._Z18build_eam_responsePhPj
+                0x00000000      0x168 ../messages.cpp.o
+                0x00000000                build_eam_response(unsigned char*, unsigned int*)
+
+.text._Z17build_gam_requestPhPj
+                0x00000000       0x40
+ .text._Z17build_gam_requestPhPj
+                0x00000000       0x40 ../messages.cpp.o
+                0x00000000                build_gam_request(unsigned char*, unsigned int*)
+
+.text._Z19publish_gam_messagePKh
+                0x00000000       0xb4
+ .text._Z19publish_gam_messagePKh
+                0x00000000       0xb4 ../messages.cpp.o
+                0x00000000                publish_gam_message(unsigned char const*)
+
+.text._Z17init_pub_messagesv
+                0x00000000       0x4c
+ .text._Z17init_pub_messagesv
+                0x00000000       0x4c ../messages.cpp.o
+                0x00000000                init_pub_messages()
+
+.text._Z17init_sub_messagesv
+                0x00000000       0xb4
+ .text._Z17init_sub_messagesv
+                0x00000000       0xb4 ../messages.cpp.o
+                0x00000000                init_sub_messages()
+
+.text._Z18build_gps_responsePhPj
+                0x00000000      0x3f0
+ .text._Z18build_gps_responsePhPj
+                0x00000000      0x3f0 ../messages.cpp.o
+                0x00000000                build_gps_response(unsigned char*, unsigned int*)
+
+.text._Z9open_uartPKc
+                0x00000000       0xd4
+ .text._Z9open_uartPKc
+                0x00000000       0xd4 ../comms.cpp.o
+                0x00000000                open_uart(char const*)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZL17commandline_usage
+                0x00000000       0x38
+ .rodata._ZL17commandline_usage
+                0x00000000       0x38 hott_telemetry.cpp.o
+
+.rodata.str1.4  0x00000000      0x1f4
+ .rodata.str1.4
+                0x00000000      0x11c hott_telemetry.cpp.o
+ .rodata.str1.4
+                0x0000011c       0xd8 ../comms.cpp.o
+
+.rodata._ZL11daemon_name
+                0x00000000       0x10
+ .rodata._ZL11daemon_name
+                0x00000000       0x10 hott_telemetry.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 hott_telemetry.cpp.o
+ .data          0x00000000        0x0 ../messages.cpp.o
+ .data          0x00000000        0x0 ../comms.cpp.o
+
+.data._ZL8_gps_sub
+                0x00000000        0x4
+ .data._ZL8_gps_sub
+                0x00000000        0x4 ../messages.cpp.o
+
+.data._ZL11_sensor_sub
+                0x00000000        0x4
+ .data._ZL11_sensor_sub
+                0x00000000        0x4 ../messages.cpp.o
+
+.data._ZL12_battery_sub
+                0x00000000        0x4
+ .data._ZL12_battery_sub
+                0x00000000        0x4 ../messages.cpp.o
+
+.data._ZL13_airspeed_sub
+                0x00000000        0x4
+ .data._ZL13_airspeed_sub
+                0x00000000        0x4 ../messages.cpp.o
+
+.data._ZL8_esc_sub
+                0x00000000        0x4
+ .data._ZL8_esc_sub
+                0x00000000        0x4 ../messages.cpp.o
+
+.data._ZL9_home_sub
+                0x00000000        0x4
+ .data._ZL9_home_sub
+                0x00000000        0x4 ../messages.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 hott_telemetry.cpp.o
+ .bss           0x00000000        0x0 ../messages.cpp.o
+ .bss           0x00000000        0x0 ../comms.cpp.o
+ *(COMMON)
+
+.bss._ZL18thread_should_exit
+                0x00000000        0x4
+ .bss._ZL18thread_should_exit
+                0x00000000        0x4 hott_telemetry.cpp.o
+
+.bss._ZL11deamon_task
+                0x00000000        0x4
+ .bss._ZL11deamon_task
+                0x00000000        0x4 hott_telemetry.cpp.o
+
+.bss._ZL14thread_running
+                0x00000000        0x4
+ .bss._ZL14thread_running
+                0x00000000        0x4 hott_telemetry.cpp.o
+
+.bss._ZL8_esc_pub
+                0x00000000        0x4
+ .bss._ZL8_esc_pub
+                0x00000000        0x4 ../messages.cpp.o
+
+.bss._esc       0x00000000       0xf8
+ .bss._esc      0x00000000       0xf8 ../messages.cpp.o
+                0x00000000                _esc
+
+.bss._ZL18_home_position_set
+                0x00000000        0x1
+ .bss._ZL18_home_position_set
+                0x00000000        0x1 ../messages.cpp.o
+
+.bss._ZL9_home_lat
+                0x00000000        0x8
+ .bss._ZL9_home_lat
+                0x00000000        0x8 ../messages.cpp.o
+
+.bss._ZL9_home_lon
+                0x00000000        0x8
+ .bss._ZL9_home_lon
+                0x00000000        0x8 ../messages.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x153
+ *(.comment)
+ .comment       0x00000000       0x71 hott_telemetry.cpp.o
+ .comment       0x00000071       0x71 ../messages.cpp.o
+ .comment       0x000000e2       0x71 ../comms.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 hott_telemetry.cpp.o
+ .debug_aranges
+                0x00000038       0x58 ../messages.cpp.o
+ .debug_aranges
+                0x00000090       0x20 ../comms.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x27ed
+ *(.debug_info)
+ .debug_info    0x00000000     0x11ac hott_telemetry.cpp.o
+ .debug_info    0x000011ac     0x146e ../messages.cpp.o
+ .debug_info    0x0000261a      0x1d3 ../comms.cpp.o
+
+.debug_abbrev   0x00000000      0x56a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x269 hott_telemetry.cpp.o
+ .debug_abbrev  0x00000269      0x22b ../messages.cpp.o
+ .debug_abbrev  0x00000494       0xd6 ../comms.cpp.o
+
+.debug_line     0x00000000      0xa52
+ *(.debug_line)
+ .debug_line    0x00000000      0x418 hott_telemetry.cpp.o
+ .debug_line    0x00000418      0x4e1 ../messages.cpp.o
+ .debug_line    0x000008f9      0x159 ../comms.cpp.o
+
+.debug_frame    0x00000000      0x204
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa4 hott_telemetry.cpp.o
+ .debug_frame   0x000000a4      0x130 ../messages.cpp.o
+ .debug_frame   0x000001d4       0x30 ../comms.cpp.o
+
+.debug_str      0x00000000     0x1a5e
+ *(.debug_str)
+ .debug_str     0x00000000      0x8d7 hott_telemetry.cpp.o
+ .debug_str     0x000008d7      0xf30 ../messages.cpp.o
+ .debug_str     0x00001807      0x257 ../comms.cpp.o
+
+.debug_loc      0x00000000      0xc9f
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4ab hott_telemetry.cpp.o
+ .debug_loc     0x000004ab      0x741 ../messages.cpp.o
+ .debug_loc     0x00000bec       0xb3 ../comms.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x2f0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x118 hott_telemetry.cpp.o
+ .debug_ranges  0x00000118      0x1b0 ../messages.cpp.o
+ .debug_ranges  0x000002c8       0x28 ../comms.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 hott_telemetry.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 ../messages.cpp.o
+ .ARM.attributes
+                0x0000006e       0x37 ../comms.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v2_default.build//home/avnishks/src/Firmware/src/drivers/hott/hott_telemetry/module.pre.o elf32-littlearm)

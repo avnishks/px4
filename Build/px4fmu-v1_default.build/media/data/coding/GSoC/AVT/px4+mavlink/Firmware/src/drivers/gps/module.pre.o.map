@@ -1,0 +1,691 @@
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ubx.cpp.o
+ .group         0x00000000        0x8 ubx.cpp.o
+ .text._ZN10GPS_HelperC2Ev
+                0x00000000       0x2c ubx.cpp.o
+ .rodata._ZTV10GPS_Helper
+                0x00000000       0x10 ubx.cpp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD gps.cpp.o
+LOAD gps_helper.cpp.o
+LOAD mtk.cpp.o
+LOAD ubx.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 gps.cpp.o
+ .text          0x00000000        0x0 gps_helper.cpp.o
+ .text          0x00000000        0x0 mtk.cpp.o
+ .text          0x00000000        0x0 ubx.cpp.o
+ *(.gnu.warning)
+
+.text._ZN3gps4testEv
+                0x00000000       0x20
+ .text._ZN3gps4testEv
+                0x00000000       0x20 gps.cpp.o
+                0x00000000                gps::test()
+
+.text._ZN3gps4stopEv
+                0x00000000       0x28
+ .text._ZN3gps4stopEv
+                0x00000000       0x28 gps.cpp.o
+                0x00000000                gps::stop()
+
+.text._ZN3gps5resetEv
+                0x00000000       0x4c
+ .text._ZN3gps5resetEv
+                0x00000000       0x4c gps.cpp.o
+                0x00000000                gps::reset()
+
+.text._ZN3GPS10print_infoEv
+                0x00000000      0x12c
+ .text._ZN3GPS10print_infoEv
+                0x00000000      0x12c gps.cpp.o
+                0x00000000                GPS::print_info()
+
+.text._ZN3gps4infoEv
+                0x00000000       0x30
+ .text._ZN3gps4infoEv
+                0x00000000       0x30 gps.cpp.o
+                0x00000000                gps::info()
+
+.text._ZN3GPS9cmd_resetEv
+                0x00000000       0x20
+ .text._ZN3GPS9cmd_resetEv
+                0x00000000       0x20 gps.cpp.o
+                0x00000000                GPS::cmd_reset()
+
+.text._ZN6device6Device6unlockEv
+                0x00000000       0x2c
+ .text._ZN6device6Device6unlockEv
+                0x00000000       0x2c gps.cpp.o
+                0x00000000                device::Device::unlock()
+
+.text._ZN6device6Device4lockEv
+                0x00000000       0x2c
+ .text._ZN6device6Device4lockEv
+                0x00000000       0x2c gps.cpp.o
+                0x00000000                device::Device::lock()
+
+.text._ZN3GPS4initEv
+                0x00000000       0x6c
+ .text._ZN3GPS4initEv
+                0x00000000       0x6c gps.cpp.o
+                0x00000000                GPS::init()
+
+.text._ZN3GPSD2Ev
+                0x00000000      0x100
+ .text._ZN3GPSD2Ev
+                0x00000000      0x100 gps.cpp.o
+                0x00000000                GPS::~GPS()
+                0x00000000                GPS::~GPS()
+
+.text._ZN3GPSC2EPKc
+                0x00000000       0x98
+ .text._ZN3GPSC2EPKc
+                0x00000000       0x98 gps.cpp.o
+                0x00000000                GPS::GPS(char const*)
+                0x00000000                GPS::GPS(char const*)
+
+.text._ZN3gps5startEPKc
+                0x00000000       0x84
+ .text._ZN3gps5startEPKc
+                0x00000000       0x84 gps.cpp.o
+                0x00000000                gps::start(char const*)
+
+.text.gps_main  0x00000000       0x98
+ .text.gps_main
+                0x00000000       0x98 gps.cpp.o
+                0x00000000                gps_main
+
+.text._ZN3GPS9task_mainEv
+                0x00000000      0x258
+ .text._ZN3GPS9task_mainEv
+                0x00000000      0x258 gps.cpp.o
+                0x00000000                GPS::task_main()
+
+.text._ZN3GPS20task_main_trampolineEPv
+                0x00000000       0x20
+ .text._ZN3GPS20task_main_trampolineEPv
+                0x00000000       0x20 gps.cpp.o
+                0x00000000                GPS::task_main_trampoline(void*)
+
+.text._ZN3GPS5ioctlEP4fileim
+                0x00000000       0x78
+ .text._ZN3GPS5ioctlEP4fileim
+                0x00000000       0x78 gps.cpp.o
+                0x00000000                GPS::ioctl(file*, int, unsigned long)
+
+.text._ZN3GPSD0Ev
+                0x00000000      0x118
+ .text._ZN3GPSD0Ev
+                0x00000000      0x118 gps.cpp.o
+                0x00000000                GPS::~GPS()
+
+.text._ZN10GPS_Helper12set_baudrateERKij
+                0x00000000       0xd4
+ .text._ZN10GPS_Helper12set_baudrateERKij
+                0x00000000       0xd4 gps_helper.cpp.o
+                0x00000000                GPS_Helper::set_baudrate(int const&, unsigned int)
+
+.text._ZN10GPS_Helper24get_velocity_update_rateEv
+                0x00000000       0x30
+ .text._ZN10GPS_Helper24get_velocity_update_rateEv
+                0x00000000       0x30 gps_helper.cpp.o
+                0x00000000                GPS_Helper::get_velocity_update_rate()
+
+.text._ZN10GPS_Helper24get_position_update_rateEv
+                0x00000000       0x30
+ .text._ZN10GPS_Helper24get_position_update_rateEv
+                0x00000000       0x30 gps_helper.cpp.o
+                0x00000000                GPS_Helper::get_position_update_rate()
+
+.text._ZN10GPS_Helper18store_update_ratesEv
+                0x00000000       0x88
+ .text._ZN10GPS_Helper18store_update_ratesEv
+                0x00000000       0x88 gps_helper.cpp.o
+                0x00000000                GPS_Helper::store_update_rates()
+
+.text._ZN10GPS_Helper18reset_update_ratesEv
+                0x00000000       0x34
+ .text._ZN10GPS_Helper18reset_update_ratesEv
+                0x00000000       0x34 gps_helper.cpp.o
+                0x00000000                GPS_Helper::reset_update_rates()
+
+.text._ZN3MTK20add_byte_to_checksumEh
+                0x00000000       0x3c
+ .text._ZN3MTK20add_byte_to_checksumEh
+                0x00000000       0x3c mtk.cpp.o
+                0x00000000                MTK::add_byte_to_checksum(unsigned char)
+
+.text._ZN3MTK11decode_initEv
+                0x00000000       0x34
+ .text._ZN3MTK11decode_initEv
+                0x00000000       0x34 mtk.cpp.o
+                0x00000000                MTK::decode_init()
+
+.text._ZN3MTKD2Ev
+                0x00000000       0x2c
+ .text._ZN3MTKD2Ev
+                0x00000000       0x2c mtk.cpp.o
+                0x00000000                MTK::~MTK()
+                0x00000000                MTK::~MTK()
+
+.text._ZN10GPS_HelperC2Ev
+                0x00000000       0x2c
+ .text._ZN10GPS_HelperC2Ev
+                0x00000000       0x2c mtk.cpp.o
+                0x00000000                GPS_Helper::GPS_Helper()
+                0x00000000                GPS_Helper::GPS_Helper()
+
+.text._ZN3MTK14handle_messageER16gps_mtk_packet_t
+                0x00000000      0x2f8
+ .text._ZN3MTK14handle_messageER16gps_mtk_packet_t
+                0x00000000      0x2f8 mtk.cpp.o
+                0x00000000                MTK::handle_message(gps_mtk_packet_t&)
+
+.text._ZN3MTK9configureERj
+                0x00000000       0xd8
+ .text._ZN3MTK9configureERj
+                0x00000000       0xd8 mtk.cpp.o
+                0x00000000                MTK::configure(unsigned int&)
+
+.text._ZN3MTKC2ERKiP22vehicle_gps_position_s
+                0x00000000       0x88
+ .text._ZN3MTKC2ERKiP22vehicle_gps_position_s
+                0x00000000       0x88 mtk.cpp.o
+                0x00000000                MTK::MTK(int const&, vehicle_gps_position_s*)
+                0x00000000                MTK::MTK(int const&, vehicle_gps_position_s*)
+
+.text._ZN3MTK10parse_charEhR16gps_mtk_packet_t
+                0x00000000      0x134
+ .text._ZN3MTK10parse_charEhR16gps_mtk_packet_t
+                0x00000000      0x134 mtk.cpp.o
+                0x00000000                MTK::parse_char(unsigned char, gps_mtk_packet_t&)
+
+.text._ZN3MTK7receiveEj
+                0x00000000      0x138
+ .text._ZN3MTK7receiveEj
+                0x00000000      0x138 mtk.cpp.o
+                0x00000000                MTK::receive(unsigned int)
+
+.text._ZN3UBX12add_checksumEPhjRhS1_
+                0x00000000       0xb0
+ .text._ZN3UBX12add_checksumEPhjRhS1_
+                0x00000000       0xb0 ubx.cpp.o
+                0x00000000                UBX::add_checksum(unsigned char*, unsigned int, unsigned char&, unsigned char&)
+
+.text._ZN3UBX23add_checksum_to_messageEPhj
+                0x00000000       0x80
+ .text._ZN3UBX23add_checksum_to_messageEPhj
+                0x00000000       0x80 ubx.cpp.o
+                0x00000000                UBX::add_checksum_to_message(unsigned char*, unsigned int)
+
+.text._ZN3UBX20add_byte_to_checksumEh
+                0x00000000       0x3c
+ .text._ZN3UBX20add_byte_to_checksumEh
+                0x00000000       0x3c ubx.cpp.o
+                0x00000000                UBX::add_byte_to_checksum(unsigned char)
+
+.text._ZN3UBX11decode_initEv
+                0x00000000       0x38
+ .text._ZN3UBX11decode_initEv
+                0x00000000       0x38 ubx.cpp.o
+                0x00000000                UBX::decode_init()
+
+.text._ZN3UBXD2Ev
+                0x00000000       0x2c
+ .text._ZN3UBXD2Ev
+                0x00000000       0x2c ubx.cpp.o
+                0x00000000                UBX::~UBX()
+                0x00000000                UBX::~UBX()
+
+.text._ZN3UBX12wait_for_ackEj
+                0x00000000       0x78
+ .text._ZN3UBX12wait_for_ackEj
+                0x00000000       0x78 ubx.cpp.o
+                0x00000000                UBX::wait_for_ack(unsigned int)
+
+.text._ZN3UBXC2ERKiP22vehicle_gps_position_s
+                0x00000000       0x98
+ .text._ZN3UBXC2ERKiP22vehicle_gps_position_s
+                0x00000000       0x98 ubx.cpp.o
+                0x00000000                UBX::UBX(int const&, vehicle_gps_position_s*)
+                0x00000000                UBX::UBX(int const&, vehicle_gps_position_s*)
+
+.text._ZN3UBX12send_messageEhhPvh
+                0x00000000      0x158
+ .text._ZN3UBX12send_messageEhhPvh
+                0x00000000      0x158 ubx.cpp.o
+                0x00000000                UBX::send_message(unsigned char, unsigned char, void*, unsigned char)
+
+.text._ZN3UBX22configure_message_rateEhhh
+                0x00000000       0x4c
+ .text._ZN3UBX22configure_message_rateEhhh
+                0x00000000       0x4c ubx.cpp.o
+                0x00000000                UBX::configure_message_rate(unsigned char, unsigned char, unsigned char)
+
+.text._ZN3UBX18send_config_packetERKiPhj
+                0x00000000       0xd4
+ .text._ZN3UBX18send_config_packetERKiPhj
+                0x00000000       0xd4 ubx.cpp.o
+                0x00000000                UBX::send_config_packet(int const&, unsigned char*, unsigned int)
+
+.text._ZN3UBX14handle_messageEv
+                0x00000000      0x5a0
+ .text._ZN3UBX14handle_messageEv
+                0x00000000      0x5a0 ubx.cpp.o
+                0x00000000                UBX::handle_message()
+
+.text._ZN3UBX10parse_charEh
+                0x00000000      0x284
+ .text._ZN3UBX10parse_charEh
+                0x00000000      0x284 ubx.cpp.o
+                0x00000000                UBX::parse_char(unsigned char)
+
+.text._ZN3UBX7receiveEj
+                0x00000000      0x138
+ .text._ZN3UBX7receiveEj
+                0x00000000      0x138 ubx.cpp.o
+                0x00000000                UBX::receive(unsigned int)
+
+.text._ZN3UBX9configureERj
+                0x00000000      0x610
+ .text._ZN3UBX9configureERj
+                0x00000000      0x610 ubx.cpp.o
+                0x00000000                UBX::configure(unsigned int&)
+
+.fini
+ *(.fini)
+
+.rodata         0x00000000       0x18
+ *(.rodata)
+ .rodata        0x00000000       0x18 ubx.cpp.o
+
+.rodata.str1.4  0x00000000      0x5bc
+ .rodata.str1.4
+                0x00000000      0x294 gps.cpp.o
+ .rodata.str1.4
+                0x00000294       0x98 gps_helper.cpp.o
+ .rodata.str1.4
+                0x0000032c       0xac mtk.cpp.o
+ .rodata.str1.4
+                0x000003d8      0x1e4 ubx.cpp.o
+
+.rodata._ZTV3GPS
+                0x00000000       0x58
+ .rodata._ZTV3GPS
+                0x00000000       0x58 gps.cpp.o
+                0x00000000                vtable for GPS
+
+.rodata._ZTV10GPS_Helper
+                0x00000000       0x10
+ .rodata._ZTV10GPS_Helper
+                0x00000000       0x10 mtk.cpp.o
+                0x00000000                vtable for GPS_Helper
+
+.rodata._ZTV3MTK
+                0x00000000       0x10
+ .rodata._ZTV3MTK
+                0x00000000       0x10 mtk.cpp.o
+                0x00000000                vtable for MTK
+
+.rodata._ZTV3UBX
+                0x00000000       0x10
+ .rodata._ZTV3UBX
+                0x00000000       0x10 ubx.cpp.o
+                0x00000000                vtable for UBX
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 gps.cpp.o
+ .data          0x00000000        0x0 gps_helper.cpp.o
+ .data          0x00000000        0x0 mtk.cpp.o
+ .data          0x00000000        0x0 ubx.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 gps.cpp.o
+ .bss           0x00000000        0x0 gps_helper.cpp.o
+ .bss           0x00000000        0x0 mtk.cpp.o
+ .bss           0x00000000        0x0 ubx.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_15g_devE
+                0x00000000        0x4
+ .bss._ZN12_GLOBAL__N_15g_devE
+                0x00000000        0x4 gps.cpp.o
+
+.bss._ZN3gps5g_devE
+                0x00000000        0x4
+ .bss._ZN3gps5g_devE
+                0x00000000        0x4 gps.cpp.o
+                0x00000000                gps::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x1c4
+ *(.comment)
+ .comment       0x00000000       0x71 gps.cpp.o
+ .comment       0x00000071       0x71 gps_helper.cpp.o
+ .comment       0x000000e2       0x71 mtk.cpp.o
+ .comment       0x00000153       0x71 ubx.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 gps.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 gps.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mtk.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mtk.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa0 gps.cpp.o
+ .debug_aranges
+                0x000000a0       0x40 gps_helper.cpp.o
+ .debug_aranges
+                0x000000e0       0x60 mtk.cpp.o
+ .debug_aranges
+                0x00000140       0x90 ubx.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x6224
+ *(.debug_info)
+ .debug_info    0x00000000     0x192a gps.cpp.o
+ .debug_info    0x0000192a      0x30c gps_helper.cpp.o
+ .debug_info    0x00001c36     0x19c0 mtk.cpp.o
+ .debug_info    0x000035f6     0x2c2e ubx.cpp.o
+
+.debug_abbrev   0x00000000      0xf4d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4e8 gps.cpp.o
+ .debug_abbrev  0x000004e8      0x148 gps_helper.cpp.o
+ .debug_abbrev  0x00000630      0x3f5 mtk.cpp.o
+ .debug_abbrev  0x00000a25      0x528 ubx.cpp.o
+
+.debug_line     0x00000000     0x19e0
+ *(.debug_line)
+ .debug_line    0x00000000      0x797 gps.cpp.o
+ .debug_line    0x00000797      0x1ef gps_helper.cpp.o
+ .debug_line    0x00000986      0x5a2 mtk.cpp.o
+ .debug_line    0x00000f28      0xab8 ubx.cpp.o
+
+.debug_frame    0x00000000      0x5ec
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1f8 gps.cpp.o
+ .debug_frame   0x000001f8       0xb8 gps_helper.cpp.o
+ .debug_frame   0x000002b0      0x138 mtk.cpp.o
+ .debug_frame   0x000003e8      0x204 ubx.cpp.o
+
+.debug_str      0x00000000     0x33cb
+ *(.debug_str)
+ .debug_str     0x00000000      0xd1f gps.cpp.o
+ .debug_str     0x00000d1f      0x37b gps_helper.cpp.o
+ .debug_str     0x0000109a      0xe3b mtk.cpp.o
+ .debug_str     0x00001ed5     0x14f6 ubx.cpp.o
+
+.debug_loc      0x00000000     0x18d0
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x5c6 gps.cpp.o
+ .debug_loc     0x000005c6      0x224 gps_helper.cpp.o
+ .debug_loc     0x000007ea      0x48e mtk.cpp.o
+ .debug_loc     0x00000c78      0xc58 ubx.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x848
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x150 gps.cpp.o
+ .debug_ranges  0x00000150       0x50 gps_helper.cpp.o
+ .debug_ranges  0x000001a0       0xf0 mtk.cpp.o
+ .debug_ranges  0x00000290      0x5b8 ubx.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 gps.cpp.o
+ .ARM.attributes
+                0x00000037       0x37 gps_helper.cpp.o
+ .ARM.attributes
+                0x0000006e       0x37 mtk.cpp.o
+ .ARM.attributes
+                0x000000a5       0x37 ubx.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/media/data/coding/GSoC/AVT/px4+mavlink/Firmware/Build/px4fmu-v1_default.build//media/data/coding/GSoC/AVT/px4+mavlink/Firmware/src/drivers/gps/module.pre.o elf32-littlearm)

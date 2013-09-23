@@ -1,0 +1,739 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD mpu6000.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x00000000        0x0
+ *(.text .stub)
+ .text          0x00000000        0x0 mpu6000.cpp.o
+ *(.gnu.warning)
+
+.text._ZN12MPU6000_gyro5ioctlEP4fileim
+                0x00000000       0x3c
+ .text._ZN12MPU6000_gyro5ioctlEP4fileim
+                0x00000000       0x3c mpu6000.cpp.o
+                0x00000000                MPU6000_gyro::ioctl(file*, int, unsigned long)
+
+.text._ZN12MPU6000_gyro4readEP4filePcj
+                0x00000000       0x3c
+ .text._ZN12MPU6000_gyro4readEP4filePcj
+                0x00000000       0x3c mpu6000.cpp.o
+                0x00000000                MPU6000_gyro::read(file*, char*, unsigned int)
+
+.text._ZN12MPU6000_gyro18parent_poll_notifyEv
+                0x00000000       0x2c
+ .text._ZN12MPU6000_gyro18parent_poll_notifyEv
+                0x00000000       0x2c mpu6000.cpp.o
+                0x00000000                MPU6000_gyro::parent_poll_notify()
+
+.text._ZN10RingBufferI12accel_reportE5_nextEj
+                0x00000000       0x34
+ .text._ZN10RingBufferI12accel_reportE5_nextEj
+                0x00000000       0x34 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::_next(unsigned int)
+
+.text._ZN10RingBufferI11gyro_reportE5_nextEj
+                0x00000000       0x34
+ .text._ZN10RingBufferI11gyro_reportE5_nextEj
+                0x00000000       0x34 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::_next(unsigned int)
+
+.text._ZN10RingBufferI12accel_reportE5flushEv
+                0x00000000       0x28
+ .text._ZN10RingBufferI12accel_reportE5flushEv
+                0x00000000       0x28 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::flush()
+
+.text._ZN10RingBufferI11gyro_reportE5flushEv
+                0x00000000       0x28
+ .text._ZN10RingBufferI11gyro_reportE5flushEv
+                0x00000000       0x28 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::flush()
+
+.text._ZN7MPU60009set_rangeEj
+                0x00000000       0x20
+ .text._ZN7MPU60009set_rangeEj
+                0x00000000       0x20 mpu6000.cpp.o
+                0x00000000                MPU6000::set_range(unsigned int)
+
+.text._ZN10RingBufferI11gyro_reportE4sizeEv
+                0x00000000       0x34
+ .text._ZN10RingBufferI11gyro_reportE4sizeEv
+                0x00000000       0x34 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::size()
+
+.text._ZNK4math15LowPassFilter2p15get_cutoff_freqEv
+                0x00000000       0x30
+ .text._ZNK4math15LowPassFilter2p15get_cutoff_freqEv
+                0x00000000       0x30 mpu6000.cpp.o
+                0x00000000                math::LowPassFilter2p::get_cutoff_freq() const
+
+.text._ZN10RingBufferI12accel_reportE4sizeEv
+                0x00000000       0x34
+ .text._ZN10RingBufferI12accel_reportE4sizeEv
+                0x00000000       0x34 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::size()
+
+.text._ZN10RingBufferI11gyro_reportE5emptyEv
+                0x00000000       0x2c
+ .text._ZN10RingBufferI11gyro_reportE5emptyEv
+                0x00000000       0x2c mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::empty()
+
+.text._ZN10RingBufferI12accel_reportE5emptyEv
+                0x00000000       0x2c
+ .text._ZN10RingBufferI12accel_reportE5emptyEv
+                0x00000000       0x2c mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::empty()
+
+.text._ZN10RingBufferI11gyro_reportED2Ev
+                0x00000000       0x30
+ .text._ZN10RingBufferI11gyro_reportED2Ev
+                0x00000000       0x30 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::~RingBuffer()
+                0x00000000                RingBuffer<gyro_report>::~RingBuffer()
+
+.text._ZN10RingBufferI12accel_reportED2Ev
+                0x00000000       0x30
+ .text._ZN10RingBufferI12accel_reportED2Ev
+                0x00000000       0x30 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::~RingBuffer()
+                0x00000000                RingBuffer<accel_report>::~RingBuffer()
+
+.text._ZN7MPU600010print_infoEv
+                0x00000000       0x34
+ .text._ZN7MPU600010print_infoEv
+                0x00000000       0x34 mpu6000.cpp.o
+                0x00000000                MPU6000::print_info()
+
+.text._ZN7mpu60004infoEv
+                0x00000000       0x3c
+ .text._ZN7mpu60004infoEv
+                0x00000000       0x3c mpu6000.cpp.o
+                0x00000000                mpu6000::info()
+
+.text._ZN7mpu60005resetEv
+                0x00000000       0x70
+ .text._ZN7mpu60005resetEv
+                0x00000000       0x70 mpu6000.cpp.o
+                0x00000000                mpu6000::reset()
+
+.text._ZN7mpu60004testEv
+                0x00000000      0x24c
+ .text._ZN7mpu60004testEv
+                0x00000000      0x24c mpu6000.cpp.o
+                0x00000000                mpu6000::test()
+
+.text._ZN12MPU6000_gyroD2Ev
+                0x00000000       0x30
+ .text._ZN12MPU6000_gyroD2Ev
+                0x00000000       0x30 mpu6000.cpp.o
+                0x00000000                MPU6000_gyro::~MPU6000_gyro()
+                0x00000000                MPU6000_gyro::~MPU6000_gyro()
+
+.text._ZN12MPU6000_gyroC2EP7MPU6000
+                0x00000000       0x48
+ .text._ZN12MPU6000_gyroC2EP7MPU6000
+                0x00000000       0x48 mpu6000.cpp.o
+                0x00000000                MPU6000_gyro::MPU6000_gyro(MPU6000*)
+                0x00000000                MPU6000_gyro::MPU6000_gyro(MPU6000*)
+
+.text._ZN7MPU60009write_regEjh
+                0x00000000       0x40
+ .text._ZN7MPU60009write_regEjh
+                0x00000000       0x40 mpu6000.cpp.o
+                0x00000000                MPU6000::write_reg(unsigned int, unsigned char)
+
+.text._ZN7MPU600010read_reg16Ej
+                0x00000000       0x48
+ .text._ZN7MPU600010read_reg16Ej
+                0x00000000       0x48 mpu6000.cpp.o
+                0x00000000                MPU6000::read_reg16(unsigned int)
+
+.text._ZN7MPU60008read_regEj
+                0x00000000       0x40
+ .text._ZN7MPU60008read_regEj
+                0x00000000       0x40 mpu6000.cpp.o
+                0x00000000                MPU6000::read_reg(unsigned int)
+
+.text._ZN7MPU60004stopEv
+                0x00000000       0x2c
+ .text._ZN7MPU60004stopEv
+                0x00000000       0x2c mpu6000.cpp.o
+                0x00000000                MPU6000::stop()
+
+.text._ZN4math15LowPassFilter2pC2Eff
+                0x00000000       0x48
+ .text._ZN4math15LowPassFilter2pC2Eff
+                0x00000000       0x48 mpu6000.cpp.o
+                0x00000000                math::LowPassFilter2p::LowPassFilter2p(float, float)
+                0x00000000                math::LowPassFilter2p::LowPassFilter2p(float, float)
+
+.text._ZN10RingBufferI11gyro_reportEC2Ej
+                0x00000000       0x40
+ .text._ZN10RingBufferI11gyro_reportEC2Ej
+                0x00000000       0x40 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::RingBuffer(unsigned int)
+                0x00000000                RingBuffer<gyro_report>::RingBuffer(unsigned int)
+
+.text._ZN10RingBufferI12accel_reportEC2Ej
+                0x00000000       0x40
+ .text._ZN10RingBufferI12accel_reportEC2Ej
+                0x00000000       0x40 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::RingBuffer(unsigned int)
+                0x00000000                RingBuffer<accel_report>::RingBuffer(unsigned int)
+
+.text._ZN10RingBufferI11gyro_reportE3putERS0_
+                0x00000000       0x88
+ .text._ZN10RingBufferI11gyro_reportE3putERS0_
+                0x00000000       0x88 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::put(gyro_report&)
+
+.text._ZN10RingBufferI12accel_reportE3putERS0_
+                0x00000000       0x88
+ .text._ZN10RingBufferI12accel_reportE3putERS0_
+                0x00000000       0x88 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::put(accel_report&)
+
+.text._ZN10RingBufferI12accel_reportE3getERS0_
+                0x00000000       0x74
+ .text._ZN10RingBufferI12accel_reportE3getERS0_
+                0x00000000       0x74 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::get(accel_report&)
+
+.text._ZN10RingBufferI11gyro_reportE3getERS0_
+                0x00000000       0x74
+ .text._ZN10RingBufferI11gyro_reportE3getERS0_
+                0x00000000       0x74 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::get(gyro_report&)
+
+.text._ZN12MPU6000_gyroD0Ev
+                0x00000000       0x50
+ .text._ZN12MPU6000_gyroD0Ev
+                0x00000000       0x50 mpu6000.cpp.o
+                0x00000000                MPU6000_gyro::~MPU6000_gyro()
+
+.text._ZN10RingBufferI12accel_reportED0Ev
+                0x00000000       0x48
+ .text._ZN10RingBufferI12accel_reportED0Ev
+                0x00000000       0x48 mpu6000.cpp.o
+                0x00000000                RingBuffer<accel_report>::~RingBuffer()
+
+.text._ZN10RingBufferI11gyro_reportED0Ev
+                0x00000000       0x48
+ .text._ZN10RingBufferI11gyro_reportED0Ev
+                0x00000000       0x48 mpu6000.cpp.o
+                0x00000000                RingBuffer<gyro_report>::~RingBuffer()
+
+.text._ZN7MPU60005startEv
+                0x00000000       0xbc
+ .text._ZN7MPU60005startEv
+                0x00000000       0xbc mpu6000.cpp.o
+                0x00000000                MPU6000::start()
+
+.text._ZN7MPU6000D2Ev
+                0x00000000       0x74
+ .text._ZN7MPU6000D2Ev
+                0x00000000       0x74 mpu6000.cpp.o
+                0x00000000                MPU6000::~MPU6000()
+                0x00000000                MPU6000::~MPU6000()
+
+.text._ZN7MPU6000D0Ev
+                0x00000000       0x30
+ .text._ZN7MPU6000D0Ev
+                0x00000000       0x30 mpu6000.cpp.o
+                0x00000000                MPU6000::~MPU6000()
+
+.text._ZN7MPU6000C2Ei9spi_dev_e
+                0x00000000      0x24c
+ .text._ZN7MPU6000C2Ei9spi_dev_e
+                0x00000000      0x24c mpu6000.cpp.o
+                0x00000000                MPU6000::MPU6000(int, spi_dev_e)
+                0x00000000                MPU6000::MPU6000(int, spi_dev_e)
+
+.text._ZN7mpu60005startEv
+                0x00000000       0x8c
+ .text._ZN7mpu60005startEv
+                0x00000000       0x8c mpu6000.cpp.o
+                0x00000000                mpu6000::start()
+
+.text.mpu6000_main
+                0x00000000       0x68
+ .text.mpu6000_main
+                0x00000000       0x68 mpu6000.cpp.o
+                0x00000000                mpu6000_main
+
+.text._ZN7MPU60005probeEv
+                0x00000000       0x94
+ .text._ZN7MPU60005probeEv
+                0x00000000       0x94 mpu6000.cpp.o
+                0x00000000                MPU6000::probe()
+
+.text._ZN7MPU600016_set_dlpf_filterEt
+                0x00000000       0x88
+ .text._ZN7MPU600016_set_dlpf_filterEt
+                0x00000000       0x88 mpu6000.cpp.o
+                0x00000000                MPU6000::_set_dlpf_filter(unsigned short)
+
+.text._ZN7MPU600016_set_sample_rateEt
+                0x00000000       0x80
+ .text._ZN7MPU600016_set_sample_rateEt
+                0x00000000       0x80 mpu6000.cpp.o
+                0x00000000                MPU6000::_set_sample_rate(unsigned short)
+
+.text._ZN7MPU600010modify_regEjhh
+                0x00000000       0xa0
+ .text._ZN7MPU600010modify_regEjhh
+                0x00000000       0xa0 mpu6000.cpp.o
+                0x00000000                MPU6000::modify_reg(unsigned int, unsigned char, unsigned char)
+
+.text._ZN7MPU60005resetEv
+                0x00000000      0x290
+ .text._ZN7MPU60005resetEv
+                0x00000000      0x290 mpu6000.cpp.o
+                0x00000000                MPU6000::reset()
+
+.text._ZN7MPU60007measureEv
+                0x00000000      0x37c
+ .text._ZN7MPU60007measureEv
+                0x00000000      0x37c mpu6000.cpp.o
+                0x00000000                MPU6000::measure()
+
+.text._ZN7MPU600018measure_trampolineEPv
+                0x00000000       0x28
+ .text._ZN7MPU600018measure_trampolineEPv
+                0x00000000       0x28 mpu6000.cpp.o
+                0x00000000                MPU6000::measure_trampoline(void*)
+
+.text._ZN7MPU60009gyro_readEP4filePcj
+                0x00000000      0x274
+ .text._ZN7MPU60009gyro_readEP4filePcj
+                0x00000000      0x274 mpu6000.cpp.o
+                0x00000000                MPU6000::gyro_read(file*, char*, unsigned int)
+
+.text._ZN7MPU60009self_testEv
+                0x00000000       0x34
+ .text._ZN7MPU60009self_testEv
+                0x00000000       0x34 mpu6000.cpp.o
+                0x00000000                MPU6000::self_test()
+
+.text._ZN7MPU60004readEP4filePcj
+                0x00000000      0x274
+ .text._ZN7MPU60004readEP4filePcj
+                0x00000000      0x274 mpu6000.cpp.o
+                0x00000000                MPU6000::read(file*, char*, unsigned int)
+
+.text._ZN7MPU600014gyro_self_testEv
+                0x00000000      0x10c
+ .text._ZN7MPU600014gyro_self_testEv
+                0x00000000      0x10c mpu6000.cpp.o
+                0x00000000                MPU6000::gyro_self_test()
+
+.text._ZN7MPU600015accel_self_testEv
+                0x00000000      0x104
+ .text._ZN7MPU600015accel_self_testEv
+                0x00000000      0x104 mpu6000.cpp.o
+                0x00000000                MPU6000::accel_self_test()
+
+.text._ZN7MPU60004initEv
+                0x00000000      0x248
+ .text._ZN7MPU60004initEv
+                0x00000000      0x248 mpu6000.cpp.o
+                0x00000000                MPU6000::init()
+
+.text._ZN7MPU600010gyro_ioctlEP4fileim
+                0x00000000      0x2c4
+ .text._ZN7MPU600010gyro_ioctlEP4fileim
+                0x00000000      0x2c4 mpu6000.cpp.o
+                0x00000000                MPU6000::gyro_ioctl(file*, int, unsigned long)
+
+.text._ZN7MPU60005ioctlEP4fileim
+                0x00000000      0x474
+ .text._ZN7MPU60005ioctlEP4fileim
+                0x00000000      0x474 mpu6000.cpp.o
+                0x00000000                MPU6000::ioctl(file*, int, unsigned long)
+
+.fini
+ *(.fini)
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV10RingBufferI12accel_reportE
+                0x00000000       0x10
+ .rodata._ZTV10RingBufferI12accel_reportE
+                0x00000000       0x10 mpu6000.cpp.o
+                0x00000000                vtable for RingBuffer<accel_report>
+
+.rodata._ZTV10RingBufferI11gyro_reportE
+                0x00000000       0x10
+ .rodata._ZTV10RingBufferI11gyro_reportE
+                0x00000000       0x10 mpu6000.cpp.o
+                0x00000000                vtable for RingBuffer<gyro_report>
+
+.rodata._ZTV12MPU6000_gyro
+                0x00000000       0x58
+ .rodata._ZTV12MPU6000_gyro
+                0x00000000       0x58 mpu6000.cpp.o
+                0x00000000                vtable for MPU6000_gyro
+
+.rodata._ZTV7MPU6000
+                0x00000000       0x60
+ .rodata._ZTV7MPU6000
+                0x00000000       0x60 mpu6000.cpp.o
+                0x00000000                vtable for MPU6000
+
+.rodata.str1.4  0x00000000      0x3c4
+ .rodata.str1.4
+                0x00000000      0x3c4 mpu6000.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x00000000        0x0
+ *(.data)
+ .data          0x00000000        0x0 mpu6000.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x00000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x00000000        0x0 mpu6000.cpp.o
+ *(COMMON)
+
+.bss._ZN7mpu60005g_devE
+                0x00000000        0x4
+ .bss._ZN7mpu60005g_devE
+                0x00000000        0x4 mpu6000.cpp.o
+                0x00000000                mpu6000::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x71
+ *(.comment)
+ .comment       0x00000000       0x71 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc mpu6000.cpp.o
+
+.group          0x00000000        0xc
+ .group         0x00000000        0xc mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 mpu6000.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x1d8 mpu6000.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3e6b
+ *(.debug_info)
+ .debug_info    0x00000000     0x3e6b mpu6000.cpp.o
+
+.debug_abbrev   0x00000000      0x64c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x64c mpu6000.cpp.o
+
+.debug_line     0x00000000     0x12d9
+ *(.debug_line)
+ .debug_line    0x00000000     0x12d9 mpu6000.cpp.o
+
+.debug_frame    0x00000000      0x710
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x710 mpu6000.cpp.o
+
+.debug_str      0x00000000     0x16b2
+ *(.debug_str)
+ .debug_str     0x00000000     0x16b2 mpu6000.cpp.o
+
+.debug_loc      0x00000000     0x28e2
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x28e2 mpu6000.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x9f8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x9f8 mpu6000.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x37 mpu6000.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/home/avnishks/src/Firmware/Build/px4fmu-v1_default.build//home/avnishks/src/Firmware/src/drivers/mpu6000/module.pre.o elf32-littlearm)
